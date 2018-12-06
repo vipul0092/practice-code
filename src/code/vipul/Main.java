@@ -1,11 +1,14 @@
 package code.vipul;
 
 import code.vipul.string.PermutationInOther;
+import code.vipul.string.RotateMatrix;
 
 public class Main {
 
     public static void main(String[] args) {
-        PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
+        //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
+
+        RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
     }
 }
 
