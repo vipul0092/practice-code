@@ -1,8 +1,9 @@
-package code.vipul.string;
+package code.vipul;
 
 import java.util.Random;
 
 /**
+ * rotate() rotates a n X n matrix around its centre by 90 degrees
  * Created by vgaur on 06/12/18.
  */
 public class RotateMatrix {

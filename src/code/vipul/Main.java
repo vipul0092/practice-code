@@ -1,14 +1,20 @@
 package code.vipul;
 
-import code.vipul.string.PermutationInOther;
-import code.vipul.string.RotateMatrix;
+import code.vipul.animalShelter.AnimalShelter;
+
+import static code.vipul.SortStack.getRandomStack;
+import static code.vipul.SortStack.print;
 
 public class Main {
 
     public static void main(String[] args) {
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
-        RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
+        //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
+
+        //SortStack.doWork(print(getRandomStack()));
+
+        AnimalShelter.doStuff();
     }
 }
 

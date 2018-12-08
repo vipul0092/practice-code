@@ -1,9 +1,10 @@
-package code.vipul.string;
+package code.vipul;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * solve() ascertains whether a permutation of the small string is present in the bigger string
  * Created by vgaur on 04/12/18.
  */
 public class PermutationInOther {
