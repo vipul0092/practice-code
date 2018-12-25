@@ -20,7 +20,9 @@ public class Main {
         //MinHeap.doStuff();
         //SortedArrayToBST.doStuff();
 
-        LowestCommonAncestor.solve();
+        //LowestCommonAncestor.solve();
+
+        System.out.println(RecursiveMultiply.multiply(32, 32));
     }
 }
 
