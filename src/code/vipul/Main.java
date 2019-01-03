@@ -1,12 +1,5 @@
 package code.vipul;
 
-import code.vipul.animalShelter.AnimalShelter;
-import code.vipul.tree.LowestCommonAncestor;
-import code.vipul.tree.SortedArrayToBST;
-
-import static code.vipul.SortStack.getRandomStack;
-import static code.vipul.SortStack.print;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -22,7 +15,14 @@ public class Main {
 
         //LowestCommonAncestor.solve();
 
-        System.out.println(RecursiveMultiply.multiply(32, 32));
+        //System.out.println(RecursiveMultiply.multiply(32, 32));
+
+        //Parenthesis.solve(3);
+
+        //CurrencySum.solve(100);
+        //BoxStacks.solve();
+        BooleanEvaluation.solve("0&0&0&1", false);
+        System.out.println("Answers: " + BooleanEvaluation.countEval("0&0&0&1", false));
     }
 }
 
@@ -31,3 +31,4 @@ public class Main {
 // Practice heaps, hash tables
 
 // all perms of abbc in cbabadcbbabbcbabaabccbabc
+//BooleanEvaluation.solve("1^0|0|1", false); Ans=2; BooleanEvaluation.solve("0&0&0&1^1|0", true); ans=10;
