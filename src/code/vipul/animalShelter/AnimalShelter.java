@@ -152,10 +152,11 @@ public class AnimalShelter {
             ptr = ptr.next;
         }
 
-        System.out.print("Push here");
+        System.out.print("Push here >> ");
         while (!stack.isEmpty()) {
             Node node = stack.pop();
-            System.out.print(" <-- " + (node.isCat() ? "C" : "D") + "(" + node.number  + ")");
+            System.out.print((node.isCat() ? "C" : "D") + "(" + node.number  + ")"
+                    + (stack.isEmpty() ? "" : " --> "));
         }
         System.out.print(" << DQ from here");
         System.out.println();
