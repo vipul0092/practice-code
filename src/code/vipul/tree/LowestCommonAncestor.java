@@ -20,7 +20,7 @@ public class LowestCommonAncestor {
     public static Result findLca(TreeNode node, int v1, int v2) {
         if (node == null) return Result.DEFAULT;
 
-        if (node.getValue() == v1 && node.getValue() == v2) Result.lca(node.getValue());
+        if (node.getValue() == v1 && node.getValue() == v2) return Result.lca(node.getValue());
 
         boolean isNodeValue = node.getValue() == v1 || node.getValue() == v2;
 
