@@ -1,6 +1,8 @@
 package code.vipul;
 
 import code.vipul.animalShelter.AnimalShelter;
+import code.vipul.aoc2019.Solve24;
+import code.vipul.aoc2019.Solve24Part2;
 import code.vipul.linkedlist.PalindromeList;
 import code.vipul.linkedlist.RearrangeList;
 import code.vipul.search.SearchWithoutSize;
@@ -37,7 +39,9 @@ public class Main {
         // RearrangeList.makeDataAndRun();
        //  PalindromeList.makeDataAndRun();
 
-        KthNumberWithFactors.solve(10);
+        //KthNumberWithFactors.solve(10);
+        Solve24.solve();
+        //Solve24Part2.solve();
     }
 }
 
