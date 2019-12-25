@@ -8,8 +8,14 @@ import java.util.Objects;
 
 public class Grid {
 
-    private static final int ROWS = 5;
-    private static final int COLS = 5;
+    private static int ROWS = 5;
+    private static int COLS = 5;
+
+    public static void setMaxRowsCols(int maxRows, int maxCols) {
+        ROWS = maxRows;
+        COLS = maxCols;
+    }
+
     private int[] layout;
     private boolean isInitialized = false;
 
@@ -238,6 +244,14 @@ public class Grid {
     }
 
     public static final class Pos {
+        public int i() {
+            return i;
+        }
+
+        public int j() {
+            return j;
+        }
+
         private final int i;
         private final int j;
 
@@ -294,6 +308,11 @@ public class Grid {
         public boolean equals(Object another) {
             if (this == another) return true;
             return another instanceof Pos && equalTo((Pos) another);
+        }
+
+        @Override
+        public String toString() {
+            return String.format("i: %s, j: %s", i, j);
         }
 
         private boolean equalTo(Pos another) {

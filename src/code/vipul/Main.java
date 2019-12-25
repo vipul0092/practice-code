@@ -1,8 +1,12 @@
 package code.vipul;
 
 import code.vipul.animalShelter.AnimalShelter;
+import code.vipul.aoc2019.Solve17;
+import code.vipul.aoc2019.Solve2;
 import code.vipul.aoc2019.Solve24;
 import code.vipul.aoc2019.Solve24Part2;
+import code.vipul.aoc2019.Solve5;
+import code.vipul.aoc2019.Solve9;
 import code.vipul.linkedlist.PalindromeList;
 import code.vipul.linkedlist.RearrangeList;
 import code.vipul.search.SearchWithoutSize;
@@ -10,6 +14,9 @@ import code.vipul.search.SearchWithoutSize;
 public class Main {
 
     public static void main(String[] args) {
+        // Solve9.solvePart2();
+        // Solve17.solve();
+         Solve17.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
@@ -40,8 +47,12 @@ public class Main {
        //  PalindromeList.makeDataAndRun();
 
         //KthNumberWithFactors.solve(10);
-        Solve24.solve();
+        // Solve24.solve();
         //Solve24Part2.solve();
+        //Solve2.solve();
+        // Solve2.solvePart2();
+        // Solve5.solve();
+        // Solve5.solvePart2();
     }
 }
 
