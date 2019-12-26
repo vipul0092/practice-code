@@ -2,6 +2,7 @@ package code.vipul.aoc2019;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Int code
@@ -26,7 +27,10 @@ public class IntCode {
 
     private final int inputInstructionValue;
 
+    private boolean getInputFromUser = false;
+
     private int inputArrayCounter = 0;
+    private int remainingInputLength = 0;
     private int[] inputArray = null;
     private boolean outputAscii = false;
     private StringBuilder asciiOutput = new StringBuilder();
@@ -54,6 +58,10 @@ public class IntCode {
 
     public void setInputArray(int[] inputArray) {
         this.inputArray = inputArray;
+    }
+
+    public void enableActualInput() {
+        getInputFromUser = true;
     }
 
     public void showAscii() {
@@ -160,15 +168,6 @@ public class IntCode {
             long operand2 = getValueWithMode(index + 2, operandModes.get(1));
 
             return operand1 != 0 ? operand2 : index + 3;
-        } else if (opcode == INPUT) {
-            long mode = modesInput % 10; // Can either be pos mode or relative mode
-            long saveAddress = stream[(int) index + 1];
-            int valueToWrite = inputInstructionValue;
-            if (inputArray != null) {
-                valueToWrite = inputArray[inputArrayCounter++];
-            }
-            writeWithMode(valueToWrite, saveAddress, mode);
-            return index + 2;
         } else if (opcode == OUTPUT) {
             long mode = modesInput % 10;
             long value = getValueWithMode(index + 1, mode);
@@ -185,8 +184,34 @@ public class IntCode {
             long value = getValueWithMode(index + 1, mode);
             relativeBase += value;
             return index + 2;
+        } else if (opcode == INPUT) {
+            long mode = modesInput % 10; // Can either be pos mode or relative mode
+            long saveAddress = stream[(int) index + 1];
+            int valueToWrite = inputInstructionValue;
+            if (getInputFromUser && remainingInputLength == 0) {
+                Scanner scanner = new Scanner(System.in);
+                String s = scanner.nextLine();
+                updateArrayWithFunction(s);
+            }
+            if (inputArray != null) {
+                valueToWrite = inputArray[inputArrayCounter++];
+                remainingInputLength--;
+            }
+            writeWithMode(valueToWrite, saveAddress, mode);
+            return index + 2;
         }
         throw new RuntimeException("Fuck off!, you are not supposed to be here, opcode: " + opcode);
+    }
+
+    private void updateArrayWithFunction(String function) {
+        int ctr = 0;
+        inputArrayCounter = 0;
+        inputArray = new int[500];
+        remainingInputLength = function.length() + 1; // all chars + newline
+        for (char ch : function.toCharArray()) {
+            inputArray[ctr++] = ch;
+        }
+        inputArray[ctr] = 10; //newline
     }
 
     public String getAsciiOutput() {
