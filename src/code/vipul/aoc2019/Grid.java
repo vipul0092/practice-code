@@ -280,6 +280,23 @@ public class Grid {
             return new Pos(i + 1, j);
         }
 
+        // Functions below work wrt the Cartesian plane
+        public Pos moveLeft(int steps) {
+            return new Pos(i - steps, j);
+        }
+
+        public Pos moveRight(int steps) {
+            return new Pos(i + steps, j);
+        }
+
+        public Pos moveUp(int steps) {
+            return new Pos(i, j + steps);
+        }
+
+        public Pos moveDown(int steps) {
+            return new Pos(i, j - steps);
+        }
+
         public boolean isAtTopBoundary() {
             return i == 0;
         }

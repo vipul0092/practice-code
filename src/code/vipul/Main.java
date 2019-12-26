@@ -1,12 +1,17 @@
 package code.vipul;
 
 import code.vipul.animalShelter.AnimalShelter;
+import code.vipul.aoc2019.Solve1;
 import code.vipul.aoc2019.Solve17;
 import code.vipul.aoc2019.Solve2;
 import code.vipul.aoc2019.Solve24;
 import code.vipul.aoc2019.Solve24Part2;
 import code.vipul.aoc2019.Solve25;
+import code.vipul.aoc2019.Solve3;
+import code.vipul.aoc2019.Solve4;
 import code.vipul.aoc2019.Solve5;
+import code.vipul.aoc2019.Solve6;
+import code.vipul.aoc2019.Solve7;
 import code.vipul.aoc2019.Solve9;
 import code.vipul.linkedlist.PalindromeList;
 import code.vipul.linkedlist.RearrangeList;
@@ -19,7 +24,17 @@ public class Main {
         // Solve17.solve();
          // Solve17.solvePart2();
         //Solve17.edgeCase();
-         Solve25.solve();
+         // Solve25.solve();
+        // Solve1.solve();
+        // Solve1.solvePart2();
+        // Solve3.solve();
+        //Solve3.solvePart2();
+        //Solve4.solve();
+        // Solve4.solvePart2();
+         // Solve6.solve();
+        // Solve6.solvePart2();
+         // Solve7.solve();
+        Solve7.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());

@@ -35,6 +35,10 @@ public class IntCode {
     private boolean outputAscii = false;
     private StringBuilder asciiOutput = new StringBuilder();
 
+    private boolean supportPauseException = false;
+
+    private boolean hasHalted = false;
+
     private IntCode(String input, int inputInstructionValue) {
         String[] inputs = input.split(",");
         stream = new long[SIZE];
@@ -58,14 +62,31 @@ public class IntCode {
 
     public void setInputArray(int[] inputArray) {
         this.inputArray = inputArray;
+        this.inputArrayCounter = 0;
+    }
+
+    public void setInputArray(List<Integer> inputList) {
+        this.inputArray = new int[inputList.size()];
+        for (int i = 0; i < inputList.size(); i++) {
+            inputArray[i] = inputList.get(i);
+        }
+        this.inputArrayCounter = 0;
     }
 
     public void enableActualInput() {
         getInputFromUser = true;
     }
 
+    public void enablePauses() {
+        supportPauseException = true;
+    }
+
     public void showAscii() {
         this.outputAscii = true;
+    }
+
+    boolean hasHalted() {
+        return hasHalted;
     }
 
     public void initializeOneTwo(int one, int two) {
@@ -77,11 +98,14 @@ public class IntCode {
         return stream[index];
     }
 
+    private long index = 0;
     public void evaluateStream() {
+        hasHalted = false;
         int index = 0;
         while (true) {
             long operator = stream[index];
             if (operator == HALT) {
+                hasHalted = true;
                 break;
             }
             long operand1 = stream[(int) stream[index + 1]];
@@ -100,13 +124,22 @@ public class IntCode {
     }
 
     public void evaluateStreamWithModes() {
-        long index = 0;
-        while (true) {
-            long operator = stream[(int) index];
-            if (operator == HALT) {
-                break;
+        hasHalted = false;
+        if (!supportPauseException) {
+            index = 0;
+        }
+        asciiOutput = new StringBuilder();
+        try {
+            while (true) {
+                long operator = stream[(int) index];
+                if (operator == HALT) {
+                    hasHalted = true;
+                    break;
+                }
+                index = evaluateOperator(operator, index);
             }
-            index = evaluateOperator(operator, index);
+        } catch (PauseException p) {
+            System.out.println("Pausing the system...");
         }
     }
 
@@ -176,6 +209,7 @@ public class IntCode {
                 asciiOutput.append(ch);
                 System.out.print(ch);
             } else {
+                asciiOutput.append(value);
                 System.out.println("OUTPUT opcode evaluated, value: " + value);
             }
             return index + 2;
@@ -192,6 +226,9 @@ public class IntCode {
                 Scanner scanner = new Scanner(System.in);
                 String s = scanner.nextLine();
                 updateArrayWithFunction(s);
+            }
+            if (supportPauseException && (inputArrayCounter >= inputArray.length)) {
+                throw new PauseException();
             }
             if (inputArray != null) {
                 valueToWrite = inputArray[inputArrayCounter++];
@@ -235,4 +272,6 @@ public class IntCode {
         address = mode == RELATIVE_MODE ? relativeBase + address : address;
         stream[(int) address] = value;
     }
+
+    public static class PauseException extends RuntimeException { }
 }
