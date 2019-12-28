@@ -1,5 +1,9 @@
 package code.vipul.aoc2019;
 
+import code.vipul.aoc2019.intcode.Computer;
+import code.vipul.aoc2019.intcode.Input;
+import code.vipul.aoc2019.intcode.Output;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
@@ -109,16 +113,16 @@ public class Solve7 {
                             phaseSequence.add(m);
                             int answer = 0;
                             int output = 0;
+                            printPhaseSequence(phaseSequence);
                             while (true) {
                                 output = getSignal(phaseSequence, false, output);
-                                printPhaseSequence(phaseSequence);
                                 answer = Math.max(answer, output);
-                                if (systems.get(4).hasHalted()) {
+                                if (computers.get(4).hasHalted()) {
                                     break;
                                 }
                             }
                             finalOutput = Math.max(answer, finalOutput);
-                            systems = new HashMap<>(); // Reset the system to feed them another sequence
+                            computers = new HashMap<>(); // Reset the system to feed them another sequence
                             times = 0;
                             phaseSequence.remove(m);
                         }
@@ -140,30 +144,37 @@ public class Solve7 {
         System.out.println();
     }
 
-    private static Map<Integer, IntCode> systems = new HashMap<>();
+    private static Map<Integer, Computer> computers = new HashMap<>();
     private static int times = 0;
+
+    private static Computer generateComputer(String in) {
+        Computer computer = Computer.make();
+        computer.loadProgramInMemory(in);
+        return computer;
+    }
+
     private static int getSignal(Set<Integer> phaseSequence, boolean generateNew, int inputSignal) {
         times++;
         Integer[] phaseArr = phaseSequence.toArray(new Integer[0]);
         for (int i = 0; i < phaseArr.length; i++) {
             Integer phaseInput = phaseArr[i];
             if (generateNew) {
-                systems.put(i, IntCode.getInstance(input));
+                computers.put(i, generateComputer(input));
             } else {
-                systems.putIfAbsent(i, IntCode.getInstance(input));
+                computers.computeIfAbsent(i, (j) -> generateComputer(input));
             }
-            IntCode code = systems.get(i);
-            code.enablePauses();
-            List<Integer> inputs = new ArrayList<>();
+            Computer computer = computers.get(i);
 
+            List<Long> inputs = new ArrayList<>();
             if (generateNew || times == 1) { // only pass it the first time
-                inputs.add(phaseInput);
+                inputs.add((long) phaseInput);
             }
-            inputs.add(inputSignal);
-            code.setInputArray(inputs);
-            code.evaluateStreamWithModes();
+            inputs.add((long) inputSignal);
+            computer.getInput().enqueueInput(inputs);
 
-            String output = code.getAsciiOutput();
+            computer.execute();
+
+            String output = computer.getOutput().getOutput();
             inputSignal = Integer.parseInt(output);
         }
         return inputSignal;

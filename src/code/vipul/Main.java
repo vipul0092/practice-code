@@ -20,21 +20,28 @@ import code.vipul.search.SearchWithoutSize;
 public class Main {
 
     public static void main(String[] args) {
+        // Solve24.solve();
+        // Solve24Part2.solve();
+        // Solve2.solve();
+        // Solve2.solvePart2();
+        // Solve5.solve();
+        // Solve5.solvePart2();
+        // Solve9.solve();
         // Solve9.solvePart2();
         // Solve17.solve();
-         // Solve17.solvePart2();
-        //Solve17.edgeCase();
-         // Solve25.solve();
+        // Solve17.solvePart2();
+        // Solve17.edgeCase();
+         Solve25.solve();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve3.solve();
-        //Solve3.solvePart2();
-        //Solve4.solve();
+        // Solve3.solvePart2();
+        // Solve4.solve();
         // Solve4.solvePart2();
-         // Solve6.solve();
+        // Solve6.solve();
         // Solve6.solvePart2();
-         // Solve7.solve();
-        Solve7.solvePart2();
+        // Solve7.solve();
+        // Solve7.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
@@ -65,12 +72,6 @@ public class Main {
        //  PalindromeList.makeDataAndRun();
 
         //KthNumberWithFactors.solve(10);
-        // Solve24.solve();
-        //Solve24Part2.solve();
-        //Solve2.solve();
-        // Solve2.solvePart2();
-        // Solve5.solve();
-        // Solve5.solvePart2();
     }
 }
 
