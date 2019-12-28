@@ -5,12 +5,24 @@ import java.util.Map;
 
 public class Memory {
 
-    private static final int SIZE = 100000;
+    private static final int SIZE = 10000;
 
     private int relativeBase = 0;
     private long[] stream;
 
     public Memory() {
+    }
+
+    public Memory takeSnapshot() {
+        Memory snap = new Memory();
+        snap.relativeBase = relativeBase;
+        snap.stream = this.stream.clone();
+        return snap;
+    }
+
+    public void resetStateTo(Memory memory) {
+        this.relativeBase = memory.relativeBase;
+        this.stream = memory.stream;
     }
 
     public void load(String input) {

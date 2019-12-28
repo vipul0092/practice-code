@@ -1,7 +1,9 @@
 package code.vipul.aoc2019.intcode;
 
+import java.util.List;
+
 /**
- * Custom IntCode implementation
+ * Custom IntCode computer implementation
  */
 public class Computer {
 
@@ -25,6 +27,28 @@ public class Computer {
         return new Computer();
     }
 
+    public Computer takeSnapshot() {
+        Computer snap = new Computer();
+        snap.currentState = this.currentState;
+        snap.enableLogging = this.enableLogging;
+        snap.lastEvaluatedOpcode = lastEvaluatedOpcode;
+        snap.currentPointer = this.currentPointer;
+        snap.memory = this.memory.takeSnapshot();
+        snap.input = this.input.takeSnapshot();
+        snap.output = this.output.takeSnapshot();
+        return snap;
+    }
+
+    public void resetStateTo(Computer computer) {
+        this.memory.resetStateTo(computer.memory);
+        this.input.resetStateTo(computer.input);
+        this.output.resetStateTo(computer.output);
+        this.currentState = computer.currentState;
+        this.enableLogging = computer.enableLogging;
+        this.lastEvaluatedOpcode = computer.lastEvaluatedOpcode;
+        this.currentPointer = computer.currentPointer;
+    }
+
     public void loadProgramInMemory(String input) {
         memory.load(input);
         currentPointer = Memory.Location.initial();
@@ -43,6 +67,11 @@ public class Computer {
 
     public Input getInput() {
         return input;
+    }
+
+    public void giveInputAndExecute(List<Long> inputs) {
+        input.enqueueInput(inputs);
+        execute();
     }
 
     public boolean hasHalted() {

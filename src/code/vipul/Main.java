@@ -1,21 +1,6 @@
 package code.vipul;
 
-import code.vipul.animalShelter.AnimalShelter;
-import code.vipul.aoc2019.Solve1;
-import code.vipul.aoc2019.Solve17;
-import code.vipul.aoc2019.Solve2;
-import code.vipul.aoc2019.Solve24;
-import code.vipul.aoc2019.Solve24Part2;
-import code.vipul.aoc2019.Solve25;
-import code.vipul.aoc2019.Solve3;
-import code.vipul.aoc2019.Solve4;
-import code.vipul.aoc2019.Solve5;
-import code.vipul.aoc2019.Solve6;
-import code.vipul.aoc2019.Solve7;
-import code.vipul.aoc2019.Solve9;
-import code.vipul.linkedlist.PalindromeList;
-import code.vipul.linkedlist.RearrangeList;
-import code.vipul.search.SearchWithoutSize;
+import code.vipul.aoc2019.day25.Solve25;
 
 public class Main {
 
@@ -31,7 +16,8 @@ public class Main {
         // Solve17.solve();
         // Solve17.solvePart2();
         // Solve17.edgeCase();
-         Solve25.solve();
+        // Solve25.playInteractive();
+         Solve25.autoSolve();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve3.solve();

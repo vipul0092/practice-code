@@ -21,6 +21,26 @@ public class Output {
         separateByNewline = false;
     }
 
+    public Output takeSnapshot() {
+        Output snap = new Output();
+        snap.receivedOutput = new ArrayList<>(receivedOutput);
+        snap.showAscii = this.showAscii;
+        snap.separateByNewline = this.separateByNewline;
+        snap.stringOutput = new StringBuilder().append(stringOutput);
+        snap.overallOutput = new StringBuilder().append(overallOutput);
+        snap.lines = new ArrayList<>(lines);
+        return snap;
+    }
+
+    public void resetStateTo(Output output) {
+        this.receivedOutput = output.receivedOutput;
+        this.showAscii = output.showAscii;
+        this.separateByNewline = output.separateByNewline;
+        this.stringOutput = output.stringOutput;
+        this.overallOutput = output.overallOutput;
+        this.lines = output.lines;
+    }
+
     public void setAsciiFlag(boolean flag) {
         this.showAscii = flag;
     }
@@ -73,6 +93,12 @@ public class Output {
     }
 
     public List<String> getOutputLines() {
-        return lines;
+        List<String> toReturn = new ArrayList<>(lines);
+        lines = new ArrayList<>();
+        return toReturn;
+    }
+
+    public void clearLines() {
+        lines = new ArrayList<>();
     }
 }
