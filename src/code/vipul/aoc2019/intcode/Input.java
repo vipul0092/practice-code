@@ -11,6 +11,7 @@ public class Input {
     private List<Long> inputToGive;
     private int currentInputIndex;
     private boolean isInteractive = false;
+    private CustomInput customInput;
 
     public Input() {
         inputToGive = new ArrayList<>();
@@ -43,11 +44,18 @@ public class Input {
         currentInputIndex = 0;
     }
 
+    public void attachCustomInput(CustomInput input) {
+        this.customInput = input;
+    }
+
     public void makeInteractive() {
         isInteractive = true;
     }
 
     public long fetchInput() {
+        if (customInput != null) {
+            return customInput.fetchInput();
+        }
         if (currentInputIndex >= inputToGive.size()) {
             if (!isInteractive) {
                 throw new NoMoreInputException();

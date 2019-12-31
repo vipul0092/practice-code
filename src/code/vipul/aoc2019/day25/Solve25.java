@@ -36,7 +36,7 @@ public class Solve25 {
     }
 
     public static void autoSolve() {
-        String input = Inputs.INPUT8;
+        String input = Inputs.INPUT1;
 
         visitedNodes = new HashSet<>();
         connections = new HashMap<>();
@@ -57,7 +57,7 @@ public class Solve25 {
 
         // walk to the check point
         computer.giveInputAndExecute(IOHandler.getMoveCommand(securityCheckPointPath.split(",")));
-        computer.getOutput().clearLines();
+        computer.getOutput().clear();
 
         // Now try all iterations until the check point opens up
         List<String> items = new ArrayList<>(fetchInventoryItems(computer));
@@ -76,7 +76,7 @@ public class Solve25 {
             // Go back to prev node
             String prevDoor = connections.get(currentNodeName).get(prevNode);
             computer.giveInputAndExecute(getMoveCommand(prevDoor));
-            computer.getOutput().clearLines();
+            computer.getOutput().clear();
             return;
         } else {
             visitedNodes.add(currentNodeName);
@@ -92,7 +92,7 @@ public class Solve25 {
                 // The backup of the computer to resume execution in case of mishaps
                 Computer currentBackup = computer.takeSnapshot(); // Take a backup
                 computer.giveInputAndExecute(getItemPickupCommand(item));
-                computer.getOutput().clearLines();
+                computer.getOutput().clear();
 
                 if (computer.hasHalted()) { // Taking the item led to the computer halting
                     computer.resetStateTo(currentBackup);
@@ -124,14 +124,14 @@ public class Solve25 {
         if (prevNode.length() > 0) {
             String prevDoor = connections.get(currentNodeName).get(prevNode);
             computer.giveInputAndExecute(getMoveCommand(prevDoor));
-            computer.getOutput().clearLines();
+            computer.getOutput().clear();
         }
     }
 
     private static void tryAllIterations(Computer computer, List<String> items) {
         // first drop all objects
         computer.giveInputAndExecute(getItemDropCommand(items));
-        computer.getOutput().clearLines();
+        computer.getOutput().clear();
 
         int limit = 1 << items.size();
 
@@ -146,7 +146,7 @@ public class Solve25 {
 
             // take the selected objects
             computer.giveInputAndExecute(IOHandler.getItemPickupCommand(currentSelection));
-            computer.getOutput().clearLines();
+            computer.getOutput().clear();
 
             // try to go the pressure sensitive floor and evaluate the result
             computer.giveInputAndExecute(getMoveCommand(scpDirectionToPsf));
@@ -160,7 +160,7 @@ public class Solve25 {
 
             // drop all if failed
             computer.giveInputAndExecute(getItemDropCommand(currentSelection));
-            computer.getOutput().clearLines();
+            computer.getOutput().clear();
         }
     }
 

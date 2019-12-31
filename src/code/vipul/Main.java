@@ -1,10 +1,12 @@
 package code.vipul;
 
-import code.vipul.aoc2019.day25.Solve25;
+import code.vipul.aoc2019.day13.Solve13;
 
 public class Main {
 
     public static void main(String[] args) {
+        // Solve13.solve();
+         Solve13.solvePart2();
         // Solve24.solve();
         // Solve24Part2.solve();
         // Solve2.solve();
@@ -17,7 +19,15 @@ public class Main {
         // Solve17.solvePart2();
         // Solve17.edgeCase();
         // Solve25.playInteractive();
-         Solve25.autoSolve();
+        // Solve25.autoSolve();
+        // Solve8.solve();
+        // Solve8.solvePart2();
+        // Solve10.solve();
+        // Solve10.solvePart2();
+        // Solve11.solve();
+        // Solve11.solvePart2();
+        // Solve12.solve();
+        // Solve12.solvePart2();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve3.solve();

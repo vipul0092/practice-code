@@ -11,6 +11,8 @@ public class Output {
     private StringBuilder stringOutput;
     private StringBuilder overallOutput;
     private List<String> lines;
+    private List<Long> outputs;
+    private CustomDisplay customDisplay;
 
     public Output() {
         stringOutput = new StringBuilder();
@@ -19,6 +21,7 @@ public class Output {
         lines = new ArrayList<>();
         showAscii = false;
         separateByNewline = false;
+        outputs = new ArrayList<>();
     }
 
     public Output takeSnapshot() {
@@ -29,6 +32,7 @@ public class Output {
         snap.stringOutput = new StringBuilder().append(stringOutput);
         snap.overallOutput = new StringBuilder().append(overallOutput);
         snap.lines = new ArrayList<>(lines);
+        snap.outputs = new ArrayList<>(outputs);
         return snap;
     }
 
@@ -39,6 +43,7 @@ public class Output {
         this.stringOutput = output.stringOutput;
         this.overallOutput = output.overallOutput;
         this.lines = output.lines;
+        this.outputs = output.outputs;
     }
 
     public void setAsciiFlag(boolean flag) {
@@ -49,8 +54,16 @@ public class Output {
         this.separateByNewline = separateByNewline;
     }
 
+    public void attachCustomDisplay(CustomDisplay customDisplay) {
+        this.customDisplay = customDisplay;
+    }
+
     public void pushOutput(long value) {
         receivedOutput.add(value);
+        outputs.add(value);
+        if (customDisplay != null) {
+            customDisplay.acceptOutput(value);
+        }
         if (showAscii) {
             overallOutput.append((char) value);
         } else {
@@ -84,6 +97,10 @@ public class Output {
         }
     }
 
+    public List<Long> getOutputs() {
+        return outputs;
+    }
+
     public String getOutput() {
         return stringOutput.toString();
     }
@@ -98,7 +115,9 @@ public class Output {
         return toReturn;
     }
 
-    public void clearLines() {
+    public void clear() {
         lines = new ArrayList<>();
+        outputs = new ArrayList<>();
+        overallOutput = new StringBuilder();
     }
 }
