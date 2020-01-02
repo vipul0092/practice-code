@@ -74,6 +74,11 @@ public class Computer {
         execute();
     }
 
+    public void giveInputAndExecute(Long i) {
+        input.enqueueInput(i);
+        execute();
+    }
+
     public boolean hasHalted() {
         return currentState == CpuState.HALTED;
     }
