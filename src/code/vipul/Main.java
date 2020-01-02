@@ -14,7 +14,8 @@ public class Main {
         // Solve14.solvePart2();
         // Solve15.solve();
         // Solve15.solvePart2();
-         Solve16.solve();
+        // Solve16.solve();
+         Solve16.solvePart2();
         // Solve24.solve();
         // Solve24Part2.solve();
         // Solve2.solve();
