@@ -201,6 +201,11 @@ public class Computer {
         }
     }
 
+    public void setLoggingFlag(boolean logging) {
+        this.enableLogging = logging;
+        output.setConsoleOutputEnabledFlag(logging);
+    }
+
     private static class HaltException extends RuntimeException {
     }
 

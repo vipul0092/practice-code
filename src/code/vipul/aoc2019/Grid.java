@@ -260,6 +260,10 @@ public class Grid {
             this.j = j;
         }
 
+        public Pos copy() {
+            return new Pos(this.i, this.j);
+        }
+
         public static Pos of(int i, int j) {
             return new Pos(i, j);
         }
@@ -278,6 +282,22 @@ public class Grid {
 
         public Pos moveDown() {
             return new Pos(i + 1, j);
+        }
+
+        public Pos moveLeftGrid(int steps) {
+            return new Pos(i, j - steps);
+        }
+
+        public Pos moveRightGrid(int steps) {
+            return new Pos(i, j + steps);
+        }
+
+        public Pos moveUpGrid(int steps) {
+            return new Pos(i - steps, j);
+        }
+
+        public Pos moveDownGrid(int steps) {
+            return new Pos(i + steps, j);
         }
 
         // Functions below work wrt the Cartesian plane

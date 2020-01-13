@@ -13,6 +13,7 @@ public class Output {
     private List<String> lines;
     private List<Long> outputs;
     private CustomDisplay customDisplay;
+    private boolean consoleOutputEnabled = true;
 
     public Output() {
         stringOutput = new StringBuilder();
@@ -22,6 +23,10 @@ public class Output {
         showAscii = false;
         separateByNewline = false;
         outputs = new ArrayList<>();
+    }
+
+    public void setConsoleOutputEnabledFlag(boolean flag) {
+        this.consoleOutputEnabled = flag;
     }
 
     public Output takeSnapshot() {
@@ -92,7 +97,7 @@ public class Output {
             }
         });
         receivedOutput = new ArrayList<>();
-        if (!separateByNewline) {
+        if (!separateByNewline && consoleOutputEnabled) {
             System.out.println("Flushed Output: " + stringOutput.toString());
         }
     }

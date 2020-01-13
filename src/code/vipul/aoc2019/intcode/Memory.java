@@ -27,6 +27,7 @@ public class Memory {
 
     public void load(String input) {
         String[] inputs = input.split(",");
+        relativeBase = 0;
         stream = new long[SIZE];
         for (int i = 0; i < inputs.length; i++) {
             stream[i] = Long.parseLong(inputs[i]);
