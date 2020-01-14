@@ -18,7 +18,7 @@ public class Solve16 {
     public static void solve() {
         // 0, 1, 0 -1
         int times = input.length();
-        List<List<Pair<Integer>>> sparseMatrix = getSparseMatrix(times);
+        List<List<Pair<Integer, Integer>>> sparseMatrix = getSparseMatrix(times);
         int[] arr = getParsedArray();
 
         int iterations = 0;
@@ -30,7 +30,7 @@ public class Solve16 {
 
                 var sparseRow = sparseMatrix.get(i);
                 int result = 0;
-                for (Pair<Integer> multiplierEntry : sparseRow) {
+                for (Pair<Integer, Integer> multiplierEntry : sparseRow) {
                     int index = multiplierEntry.left();
                     int multiplier = multiplierEntry.right();
 
@@ -115,13 +115,13 @@ public class Solve16 {
         return arr;
     }
 
-    private static List<List<Pair<Integer>>> getSparseMatrix(int times) {
-        List<List<Pair<Integer>>> sparseMatrix = new ArrayList<>();
+    private static List<List<Pair<Integer, Integer>>> getSparseMatrix(int times) {
+        List<List<Pair<Integer, Integer>>> sparseMatrix = new ArrayList<>();
         int counter = 1;
         // Precompute the sparse matrix of 1s and -1s
         while (counter <= times) {
             int start = counter - 1;
-            List<Pair<Integer>> row = new ArrayList<>();
+            List<Pair<Integer, Integer>> row = new ArrayList<>();
 
             int digitTimes = 0;
             while (digitTimes++ < counter) {

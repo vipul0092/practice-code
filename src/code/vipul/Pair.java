@@ -2,34 +2,40 @@ package code.vipul;
 
 import java.util.Objects;
 
-public class Pair<T> {
+/**
+ * Not thread safe
+ */
+public class Pair<T1, T2> {
 
-    public T left() {
+    public T1 left() {
         return left;
     }
 
-    public T right() {
+    public T2 right() {
         return right;
     }
 
-    private final T left;
-    private final T right;
+    private final T1 left;
+    private final T2 right;
+    private int hash = -1;
 
-    private Pair(T left, T right) {
+    private Pair(T1 left, T2 right) {
         this.left = left;
         this.right = right;
     }
 
-    public static <T> Pair<T> of(T left, T right) {
+    public static <T1, T2> Pair<T1, T2> of(T1 left, T2 right) {
         return new Pair<>(left, right);
     }
 
     @Override
     public int hashCode() {
-        int h = 5381;
-        h += (h << 5) + Objects.hashCode(left);
-        h += (h << 5) + Objects.hashCode(right);
-        return h;
+        if (hash == -1) {
+            hash = 5381;
+            hash += (hash << 5) + Objects.hashCode(left);
+            hash += (hash << 5) + Objects.hashCode(right);
+        }
+        return hash;
     }
 
     @Override

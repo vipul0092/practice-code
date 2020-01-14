@@ -254,6 +254,7 @@ public class Grid {
 
         private final int i;
         private final int j;
+        private int hash = -1;
 
         private Pos(int i, int j) {
             this.i = i;
@@ -335,10 +336,12 @@ public class Grid {
 
         @Override
         public int hashCode() {
-            int h = 5381;
-            h += (h << 5) + Objects.hashCode(i);
-            h += (h << 5) + Objects.hashCode(j);
-            return h;
+            if (hash == -1) {
+                hash = 5381;
+                hash += (hash << 5) + Objects.hashCode(i);
+                hash += (hash << 5) + Objects.hashCode(j);
+            }
+            return hash;
         }
 
         @Override
