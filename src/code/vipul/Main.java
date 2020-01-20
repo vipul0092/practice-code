@@ -1,5 +1,6 @@
 package code.vipul;
 
+import code.vipul.aoc2019.Solve21;
 import code.vipul.aoc2019.day20.Solve20;
 
 public class Main {
@@ -16,7 +17,9 @@ public class Main {
         // Solve19.solve();
         // Solve19.solvePart2();
         // Solve20.solve();
-         Solve20.solvePart2();
+        // Solve20.solvePart2();
+        // Solve21.solve();
+         Solve21.solvePart2();
         // Solve24.solve();
         // Solve24Part2.solve();
         // Solve2.solve();

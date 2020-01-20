@@ -90,7 +90,7 @@ public class Output {
         }
         stringOutput = new StringBuilder();
         receivedOutput.forEach(o -> {
-            if (showAscii) {
+            if (showAscii && o.intValue() < 256) {
                 stringOutput.append((char) o.intValue());
             } else {
                 stringOutput.append(o);
