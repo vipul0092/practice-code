@@ -44,6 +44,14 @@ public class Input {
         currentInputIndex = 0;
     }
 
+    public void enqueueInputContinuous(List<Long> input) {
+        inputToGive.addAll(input);
+    }
+
+    public boolean hasUnflushedInput() {
+        return currentInputIndex < inputToGive.size();
+    }
+
     public void attachCustomInput(CustomInput input) {
         this.customInput = input;
     }
