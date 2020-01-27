@@ -1,62 +1,18 @@
 package code.vipul;
 
-import code.vipul.aoc2019.day18.Solve18;
+import code.vipul.aoc2018.Solve1;
+import code.vipul.aoc2018.Solve2;
+import code.vipul.aoc2018.Solve3;
 
 public class Main {
 
     public static void main(String[] args) {
-        // Solve13.solve();
-        // Solve13.solvePart2();
-        // Solve14.solve();
-        // Solve14.solvePart2();
-        // Solve15.solve();
-        // Solve15.solvePart2();
-        // Solve16.solve();
-        // Solve16.solvePart2();
-        // Solve19.solve();
-        // Solve19.solvePart2();
-        // Solve20.solve();
-        // Solve20.solvePart2();
-        // Solve21.solve();
-        // Solve21.solvePart2();
-        // Solve22.solvePart1();
-        // Solve22.solvePart1Composition();
-        // Solve22.solvePart2();
-        // Solve23.solve();
-        // Solve23.solvePart2();
-        // Solve18.solve();
-         Solve18.solvePart2();
-        // Solve24.solve();
-        // Solve24Part2.solve();
-        // Solve2.solve();
-        // Solve2.solvePart2();
-        // Solve5.solve();
-        // Solve5.solvePart2();
-        // Solve9.solve();
-        // Solve9.solvePart2();
-        // Solve17.solve();
-        // Solve17.solvePart2();
-        // Solve17.edgeCase();
-        // Solve25.playInteractive();
-        // Solve25.autoSolve();
-        // Solve8.solve();
-        // Solve8.solvePart2();
-        // Solve10.solve();
-        // Solve10.solvePart2();
-        // Solve11.solve();
-        // Solve11.solvePart2();
-        // Solve12.solve();
-        // Solve12.solvePart2();
         // Solve1.solve();
         // Solve1.solvePart2();
-        // Solve3.solve();
-        // Solve3.solvePart2();
-        // Solve4.solve();
-        // Solve4.solvePart2();
-        // Solve6.solve();
-        // Solve6.solvePart2();
-        // Solve7.solve();
-        // Solve7.solvePart2();
+        // Solve2.solve();
+        // Solve2.solvePart2();
+         // Solve3.solve();
+        Solve3.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
@@ -84,7 +40,7 @@ public class Main {
 
         //NumberWriter.solve(1000070);
         // RearrangeList.makeDataAndRun();
-       //  PalindromeList.makeDataAndRun();
+        //  PalindromeList.makeDataAndRun();
 
         //KthNumberWithFactors.solve(10);
     }
