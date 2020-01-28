@@ -3,6 +3,9 @@ package code.vipul;
 import code.vipul.aoc2018.Solve1;
 import code.vipul.aoc2018.Solve2;
 import code.vipul.aoc2018.Solve3;
+import code.vipul.aoc2018.Solve4;
+import code.vipul.aoc2018.Solve5;
+import code.vipul.aoc2018.Solve7;
 
 public class Main {
 
@@ -11,8 +14,14 @@ public class Main {
         // Solve1.solvePart2();
         // Solve2.solve();
         // Solve2.solvePart2();
-         // Solve3.solve();
-        Solve3.solvePart2();
+        // Solve3.solve();
+        // Solve3.solvePart2();
+        // Solve4.solve();
+        // Solve4.solvePart2();
+        // Solve5.solve();
+        // Solve5.solvePart2();
+        // Solve7.solve();
+         Solve7.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
