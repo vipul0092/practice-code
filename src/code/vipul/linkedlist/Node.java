@@ -14,9 +14,14 @@ public class Node {
         this.value = val;
     }
 
+    private Node(int val) {
+        this.intValue = val;
+        this.value = null;
+    }
+
     @Override
     public String toString() {
-        return value;
+        return value == null ? intValue.toString() : value;
     }
 
     int intValue() {
@@ -26,12 +31,23 @@ public class Node {
         return intValue;
     }
 
-    static Node of(String val) {
+    public static Node of(String val) {
+        return new Node(val);
+    }
+
+    public static Node of(int val) {
         return new Node(val);
     }
 
     static Node copyOf(Node node) {
         Node newNode = of(node.value);
+        newNode.next = node.next;
+        newNode.prev = node.prev;
+        return newNode;
+    }
+
+    public static Node intCopyOf(Node node) {
+        Node newNode = of(node.intValue);
         newNode.next = node.next;
         newNode.prev = node.prev;
         return newNode;

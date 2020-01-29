@@ -26,7 +26,8 @@ public class Main {
         // Solve7.solvePart2();
         // Solve8.solve();
         // Solve8.solvePart2();
-         Solve9.solve();
+        // Solve9.solve();
+         Solve9.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
