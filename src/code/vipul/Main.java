@@ -2,6 +2,7 @@ package code.vipul;
 
 import code.vipul.aoc2018.Solve1;
 import code.vipul.aoc2018.Solve11;
+import code.vipul.aoc2018.Solve13;
 import code.vipul.aoc2018.Solve2;
 import code.vipul.aoc2018.Solve3;
 import code.vipul.aoc2018.Solve4;
@@ -14,6 +15,8 @@ import code.vipul.aoc2018.Solve12;
 public class Main {
 
     public static void main(String[] args) {
+        // Solve13.solve();
+         Solve13.solvePart2();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve2.solve();
@@ -33,7 +36,7 @@ public class Main {
         // Solve11.solve();
         // Solve11.solvePart2();
         // Solve12.solve();
-         Solve12.solvePart2();
+        // Solve12.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());

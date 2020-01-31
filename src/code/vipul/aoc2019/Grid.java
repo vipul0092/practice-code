@@ -243,7 +243,7 @@ public class Grid {
         return (row & (1 << pos.j)) != 0 ? 1 : 0;
     }
 
-    public static final class Pos {
+    public static final class Pos implements Comparable<Pos> {
         public int i() {
             return i;
         }
@@ -357,6 +357,16 @@ public class Grid {
 
         private boolean equalTo(Pos another) {
             return Objects.equals(i, another.i) && Objects.equals(j, another.j);
+        }
+
+        @Override
+        public int compareTo(Pos p) {
+            int ret = this.i - p.i;
+            // Equal i so fall back to comparing j.
+            if (ret == 0) {
+                ret = this.j - p.j;
+            }
+            return ret;
         }
     }
 }
