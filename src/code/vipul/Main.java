@@ -9,6 +9,7 @@ import code.vipul.aoc2018.Solve5;
 import code.vipul.aoc2018.Solve7;
 import code.vipul.aoc2018.Solve8;
 import code.vipul.aoc2018.Solve9;
+import code.vipul.aoc2018.Solve12;
 
 public class Main {
 
@@ -30,7 +31,9 @@ public class Main {
         // Solve9.solve();
         // Solve9.solvePart2();
         // Solve11.solve();
-         Solve11.solvePart2();
+        // Solve11.solvePart2();
+        // Solve12.solve();
+         Solve12.solvePart2();
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
