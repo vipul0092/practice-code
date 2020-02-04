@@ -26,6 +26,7 @@ public class Solve18 {
     private static Map<Pair<Integer, Long>, Integer> memoizedResults;
     private static Map<Integer, Map<Integer, Integer>> keyToKeyLengths;
     private static Map<Integer, Map<Integer, Long>> keyToKeyBlockingDoors;
+    private static Map<Integer, Map<Integer, Long>> keyToKeysFound;
     private static int totalKeys;
 
     private static int currentRobotNumber = 0;
@@ -37,24 +38,28 @@ public class Solve18 {
         keyToKeyLengths = new HashMap<>();
         keyToKeyBlockingDoors = new HashMap<>();
         memoizedResults = new HashMap<>();
+        keyToKeysFound = new HashMap<>();
 
         final long startTime = System.nanoTime();
         keyPositions.forEach((key, pos) -> {
             Map<Integer, Integer> keyLengths = new HashMap<>();
             Map<Integer, Long> keyBlockingDoors = new HashMap<>();
+            Map<Integer, Long> keysFound = new HashMap<>();
 
             // For each key populate the min distance to all other keys plus doors that come in between, if any
-            populateNeighbours(pos, keyLengths, keyBlockingDoors);
+            populateNeighbours(pos, keyLengths, keyBlockingDoors, keysFound);
 
             keyToKeyLengths.put(key, keyLengths);
             keyToKeyBlockingDoors.put(key, keyBlockingDoors);
+            keyToKeysFound.put(key, keysFound);
         });
 
         Map<Integer, Integer> startPosToKeyLengths = new HashMap<>();
         Map<Integer, Long> startPosToKeyBlockingDoors = new HashMap<>();
+        Map<Integer, Long> startPosKeysFound = new HashMap<>();
 
         // Populate the min distances from start position to all other keys plus doors that come in between, if any
-        populateNeighbours(startPos, startPosToKeyLengths, startPosToKeyBlockingDoors);
+        populateNeighbours(startPos, startPosToKeyLengths, startPosToKeyBlockingDoors, startPosKeysFound);
 
         int answer = Integer.MAX_VALUE;
 
@@ -67,13 +72,14 @@ public class Solve18 {
                 // Go to a key and
                 // then recursively calculate the min length to take the keys left
                 long keysTakenAlready = (1L << key);
+                keysTakenAlready = keysTakenAlready | startPosKeysFound.getOrDefault(key, 0L);
                 int keyAnswer = startPosToKeyLengths.get(key) + walk(keysTakenAlready, key);
                 answer = Math.min(keyAnswer, answer);
             }
         }
         final long duration = (System.nanoTime() - startTime) / 1000000;
 
-        System.out.println("Runtime(in ms): " + duration); // ~1s
+        System.out.println("Runtime(in ms): " + duration); // ~200ms
         System.out.println("Answer: " + answer); //3048
     }
 
@@ -84,29 +90,33 @@ public class Solve18 {
         parseInput(true);
         keyToKeyLengths = new HashMap<>();
         keyToKeyBlockingDoors = new HashMap<>();
+        keyToKeysFound = new HashMap<>();
         memoizedResults = new HashMap<>();
 
         final long startTime = System.nanoTime();
         keyPositions.forEach((key, pos) -> {
             Map<Integer, Integer> keyLengths = new HashMap<>();
             Map<Integer, Long> keyBlockingDoors = new HashMap<>();
+            Map<Integer, Long> keysFound = new HashMap<>();
 
             // For each key populate the min distance to all other keys plus doors that come in between, if any
-            populateNeighbours(pos, keyLengths, keyBlockingDoors);
+            populateNeighbours(pos, keyLengths, keyBlockingDoors, keysFound);
 
             keyToKeyLengths.put(key, keyLengths);
             keyToKeyBlockingDoors.put(key, keyBlockingDoors);
+            keyToKeysFound.put(key, keysFound);
         });
 
         for (int i = 0; i < 4; i++) {
             Robot robot = robots[i];
-            populateNeighbours(robot.initialPos, robot.startPosToKeyLengths, robot.startPosToKeyBlockingDoors);
+            populateNeighbours(robot.initialPos, robot.startPosToKeyLengths, robot.startPosToKeyBlockingDoors,
+                    robot.startPosToKeysFound);
         }
 
         int answer = walkWithRobots(0, robots[0], robots[1], robots[2], robots[3]);
         final long duration = (System.nanoTime() - startTime) / 1000000;
 
-        System.out.println("Runtime(in ms): " + duration); // ~5s
+        System.out.println("Runtime(in ms): " + duration); // ~200ms
         System.out.println("Answer: " + answer); //1732
     }
 
@@ -140,12 +150,16 @@ public class Solve18 {
         Map<Integer, Long> keyBlockingDoors = robot.isAtInitialPos()
                 ? robot.startPosToKeyBlockingDoors
                 : keyToKeyBlockingDoors.get(keyVal);
+        Map<Integer, Long> keysFound = robot.isAtInitialPos()
+                ? robot.startPosToKeysFound
+                : keyToKeysFound.get(keyVal);
 
         int answer = Integer.MAX_VALUE;
         for (Integer key : keyLengths.keySet()) {
             // Select the key to go, if it hasn't been selected already
             // and all doors for going to the key are unlocked
             long keysTakenIncludingCurrentKey = keysTakenAlreadyUntilNow | (1L << key);
+            keysTakenIncludingCurrentKey = keysTakenIncludingCurrentKey | keysFound.getOrDefault(key, 0L);
             if (!isBitSet(keysTakenAlreadyUntilNow, key)
                     && areAllDoorsUnlocked(keyBlockingDoors.get(key), keysTakenAlreadyUntilNow)) {
                 int keyAnswer = keyLengths.get(key) + walkWithRobots(keysTakenIncludingCurrentKey,
@@ -168,12 +182,14 @@ public class Solve18 {
 
         Map<Integer, Integer> keyLengths = keyToKeyLengths.get(keyVal);
         Map<Integer, Long> keyBlockingDoors = keyToKeyBlockingDoors.get(keyVal);
+        Map<Integer, Long> keysFound = keyToKeysFound.get(keyVal);
 
         int answer = Integer.MAX_VALUE;
         for (Integer key : keyLengths.keySet()) {
             // Select the key to go, if it hasn't been selected already
             // and all doors for going to the key are unlocked
             long keysTakenIncludingCurrentKey = keysTakenAlreadyUntilNow | (1L << key);
+            keysTakenIncludingCurrentKey = keysTakenIncludingCurrentKey | keysFound.getOrDefault(key, 0L);
             if (!isBitSet(keysTakenAlreadyUntilNow, key)
                     && areAllDoorsUnlocked(keyBlockingDoors.get(key), keysTakenAlreadyUntilNow)) {
                 int keyAnswer = keyLengths.get(key) + walk(keysTakenIncludingCurrentKey, key);
@@ -220,23 +236,27 @@ public class Solve18 {
 
     private static void populateNeighbours(Grid.Pos originalPos,
                                            Map<Integer, Integer> neighbourLengthMap,
-                                           Map<Integer, Long> blockingDoorMap) {
+                                           Map<Integer, Long> blockingDoorMap,
+                                           Map<Integer, Long> keysFoundMap) {
 
         Queue<Grid.Pos> currentPosQ = new ArrayDeque<>();
         Queue<Set<Grid.Pos>> visitedUntilNowQ = new ArrayDeque<>();
         Queue<Integer> currentLengthQ = new ArrayDeque<>();
         Queue<Long> doorsBitmapQ = new ArrayDeque<>();
+        Queue<Long> keysBitmapQ = new ArrayDeque<>();
 
         currentPosQ.add(originalPos);
         visitedUntilNowQ.add(new HashSet<>());
         currentLengthQ.add(0);
         doorsBitmapQ.add(0L);
+        keysBitmapQ.add(0L);
 
         while (!currentPosQ.isEmpty()) {
             Grid.Pos currentPos = currentPosQ.remove();
             Set<Grid.Pos> visitedUntilNow = visitedUntilNowQ.remove();
             int currentLength = currentLengthQ.remove();
             long doorsBitmap = doorsBitmapQ.remove();
+            long keysBitmap = keysBitmapQ.remove();
 
             visitedUntilNow.add(currentPos);
 
@@ -247,6 +267,7 @@ public class Solve18 {
                 }
                 int val = valueAt(neighbour);
                 long nDoorsBitmap = doorsBitmap;
+                long nKeysBitmap = keysBitmap;
                 if (isKey(neighbour)) {
                     int keyVal = val - 'a';
 
@@ -254,6 +275,8 @@ public class Solve18 {
                             || (neighbourLengthMap.containsKey(keyVal) && neighbourLengthMap.get(keyVal) > currentLength + 1)) {
                         neighbourLengthMap.put(keyVal, currentLength + 1);
                         blockingDoorMap.put(keyVal, nDoorsBitmap);
+                        keysFoundMap.put(keyVal, nKeysBitmap);
+                        nKeysBitmap |= (1L << keyVal);
                     }
                 } else if (isDoor(neighbour)) {
                     nDoorsBitmap |= (1L << (val - 'A'));
@@ -263,6 +286,7 @@ public class Solve18 {
                 visitedUntilNowQ.add(visitedUntilNow);
                 currentLengthQ.add(currentLength + 1);
                 doorsBitmapQ.add(nDoorsBitmap);
+                keysBitmapQ.add(nKeysBitmap);
             }
         }
     }
@@ -354,6 +378,7 @@ public class Solve18 {
         private final Integer number;
         private Map<Integer, Integer> startPosToKeyLengths = new HashMap<>();
         private Map<Integer, Long> startPosToKeyBlockingDoors = new HashMap<>();
+        private Map<Integer, Long> startPosToKeysFound = new HashMap<>();
 
         private Robot(Grid.Pos currentPos, Grid.Pos initialPos, int number) {
             this.currentPos = currentPos;
@@ -373,6 +398,7 @@ public class Solve18 {
             Robot r = new Robot(pos, this.initialPos, this.number);
             r.startPosToKeyLengths = this.startPosToKeyLengths;
             r.startPosToKeyBlockingDoors = this.startPosToKeyBlockingDoors;
+            r.startPosToKeysFound = this.startPosToKeysFound;
             return r;
         }
     }
