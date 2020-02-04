@@ -73,7 +73,7 @@ public class Solve18 {
         }
         final long duration = (System.nanoTime() - startTime) / 1000000;
 
-        System.out.println("Runtime(in ms): " + duration); // ~9s
+        System.out.println("Runtime(in ms): " + duration); // ~1s
         System.out.println("Answer: " + answer); //3048
     }
 
@@ -234,7 +234,7 @@ public class Solve18 {
 
         while (!currentPosQ.isEmpty()) {
             Grid.Pos currentPos = currentPosQ.remove();
-            Set<Grid.Pos> visitedUntilNow = new HashSet<>(visitedUntilNowQ.remove());
+            Set<Grid.Pos> visitedUntilNow = visitedUntilNowQ.remove();
             int currentLength = currentLengthQ.remove();
             long doorsBitmap = doorsBitmapQ.remove();
 
