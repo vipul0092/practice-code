@@ -29,18 +29,19 @@ public class Solve15 {
     private static int[][] grid;
     private static int rounds = 0;
     private static boolean wasElfKilled = false;
+    private static boolean lastCreatureDidNothing = true;
 
     private static String input;
 
     public static void solve() {
 
-        // 37 rounds, answer -> 36334
-//        input =  "#######\n" +
-//                "#G..#E#\n" +
-//                "#E#E.E#\n" +
-//                "#G.##.#\n" +
-//                "#...#E#\n" +
-//                "#...E.#\n" +
+        // 47 rounds, answer -> 27730
+//        input = "#######\n" +
+//                "#.G...#\n" +
+//                "#...EG#\n" +
+//                "#.#.#G#\n" +
+//                "#..G#E#\n" +
+//                "#.....#\n" +
 //                "#######";
 
         // 46 rounds, answer -> 39514
@@ -52,42 +53,45 @@ public class Solve15 {
 //                "#..E#.#\n" +
 //                "#######";
 
-        // 35 rounds, answer -> 27755
-//        input = "#######\n" +
-//                "#E.G#.#\n" +
-//                "#.#G..#\n" +
-//                "#G.#.G#\n" +
-//                "#G..#.#\n" +
-//                "#...E.#\n" +
-//                "#######";
-
-        // 20 rounds, answer -> 18740
-//        input = "#########\n" +
-//                "#G......#\n" +
-//                "#.E.#...#\n" +
-//                "#..##..G#\n" +
-//                "#...##..#\n" +
-//                "#...#...#\n" +
-//                "#.G...G.#\n" +
-//                "#.....G.#\n" +
-//                "#########";
-
-        input = Inputs.DAY15;
+        input = Inputs.DAY15_2;
 
         parseInput();
         while (moveCreatures()) ;
 
+        if (lastCreatureDidNothing) {
+            rounds--;
+        }
+
         AtomicInteger sumOfScores = new AtomicInteger(0);
         creatures.forEach((num, creature) -> sumOfScores.addAndGet(creature.hitPoints));
 
-        System.out.println("Answer: " + ((rounds - 1) * sumOfScores.intValue())); // 206720
+        System.out.println("Answer: " + (rounds * sumOfScores.intValue()));
     }
 
     public static void solvePart2() {
-        input = Inputs.DAY15;
+        // 4988
+//        input = "#######\n" +
+//                "#.G...#\n" +
+//                "#...EG#\n" +
+//                "#.#.#G#\n" +
+//                "#..G#E#\n" +
+//                "#.....#\n" +
+//                "#######";
+
+        // 31284
+//        input = "#######\n" +
+//                "#E..EG#\n" +
+//                "#.#G.E#\n" +
+//                "#E.##E#\n" +
+//                "#G..#.#\n" +
+//                "#..E#.#\n" +
+//                "#######";
+
+        input = Inputs.DAY15_2;
 
         while (true) {
             wasElfKilled = false;
+            lastCreatureDidNothing = true;
             creatureNumber = 0;
             rounds = 0;
             parseInput();
@@ -105,10 +109,14 @@ public class Solve15 {
             elfAttackPower++;
         }
 
+        if (lastCreatureDidNothing) {
+            rounds--;
+        }
+
         AtomicInteger sumOfScores = new AtomicInteger(0);
         creatures.forEach((num, creature) -> sumOfScores.addAndGet(creature.hitPoints));
 
-        System.out.println("Answer: " + ((rounds - 1) * sumOfScores.intValue()));  // 37992
+        System.out.println("Answer: " + (rounds * sumOfScores.intValue()));
 
     }
 
@@ -122,6 +130,7 @@ public class Solve15 {
         }
 
         for (var entry : creaturePositions.entrySet()) {
+            boolean creatureDidNothing = true;
             Grid.Pos source = entry.getKey();
             int sourceNumber = entry.getValue();
             if (valueAt(source) == 0 || !creatures.containsKey(sourceNumber)) { // killed off
@@ -137,6 +146,8 @@ public class Solve15 {
             // try to attack if we can
             var didAttack = attack(creaturesToGoTo, source, newPositions);
             if (didAttack) {
+                creatureDidNothing = false;
+                lastCreatureDidNothing = false;
                 atLeastOneActionWasTaken = true;
                 continue;
             }
@@ -156,8 +167,12 @@ public class Solve15 {
 
                 // Try to attack if we can from the new position
                 attack(creaturesToGoTo, positionToMove.get(), newPositions);
-
+                creatureDidNothing = false;
                 atLeastOneActionWasTaken = true;
+            }
+
+            if (creatureDidNothing) {
+                lastCreatureDidNothing = true;
             }
         }
         creaturePositions = newPositions;
