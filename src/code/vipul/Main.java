@@ -5,6 +5,7 @@ import code.vipul.aoc2018.Solve11;
 import code.vipul.aoc2018.Solve13;
 import code.vipul.aoc2018.Solve14;
 import code.vipul.aoc2018.Solve15;
+import code.vipul.aoc2018.Solve16;
 import code.vipul.aoc2018.Solve2;
 import code.vipul.aoc2018.Solve3;
 import code.vipul.aoc2018.Solve4;
@@ -22,7 +23,9 @@ public class Main {
         // Solve14.solve();
         // Solve14.solvePart2();
         // Solve15.solve();
-         Solve15.solvePart2();
+        // Solve15.solvePart2();
+        // Solve16.solve();
+         Solve16.solvePart2();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve2.solve();
