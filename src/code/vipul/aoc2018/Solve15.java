@@ -53,7 +53,7 @@ public class Solve15 {
 //                "#..E#.#\n" +
 //                "#######";
 
-        input = Inputs.DAY15_2;
+        input = Inputs.DAY15_3;
 
         parseInput();
         while (moveCreatures()) ;
@@ -87,7 +87,7 @@ public class Solve15 {
 //                "#..E#.#\n" +
 //                "#######";
 
-        input = Inputs.DAY15_2;
+        input = Inputs.DAY15_3;
 
         while (true) {
             wasElfKilled = false;
