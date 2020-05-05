@@ -1,23 +1,14 @@
 package code.vipul;
 
-import code.vipul.aoc2018.Solve1;
-import code.vipul.aoc2018.Solve11;
-import code.vipul.aoc2018.Solve13;
-import code.vipul.aoc2018.Solve14;
-import code.vipul.aoc2018.Solve15;
-import code.vipul.aoc2018.Solve16;
-import code.vipul.aoc2018.Solve2;
-import code.vipul.aoc2018.Solve3;
-import code.vipul.aoc2018.Solve4;
-import code.vipul.aoc2018.Solve5;
-import code.vipul.aoc2018.Solve7;
-import code.vipul.aoc2018.Solve8;
-import code.vipul.aoc2018.Solve9;
-import code.vipul.aoc2018.Solve12;
+import code.vipul.google.P1L1;
+import code.vipul.google.P1L2;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        P1L2.test();
+
         // Solve13.solve();
         // Solve13.solvePart2();
         // Solve14.solve();
@@ -25,7 +16,8 @@ public class Main {
         // Solve15.solve();
         // Solve15.solvePart2();
         // Solve16.solve();
-         Solve16.solvePart2();
+        // Solve16.solvePart2();
+        // Solve17.solve();
         // Solve1.solve();
         // Solve1.solvePart2();
         // Solve2.solve();
