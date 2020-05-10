@@ -2,12 +2,16 @@ package code.vipul;
 
 import code.vipul.google.P1L1;
 import code.vipul.google.P1L2;
+import code.vipul.google.P1L3;
+import code.vipul.google.P2L2;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        P1L2.test();
+        // P1L2.test();
+        // P2L2.test();
+        P1L3.test();
 
         // Solve13.solve();
         // Solve13.solvePart2();
