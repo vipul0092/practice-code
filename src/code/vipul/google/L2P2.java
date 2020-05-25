@@ -36,7 +36,7 @@ Solution.solution(3, {7, 3, 5, 1})
 Output:
     -1,7,6,3
  */
-public final class P2L2 {
+public final class L2P2 {
 
     private static Map<Integer, Integer> powersOfTwo = new HashMap<>();
 

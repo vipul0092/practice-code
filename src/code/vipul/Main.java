@@ -1,9 +1,7 @@
 package code.vipul;
 
-import code.vipul.google.P1L1;
-import code.vipul.google.P1L2;
-import code.vipul.google.P1L3;
-import code.vipul.google.P2L2;
+import code.vipul.google.L3P1;
+import code.vipul.google.L3P2;
 
 public class Main {
 
@@ -11,7 +9,8 @@ public class Main {
 
         // P1L2.test();
         // P2L2.test();
-        P1L3.test();
+        // L3P1.test();
+        L3P2.solve();
 
         // Solve13.solve();
         // Solve13.solvePart2();

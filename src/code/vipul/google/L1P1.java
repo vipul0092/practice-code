@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 // AC
-public final class P1L1 {
+public final class L1P1 {
 
     public static int func(int[] x, int[] y) {
         Set<Integer> all = new HashSet<>();
