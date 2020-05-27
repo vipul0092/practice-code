@@ -2,6 +2,7 @@ package code.vipul;
 
 import code.vipul.google.L3P1;
 import code.vipul.google.L3P2;
+import code.vipul.google.L3P3;
 
 public class Main {
 
@@ -10,7 +11,8 @@ public class Main {
         // P1L2.test();
         // P2L2.test();
         // L3P1.test();
-        L3P2.solve();
+        // L3P2.solve();
+        L3P3.solve();
 
         // Solve13.solve();
         // Solve13.solvePart2();
