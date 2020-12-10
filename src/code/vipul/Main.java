@@ -1,8 +1,10 @@
 package code.vipul;
 
-import code.vipul.google.L3P1;
-import code.vipul.google.L3P2;
-import code.vipul.google.L3P3;
+import code.vipul.aoc2020.Solve1;
+import code.vipul.aoc2020.Solve2;
+import code.vipul.aoc2020.Solve3;
+import code.vipul.aoc2020.Solve4;
+import code.vipul.aoc2020.Solve5;
 
 public class Main {
 
@@ -12,37 +14,10 @@ public class Main {
         // P2L2.test();
         // L3P1.test();
         // L3P2.solve();
-        L3P3.solve();
+        // L3P3.solve();
 
-        // Solve13.solve();
-        // Solve13.solvePart2();
-        // Solve14.solve();
-        // Solve14.solvePart2();
-        // Solve15.solve();
-        // Solve15.solvePart2();
-        // Solve16.solve();
-        // Solve16.solvePart2();
-        // Solve17.solve();
-        // Solve1.solve();
-        // Solve1.solvePart2();
-        // Solve2.solve();
-        // Solve2.solvePart2();
-        // Solve3.solve();
-        // Solve3.solvePart2();
-        // Solve4.solve();
-        // Solve4.solvePart2();
-        // Solve5.solve();
-        // Solve5.solvePart2();
-        // Solve7.solve();
-        // Solve7.solvePart2();
-        // Solve8.solve();
-        // Solve8.solvePart2();
-        // Solve9.solve();
-        // Solve9.solvePart2();
-        // Solve11.solve();
-        // Solve11.solvePart2();
-        // Solve12.solve();
-        // Solve12.solvePart2();
+        Solve5.solvePart2();
+
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
         //RotateMatrix.rotate(RotateMatrix.getDummyMatrix());
