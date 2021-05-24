@@ -77,7 +77,6 @@ public class Solve10 {
             }
         }
         diff3++;
-
         var answer = diff1 * diff3;
         System.out.println("Answer: " + answer); //2414
     }
