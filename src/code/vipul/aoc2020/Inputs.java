@@ -3316,4 +3316,4396 @@ public final class Inputs {
             "FFBBBFBLRR\n" +
             "BFFFFBFRRR\n" +
             "BBFFBFBLRR";
+
+    public static String INPUT_6 = "iwaduermzfyc\n" +
+            "zdmrlfyau\n" +
+            "wfdzhrmauy\n" +
+            "yfzdmaru\n" +
+            "dtagqzbovprnyufm\n" +
+            "\n" +
+            "qblufrmcdiyg\n" +
+            "qlbrguycvim\n" +
+            "rbcugqymipnol\n" +
+            "cyrxvmqiugbld\n" +
+            "\n" +
+            "qlszkm\n" +
+            "mlzksqo\n" +
+            "kmsqlzgwr\n" +
+            "qfzslkm\n" +
+            "mvlksqz\n" +
+            "\n" +
+            "dgxpqkmnfbz\n" +
+            "bvaqgnxmfkp\n" +
+            "nfgbkmqpx\n" +
+            "qnpgbakfmx\n" +
+            "\n" +
+            "bdzj\n" +
+            "imbuqjo\n" +
+            "\n" +
+            "wrt\n" +
+            "ahd\n" +
+            "uodk\n" +
+            "da\n" +
+            "lu\n" +
+            "\n" +
+            "edshb\n" +
+            "bhdse\n" +
+            "ebdsh\n" +
+            "bhsde\n" +
+            "ehsbd\n" +
+            "\n" +
+            "jbcosmfq\n" +
+            "pwhjqobms\n" +
+            "gajnsbtyqvrx\n" +
+            "jqlmbksced\n" +
+            "puhsobimjkq\n" +
+            "\n" +
+            "kwamuzxefjdh\n" +
+            "hkwefujxdmza\n" +
+            "zmahefxdjuwk\n" +
+            "\n" +
+            "fqdekjsohmapxcv\n" +
+            "mspojfeqchdvxak\n" +
+            "khxmfpqtsdocveja\n" +
+            "xpmcaofdvqshkje\n" +
+            "exvkdqpahsmjcof\n" +
+            "\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "\n" +
+            "evpzjxh\n" +
+            "njkhfwxaz\n" +
+            "hzxjb\n" +
+            "xzhjp\n" +
+            "zxhcj\n" +
+            "\n" +
+            "rpxuhocalwzimgq\n" +
+            "ohabqlzcxp\n" +
+            "fqzploknaxvjyhd\n" +
+            "oeplzbhtxqa\n" +
+            "pxotwhlqsazg\n" +
+            "\n" +
+            "gsojiczhxte\n" +
+            "ueztjxacsfihg\n" +
+            "zsctgxjieh\n" +
+            "yegxiqjshtzc\n" +
+            "jgpirctszdwenmhxlbv\n" +
+            "\n" +
+            "wivcamperqnhbfyxz\n" +
+            "mheivqblpuwgzy\n" +
+            "\n" +
+            "fbkgvetioyx\n" +
+            "gxuflyrqwvkae\n" +
+            "fgyvnekx\n" +
+            "bsexyvghkfz\n" +
+            "fyexgsmvk\n" +
+            "\n" +
+            "jierpsnvdykz\n" +
+            "itadlxypu\n" +
+            "ubdpycio\n" +
+            "iyopdq\n" +
+            "\n" +
+            "kupenvlbdsfqtjgh\n" +
+            "tplszfghbjcvidnqeku\n" +
+            "tdsqhfrgbvjulnwkep\n" +
+            "qufvnjetlsbpdgkh\n" +
+            "tqpfndmbvulkghseaj\n" +
+            "\n" +
+            "qaw\n" +
+            "wae\n" +
+            "tw\n" +
+            "wgj\n" +
+            "\n" +
+            "kzid\n" +
+            "ikz\n" +
+            "\n" +
+            "kyxaqwnvucidbflreghsmt\n" +
+            "luehtsfrywkbidqoan\n" +
+            "\n" +
+            "zrk\n" +
+            "gzrak\n" +
+            "kpsd\n" +
+            "k\n" +
+            "k\n" +
+            "\n" +
+            "zkja\n" +
+            "pxigkfbsecdnh\n" +
+            "ajwyumvtk\n" +
+            "lwvkqo\n" +
+            "\n" +
+            "ghfblwixs\n" +
+            "pbzhlifnsqcew\n" +
+            "\n" +
+            "axmuhos\n" +
+            "ylmxhi\n" +
+            "duomxh\n" +
+            "hxma\n" +
+            "trmfqhekzgpxwc\n" +
+            "\n" +
+            "mubieqjlwkgyacs\n" +
+            "cmlyeauqjiwgskb\n" +
+            "lsgmjeyqwucbaik\n" +
+            "\n" +
+            "bn\n" +
+            "nb\n" +
+            "nb\n" +
+            "nb\n" +
+            "dbyn\n" +
+            "\n" +
+            "gcmd\n" +
+            "mgdc\n" +
+            "mgdacq\n" +
+            "mdgc\n" +
+            "\n" +
+            "ewsjylqrxuftnado\n" +
+            "lvyuhgkidpqcwbz\n" +
+            "\n" +
+            "xyhtj\n" +
+            "htsyqjxpc\n" +
+            "xtjyh\n" +
+            "\n" +
+            "kzbxdhusvmqao\n" +
+            "kvbphfojus\n" +
+            "bkoushv\n" +
+            "\n" +
+            "egiltzxynrjdumwbqcs\n" +
+            "rypkbxiultgqzmwfs\n" +
+            "ugyziqfmstlaxobwr\n" +
+            "\n" +
+            "uoxalvtnhy\n" +
+            "olgpwzaebrthmnixqyfc\n" +
+            "\n" +
+            "mwgpjfbnli\n" +
+            "cytevrafsukqo\n" +
+            "\n" +
+            "onpjurvcix\n" +
+            "stfmzjgpwu\n" +
+            "ujpbvox\n" +
+            "\n" +
+            "yurxcdoangpmj\n" +
+            "duytponmjgaxcrw\n" +
+            "nvcdogajumrxyp\n" +
+            "pjoyrmugcxnad\n" +
+            "\n" +
+            "vtydbxfr\n" +
+            "bfodyt\n" +
+            "dufybt\n" +
+            "idybrftq\n" +
+            "ndztfsmcwylbep\n" +
+            "\n" +
+            "sblnkuypvamofcrzdqxhje\n" +
+            "bfxldcrwjnopqkys\n" +
+            "yspfqgobdxrtcljnk\n" +
+            "xklqsprjbioycndf\n" +
+            "\n" +
+            "nrmfi\n" +
+            "mgituvxhp\n" +
+            "rnim\n" +
+            "\n" +
+            "wbmdtpjxkr\n" +
+            "bdkxptj\n" +
+            "xtbkpdj\n" +
+            "btdkpxj\n" +
+            "\n" +
+            "ciekfw\n" +
+            "gwkefnc\n" +
+            "hcekfw\n" +
+            "wckfje\n" +
+            "\n" +
+            "u\n" +
+            "k\n" +
+            "u\n" +
+            "axth\n" +
+            "\n" +
+            "y\n" +
+            "h\n" +
+            "\n" +
+            "mfkgxp\n" +
+            "xgpmf\n" +
+            "xmfpg\n" +
+            "gfxpm\n" +
+            "\n" +
+            "jmhsoidplratz\n" +
+            "loimdprtah\n" +
+            "hlodmrtaip\n" +
+            "\n" +
+            "wtg\n" +
+            "lwt\n" +
+            "wpt\n" +
+            "tcw\n" +
+            "zkbhiw\n" +
+            "\n" +
+            "umwhbqykcfpe\n" +
+            "dznjeyxaitbcmorw\n" +
+            "elcmwykbv\n" +
+            "\n" +
+            "lvpitkqwu\n" +
+            "kjpfclwqvt\n" +
+            "\n" +
+            "gmzjpkxtv\n" +
+            "mvtjx\n" +
+            "vtmjx\n" +
+            "vxmtj\n" +
+            "xmjvt\n" +
+            "\n" +
+            "uokaqlfv\n" +
+            "vaqfxup\n" +
+            "qfvoukaj\n" +
+            "\n" +
+            "oidcu\n" +
+            "by\n" +
+            "\n" +
+            "vxo\n" +
+            "xov\n" +
+            "xvo\n" +
+            "\n" +
+            "qrzkbcioujsy\n" +
+            "ukqstiyz\n" +
+            "pzkuiyqs\n" +
+            "qkzdyuis\n" +
+            "\n" +
+            "efjbgqzhrycnvk\n" +
+            "vnycfrbgkzjeh\n" +
+            "\n" +
+            "yjgrwla\n" +
+            "vzed\n" +
+            "oy\n" +
+            "\n" +
+            "druxgb\n" +
+            "bdgm\n" +
+            "kgxbu\n" +
+            "fgsbeq\n" +
+            "\n" +
+            "uvkah\n" +
+            "ahvku\n" +
+            "auvhk\n" +
+            "\n" +
+            "blkqsho\n" +
+            "hkyjqsuobl\n" +
+            "ohkqsbl\n" +
+            "\n" +
+            "rbimoglvhdkjstaqy\n" +
+            "myarioqdxtljkhbvsg\n" +
+            "gystjrhmloabivqdk\n" +
+            "yuslatdojmrgikvqbh\n" +
+            "\n" +
+            "nxfouqhsjz\n" +
+            "qsupzfoxnhj\n" +
+            "\n" +
+            "utxaghbricml\n" +
+            "ctbspquxwgkioern\n" +
+            "yujfvdbzi\n" +
+            "\n" +
+            "gtery\n" +
+            "efgrt\n" +
+            "yrtge\n" +
+            "ertg\n" +
+            "tgrqe\n" +
+            "\n" +
+            "nquewmlgbxpo\n" +
+            "wbymzlheuc\n" +
+            "ywevurmbhl\n" +
+            "bwmeulsjtcad\n" +
+            "wbierumaykl\n" +
+            "\n" +
+            "laidnpehksuybrjfwgxcqzvm\n" +
+            "poyiduqkcxanelghsw\n" +
+            "\n" +
+            "xqljtm\n" +
+            "vntiqkfpym\n" +
+            "\n" +
+            "sziguyprwob\n" +
+            "chunwizgy\n" +
+            "igunzylwct\n" +
+            "giwtjyuvz\n" +
+            "uzwmiyg\n" +
+            "\n" +
+            "eiczlqurydafjvg\n" +
+            "lczvrifeujaqdgy\n" +
+            "crqwtlnagkbuyxfdeivzj\n" +
+            "\n" +
+            "mg\n" +
+            "mg\n" +
+            "gm\n" +
+            "mg\n" +
+            "pmgn\n" +
+            "\n" +
+            "uhnisjvtaow\n" +
+            "usodbnpewj\n" +
+            "\n" +
+            "humogatsr\n" +
+            "mgahswcujtoer\n" +
+            "uqantosgmhr\n" +
+            "smargtuoh\n" +
+            "mougtsarh\n" +
+            "\n" +
+            "jdkhmoqvtrigbfac\n" +
+            "mfyrsjevhgdcboiaxw\n" +
+            "fcjiagovdmbrhs\n" +
+            "\n" +
+            "qaklxrwijuztsvpymce\n" +
+            "saxyvkletrjgfumpiwz\n" +
+            "rwvaqspyjmiklteuxz\n" +
+            "\n" +
+            "spcjfoelh\n" +
+            "auejpcfs\n" +
+            "\n" +
+            "pxuj\n" +
+            "xojzhin\n" +
+            "\n" +
+            "rceuomtqsikgj\n" +
+            "skogqeircumj\n" +
+            "gmrueqckoijs\n" +
+            "mesjoqckirgu\n" +
+            "\n" +
+            "bn\n" +
+            "lkb\n" +
+            "bk\n" +
+            "\n" +
+            "ykgwqtxcjblnpe\n" +
+            "gytwemsbqupahnkixdo\n" +
+            "\n" +
+            "uhglnqjf\n" +
+            "ubhqkxmsyogrte\n" +
+            "uhgnjqcd\n" +
+            "vghijqu\n" +
+            "\n" +
+            "tajvmlfkhpgsuq\n" +
+            "tvuakpifqmgnh\n" +
+            "amupnfhgqzvtk\n" +
+            "\n" +
+            "xpaq\n" +
+            "nylehubatvi\n" +
+            "arswo\n" +
+            "\n" +
+            "kbhip\n" +
+            "upihbk\n" +
+            "pikbh\n" +
+            "hpbki\n" +
+            "\n" +
+            "nbfcwzlausepqdhtiykj\n" +
+            "pfkqbhyuseawdcztlnji\n" +
+            "pljqbszkuytwdchafnei\n" +
+            "efkqituynpschbzldawj\n" +
+            "jpnyfzhaskdelbutqciw\n" +
+            "\n" +
+            "xmjnuraeksqclvy\n" +
+            "uljeyxckrqsnamv\n" +
+            "msekrcnuvqjlaxy\n" +
+            "lakcmyesnruxvjq\n" +
+            "sakrqmexlcnjyuv\n" +
+            "\n" +
+            "gfuotyvwzxepcdqlk\n" +
+            "yxwfqpotuelzcvdkg\n" +
+            "tdowvzfkegxlucqyp\n" +
+            "\n" +
+            "bdzkpvacrmhuonisy\n" +
+            "shikoudnarcypxmfvz\n" +
+            "wdskihrzoynmpavcu\n" +
+            "vizrodsyuckhnmapg\n" +
+            "bdrmkcpyivanzouhs\n" +
+            "\n" +
+            "cerdpblwsukqzgnixmhvf\n" +
+            "rfezsuhgkdbxcinwqpvl\n" +
+            "eysoqvkxuirbpfcdwhzln\n" +
+            "fkmhprcixbsvuqledanwz\n" +
+            "lufkqbrnwvezhjdpxcsi\n" +
+            "\n" +
+            "yiupdaq\n" +
+            "tykdpioqu\n" +
+            "\n" +
+            "ld\n" +
+            "sdl\n" +
+            "\n" +
+            "txwdhbp\n" +
+            "iwbxdn\n" +
+            "coalejvdkbgfu\n" +
+            "zdstbr\n" +
+            "zmbqyd\n" +
+            "\n" +
+            "jdgqxwfbhecizmausykprotv\n" +
+            "cgokdaxvwfypzerhqitsm\n" +
+            "fpyvrwzagcixmhtkdqeos\n" +
+            "\n" +
+            "idbfusrwtqvn\n" +
+            "dusbnqfcrivw\n" +
+            "\n" +
+            "xldkwe\n" +
+            "qaytum\n" +
+            "\n" +
+            "hvpotjgxbra\n" +
+            "wajnovpbxr\n" +
+            "duroaybfjpx\n" +
+            "xacpjbltrio\n" +
+            "\n" +
+            "a\n" +
+            "a\n" +
+            "ia\n" +
+            "\n" +
+            "jkfotirpayg\n" +
+            "ytoarjkigp\n" +
+            "rogkaytpij\n" +
+            "gpyaktcojri\n" +
+            "\n" +
+            "vjyimxuqdf\n" +
+            "osdrekgyihnfa\n" +
+            "ytlpdwifb\n" +
+            "\n" +
+            "sozivyegmtuhxqfblcrakjn\n" +
+            "vgyczxqjoriuktfbehnslm\n" +
+            "qvombncjtkexrzfhyigusl\n" +
+            "\n" +
+            "tkfnhxzrmuiowe\n" +
+            "xeibtmuwfn\n" +
+            "nfmwxtduei\n" +
+            "mpuexbifwgntq\n" +
+            "\n" +
+            "h\n" +
+            "h\n" +
+            "yc\n" +
+            "h\n" +
+            "\n" +
+            "kvqozebgtahjyipcd\n" +
+            "agzebopvtkyjdcih\n" +
+            "cbahzyogtjveipdk\n" +
+            "dbtahigckzypvjoe\n" +
+            "\n" +
+            "adbpjxlgkrtcyqz\n" +
+            "brzqtxcgkjlayd\n" +
+            "zqphgckytxrlajdb\n" +
+            "jtmaqwbkgfrdcyizlxs\n" +
+            "lrjbectxzdgqahyk\n" +
+            "\n" +
+            "hntrcwu\n" +
+            "er\n" +
+            "yrqf\n" +
+            "ker\n" +
+            "r\n" +
+            "\n" +
+            "xc\n" +
+            "cx\n" +
+            "rcyx\n" +
+            "xc\n" +
+            "xc\n" +
+            "\n" +
+            "rfcizqyuendtbjgvshalmk\n" +
+            "hitbeujyncadosklzvfgqmr\n" +
+            "vebgukhrjqtzpyailsnd\n" +
+            "drqzvywbtihgkxauslnej\n" +
+            "\n" +
+            "bkvxumfrcedjpwlhianotg\n" +
+            "gfzeavcdxwbpniuhtojmlkr\n" +
+            "fljouhnkvtseamrwpbdigxcy\n" +
+            "patkdvmjqenxcwglfuorbhi\n" +
+            "kfouqivmpblxagrtdnwjehc\n" +
+            "\n" +
+            "fkelyhdrij\n" +
+            "phkrmuoieyx\n" +
+            "bwhceyiqkr\n" +
+            "xzkuhmylaivred\n" +
+            "ydirekfpth\n" +
+            "\n" +
+            "wbhymxv\n" +
+            "fgjph\n" +
+            "\n" +
+            "uigajlyo\n" +
+            "zugjhqni\n" +
+            "jbuhgi\n" +
+            "\n" +
+            "vzqplnhuoiwsct\n" +
+            "wnuvipqs\n" +
+            "spinwqfvu\n" +
+            "isvqpnwu\n" +
+            "\n" +
+            "xfbwaho\n" +
+            "xuaofwyln\n" +
+            "\n" +
+            "ciurnqwftzplmgyhda\n" +
+            "olceapvs\n" +
+            "csljkape\n" +
+            "axcblp\n" +
+            "\n" +
+            "ztrsayu\n" +
+            "kcefwlb\n" +
+            "\n" +
+            "rmeuk\n" +
+            "ukerm\n" +
+            "kumre\n" +
+            "urmek\n" +
+            "\n" +
+            "qlakzcpeimybjtrhufds\n" +
+            "dfasmtzylrhcuiekqbpj\n" +
+            "uyzqalrihcdbmpsjetfkn\n" +
+            "tekpdbhzcuasyilmqfrj\n" +
+            "jydsmfxckbrptiezaquhl\n" +
+            "\n" +
+            "ldbhawit\n" +
+            "\n" +
+            "wyajlmvxuieogzbqnhpfs\n" +
+            "jbfazsonuexyw\n" +
+            "fdxascejzyunobrw\n" +
+            "zyftuajnwexbkso\n" +
+            "\n" +
+            "hotwcuxzbejpg\n" +
+            "vxjgchpetwnqzy\n" +
+            "\n" +
+            "ftozydwpj\n" +
+            "uwrdvplyz\n" +
+            "hqpznrsydw\n" +
+            "dnzgawyqp\n" +
+            "azywdp\n" +
+            "\n" +
+            "abcmorpqlzyeiktu\n" +
+            "uwlfnzomhrxkace\n" +
+            "\n" +
+            "wmbhacsx\n" +
+            "whbxmacfe\n" +
+            "\n" +
+            "burjz\n" +
+            "zjrb\n" +
+            "jbr\n" +
+            "kbjtgrl\n" +
+            "rbj\n" +
+            "\n" +
+            "kzxwaunvcpoebfg\n" +
+            "iugvzyjkncbfpwe\n" +
+            "dcfbwghuqkzpslrenmvt\n" +
+            "\n" +
+            "ufmqzbtwcop\n" +
+            "tzwubcmoqfkp\n" +
+            "ctuwfpoqmbz\n" +
+            "cwbzmqutpof\n" +
+            "\n" +
+            "zobu\n" +
+            "qfuztob\n" +
+            "ozub\n" +
+            "buzo\n" +
+            "obuz\n" +
+            "\n" +
+            "ekludvj\n" +
+            "mvduqyg\n" +
+            "oshaifnc\n" +
+            "\n" +
+            "spl\n" +
+            "pxfdzs\n" +
+            "sdaxtnp\n" +
+            "vycps\n" +
+            "\n" +
+            "ebouryktmjdzgvplcxnsf\n" +
+            "gusbnmjfdrzkocpevt\n" +
+            "hsntwefzrgckjpbumdvo\n" +
+            "njmibtducgrzfkoevps\n" +
+            "onmdsfvzjcghpubekrt\n" +
+            "\n" +
+            "tqjnvdhaixrmycz\n" +
+            "rzjmyvaqxwdtci\n" +
+            "maxkqyrtjvecdiz\n" +
+            "dvqtyjmzapxrci\n" +
+            "\n" +
+            "qevs\n" +
+            "lhi\n" +
+            "\n" +
+            "lsdvjgwtefqhpxuioykbanrz\n" +
+            "xrknyjoszeblifpwgtdvhqua\n" +
+            "jzedwghuofytaxsvnlqpbirk\n" +
+            "bqtvpkxjswlhfrudniezaygo\n" +
+            "doljnfphutrievzsyaxwkqbg\n" +
+            "\n" +
+            "abwjgxkvdpnzeofr\n" +
+            "mdtsfioyquzhecl\n" +
+            "\n" +
+            "vaemqpsif\n" +
+            "apsmjqkvfei\n" +
+            "pfvoeimsaq\n" +
+            "mfvosiapqer\n" +
+            "seipqlrmafv\n" +
+            "\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "\n" +
+            "ermiy\n" +
+            "lxfsezmruiqtk\n" +
+            "rdpeimv\n" +
+            "eihrbm\n" +
+            "\n" +
+            "tjuflnkszgwvxdmebphyoc\n" +
+            "fuhkmtopngvdjwsxczley\n" +
+            "mqidxojfsuhlyczwnepgkv\n" +
+            "\n" +
+            "srpnizhuwlcyf\n" +
+            "sfzoucpynwdrlhi\n" +
+            "uryawfnplshzci\n" +
+            "winflsruzphcy\n" +
+            "ypcfzriwulsnh\n" +
+            "\n" +
+            "hwfpuyn\n" +
+            "lahopnftdzywk\n" +
+            "ifywnph\n" +
+            "\n" +
+            "ujaewsblrkidv\n" +
+            "blarwevdu\n" +
+            "ewurmnldbva\n" +
+            "gudwablevr\n" +
+            "barezvwlud\n" +
+            "\n" +
+            "qjiayxckn\n" +
+            "jaxkqyi\n" +
+            "\n" +
+            "fwtkmvslieqpxz\n" +
+            "lgxsuihyvzpkfwqe\n" +
+            "zfwhekxlsqipv\n" +
+            "zseqdyvfiuxlkphwc\n" +
+            "\n" +
+            "hlcskadr\n" +
+            "askhrldc\n" +
+            "hscrldak\n" +
+            "asclurhdk\n" +
+            "\n" +
+            "wufilybhsndoc\n" +
+            "kerzjwxsm\n" +
+            "wztrsjgaemp\n" +
+            "\n" +
+            "z\n" +
+            "z\n" +
+            "t\n" +
+            "\n" +
+            "kyqod\n" +
+            "node\n" +
+            "\n" +
+            "fwj\n" +
+            "fjw\n" +
+            "fwjc\n" +
+            "fjw\n" +
+            "\n" +
+            "moxrkcugsipbt\n" +
+            "mbudctwkgpxys\n" +
+            "mscpkbgxijtou\n" +
+            "thcmxpqzkusvflnbg\n" +
+            "raktsoxugbpcm\n" +
+            "\n" +
+            "zegphbnmaysoj\n" +
+            "pyqniguvwtl\n" +
+            "\n" +
+            "yqrliu\n" +
+            "shgycqp\n" +
+            "cyuzfal\n" +
+            "xytbvmwo\n" +
+            "\n" +
+            "vcrehwzybmlgktdpqsxfja\n" +
+            "iltbarjdosnqzywfckxv\n" +
+            "\n" +
+            "h\n" +
+            "h\n" +
+            "h\n" +
+            "h\n" +
+            "h\n" +
+            "\n" +
+            "dwinekmthbcsjxvzpaq\n" +
+            "bjwzximactvdnehkqsp\n" +
+            "mezvnpkqtjwhdsbxcia\n" +
+            "\n" +
+            "cnoybehf\n" +
+            "ehcofnb\n" +
+            "eohvbcnfk\n" +
+            "\n" +
+            "dqorpjnciuzx\n" +
+            "drciqzpjuxon\n" +
+            "cqrxpuizjdno\n" +
+            "nozrqicpxdju\n" +
+            "cuoqipthngzsxjdr\n" +
+            "\n" +
+            "qgyditruzoh\n" +
+            "irzuqodgyht\n" +
+            "oyrhitzguqd\n" +
+            "gqzydihrout\n" +
+            "jozdyuitfgqhr\n" +
+            "\n" +
+            "iwcyv\n" +
+            "yn\n" +
+            "\n" +
+            "ubjkctshvlrxpeydigzao\n" +
+            "alesrovdczjxibukhgpty\n" +
+            "tlczbukeyahgnxjivmsrdpo\n" +
+            "\n" +
+            "vhstrpwzdy\n" +
+            "gokxabufm\n" +
+            "qinejclry\n" +
+            "\n" +
+            "iytqrcoubzj\n" +
+            "octzrujxylbq\n" +
+            "\n" +
+            "sphaldfykcm\n" +
+            "fvhmrcqyuapldt\n" +
+            "whclmpdfasy\n" +
+            "khiclymfdpa\n" +
+            "\n" +
+            "lsuybvitm\n" +
+            "bvymtlsi\n" +
+            "\n" +
+            "vpyhfrciuqjbotnzxgaed\n" +
+            "qnyugvbzphioejrctxd\n" +
+            "\n" +
+            "dflgwrkesnzatpu\n" +
+            "dawtpezlkgnrfsu\n" +
+            "kalswznfguptrde\n" +
+            "\n" +
+            "helzx\n" +
+            "exhl\n" +
+            "elxh\n" +
+            "\n" +
+            "cvw\n" +
+            "vwc\n" +
+            "wvc\n" +
+            "\n" +
+            "uwhyajzlbirfvxkeq\n" +
+            "fravqjzebiklxywhu\n" +
+            "zlajiqbuxkhfrwyve\n" +
+            "buwrxyfkjivqzlaeh\n" +
+            "\n" +
+            "kcdglshnzopaityux\n" +
+            "hagpclikonydtsuzx\n" +
+            "xaihknpoldtyscgzu\n" +
+            "\n" +
+            "m\n" +
+            "m\n" +
+            "u\n" +
+            "m\n" +
+            "\n" +
+            "l\n" +
+            "iw\n" +
+            "\n" +
+            "ujbfdygsm\n" +
+            "vprliowa\n" +
+            "\n" +
+            "knpurmwljsebzatdgxfyoi\n" +
+            "xynugrzebopclvwfktimd\n" +
+            "\n" +
+            "xguzneby\n" +
+            "kpfoidglmnwacvqr\n" +
+            "hntjge\n" +
+            "\n" +
+            "vlqmnj\n" +
+            "lmvqjn\n" +
+            "qlmvjn\n" +
+            "pjcqmnvla\n" +
+            "nmlvqj\n" +
+            "\n" +
+            "vfx\n" +
+            "fxv\n" +
+            "\n" +
+            "gmakihxfusr\n" +
+            "ikfmaregxhu\n" +
+            "\n" +
+            "hx\n" +
+            "hx\n" +
+            "hx\n" +
+            "xh\n" +
+            "\n" +
+            "duyqvncfr\n" +
+            "cvdgrfunqy\n" +
+            "vudchqyrnf\n" +
+            "urqfyncdv\n" +
+            "yvdfgqnrcu\n" +
+            "\n" +
+            "k\n" +
+            "u\n" +
+            "entb\n" +
+            "\n" +
+            "clkrqustv\n" +
+            "ktulqecsvr\n" +
+            "kucstqlvr\n" +
+            "\n" +
+            "iyp\n" +
+            "iy\n" +
+            "\n" +
+            "wqjkczvbdnst\n" +
+            "tdjnvcbszmkuwq\n" +
+            "kzctdnwvjbqs\n" +
+            "akjdqbsvtizncw\n" +
+            "xsptcqwvkbnjdz\n" +
+            "\n" +
+            "cxmhkotez\n" +
+            "tgvphemck\n" +
+            "\n" +
+            "hktgv\n" +
+            "hgtnvk\n" +
+            "htgkv\n" +
+            "kthvg\n" +
+            "kgjxtshv\n" +
+            "\n" +
+            "nma\n" +
+            "a\n" +
+            "vdacx\n" +
+            "\n" +
+            "hmktfpbidasnvlycezwgx\n" +
+            "gfnlsdotviazmecphyk\n" +
+            "dktoaczyshepnlfmgvi\n" +
+            "\n" +
+            "dcozuyl\n" +
+            "uzyoldkc\n" +
+            "zdoclyu\n" +
+            "\n" +
+            "sx\n" +
+            "yzl\n" +
+            "gw\n" +
+            "t\n" +
+            "g\n" +
+            "\n" +
+            "quald\n" +
+            "luhar\n" +
+            "acmkupwnl\n" +
+            "dlau\n" +
+            "adflyu\n" +
+            "\n" +
+            "kuveojiwzpnqxrfth\n" +
+            "zwprjfehqotuaxknv\n" +
+            "bcwevjkxitqzdupfhnor\n" +
+            "ertvljpqkhzfuwxgno\n" +
+            "\n" +
+            "z\n" +
+            "z\n" +
+            "z\n" +
+            "z\n" +
+            "m\n" +
+            "\n" +
+            "uvgtdaqwniflojepr\n" +
+            "aueorgvjiplnfdt\n" +
+            "efiaupjovrldtgn\n" +
+            "fjopvliuxtdeargn\n" +
+            "\n" +
+            "za\n" +
+            "az\n" +
+            "za\n" +
+            "\n" +
+            "tkdjofl\n" +
+            "ecugdyoxj\n" +
+            "\n" +
+            "xnjvdyarg\n" +
+            "vfdnryjxg\n" +
+            "zdrxvnpyjg\n" +
+            "agxyjdnrv\n" +
+            "xndrgjvyf\n" +
+            "\n" +
+            "pbwzmfjvgahx\n" +
+            "wvxfapzmhgjb\n" +
+            "bvtzaxkmjfgpuh\n" +
+            "\n" +
+            "pwg\n" +
+            "wgp\n" +
+            "gmwp\n" +
+            "\n" +
+            "jvypfm\n" +
+            "kh\n" +
+            "gzdot\n" +
+            "\n" +
+            "iwqsxlgrkhodme\n" +
+            "isgerxlmqdhkw\n" +
+            "esxwramnlqgbkidh\n" +
+            "\n" +
+            "q\n" +
+            "v\n" +
+            "\n" +
+            "ulphs\n" +
+            "hpsl\n" +
+            "yopzxlths\n" +
+            "lpsh\n" +
+            "\n" +
+            "cnfgljuxaths\n" +
+            "fljxhundg\n" +
+            "\n" +
+            "cpfehsduxbqarogjilt\n" +
+            "kqezudcilypbnjorfa\n" +
+            "zociruejldfnbvmaqp\n" +
+            "\n" +
+            "ewtfjax\n" +
+            "qpczkufbwxjhna\n" +
+            "wafjyxd\n" +
+            "\n" +
+            "yasjgukbqdfczhnm\n" +
+            "sghnfdbmyaczujqk\n" +
+            "adqksjybzfcugmnh\n" +
+            "qcjzyshkungdfmbra\n" +
+            "\n" +
+            "ymoj\n" +
+            "jyoc\n" +
+            "sor\n" +
+            "\n" +
+            "eingkycmfzspdj\n" +
+            "dcjomypeitkubf\n" +
+            "djcykfmpegi\n" +
+            "\n" +
+            "fvlyuzgebichdwopmtrkasj\n" +
+            "jctvsbugdmkoyearlphizfw\n" +
+            "tambvrwlupyiokdzshecgj\n" +
+            "plcbwedtzjsakmihuvoryg\n" +
+            "modcubahjtglyrszeivnwkp\n" +
+            "\n" +
+            "qced\n" +
+            "qwce\n" +
+            "xqdce\n" +
+            "hnqeslcpgz\n" +
+            "ecqj\n" +
+            "\n" +
+            "hcvapid\n" +
+            "vjzonw\n" +
+            "tvmf\n" +
+            "\n" +
+            "zfuvpqom\n" +
+            "evufopqmzb\n" +
+            "pvqfuomz\n" +
+            "oumynfvpqz\n" +
+            "\n" +
+            "toxpjkrndwahum\n" +
+            "wandohmrlpj\n" +
+            "dirajwolnhpem\n" +
+            "dhejacpomnrwf\n" +
+            "jwadhionprm\n" +
+            "\n" +
+            "rs\n" +
+            "rs\n" +
+            "\n" +
+            "vgxlwkqnm\n" +
+            "nvqwgxlmk\n" +
+            "qlgmkwdnxv\n" +
+            "qwxnmglkv\n" +
+            "xmqkvglnw\n" +
+            "\n" +
+            "vxyhlaod\n" +
+            "tqsnzejp\n" +
+            "\n" +
+            "kosjlemhcq\n" +
+            "rcvuyi\n" +
+            "gwvzcrdbntx\n" +
+            "\n" +
+            "xgevmlpzodtrwnsckybf\n" +
+            "grwbizsxokcneftlydm\n" +
+            "\n" +
+            "puzrmhtfygawovsqnlijdckb\n" +
+            "tkuwjnadhlqeopmcgzifbrsy\n" +
+            "loyipshkjqtezcwdgfanmubr\n" +
+            "dpfnjwqayismrtlhecougkzb\n" +
+            "kzpothwfsucqmadbrgiynjl\n" +
+            "\n" +
+            "wrcmlnibykxeagqjtshudf\n" +
+            "ouplqxmbrtygnziajedfkwvc\n" +
+            "\n" +
+            "yij\n" +
+            "ibjw\n" +
+            "jiy\n" +
+            "zcjri\n" +
+            "\n" +
+            "vkil\n" +
+            "ilvk\n" +
+            "lkvi\n" +
+            "vlki\n" +
+            "\n" +
+            "kpwaqbcxng\n" +
+            "gifcsrab\n" +
+            "rfucgbah\n" +
+            "dgabcst\n" +
+            "\n" +
+            "fxliwtghcyombq\n" +
+            "idrgjnkuvq\n" +
+            "\n" +
+            "koprlgzyhsuvtn\n" +
+            "nlrikpyzsogu\n" +
+            "jfpzckoulrgynmq\n" +
+            "\n" +
+            "spqmyr\n" +
+            "apsyrtmv\n" +
+            "srmyzkp\n" +
+            "\n" +
+            "dujinlbgxvkch\n" +
+            "lcqjpdfokz\n" +
+            "dtjkcl\n" +
+            "freljdack\n" +
+            "cmowldkj\n" +
+            "\n" +
+            "jvdg\n" +
+            "vfdgj\n" +
+            "jdnvg\n" +
+            "jgvxd\n" +
+            "gvjd\n" +
+            "\n" +
+            "ugdfv\n" +
+            "fdquv\n" +
+            "ctduipvbsxf\n" +
+            "vuzdf\n" +
+            "\n" +
+            "sqi\n" +
+            "is\n" +
+            "isq\n" +
+            "isuf\n" +
+            "sip\n" +
+            "\n" +
+            "uyxbezalrngis\n" +
+            "gxuefoarblp\n" +
+            "\n" +
+            "m\n" +
+            "m\n" +
+            "m\n" +
+            "m\n" +
+            "m\n" +
+            "\n" +
+            "lmp\n" +
+            "ml\n" +
+            "\n" +
+            "gonkbqyrefwvixc\n" +
+            "gbqflrvkoceuxywin\n" +
+            "aygocmixqnlfrwvekb\n" +
+            "qunfkgxoyivbtrwace\n" +
+            "wedjqygbncorizfxkv\n" +
+            "\n" +
+            "xjc\n" +
+            "cj\n" +
+            "xcj\n" +
+            "jc\n" +
+            "rkjsc\n" +
+            "\n" +
+            "w\n" +
+            "qran\n" +
+            "mdwc\n" +
+            "\n" +
+            "mzbiqulharef\n" +
+            "dhinazluftgsebkqr\n" +
+            "abruzlvfqehim\n" +
+            "ixeuzbhafqrl\n" +
+            "qralhuebzif\n" +
+            "\n" +
+            "jcovwb\n" +
+            "vulyo\n" +
+            "\n" +
+            "xubwpgcjhlzirdtfeomkya\n" +
+            "dfwixhjezgpotyucblmakvr\n" +
+            "wlgyxukpbhctjfardeimzo\n" +
+            "tckapyfrgmjxzidhbowelu\n" +
+            "dwozhugpeybrftmcljxiak\n" +
+            "\n" +
+            "jxsdk\n" +
+            "dxjs\n" +
+            "\n" +
+            "cspwbtofzqnahxlj\n" +
+            "psounwixqlakvtczj\n" +
+            "jcwaxqntspozblhg\n" +
+            "\n" +
+            "siztpkayg\n" +
+            "tayzgspki\n" +
+            "kpygiztas\n" +
+            "\n" +
+            "bedphz\n" +
+            "pbhdez\n" +
+            "cebxzpdhn\n" +
+            "dbpezwh\n" +
+            "\n" +
+            "clzrw\n" +
+            "uzylrc\n" +
+            "\n" +
+            "tqfslmubxcnvzraejwhgop\n" +
+            "mgtfqnboerlzpuwhjcavsx\n" +
+            "aqstpzxbvocfrmuelhnjwg\n" +
+            "\n" +
+            "i\n" +
+            "wzyi\n" +
+            "iukygez\n" +
+            "og\n" +
+            "ndxsrmjc\n" +
+            "\n" +
+            "fqeubcrvxmaynztkod\n" +
+            "yzlbofqwtxivgsjrhnu\n" +
+            "\n" +
+            "ghtnwdbezoycqa\n" +
+            "dqrbtjmhag\n" +
+            "ltqgdhba\n" +
+            "\n" +
+            "kcwgtvjpaqsh\n" +
+            "kwmsngqpcthvja\n" +
+            "eswvlkzhgqtjoapc\n" +
+            "dahbuswyjfgicxrtkqp\n" +
+            "\n" +
+            "fgbon\n" +
+            "funwodbgx\n" +
+            "gnofe\n" +
+            "icnhgmofl\n" +
+            "gavfonu\n" +
+            "\n" +
+            "adopqhjmsvytrcu\n" +
+            "qourdcamhtpjvys\n" +
+            "sdbqmyjchfutvpoa\n" +
+            "yjuadmtsohqvwcpl\n" +
+            "\n" +
+            "ojvxlcpqiwyzhk\n" +
+            "vqxyemrh\n" +
+            "bvyqhx\n" +
+            "\n" +
+            "mqjotgpxyewuafib\n" +
+            "xpbfegwyujiqaomt\n" +
+            "xiqmojuepgwayftb\n" +
+            "auoxjeypmiqbwtfg\n" +
+            "\n" +
+            "sd\n" +
+            "sd\n" +
+            "cds\n" +
+            "sid\n" +
+            "\n" +
+            "x\n" +
+            "x\n" +
+            "xwl\n" +
+            "x\n" +
+            "x\n" +
+            "\n" +
+            "xpswktynofdr\n" +
+            "dltjaiv\n" +
+            "utldv\n" +
+            "\n" +
+            "yzqjaxf\n" +
+            "xfzlj\n" +
+            "xjufz\n" +
+            "\n" +
+            "hqwscjn\n" +
+            "jcvhswq\n" +
+            "\n" +
+            "zoulxteni\n" +
+            "xoneultzi\n" +
+            "izutonlex\n" +
+            "elznxotiu\n" +
+            "egutoxilznj\n" +
+            "\n" +
+            "qbtpni\n" +
+            "ipbqtn\n" +
+            "btipnq\n" +
+            "\n" +
+            "dulavqjpwr\n" +
+            "qwpbudrji\n" +
+            "rojqxkzeymnhcwtfs\n" +
+            "irvadlgjwqb\n" +
+            "\n" +
+            "vtpledhq\n" +
+            "lsdxhet\n" +
+            "\n" +
+            "jcrb\n" +
+            "rcjb\n" +
+            "crbj\n" +
+            "\n" +
+            "cdz\n" +
+            "d\n" +
+            "d\n" +
+            "d\n" +
+            "\n" +
+            "dcb\n" +
+            "bdwlc\n" +
+            "cbd\n" +
+            "\n" +
+            "qgash\n" +
+            "j\n" +
+            "nfrm\n" +
+            "f\n" +
+            "\n" +
+            "sxruehldbwv\n" +
+            "ewvbdrhulsx\n" +
+            "xsedhluwvbr\n" +
+            "\n" +
+            "egndobvljxfwpktuhir\n" +
+            "xtwbvkreilhfgopqa\n" +
+            "\n" +
+            "nbxtozmgwhjk\n" +
+            "gditmuxlpvoqjz\n" +
+            "ngxjtozm\n" +
+            "\n" +
+            "grpmyidhnlbazko\n" +
+            "yfbutdmplghn\n" +
+            "pgmdhnylub\n" +
+            "\n" +
+            "oknu\n" +
+            "kuon\n" +
+            "nuziok\n" +
+            "kguno\n" +
+            "\n" +
+            "fjnqebx\n" +
+            "xqfnbje\n" +
+            "fenjxqb\n" +
+            "bexnqjf\n" +
+            "fjxqben\n" +
+            "\n" +
+            "ngcemiwbaovjtkhyq\n" +
+            "bckqlsfjitmxnruad\n" +
+            "\n" +
+            "hj\n" +
+            "hj\n" +
+            "jh\n" +
+            "\n" +
+            "drlmsfpytkwogba\n" +
+            "ayuprtwkldgmsf\n" +
+            "djgirkwhnfvsmaylpq\n" +
+            "arkdwlmpsfxgy\n" +
+            "\n" +
+            "iuxen\n" +
+            "akunxbhvye\n" +
+            "mngesfotdjq\n" +
+            "\n" +
+            "bzjln\n" +
+            "bljnz\n" +
+            "\n" +
+            "rcwqlu\n" +
+            "wqclut\n" +
+            "clkqusw\n" +
+            "qwluc\n" +
+            "qlmcwruz\n" +
+            "\n" +
+            "pvuehjntwmldofszca\n" +
+            "wblhcravqutdzn\n" +
+            "wdclvhaunxtqz\n" +
+            "nlgukahzvitwqdc\n" +
+            "uwzanhdvltc\n" +
+            "\n" +
+            "gnvwedmsypzkfiucxj\n" +
+            "wdgiyeuzvcjmksfpxn\n" +
+            "ximnkbvgjezdhsfuwypc\n" +
+            "gxwjapiszkceumnyfvd\n" +
+            "zmyvkwnesfpjucdxig\n" +
+            "\n" +
+            "gjfcieanskuxp\n" +
+            "kjgcfpxniae\n" +
+            "pjaidcfxgekn\n" +
+            "afnmjcpixekg\n" +
+            "\n" +
+            "ftkpsec\n" +
+            "kjustapc\n" +
+            "gpbesktc\n" +
+            "tkspqc\n" +
+            "\n" +
+            "ugstoxvclf\n" +
+            "flvmoicgx\n" +
+            "jeykgovlfznxc\n" +
+            "ixfotglvwcqd\n" +
+            "\n" +
+            "mexhldbpjou\n" +
+            "mdjlupeobx\n" +
+            "\n" +
+            "dhlfxywnburezpi\n" +
+            "dciqxmzpkrgtehun\n" +
+            "\n" +
+            "bsquyvomwxfatdehkz\n" +
+            "jyfgcwspdaonrilekq\n" +
+            "\n" +
+            "g\n" +
+            "f\n" +
+            "jps\n" +
+            "jtxi\n" +
+            "rvydkw\n" +
+            "\n" +
+            "cudmjlhxy\n" +
+            "hkgyjrsdwilxubv\n" +
+            "etlxjhyud\n" +
+            "halydxucj\n" +
+            "hayuxljd\n" +
+            "\n" +
+            "byxiq\n" +
+            "jiscfwzd\n" +
+            "reitu\n" +
+            "in\n" +
+            "\n" +
+            "qhtgwkndxcoijmpa\n" +
+            "mkhigcoyrwqbdjvpxa\n" +
+            "ihkmpdqoajcxwg\n" +
+            "\n" +
+            "cel\n" +
+            "cle\n" +
+            "lec\n" +
+            "\n" +
+            "jbtpqhikyfurmcdv\n" +
+            "eoxasngz\n" +
+            "\n" +
+            "qlbnc\n" +
+            "nqcldb\n" +
+            "mqwynlc\n" +
+            "\n" +
+            "izufhegmnvqsx\n" +
+            "qsnvixfeuhgybz\n" +
+            "\n" +
+            "znqhkcpsbeja\n" +
+            "qjiucbtvzmwns\n" +
+            "\n" +
+            "ryxwzf\n" +
+            "xcfrwv\n" +
+            "ufapnmrtlgwesxdibo\n" +
+            "xkwqrhf\n" +
+            "\n" +
+            "b\n" +
+            "b\n" +
+            "\n" +
+            "haplgzidj\n" +
+            "dpziajghl\n" +
+            "ziaphlgjd\n" +
+            "izdpghajl\n" +
+            "\n" +
+            "bicvhyur\n" +
+            "buxvichyr\n" +
+            "bigrchvyu\n" +
+            "\n" +
+            "ksbucalv\n" +
+            "sbmxtaklc\n" +
+            "skalcg\n" +
+            "lcnikas\n" +
+            "yfzjcslhaoke\n" +
+            "\n" +
+            "yfjdnzh\n" +
+            "elp\n" +
+            "\n" +
+            "d\n" +
+            "k\n" +
+            "t\n" +
+            "d\n" +
+            "\n" +
+            "dctvqjfyxbzkhmiwgp\n" +
+            "dxzlfwbcimgtkv\n" +
+            "cfvzxbigkwtmd\n" +
+            "\n" +
+            "bcgklzedjqyrxsnaowu\n" +
+            "dcbarwmzouejqklnsgyx\n" +
+            "rloyjkanqzdecgubxsw\n" +
+            "\n" +
+            "pvslrgbcwdkqminxzeufa\n" +
+            "tqlkonvaxyjfwcdehbz\n" +
+            "\n" +
+            "eyjbotcnwpixkrdqzhslugfvm\n" +
+            "vkbehwqfrlmgoctxsjuzdyp\n" +
+            "qbcfoxhywmdetpvjklrgsuz\n" +
+            "rgpmjdwxbhcsqykozevluft\n" +
+            "\n" +
+            "mbqdivuazsljnhgpc\n" +
+            "nozculmjkhgdivpsebq\n" +
+            "dyxwzujgsqlpmcvhbni\n" +
+            "hqvnczbgplkdsjimu\n" +
+            "sujqghlvrpmbinczda\n" +
+            "\n" +
+            "kqrwhcjs\n" +
+            "wdqrjshk\n" +
+            "\n" +
+            "uzdmsfrklnce\n" +
+            "khvcpgy\n" +
+            "\n" +
+            "rtnuvbi\n" +
+            "xsgwtozba\n" +
+            "ubftpnvye\n" +
+            "\n" +
+            "wylvbjzdqn\n" +
+            "zbvnlwyjdq\n" +
+            "qdbvwnyzjl\n" +
+            "jznlwvbqyd\n" +
+            "\n" +
+            "nbi\n" +
+            "nbdxupk\n" +
+            "ybqmzawscg\n" +
+            "ljtfineb\n" +
+            "\n" +
+            "yavmstjkiczf\n" +
+            "kvsiaytfczmj\n" +
+            "fyitcazpkjmvs\n" +
+            "maicfytjzvsk\n" +
+            "vizyamskftjc\n" +
+            "\n" +
+            "kluwomaznivpjgdt\n" +
+            "amevngiortudzpjwkl\n" +
+            "pktnivmdlgojzacuw\n" +
+            "lwtoxnpdfjyuigkzahmv\n" +
+            "vtkinjumlwdpzoga\n" +
+            "\n" +
+            "hujbrpgdklecmsaoqwtnzv\n" +
+            "whpltrjfxksazvquy\n" +
+            "wplsvkirhaztuqj\n" +
+            "\n" +
+            "jzp\n" +
+            "jqczp\n" +
+            "cjzp\n" +
+            "pwilzj\n" +
+            "pzyj\n" +
+            "\n" +
+            "xuldhjrcqtsanfwembigpzo\n" +
+            "ydnuzisxprevwo\n" +
+            "pixwdounzrske\n" +
+            "srnpuezwoxid\n" +
+            "\n" +
+            "zc\n" +
+            "pjmzcv\n" +
+            "uzacir\n" +
+            "\n" +
+            "stng\n" +
+            "hsa\n" +
+            "wpfho\n" +
+            "fgwyzl\n" +
+            "iuvjcbmkqrx\n" +
+            "\n" +
+            "isygk\n" +
+            "gsiky\n" +
+            "sxgyik\n" +
+            "kgsiy\n" +
+            "yksgi\n" +
+            "\n" +
+            "a\n" +
+            "a\n" +
+            "a\n" +
+            "ad\n" +
+            "a\n" +
+            "\n" +
+            "d\n" +
+            "d\n" +
+            "wamdyvkbsf\n" +
+            "\n" +
+            "nuboltsfmqidev\n" +
+            "ietomdsql\n" +
+            "\n" +
+            "hjgmusbnr\n" +
+            "rsmgbnuj\n" +
+            "njrmbgus\n" +
+            "usbmnrgj\n" +
+            "\n" +
+            "yhsicqowdx\n" +
+            "hygjsrpixwqkdnzo\n" +
+            "yiusdxwohq\n" +
+            "idfqswxhyco\n" +
+            "iwqshoduyx\n" +
+            "\n" +
+            "whavqbzpcxt\n" +
+            "lbfpqecim\n" +
+            "kboydgjnu\n" +
+            "\n" +
+            "lyrdtfe\n" +
+            "yrtmflvq\n" +
+            "tqrfyl\n" +
+            "\n" +
+            "ol\n" +
+            "ol\n" +
+            "ol\n" +
+            "lo\n" +
+            "lo\n" +
+            "\n" +
+            "obmulhyjxtf\n" +
+            "nmhxvuqz\n" +
+            "smdhgpkxiwaer\n" +
+            "zxhlqm\n" +
+            "\n" +
+            "s\n" +
+            "s\n" +
+            "s\n" +
+            "s\n" +
+            "vs\n" +
+            "\n" +
+            "homqjfrnuptgvkdewsbx\n" +
+            "ezyukvxogipthdwqrmjf\n" +
+            "mtohlvdkujgqwcnpxfre\n" +
+            "\n" +
+            "ah\n" +
+            "a\n" +
+            "\n" +
+            "l\n" +
+            "l\n" +
+            "l\n" +
+            "\n" +
+            "pelqakfsnm\n" +
+            "vathjmflkpnq\n" +
+            "\n" +
+            "dfzo\n" +
+            "dzga\n" +
+            "dz\n" +
+            "gziwd\n" +
+            "jzd\n" +
+            "\n" +
+            "tfnkdivuyoszbxrpwg\n" +
+            "ixgsfzodtrkuwnbvmpy\n" +
+            "gnwzjkiopsxrbyfutd\n" +
+            "wzftgxkdjopruisbyn\n" +
+            "gqfsekcbnzuxwridtypo\n" +
+            "\n" +
+            "dpoy\n" +
+            "ydpo\n" +
+            "\n" +
+            "bvfpielj\n" +
+            "lxfb\n" +
+            "flb\n" +
+            "\n" +
+            "ntsorhklpjawxvgc\n" +
+            "wnribsgpflzcyho\n" +
+            "nmupwhrlsbgefocq\n" +
+            "\n" +
+            "nwfxuvazbsp\n" +
+            "txazjnufwb\n" +
+            "hauewxfbnz\n" +
+            "\n" +
+            "rdjzk\n" +
+            "xghiyalv\n" +
+            "\n" +
+            "sjgxtuvlkwadhfpn\n" +
+            "tfwxrckgljdushoa\n" +
+            "lawsktgxfchjdu\n" +
+            "\n" +
+            "omslwvcyup\n" +
+            "gpluqhjos\n" +
+            "uzritolpan\n" +
+            "beluhoydp\n" +
+            "\n" +
+            "ewxhvcugaqdmlitps\n" +
+            "gpusmrbqhidewltkvaxc\n" +
+            "lvmicwtagdxshueqp\n" +
+            "shcgeaupqidvmlxwt\n" +
+            "\n" +
+            "nhsy\n" +
+            "lnxwvgzyi\n" +
+            "ysn\n" +
+            "\n" +
+            "m\n" +
+            "a\n" +
+            "m\n" +
+            "\n" +
+            "decjihxk\n" +
+            "idkexjch\n" +
+            "\n" +
+            "if\n" +
+            "wd\n" +
+            "r\n" +
+            "o\n" +
+            "\n" +
+            "bxsmk\n" +
+            "bqlmnz\n" +
+            "m\n" +
+            "wrohm\n" +
+            "paudcimf\n" +
+            "\n" +
+            "agu\n" +
+            "causg\n" +
+            "aui\n" +
+            "meauxtk\n" +
+            "\n" +
+            "wdqfn\n" +
+            "nfqd\n" +
+            "\n" +
+            "oxy\n" +
+            "chbwyur\n" +
+            "\n" +
+            "zkvujiot\n" +
+            "tkvjzui\n" +
+            "\n" +
+            "qnhdovxtmslkgarbcyu\n" +
+            "stgdnovqhwkraflmxcbuy\n" +
+            "dabthokserxpmgqnyucvl\n" +
+            "vnroakbqduclgxysthm\n" +
+            "rcaqyztgmlnkdubshvox\n" +
+            "\n" +
+            "lacj\n" +
+            "lcj\n" +
+            "ajlc\n" +
+            "lcj\n" +
+            "vjlfc\n" +
+            "\n" +
+            "olbatqnghkcvp\n" +
+            "aghctqklpbovn\n" +
+            "kcrbvptohlngaq\n" +
+            "\n" +
+            "swrginfxypvcjh\n" +
+            "xcswphgnryjvi\n" +
+            "grwvishxeqjcnyp\n" +
+            "zgvrwxynpcjihs\n" +
+            "gvcinwxjfphyrs\n" +
+            "\n" +
+            "ey\n" +
+            "y\n" +
+            "cy\n" +
+            "ye\n" +
+            "luy\n" +
+            "\n" +
+            "voiyjclzmxdkswr\n" +
+            "mwgqrazvf\n" +
+            "wrvatzm\n" +
+            "\n" +
+            "ktpxlhbq\n" +
+            "blkxtpqh\n" +
+            "tlkqbpxh\n" +
+            "\n" +
+            "vst\n" +
+            "v\n" +
+            "vg\n" +
+            "v\n" +
+            "v\n" +
+            "\n" +
+            "mzeqwvhcylausk\n" +
+            "wlhkausvzecq\n" +
+            "qcvelzautgpwksh\n" +
+            "wemlushzqcvak\n" +
+            "\n" +
+            "lhmivroaxdcnuq\n" +
+            "vgdlqowpfsmhzc\n" +
+            "\n" +
+            "wnvkytcj\n" +
+            "kvntwbcjdy\n" +
+            "tnjwyvck\n" +
+            "nhkcsytjwv\n" +
+            "cyvftjwnk\n" +
+            "\n" +
+            "vas\n" +
+            "q\n" +
+            "kqu\n" +
+            "k\n" +
+            "\n" +
+            "utzilqesjybogr\n" +
+            "sizlcdkpqwhtuer\n" +
+            "\n" +
+            "y\n" +
+            "yep\n" +
+            "oymj\n" +
+            "yt\n" +
+            "y\n" +
+            "\n" +
+            "rwpg\n" +
+            "pemxwg\n" +
+            "jdcpau\n" +
+            "\n" +
+            "fka\n" +
+            "kfa\n" +
+            "akf\n" +
+            "akf\n" +
+            "\n" +
+            "kfgwtbvhiqrouzsyc\n" +
+            "zrufhmcbqklwdygvts\n" +
+            "bgscqwfrvzkhyuxt\n" +
+            "vsfwgzkybtcuhpqr\n" +
+            "zsrqufnkyhgcvtwb\n" +
+            "\n" +
+            "otdzwrhcglfsqxjnmabkevyiup\n" +
+            "kfrvlhtdxypczeqoigbwunajsm\n" +
+            "\n" +
+            "kwruhzno\n" +
+            "renu\n" +
+            "rwscujhnx\n" +
+            "znrmwktu\n" +
+            "lnuavfbgqrd\n" +
+            "\n" +
+            "cmjfuhgosqvtdra\n" +
+            "qkbrnvgcfazwduh\n" +
+            "\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "e\n" +
+            "\n" +
+            "mvxfoken\n" +
+            "hdmgf\n" +
+            "rbfuysatlj\n" +
+            "\n" +
+            "dhkibzgqsfnjwoeay\n" +
+            "kzswqguicporhamnxy\n" +
+            "\n" +
+            "lizspt\n" +
+            "swfrz\n" +
+            "pzus\n" +
+            "\n" +
+            "xifpbzlhwjyrdaekcu\n" +
+            "rgdejwzxthovbplyki\n" +
+            "fnepivxrjkwbydhzl\n" +
+            "ledhzkpjsxwyiurb\n" +
+            "zeyrmlhwqijkxbdp\n" +
+            "\n" +
+            "pegvkaihzo\n" +
+            "vehiuab\n" +
+            "\n" +
+            "mltync\n" +
+            "ugwncvopytlqfmk\n" +
+            "rlcmytn\n" +
+            "zlcymtn\n" +
+            "\n" +
+            "zejdqact\n" +
+            "ihmsftgxqnzew\n" +
+            "rubvqtpeolky\n" +
+            "\n" +
+            "rwfuaothcpseybqjinlkzmgdx\n" +
+            "djxnrvwiplcoyeusgqkfahtzbm\n" +
+            "dzkxonbclysgajhpiterfwmuq\n" +
+            "utsphwyogxrnmeazdjiqclfkb\n" +
+            "\n" +
+            "elrg\n" +
+            "rlge\n" +
+            "jsvelrkg\n" +
+            "\n" +
+            "timlpywofghdcqn\n" +
+            "odywtpghrlfnm\n" +
+            "lpgwydkfmnvhtos\n" +
+            "oghfxvpltjwydmn\n" +
+            "wnflgohpymdt\n" +
+            "\n" +
+            "dbvwknom\n" +
+            "qcgnsxdjwmaz\n" +
+            "fdwtnmi\n" +
+            "\n" +
+            "farjis\n" +
+            "jsfria\n" +
+            "fsraijp\n" +
+            "ejsfari\n" +
+            "fsiajr\n" +
+            "\n" +
+            "czrjbswgqdxl\n" +
+            "iyunqrkwt\n" +
+            "rnhqmvwf\n" +
+            "\n" +
+            "gemcvijdrtalbyhs\n" +
+            "bgmtfdewikrcy\n" +
+            "rdeymcgitb\n" +
+            "ecbftpidrgmy\n" +
+            "\n" +
+            "afzebldqucmvjr\n" +
+            "auoenmzbixkljyv\n" +
+            "\n" +
+            "symzkwifnbql\n" +
+            "kyiqfslvzmntb\n" +
+            "symbkfrilgqzdo\n" +
+            "\n" +
+            "syz\n" +
+            "zsvr\n" +
+            "djz\n" +
+            "oeftzw\n" +
+            "\n" +
+            "oqciyjnbzgptes\n" +
+            "jesntxqidopgvcy\n" +
+            "hnoipetqcgsyj\n" +
+            "\n" +
+            "kxmbzruqhpvfyjgdtilwno\n" +
+            "xmbokfdyjirqgtpuhlznvw\n" +
+            "\n" +
+            "lnpyeoixb\n" +
+            "oq\n" +
+            "sjor\n" +
+            "osr\n" +
+            "\n" +
+            "ubiqcsmpgxonea\n" +
+            "nqiovhbmcpazs\n" +
+            "minqobswpac\n" +
+            "\n" +
+            "fac\n" +
+            "cfav\n" +
+            "lacf\n" +
+            "\n" +
+            "euh\n" +
+            "hue\n" +
+            "ehu\n" +
+            "ehu\n" +
+            "\n" +
+            "pibzno\n" +
+            "nipzbo\n" +
+            "nopibz\n" +
+            "zpobni\n" +
+            "\n" +
+            "jefntxhzgiawm\n" +
+            "zaewgxrqhnotmj\n" +
+            "\n" +
+            "oiywejqmnbrpgvth\n" +
+            "pwdosarivngeyjtxz\n" +
+            "\n" +
+            "qzsldmcgwfkoxbvn\n" +
+            "ojtlieuqdkyxrwapsfhb\n" +
+            "\n" +
+            "njlqgd\n" +
+            "jqnldg\n" +
+            "\n" +
+            "xokdpgrluybv\n" +
+            "golybpvudkxr\n" +
+            "oykdngblrpvxu\n" +
+            "rgdxykbopvlu\n" +
+            "gkbuporvldxy\n" +
+            "\n" +
+            "byirmfuqnh\n" +
+            "bfytmnrhq\n" +
+            "nufrmbhqy\n" +
+            "\n" +
+            "bwlakexy\n" +
+            "waxblyke\n" +
+            "\n" +
+            "iwcpgbtrvkxozhafsjl\n" +
+            "ajrgblxfiwovzhspckt\n" +
+            "svrbkcwlafjihptxzog\n" +
+            "pagstcijkvxlfzrbohw\n" +
+            "klvzrxishwatjfcpgbo\n" +
+            "\n" +
+            "pyldrtzakimus\n" +
+            "ytahudmilqpsrkz\n" +
+            "azmpuikdystwrl\n" +
+            "\n" +
+            "p\n" +
+            "p\n" +
+            "p\n" +
+            "p\n" +
+            "pqfn\n" +
+            "\n" +
+            "fnryzjdcxt\n" +
+            "arnbxcjezod\n" +
+            "\n" +
+            "axhwfgyodzb\n" +
+            "dxvyzwhaogfb\n" +
+            "bwyfzavodgpxh\n" +
+            "tbxqnygadwofzh\n" +
+            "wzgbyofxahd\n" +
+            "\n" +
+            "i\n" +
+            "xiq\n" +
+            "i\n" +
+            "\n" +
+            "tbzocxvneisgudfh\n" +
+            "qvawchrnoftxeisubgz\n" +
+            "nfvitxeguohcsjzb\n" +
+            "hgtmdibvsnfcpzlxuoe\n" +
+            "\n" +
+            "typrmhdbfokg\n" +
+            "rmbdtgaypkhf\n" +
+            "fdgntmrapkbxhy\n" +
+            "rhzyukfemsdctgpb\n" +
+            "gfdyjmrnhpbkt\n" +
+            "\n" +
+            "ecqofgx\n" +
+            "egxocf\n" +
+            "\n" +
+            "lbajxmytnvcu\n" +
+            "cyxatbeum\n" +
+            "maefidcuybthx\n" +
+            "cmdibxtayu\n" +
+            "\n" +
+            "iucbxarvygmdfh\n" +
+            "srvbufihcg\n" +
+            "wznvrgcohui\n" +
+            "fuvbiretchg\n" +
+            "jgfuahicdryv\n" +
+            "\n" +
+            "ibqmhrkjsxozwep\n" +
+            "cqgyubldnzxvarhtwmk\n" +
+            "\n" +
+            "sohwyfmrgqdpntjeuizcvb\n" +
+            "cjufwgzmlnryxbdsopiahtqev\n" +
+            "ektzudfyhsqgjmpcnbowvri\n" +
+            "chqwbidoprfseyntzugjmv\n" +
+            "\n" +
+            "tbjxvwd\n" +
+            "bvdwit\n" +
+            "cvdmwtob\n" +
+            "\n" +
+            "cnqiytpemfksgwrdaojhul\n" +
+            "bqltdfpmukxshvgaw\n" +
+            "\n" +
+            "pelvkjuxoz\n" +
+            "jcukzolyxvphnd\n" +
+            "kvjzxpolu\n" +
+            "zxjuspkolv\n" +
+            "zakuxvolpj\n" +
+            "\n" +
+            "ugtfxis\n" +
+            "ftxugs\n" +
+            "tusgfx\n" +
+            "gfxsut\n" +
+            "stguxf\n" +
+            "\n" +
+            "pnwhy\n" +
+            "rlzvtbgjcuioe\n" +
+            "hksxfq\n" +
+            "kdsyqf\n" +
+            "\n" +
+            "oq\n" +
+            "jb\n" +
+            "\n" +
+            "aoprdcixzkjbygw\n" +
+            "ikogwradbyzjcpx\n" +
+            "xijpaodkzygbrwc\n" +
+            "pgodkyziwbrxjca\n" +
+            "djxrgwicbpozyak\n" +
+            "\n" +
+            "girlmkueqz\n" +
+            "mrzlgiequk\n" +
+            "roequmigklz\n" +
+            "zurmlegqki\n" +
+            "rgizumkvelq\n" +
+            "\n" +
+            "ptxuemkwrcnifd\n" +
+            "euakfprntx\n" +
+            "nperfutxk\n" +
+            "rtnufepxk\n" +
+            "\n" +
+            "irseqtuvchjbkd\n" +
+            "ejtvrdsqcbihuk\n" +
+            "rvucbqenlsjkti\n" +
+            "btirjqecsvkhu\n" +
+            "skrtuevijcqb\n" +
+            "\n" +
+            "dvoamzlskeqncipfjrxy\n" +
+            "yqebxdztokampnfhvrcsjl\n" +
+            "cpuoyxeqsnkzdawjg\n" +
+            "\n" +
+            "wvgeuabrofsthzj\n" +
+            "zvutemgshowckqb\n" +
+            "uazeiytghwvbsxo\n" +
+            "\n" +
+            "rsunhbyz\n" +
+            "uyhzns\n" +
+            "\n" +
+            "qcmdnyupvhzsobjfwrgaxkte\n" +
+            "qvjemnkfprcuwhdabxotsy\n" +
+            "sdmhnqwpctujykofbexrav\n" +
+            "ywqedptrcfkmjuavbhxnos\n" +
+            "\n" +
+            "b\n" +
+            "bwd\n" +
+            "orynghs\n" +
+            "cdb\n" +
+            "\n" +
+            "xcafnlipok\n" +
+            "jybqnohclf\n" +
+            "\n" +
+            "ibdktq\n" +
+            "kqbitd\n" +
+            "tbqifdk\n" +
+            "knbtdiq\n" +
+            "\n" +
+            "ukozvn\n" +
+            "cgrbylzv\n" +
+            "\n" +
+            "vbrmxepqhgwcjynkf\n" +
+            "mnjwgbcvepfhyrxukq\n" +
+            "fwjrgvxqumyenpchb\n" +
+            "cnbpegqxvmyhjrfw\n" +
+            "fvcxweqgmsyjrbnph\n" +
+            "\n" +
+            "kevsifhanlxmu\n" +
+            "czquwbjir\n" +
+            "\n" +
+            "dpubgykrv\n" +
+            "ghmucyeozf\n" +
+            "\n" +
+            "vkuzbypfxadsirnh\n" +
+            "gqoackjuzfshxinrydv\n" +
+            "\n" +
+            "qfxjpy\n" +
+            "czgqfeolsjypn\n" +
+            "ufrqdjpy\n" +
+            "\n" +
+            "djahmfvl\n" +
+            "mdhal\n" +
+            "kxpaedhm\n" +
+            "\n" +
+            "itjqk\n" +
+            "jzafmlsur\n" +
+            "kvcjog\n" +
+            "\n" +
+            "tabhwlx\n" +
+            "lcawzb\n" +
+            "bislwa\n" +
+            "wsbal\n" +
+            "ybegoulqwmva\n" +
+            "\n" +
+            "sailcfhebp\n" +
+            "bsaedhut\n" +
+            "\n" +
+            "vybgqotrufexkcmwhspd\n" +
+            "exdulgqysmfknhtpcbov\n" +
+            "\n" +
+            "aw\n" +
+            "aw\n" +
+            "wa\n" +
+            "aw\n" +
+            "aw\n" +
+            "\n" +
+            "koacmwyvusxzrgdnb\n" +
+            "agbsuzydwnocrvxmk\n" +
+            "zsrkgbuvnomcydxaw\n" +
+            "ncokzmrgvbsayxwud\n" +
+            "\n" +
+            "kcowqjmbxhrfgiuvsndtp\n" +
+            "ucxghrwbdjkqvtmfpsoni\n" +
+            "bnkmhqvufpywijogxcsdt\n" +
+            "\n" +
+            "nhkvbro\n" +
+            "ejxftohulgqkbd\n" +
+            "obhk\n" +
+            "azkhnypwbo\n" +
+            "hbovk\n" +
+            "\n" +
+            "rxkfcenp\n" +
+            "pfrxke\n" +
+            "\n" +
+            "cirvlkbahnxt\n" +
+            "azjhxnvrkcig\n" +
+            "\n" +
+            "wbjkcg\n" +
+            "kgbjw\n" +
+            "\n" +
+            "z\n" +
+            "z\n" +
+            "z\n" +
+            "z\n" +
+            "\n" +
+            "untoxhwspyi\n" +
+            "cahnbvudygp\n" +
+            "yfhspunexm\n" +
+            "\n" +
+            "ykjcr\n" +
+            "ycrk\n" +
+            "pyckr\n" +
+            "rcyk\n" +
+            "\n" +
+            "x\n" +
+            "y\n" +
+            "x\n" +
+            "x\n" +
+            "x\n" +
+            "\n" +
+            "ljamgiu\n" +
+            "giumrlenkh\n" +
+            "ismuglp\n" +
+            "ugmlsi\n" +
+            "auiomgslf\n" +
+            "\n" +
+            "tibudoa\n" +
+            "obuatifgp";
+
+    public static final String INPUT_7 = "striped white bags contain 4 drab silver bags.\n" +
+            "drab silver bags contain no other bags.\n" +
+            "pale plum bags contain 1 dark black bag.\n" +
+            "muted gold bags contain 1 wavy red bag, 3 mirrored violet bags, 5 bright gold bags, 5 plaid white bags.\n" +
+            "muted teal bags contain 2 pale beige bags, 5 clear beige bags, 2 dotted gold bags, 4 posh cyan bags.\n" +
+            "posh coral bags contain 1 light silver bag, 2 dull blue bags, 3 dim fuchsia bags, 2 dotted magenta bags.\n" +
+            "faded black bags contain 4 light silver bags.\n" +
+            "muted lavender bags contain 1 pale gold bag.\n" +
+            "clear fuchsia bags contain 1 dull gray bag, 2 shiny indigo bags, 3 posh olive bags, 5 vibrant plum bags.\n" +
+            "shiny olive bags contain 1 dotted gold bag, 5 bright violet bags.\n" +
+            "vibrant lavender bags contain 3 dotted aqua bags, 4 pale chartreuse bags, 5 mirrored blue bags.\n" +
+            "pale fuchsia bags contain 5 pale crimson bags, 2 dull teal bags.\n" +
+            "clear lavender bags contain 5 shiny fuchsia bags, 5 wavy teal bags.\n" +
+            "light chartreuse bags contain 5 mirrored yellow bags, 3 bright maroon bags.\n" +
+            "mirrored white bags contain 1 bright gray bag, 4 plaid blue bags.\n" +
+            "dark teal bags contain 4 bright maroon bags, 5 plaid bronze bags, 1 dark brown bag.\n" +
+            "wavy yellow bags contain 4 dim silver bags, 1 striped tomato bag, 5 clear chartreuse bags.\n" +
+            "dark turquoise bags contain 4 clear plum bags.\n" +
+            "posh gray bags contain 2 faded purple bags, 2 faded orange bags.\n" +
+            "wavy tomato bags contain 1 dark purple bag.\n" +
+            "vibrant gray bags contain 3 muted gray bags, 1 dark fuchsia bag, 5 posh white bags, 5 posh tomato bags.\n" +
+            "light crimson bags contain 2 dotted chartreuse bags.\n" +
+            "dull gray bags contain 4 muted brown bags, 2 shiny blue bags, 4 dim crimson bags.\n" +
+            "drab red bags contain 2 bright cyan bags, 1 pale brown bag.\n" +
+            "dotted salmon bags contain 5 mirrored indigo bags.\n" +
+            "vibrant green bags contain 2 dark coral bags.\n" +
+            "light magenta bags contain 4 clear bronze bags, 4 dull teal bags, 4 posh salmon bags.\n" +
+            "vibrant purple bags contain 4 posh plum bags, 2 bright gray bags.\n" +
+            "posh lime bags contain 3 plaid yellow bags, 4 posh salmon bags.\n" +
+            "bright white bags contain 4 dull aqua bags, 1 shiny silver bag.\n" +
+            "faded blue bags contain 5 muted cyan bags, 2 mirrored coral bags.\n" +
+            "dim green bags contain 2 posh lavender bags.\n" +
+            "faded gray bags contain 2 dark gold bags, 1 drab turquoise bag.\n" +
+            "wavy black bags contain 4 dim fuchsia bags, 1 muted orange bag, 4 drab salmon bags.\n" +
+            "plaid plum bags contain 5 dotted tomato bags, 1 shiny beige bag.\n" +
+            "bright tan bags contain 2 posh salmon bags.\n" +
+            "wavy gold bags contain 1 faded olive bag, 5 vibrant black bags, 3 dull orange bags.\n" +
+            "dull fuchsia bags contain 1 faded crimson bag, 5 vibrant white bags.\n" +
+            "shiny maroon bags contain 5 dull lavender bags, 1 dim white bag.\n" +
+            "wavy white bags contain 5 light teal bags, 4 dim salmon bags, 3 dotted red bags, 5 dark red bags.\n" +
+            "dim cyan bags contain 1 muted orange bag.\n" +
+            "muted cyan bags contain 4 dull turquoise bags, 5 posh gray bags, 5 clear turquoise bags, 1 shiny plum bag.\n" +
+            "posh violet bags contain 5 plaid crimson bags, 5 muted purple bags, 1 wavy beige bag, 2 mirrored orange bags.\n" +
+            "faded purple bags contain 3 plaid blue bags, 1 dull lavender bag, 1 muted orange bag, 2 dotted tomato bags.\n" +
+            "wavy beige bags contain 1 dotted beige bag.\n" +
+            "dim black bags contain 1 wavy blue bag, 1 plaid black bag, 3 pale lavender bags, 2 light violet bags.\n" +
+            "dotted lavender bags contain 1 plaid blue bag, 5 dim crimson bags.\n" +
+            "dark yellow bags contain 3 posh green bags.\n" +
+            "wavy salmon bags contain 1 clear aqua bag, 3 mirrored crimson bags, 3 pale magenta bags, 2 dull teal bags.\n" +
+            "clear silver bags contain 3 faded tan bags, 5 faded aqua bags, 1 clear tomato bag.\n" +
+            "vibrant bronze bags contain 1 faded maroon bag, 4 plaid indigo bags, 2 bright purple bags, 5 dim violet bags.\n" +
+            "pale brown bags contain 1 dull lavender bag, 2 clear turquoise bags.\n" +
+            "faded salmon bags contain 1 pale silver bag.\n" +
+            "dark gray bags contain 2 pale teal bags.\n" +
+            "posh red bags contain 3 faded black bags, 2 dull red bags.\n" +
+            "dim indigo bags contain 3 bright green bags, 2 dotted tomato bags, 5 bright magenta bags.\n" +
+            "dull maroon bags contain 5 light green bags.\n" +
+            "wavy teal bags contain 5 faded tan bags, 4 clear orange bags.\n" +
+            "pale chartreuse bags contain 5 bright blue bags, 3 light indigo bags, 3 shiny white bags, 3 wavy bronze bags.\n" +
+            "mirrored gray bags contain 4 vibrant tomato bags, 1 dark red bag, 5 drab silver bags, 3 posh magenta bags.\n" +
+            "dark lavender bags contain 4 dotted white bags, 5 vibrant chartreuse bags, 2 dim teal bags.\n" +
+            "shiny turquoise bags contain 3 dim lime bags, 5 bright cyan bags, 2 pale green bags.\n" +
+            "shiny indigo bags contain 2 dark fuchsia bags, 4 posh chartreuse bags.\n" +
+            "pale crimson bags contain 5 mirrored silver bags, 2 posh black bags.\n" +
+            "light salmon bags contain 2 vibrant orange bags, 2 dotted red bags.\n" +
+            "plaid orange bags contain 1 dotted turquoise bag, 4 vibrant brown bags.\n" +
+            "dim maroon bags contain 5 shiny gold bags, 4 mirrored maroon bags.\n" +
+            "muted green bags contain 1 plaid plum bag.\n" +
+            "faded indigo bags contain 3 faded purple bags, 4 vibrant indigo bags, 1 light coral bag.\n" +
+            "dull blue bags contain 5 dull salmon bags, 2 wavy magenta bags.\n" +
+            "vibrant black bags contain 1 light coral bag, 5 vibrant cyan bags, 3 dim magenta bags.\n" +
+            "striped lime bags contain 1 striped maroon bag, 2 vibrant brown bags.\n" +
+            "drab brown bags contain 1 faded olive bag, 5 dotted beige bags.\n" +
+            "dark plum bags contain 5 faded brown bags.\n" +
+            "clear olive bags contain 3 dull aqua bags, 5 drab yellow bags.\n" +
+            "wavy crimson bags contain 2 posh plum bags, 2 dull aqua bags, 5 shiny teal bags, 2 vibrant purple bags.\n" +
+            "mirrored olive bags contain 2 wavy gold bags.\n" +
+            "dim crimson bags contain no other bags.\n" +
+            "faded plum bags contain 1 plaid indigo bag.\n" +
+            "light maroon bags contain 3 vibrant orange bags, 2 clear olive bags, 3 clear brown bags, 1 pale black bag.\n" +
+            "posh white bags contain 3 dull green bags, 3 clear brown bags.\n" +
+            "drab black bags contain 2 shiny turquoise bags.\n" +
+            "light purple bags contain 2 pale black bags, 5 light silver bags, 1 drab coral bag.\n" +
+            "pale yellow bags contain 2 vibrant orange bags, 5 posh black bags, 2 vibrant tomato bags, 3 dotted lavender bags.\n" +
+            "dull cyan bags contain 5 wavy beige bags, 1 dull yellow bag, 3 drab lime bags, 3 drab chartreuse bags.\n" +
+            "drab lavender bags contain 2 plaid black bags, 4 dotted gray bags, 1 dim silver bag, 2 shiny gold bags.\n" +
+            "striped brown bags contain 5 light maroon bags, 3 light red bags, 3 clear indigo bags.\n" +
+            "drab tomato bags contain 2 light black bags, 2 clear salmon bags.\n" +
+            "dotted red bags contain 4 dim salmon bags, 5 striped indigo bags.\n" +
+            "vibrant teal bags contain 5 bright black bags, 1 dark purple bag, 2 bright turquoise bags.\n" +
+            "striped teal bags contain 4 mirrored silver bags.\n" +
+            "dull beige bags contain 4 clear olive bags, 4 light teal bags, 3 bright plum bags, 4 dotted lavender bags.\n" +
+            "light violet bags contain 2 dull lavender bags, 4 bright gray bags, 5 vibrant orange bags, 3 wavy magenta bags.\n" +
+            "dim brown bags contain 2 clear plum bags, 2 shiny teal bags, 2 posh salmon bags.\n" +
+            "striped magenta bags contain 4 posh turquoise bags, 3 pale cyan bags, 3 faded indigo bags.\n" +
+            "bright orange bags contain 4 plaid gray bags, 4 dark black bags, 4 faded red bags, 4 bright black bags.\n" +
+            "muted olive bags contain 2 dotted crimson bags, 4 faded lavender bags, 2 vibrant gray bags.\n" +
+            "plaid teal bags contain 2 light yellow bags, 4 drab cyan bags, 3 light green bags.\n" +
+            "faded fuchsia bags contain 1 posh silver bag, 4 drab chartreuse bags, 4 drab teal bags.\n" +
+            "dim silver bags contain 1 pale turquoise bag.\n" +
+            "bright lime bags contain 1 striped silver bag, 5 muted teal bags, 1 shiny tan bag, 1 dark silver bag.\n" +
+            "dotted green bags contain 3 posh green bags, 1 drab yellow bag.\n" +
+            "drab purple bags contain 5 bright violet bags, 1 posh tomato bag.\n" +
+            "dull bronze bags contain 4 mirrored black bags.\n" +
+            "striped tomato bags contain 1 posh gray bag, 2 posh magenta bags.\n" +
+            "bright crimson bags contain 2 light olive bags, 4 clear tan bags, 3 drab fuchsia bags.\n" +
+            "bright turquoise bags contain 4 pale teal bags, 3 drab silver bags.\n" +
+            "shiny lavender bags contain 2 striped lime bags, 2 plaid tomato bags, 1 faded orange bag, 5 wavy magenta bags.\n" +
+            "light tomato bags contain 5 dotted olive bags.\n" +
+            "wavy magenta bags contain no other bags.\n" +
+            "vibrant fuchsia bags contain 5 posh brown bags, 5 plaid indigo bags.\n" +
+            "dark tomato bags contain 3 shiny plum bags.\n" +
+            "pale bronze bags contain 5 plaid black bags, 5 vibrant brown bags, 2 dim lime bags, 4 muted bronze bags.\n" +
+            "striped fuchsia bags contain 3 muted brown bags, 2 pale chartreuse bags, 1 dim magenta bag.\n" +
+            "dark brown bags contain 4 clear bronze bags.\n" +
+            "posh teal bags contain 5 dotted plum bags, 2 drab gray bags, 3 dull fuchsia bags.\n" +
+            "wavy turquoise bags contain 1 dull lavender bag.\n" +
+            "striped maroon bags contain 4 muted yellow bags, 4 clear orange bags, 4 vibrant orange bags.\n" +
+            "shiny green bags contain 3 muted brown bags, 1 vibrant black bag, 4 wavy cyan bags, 3 posh brown bags.\n" +
+            "plaid salmon bags contain 4 mirrored indigo bags, 2 wavy white bags, 5 mirrored bronze bags, 3 light coral bags.\n" +
+            "dotted magenta bags contain 2 light olive bags, 2 dark red bags, 4 clear green bags, 3 dim plum bags.\n" +
+            "light orange bags contain 5 dark plum bags, 3 bright maroon bags, 2 dotted lime bags.\n" +
+            "clear brown bags contain 3 dim white bags, 2 posh magenta bags.\n" +
+            "vibrant turquoise bags contain 2 striped yellow bags, 1 mirrored crimson bag.\n" +
+            "muted coral bags contain 4 wavy gold bags, 2 dim tan bags, 1 shiny green bag.\n" +
+            "plaid crimson bags contain 1 dull aqua bag.\n" +
+            "vibrant plum bags contain 4 striped tomato bags, 1 striped turquoise bag.\n" +
+            "dark coral bags contain 5 posh black bags, 1 shiny beige bag, 3 pale brown bags.\n" +
+            "mirrored brown bags contain 1 clear blue bag, 1 dull indigo bag.\n" +
+            "bright blue bags contain 2 light violet bags, 1 dotted tomato bag.\n" +
+            "drab cyan bags contain 2 dim turquoise bags, 5 clear violet bags.\n" +
+            "dotted coral bags contain 3 dotted aqua bags.\n" +
+            "shiny yellow bags contain 1 wavy cyan bag.\n" +
+            "shiny red bags contain 5 shiny beige bags, 3 dotted lime bags, 5 dotted plum bags.\n" +
+            "muted lime bags contain 3 dark turquoise bags, 3 bright chartreuse bags.\n" +
+            "pale gray bags contain 5 dotted coral bags, 4 wavy teal bags, 2 clear aqua bags.\n" +
+            "pale blue bags contain 5 dull salmon bags, 3 posh bronze bags, 2 vibrant tomato bags.\n" +
+            "dim turquoise bags contain 4 posh aqua bags, 2 dark turquoise bags.\n" +
+            "pale turquoise bags contain 5 vibrant brown bags, 2 shiny maroon bags.\n" +
+            "dim gray bags contain 2 faded tomato bags, 2 faded indigo bags.\n" +
+            "clear aqua bags contain 1 light turquoise bag, 3 dotted turquoise bags.\n" +
+            "faded turquoise bags contain 5 muted lime bags.\n" +
+            "clear plum bags contain 2 plaid indigo bags, 5 drab yellow bags.\n" +
+            "vibrant white bags contain 2 bright violet bags, 4 dark plum bags, 1 dim plum bag, 4 plaid indigo bags.\n" +
+            "dark orange bags contain 3 posh purple bags, 5 clear orange bags, 1 dim white bag.\n" +
+            "light olive bags contain 3 drab green bags.\n" +
+            "muted salmon bags contain 4 muted cyan bags.\n" +
+            "clear maroon bags contain 2 muted yellow bags, 5 plaid crimson bags, 1 clear turquoise bag.\n" +
+            "wavy orange bags contain 4 vibrant blue bags, 4 posh brown bags, 2 pale turquoise bags, 5 shiny orange bags.\n" +
+            "dotted gold bags contain 3 posh magenta bags, 1 faded crimson bag, 3 dotted olive bags, 3 plaid olive bags.\n" +
+            "dull purple bags contain 5 drab salmon bags, 4 dim lavender bags.\n" +
+            "light bronze bags contain 2 wavy indigo bags.\n" +
+            "muted turquoise bags contain 5 clear turquoise bags, 4 plaid violet bags, 4 clear orange bags, 2 posh maroon bags.\n" +
+            "mirrored blue bags contain 4 clear chartreuse bags.\n" +
+            "drab tan bags contain 3 striped violet bags, 2 bright silver bags, 2 dark bronze bags, 1 mirrored black bag.\n" +
+            "dark maroon bags contain 1 vibrant orange bag.\n" +
+            "drab yellow bags contain 1 vibrant blue bag, 2 dim violet bags.\n" +
+            "light cyan bags contain 4 posh beige bags.\n" +
+            "vibrant salmon bags contain 3 wavy gold bags.\n" +
+            "muted orange bags contain 3 dotted tomato bags, 4 vibrant tomato bags, 5 dull lavender bags.\n" +
+            "dull turquoise bags contain 1 wavy white bag.\n" +
+            "dotted indigo bags contain 3 wavy bronze bags.\n" +
+            "dark red bags contain 4 wavy bronze bags, 5 wavy turquoise bags.\n" +
+            "light coral bags contain 4 clear tan bags, 2 vibrant beige bags, 1 dull lavender bag, 5 shiny white bags.\n" +
+            "mirrored turquoise bags contain 5 clear fuchsia bags, 3 mirrored black bags, 4 plaid tan bags.\n" +
+            "mirrored yellow bags contain 4 pale turquoise bags, 2 wavy orange bags, 3 drab coral bags, 4 dim chartreuse bags.\n" +
+            "dotted fuchsia bags contain 4 dim bronze bags, 4 striped indigo bags.\n" +
+            "dotted purple bags contain 5 posh maroon bags, 1 dim yellow bag.\n" +
+            "clear coral bags contain 5 dark olive bags, 2 wavy bronze bags, 3 light red bags.\n" +
+            "mirrored teal bags contain 3 drab yellow bags.\n" +
+            "faded green bags contain 2 dark purple bags.\n" +
+            "light lime bags contain 4 bright chartreuse bags, 5 clear tomato bags, 2 bright green bags, 2 faded teal bags.\n" +
+            "bright yellow bags contain 4 dull purple bags, 3 faded beige bags.\n" +
+            "bright maroon bags contain 2 vibrant blue bags, 5 bright violet bags, 5 plaid indigo bags, 3 vibrant orange bags.\n" +
+            "faded red bags contain 5 pale brown bags, 4 striped tomato bags, 2 bright green bags.\n" +
+            "muted maroon bags contain 1 dark tan bag, 5 drab teal bags, 4 dull maroon bags.\n" +
+            "plaid coral bags contain 5 bright blue bags, 1 dotted indigo bag.\n" +
+            "dotted brown bags contain 1 dull beige bag, 2 bright indigo bags, 2 striped chartreuse bags, 1 muted silver bag.\n" +
+            "wavy coral bags contain 2 clear cyan bags, 2 muted teal bags, 1 faded red bag, 2 mirrored silver bags.\n" +
+            "faded coral bags contain 3 bright green bags, 1 bright cyan bag, 3 plaid blue bags, 5 wavy lavender bags.\n" +
+            "dim gold bags contain 5 dim teal bags, 1 vibrant tomato bag, 5 pale chartreuse bags, 3 bright indigo bags.\n" +
+            "bright salmon bags contain 5 plaid chartreuse bags, 5 light tan bags, 5 vibrant maroon bags.\n" +
+            "wavy violet bags contain 4 bright green bags.\n" +
+            "mirrored lavender bags contain 5 drab plum bags, 2 drab turquoise bags, 2 dark magenta bags.\n" +
+            "faded aqua bags contain 3 faded teal bags, 1 dark red bag.\n" +
+            "muted yellow bags contain 1 mirrored silver bag, 1 striped white bag, 3 mirrored gold bags, 1 muted gray bag.\n" +
+            "pale coral bags contain 2 striped gray bags, 2 clear beige bags.\n" +
+            "mirrored cyan bags contain 1 pale beige bag, 4 dim crimson bags.\n" +
+            "dotted aqua bags contain 4 dim crimson bags, 3 vibrant beige bags.\n" +
+            "dark white bags contain 4 dim maroon bags, 1 light olive bag, 3 dull fuchsia bags, 4 mirrored maroon bags.\n" +
+            "dotted chartreuse bags contain 5 clear tan bags, 2 clear white bags, 2 dark coral bags, 4 faded brown bags.\n" +
+            "mirrored red bags contain 5 faded violet bags, 2 dark chartreuse bags.\n" +
+            "drab maroon bags contain 3 bright violet bags.\n" +
+            "dark violet bags contain 5 dark turquoise bags, 1 muted blue bag, 4 plaid bronze bags.\n" +
+            "dull silver bags contain 4 dotted lime bags, 3 dotted silver bags, 4 dull red bags, 3 pale white bags.\n" +
+            "striped lavender bags contain 5 drab silver bags.\n" +
+            "light yellow bags contain 3 posh plum bags, 3 bright olive bags, 4 wavy crimson bags.\n" +
+            "posh chartreuse bags contain 2 bright violet bags.\n" +
+            "pale green bags contain 5 shiny lime bags, 3 faded teal bags, 5 posh gray bags, 1 posh chartreuse bag.\n" +
+            "shiny lime bags contain 1 dull beige bag, 4 light aqua bags, 4 dotted tomato bags.\n" +
+            "plaid tan bags contain 1 mirrored chartreuse bag.\n" +
+            "drab coral bags contain 5 posh gray bags, 2 dull black bags.\n" +
+            "drab salmon bags contain 4 drab yellow bags, 3 mirrored green bags.\n" +
+            "faded yellow bags contain 2 mirrored beige bags, 1 bright turquoise bag, 1 vibrant black bag.\n" +
+            "bright tomato bags contain 4 clear brown bags.\n" +
+            "muted beige bags contain 1 clear turquoise bag.\n" +
+            "striped black bags contain 1 plaid chartreuse bag.\n" +
+            "bright cyan bags contain 5 clear tomato bags.\n" +
+            "striped coral bags contain 2 muted red bags.\n" +
+            "posh bronze bags contain 5 striped yellow bags.\n" +
+            "mirrored maroon bags contain 4 vibrant tomato bags, 5 bright green bags, 4 vibrant maroon bags, 4 striped violet bags.\n" +
+            "dotted turquoise bags contain 1 posh beige bag, 5 muted silver bags.\n" +
+            "bright purple bags contain 5 drab silver bags, 5 shiny blue bags, 2 plaid bronze bags, 4 faded magenta bags.\n" +
+            "posh plum bags contain 5 striped white bags, 2 pale brown bags, 1 wavy turquoise bag.\n" +
+            "dark crimson bags contain 1 dull black bag, 2 dull yellow bags, 1 posh white bag, 3 dotted lime bags.\n" +
+            "plaid bronze bags contain 5 striped indigo bags, 5 light indigo bags, 4 wavy magenta bags, 3 vibrant blue bags.\n" +
+            "clear red bags contain 4 posh silver bags, 1 dim aqua bag.\n" +
+            "striped salmon bags contain 3 bright violet bags, 4 faded olive bags, 5 dim turquoise bags.\n" +
+            "dim bronze bags contain no other bags.\n" +
+            "wavy brown bags contain 4 vibrant turquoise bags.\n" +
+            "wavy maroon bags contain 1 mirrored bronze bag, 2 posh fuchsia bags, 1 mirrored indigo bag.\n" +
+            "mirrored salmon bags contain 2 faded lavender bags.\n" +
+            "dark aqua bags contain 4 faded teal bags, 1 dim tomato bag.\n" +
+            "pale violet bags contain 5 clear blue bags, 3 plaid blue bags, 5 dim teal bags, 2 pale black bags.\n" +
+            "mirrored crimson bags contain 2 posh magenta bags, 2 dotted aqua bags, 1 dim bronze bag.\n" +
+            "bright indigo bags contain 4 bright violet bags.\n" +
+            "muted violet bags contain 4 mirrored maroon bags, 2 dull red bags, 4 plaid tomato bags, 1 pale yellow bag.\n" +
+            "shiny gold bags contain 3 vibrant blue bags, 5 plaid blue bags, 2 dark red bags, 1 dull green bag.\n" +
+            "clear green bags contain 4 dotted lavender bags.\n" +
+            "dark indigo bags contain 2 light lime bags, 3 wavy brown bags.\n" +
+            "muted fuchsia bags contain 3 plaid green bags.\n" +
+            "bright silver bags contain 4 dim tomato bags, 3 clear olive bags, 1 dull teal bag.\n" +
+            "plaid purple bags contain 4 dark silver bags, 1 vibrant crimson bag, 4 dark black bags, 3 faded magenta bags.\n" +
+            "clear chartreuse bags contain 4 posh plum bags.\n" +
+            "plaid tomato bags contain 2 wavy aqua bags, 3 striped indigo bags, 1 wavy magenta bag.\n" +
+            "posh cyan bags contain 3 drab green bags, 3 bright chartreuse bags, 3 muted gray bags, 2 light black bags.\n" +
+            "posh turquoise bags contain 5 wavy teal bags, 3 light tan bags, 1 dull gold bag.\n" +
+            "plaid olive bags contain 2 dim chartreuse bags.\n" +
+            "shiny orange bags contain 4 pale brown bags, 3 dim salmon bags.\n" +
+            "clear gray bags contain 4 bright salmon bags, 5 vibrant crimson bags.\n" +
+            "shiny brown bags contain 1 bright gold bag, 3 clear tomato bags.\n" +
+            "muted aqua bags contain 2 mirrored indigo bags, 1 dim tan bag.\n" +
+            "plaid red bags contain 1 clear plum bag.\n" +
+            "muted bronze bags contain 4 clear white bags, 3 dotted plum bags.\n" +
+            "plaid blue bags contain 2 dull lavender bags, 5 wavy magenta bags, 1 light indigo bag.\n" +
+            "shiny salmon bags contain 2 dotted black bags, 1 light magenta bag.\n" +
+            "shiny cyan bags contain 5 faded violet bags, 3 mirrored bronze bags, 4 dark maroon bags, 2 wavy lavender bags.\n" +
+            "drab magenta bags contain 2 light blue bags, 1 wavy orange bag, 5 posh chartreuse bags.\n" +
+            "dim violet bags contain 5 dark red bags, 4 light violet bags, 2 dotted fuchsia bags, 2 plaid tomato bags.\n" +
+            "faded crimson bags contain 3 clear silver bags, 1 vibrant beige bag.\n" +
+            "plaid fuchsia bags contain 3 plaid red bags, 4 drab purple bags, 4 clear lime bags, 3 dim turquoise bags.\n" +
+            "dull green bags contain 5 dotted beige bags, 4 drab silver bags, 4 posh magenta bags, 1 muted orange bag.\n" +
+            "wavy indigo bags contain 2 pale tan bags.\n" +
+            "plaid lavender bags contain 1 dark black bag.\n" +
+            "clear bronze bags contain 3 pale teal bags.\n" +
+            "clear blue bags contain 2 light teal bags, 5 dotted olive bags, 3 bright indigo bags.\n" +
+            "posh aqua bags contain 2 light violet bags, 2 dull salmon bags, 1 vibrant violet bag.\n" +
+            "dark gold bags contain 2 striped maroon bags.\n" +
+            "vibrant chartreuse bags contain 3 wavy silver bags.\n" +
+            "dark magenta bags contain 1 clear silver bag.\n" +
+            "dim red bags contain 3 wavy indigo bags, 2 muted teal bags.\n" +
+            "muted silver bags contain 5 pale crimson bags, 2 dotted tomato bags.\n" +
+            "mirrored tan bags contain 1 pale salmon bag.\n" +
+            "dull violet bags contain 2 dull black bags.\n" +
+            "striped beige bags contain 4 dark maroon bags, 2 wavy orange bags.\n" +
+            "striped turquoise bags contain 3 light indigo bags, 5 bright maroon bags, 1 light teal bag.\n" +
+            "pale gold bags contain 5 dotted teal bags.\n" +
+            "wavy olive bags contain 3 dotted fuchsia bags.\n" +
+            "clear violet bags contain 1 dotted lavender bag, 5 bright tan bags, 5 dim violet bags, 5 drab salmon bags.\n" +
+            "pale maroon bags contain 4 drab red bags, 1 wavy yellow bag, 1 muted green bag, 1 striped fuchsia bag.\n" +
+            "drab bronze bags contain 4 light gray bags, 3 posh magenta bags, 1 dull yellow bag.\n" +
+            "vibrant gold bags contain 4 dull violet bags, 3 clear white bags, 5 wavy chartreuse bags, 4 pale turquoise bags.\n" +
+            "clear beige bags contain 4 plaid blue bags, 3 shiny plum bags, 1 light silver bag.\n" +
+            "faded silver bags contain 5 drab turquoise bags, 4 plaid green bags, 4 posh yellow bags, 1 plaid blue bag.\n" +
+            "light brown bags contain 1 dark red bag, 1 dotted gray bag.\n" +
+            "shiny violet bags contain 5 posh cyan bags, 5 vibrant plum bags, 5 mirrored chartreuse bags, 4 plaid green bags.\n" +
+            "dark bronze bags contain 4 bright gold bags, 2 striped maroon bags, 4 dark aqua bags, 5 pale chartreuse bags.\n" +
+            "dull black bags contain 2 vibrant tomato bags, 1 vibrant blue bag, 3 pale yellow bags.\n" +
+            "dotted beige bags contain 5 dotted tomato bags, 1 striped indigo bag.\n" +
+            "clear indigo bags contain 3 dark violet bags.\n" +
+            "bright coral bags contain 1 dark indigo bag.\n" +
+            "drab turquoise bags contain 5 drab plum bags, 3 pale magenta bags, 5 drab red bags, 4 dull olive bags.\n" +
+            "shiny fuchsia bags contain 2 dull lavender bags, 5 striped tomato bags.\n" +
+            "dull indigo bags contain 3 pale turquoise bags, 3 faded tomato bags, 5 dim magenta bags, 3 drab indigo bags.\n" +
+            "dim aqua bags contain 4 faded brown bags, 1 mirrored lime bag.\n" +
+            "muted purple bags contain 3 dim salmon bags, 4 light violet bags, 2 striped turquoise bags, 2 shiny teal bags.\n" +
+            "dotted black bags contain 3 dotted cyan bags, 4 wavy magenta bags, 4 posh chartreuse bags.\n" +
+            "drab violet bags contain 4 dark gray bags, 5 dull chartreuse bags, 4 plaid gray bags.\n" +
+            "plaid green bags contain 3 dark red bags, 1 wavy crimson bag, 4 light coral bags, 4 striped indigo bags.\n" +
+            "faded brown bags contain 3 dark orange bags.\n" +
+            "light teal bags contain 3 striped indigo bags, 4 dim bronze bags.\n" +
+            "plaid black bags contain 2 mirrored crimson bags, 5 dim silver bags, 4 posh purple bags.\n" +
+            "shiny blue bags contain 2 plaid green bags, 4 plaid crimson bags, 2 faded plum bags.\n" +
+            "plaid lime bags contain 2 striped maroon bags.\n" +
+            "pale lavender bags contain 2 mirrored indigo bags, 1 pale green bag, 5 dim chartreuse bags, 3 pale white bags.\n" +
+            "drab chartreuse bags contain 1 bright salmon bag, 4 vibrant brown bags, 1 muted violet bag.\n" +
+            "light indigo bags contain no other bags.\n" +
+            "plaid violet bags contain 2 dim white bags, 4 faded lavender bags.\n" +
+            "drab gold bags contain 5 dotted aqua bags, 3 muted beige bags, 4 faded black bags, 5 dark red bags.\n" +
+            "mirrored bronze bags contain 2 plaid blue bags, 1 light orange bag.\n" +
+            "dim olive bags contain 1 striped silver bag.\n" +
+            "plaid white bags contain 5 pale turquoise bags, 4 mirrored orange bags, 2 vibrant aqua bags.\n" +
+            "wavy purple bags contain 3 dark silver bags, 1 dull white bag, 3 dotted magenta bags, 2 dim salmon bags.\n" +
+            "clear orange bags contain 5 striped indigo bags, 1 wavy bronze bag, 4 vibrant blue bags.\n" +
+            "plaid gray bags contain 1 dull aqua bag, 3 dull olive bags, 3 posh black bags.\n" +
+            "vibrant violet bags contain 2 vibrant maroon bags.\n" +
+            "pale olive bags contain 2 vibrant fuchsia bags.\n" +
+            "muted brown bags contain 5 pale teal bags, 2 light brown bags, 4 light tomato bags.\n" +
+            "posh lavender bags contain 4 bright indigo bags, 1 striped indigo bag, 5 dark purple bags.\n" +
+            "dotted blue bags contain 4 muted salmon bags, 3 mirrored red bags, 5 pale white bags, 3 clear red bags.\n" +
+            "dim purple bags contain 4 muted cyan bags.\n" +
+            "bright fuchsia bags contain 5 muted black bags.\n" +
+            "vibrant lime bags contain 3 posh purple bags, 1 drab aqua bag.\n" +
+            "wavy green bags contain 3 drab red bags, 2 faded brown bags, 2 wavy cyan bags.\n" +
+            "dull lime bags contain 3 bright salmon bags, 4 posh crimson bags, 1 drab salmon bag, 4 pale yellow bags.\n" +
+            "mirrored aqua bags contain 4 striped violet bags, 1 striped indigo bag, 2 striped tomato bags.\n" +
+            "striped tan bags contain 4 light blue bags, 4 dull beige bags.\n" +
+            "drab green bags contain 5 muted silver bags, 1 vibrant orange bag, 2 striped indigo bags, 4 striped tomato bags.\n" +
+            "dotted orange bags contain 5 mirrored white bags, 5 muted orange bags, 2 drab tomato bags, 2 dull white bags.\n" +
+            "dim tomato bags contain 2 dull lavender bags.\n" +
+            "dull magenta bags contain 3 faded brown bags, 5 faded teal bags.\n" +
+            "faded maroon bags contain 4 posh brown bags, 2 dotted aqua bags.\n" +
+            "plaid cyan bags contain 4 faded crimson bags, 4 light chartreuse bags, 1 light crimson bag, 1 posh fuchsia bag.\n" +
+            "dim salmon bags contain 1 dotted olive bag, 4 light indigo bags.\n" +
+            "faded chartreuse bags contain 4 bright gold bags, 4 clear silver bags.\n" +
+            "light plum bags contain 2 dotted chartreuse bags, 1 drab white bag.\n" +
+            "posh silver bags contain 3 mirrored black bags, 4 dull blue bags.\n" +
+            "dull salmon bags contain 4 dim white bags, 5 clear tomato bags, 2 mirrored maroon bags.\n" +
+            "light green bags contain 4 plaid chartreuse bags, 5 vibrant aqua bags.\n" +
+            "posh indigo bags contain 2 dull olive bags, 2 dotted lime bags, 1 drab red bag.\n" +
+            "dark blue bags contain 5 dotted green bags, 3 wavy crimson bags, 4 clear silver bags.\n" +
+            "bright black bags contain 5 posh bronze bags, 3 bright cyan bags, 5 muted black bags.\n" +
+            "bright lavender bags contain 1 shiny indigo bag, 1 dim yellow bag, 1 wavy yellow bag.\n" +
+            "faded white bags contain 1 dotted black bag, 5 wavy red bags.\n" +
+            "muted black bags contain 1 mirrored aqua bag, 4 dark red bags, 5 dull yellow bags.\n" +
+            "light turquoise bags contain 3 shiny plum bags.\n" +
+            "vibrant coral bags contain 2 shiny orange bags, 4 bright olive bags.\n" +
+            "vibrant aqua bags contain 2 wavy crimson bags, 2 muted orange bags.\n" +
+            "dotted tan bags contain 1 light indigo bag, 2 dim magenta bags.\n" +
+            "posh yellow bags contain 4 faded lavender bags.\n" +
+            "pale lime bags contain 4 mirrored orange bags, 3 dull gray bags, 1 muted magenta bag.\n" +
+            "drab white bags contain 2 faded tan bags, 3 wavy aqua bags.\n" +
+            "shiny tomato bags contain 4 dim coral bags, 3 dotted lime bags.\n" +
+            "wavy plum bags contain 1 bright orange bag.\n" +
+            "dull crimson bags contain 2 pale silver bags, 1 light beige bag, 4 wavy violet bags.\n" +
+            "dotted violet bags contain 4 light indigo bags, 1 dark black bag, 3 pale green bags.\n" +
+            "dark salmon bags contain 5 light tan bags, 4 dim chartreuse bags, 5 faded green bags, 3 light brown bags.\n" +
+            "dull brown bags contain 5 mirrored aqua bags, 5 dim magenta bags, 4 light brown bags, 5 plaid black bags.\n" +
+            "shiny chartreuse bags contain 5 wavy yellow bags, 3 faded aqua bags, 1 bright fuchsia bag, 5 drab plum bags.\n" +
+            "muted red bags contain 3 drab white bags, 5 dim beige bags, 4 bright olive bags.\n" +
+            "posh blue bags contain 1 dotted beige bag, 1 vibrant cyan bag, 4 vibrant brown bags, 2 clear turquoise bags.\n" +
+            "wavy bronze bags contain 4 wavy turquoise bags, 4 dim bronze bags, 3 shiny beige bags, 2 dull lavender bags.\n" +
+            "posh beige bags contain 3 muted gray bags, 4 light salmon bags, 5 striped turquoise bags.\n" +
+            "vibrant red bags contain 5 muted blue bags.\n" +
+            "dark olive bags contain 5 dark maroon bags.\n" +
+            "dotted gray bags contain 3 wavy magenta bags.\n" +
+            "vibrant cyan bags contain 5 dotted lavender bags, 3 vibrant orange bags.\n" +
+            "dark chartreuse bags contain 3 pale white bags, 1 dull lavender bag.\n" +
+            "faded lime bags contain 4 clear green bags, 3 shiny plum bags, 2 light green bags.\n" +
+            "vibrant blue bags contain 1 wavy turquoise bag, 4 dim salmon bags.\n" +
+            "dull tan bags contain 3 dim chartreuse bags, 1 plaid tomato bag, 4 dark brown bags.\n" +
+            "muted gray bags contain 4 clear tan bags, 3 wavy aqua bags, 5 dim white bags.\n" +
+            "clear yellow bags contain 1 drab white bag, 5 dark salmon bags, 2 dull yellow bags.\n" +
+            "clear tomato bags contain 2 dotted gray bags, 5 vibrant beige bags, 1 bright maroon bag, 2 drab green bags.\n" +
+            "shiny tan bags contain 5 posh lavender bags, 5 pale yellow bags.\n" +
+            "dark black bags contain 4 muted purple bags, 5 light gray bags, 5 drab red bags.\n" +
+            "striped plum bags contain 3 dull red bags, 1 dark tomato bag, 4 dark yellow bags, 5 plaid cyan bags.\n" +
+            "light gray bags contain 3 plaid chartreuse bags.\n" +
+            "light aqua bags contain 4 wavy magenta bags, 3 light black bags.\n" +
+            "vibrant brown bags contain 1 bright blue bag, 1 posh black bag.\n" +
+            "posh tomato bags contain 5 wavy magenta bags.\n" +
+            "dotted bronze bags contain 4 mirrored chartreuse bags.\n" +
+            "mirrored violet bags contain 2 clear maroon bags, 1 light red bag, 4 mirrored gray bags.\n" +
+            "dark purple bags contain 5 bright blue bags, 3 plaid blue bags.\n" +
+            "faded beige bags contain 4 plaid bronze bags, 5 vibrant turquoise bags, 3 pale orange bags, 5 mirrored aqua bags.\n" +
+            "mirrored green bags contain 1 dotted fuchsia bag, 5 light indigo bags, 3 shiny beige bags.\n" +
+            "striped violet bags contain 5 drab silver bags, 2 dim crimson bags, 3 plaid blue bags.\n" +
+            "mirrored tomato bags contain 5 light lavender bags.\n" +
+            "posh purple bags contain 3 pale orange bags.\n" +
+            "dim blue bags contain 5 dotted plum bags, 1 light orange bag, 4 dim maroon bags.\n" +
+            "dark cyan bags contain 4 vibrant white bags, 4 dull white bags, 1 posh purple bag.\n" +
+            "drab beige bags contain 5 dull purple bags.\n" +
+            "vibrant olive bags contain 5 light silver bags.\n" +
+            "plaid beige bags contain 3 muted silver bags, 4 vibrant orange bags.\n" +
+            "wavy silver bags contain 2 dim crimson bags, 4 shiny maroon bags, 4 pale indigo bags.\n" +
+            "posh crimson bags contain 2 light violet bags, 4 pale coral bags, 3 plaid bronze bags.\n" +
+            "vibrant crimson bags contain 3 dull red bags.\n" +
+            "dotted olive bags contain no other bags.\n" +
+            "mirrored beige bags contain 2 plaid gray bags, 5 mirrored yellow bags.\n" +
+            "bright brown bags contain 2 faded aqua bags, 1 dim tomato bag, 5 posh magenta bags.\n" +
+            "bright magenta bags contain 2 posh gray bags, 3 dim salmon bags.\n" +
+            "clear magenta bags contain 2 dim cyan bags, 3 clear red bags, 1 dull fuchsia bag, 4 wavy coral bags.\n" +
+            "clear lime bags contain 5 dull green bags, 2 shiny bronze bags, 2 faded orange bags, 1 bright beige bag.\n" +
+            "muted tan bags contain 4 vibrant maroon bags, 3 vibrant black bags, 5 shiny maroon bags, 5 vibrant turquoise bags.\n" +
+            "pale beige bags contain 3 light tomato bags.\n" +
+            "dark fuchsia bags contain 2 faded brown bags, 3 dotted lavender bags, 4 shiny teal bags, 2 bright blue bags.\n" +
+            "dim magenta bags contain 4 posh chartreuse bags.\n" +
+            "bright aqua bags contain 5 drab violet bags.\n" +
+            "striped crimson bags contain 2 bright green bags.\n" +
+            "dull chartreuse bags contain 4 plaid bronze bags, 2 shiny gray bags, 4 dull lavender bags.\n" +
+            "wavy chartreuse bags contain 1 vibrant tomato bag, 1 dim tomato bag, 3 pale green bags, 1 posh plum bag.\n" +
+            "dotted white bags contain 1 dark teal bag, 4 dotted violet bags, 5 bright beige bags, 3 dim silver bags.\n" +
+            "mirrored purple bags contain 1 posh green bag.\n" +
+            "faded bronze bags contain 4 dotted indigo bags.\n" +
+            "faded lavender bags contain 3 muted purple bags.\n" +
+            "clear turquoise bags contain 4 muted orange bags, 1 striped violet bag, 5 clear tan bags, 5 dim white bags.\n" +
+            "shiny plum bags contain 4 dim crimson bags.\n" +
+            "wavy fuchsia bags contain 3 dotted brown bags, 5 dark magenta bags, 2 dark bronze bags.\n" +
+            "faded olive bags contain 5 plaid indigo bags.\n" +
+            "mirrored orange bags contain 4 striped violet bags, 2 light violet bags, 4 shiny orange bags.\n" +
+            "pale indigo bags contain 3 shiny indigo bags.\n" +
+            "faded tan bags contain 3 shiny maroon bags, 5 posh aqua bags, 1 striped violet bag, 2 dim white bags.\n" +
+            "bright chartreuse bags contain 1 posh black bag, 5 bright gray bags, 3 plaid chartreuse bags.\n" +
+            "drab blue bags contain 1 pale violet bag, 4 vibrant green bags.\n" +
+            "posh tan bags contain 4 shiny lime bags.\n" +
+            "plaid maroon bags contain 2 dotted black bags.\n" +
+            "dull coral bags contain 4 posh coral bags, 1 dotted silver bag, 5 drab beige bags, 1 plaid red bag.\n" +
+            "striped yellow bags contain 1 plaid tomato bag, 1 dotted lavender bag.\n" +
+            "muted magenta bags contain 4 muted black bags.\n" +
+            "dotted cyan bags contain 1 vibrant tomato bag, 3 light indigo bags, 1 wavy turquoise bag.\n" +
+            "dim lavender bags contain 1 muted black bag, 4 pale white bags, 2 mirrored coral bags, 5 pale brown bags.\n" +
+            "bright gold bags contain 5 vibrant green bags.\n" +
+            "light white bags contain 2 striped lime bags, 2 muted lime bags, 5 muted brown bags, 4 bright green bags.\n" +
+            "wavy lavender bags contain 2 vibrant purple bags, 5 posh white bags.\n" +
+            "clear black bags contain 2 posh turquoise bags, 3 dotted orange bags, 3 faded teal bags.\n" +
+            "muted crimson bags contain 1 pale violet bag, 5 drab lavender bags.\n" +
+            "posh green bags contain 4 vibrant beige bags, 5 dark purple bags, 3 dim salmon bags, 3 light black bags.\n" +
+            "vibrant silver bags contain 3 posh coral bags, 4 posh white bags.\n" +
+            "dim coral bags contain 2 posh violet bags, 1 dark cyan bag, 3 shiny green bags, 3 vibrant cyan bags.\n" +
+            "striped red bags contain 5 muted olive bags, 4 wavy teal bags, 3 shiny gray bags, 1 mirrored coral bag.\n" +
+            "bright violet bags contain 3 shiny beige bags, 1 wavy magenta bag, 5 light indigo bags.\n" +
+            "vibrant magenta bags contain 4 striped salmon bags, 1 light tan bag.\n" +
+            "faded gold bags contain 5 light tomato bags, 1 wavy black bag, 4 faded maroon bags.\n" +
+            "muted plum bags contain 1 vibrant brown bag, 2 muted cyan bags, 4 muted salmon bags.\n" +
+            "plaid gold bags contain 5 shiny beige bags, 3 faded fuchsia bags, 5 vibrant cyan bags, 5 shiny gold bags.\n" +
+            "striped indigo bags contain no other bags.\n" +
+            "wavy gray bags contain 2 plaid indigo bags, 3 clear tomato bags, 4 dull blue bags.\n" +
+            "plaid silver bags contain 5 clear salmon bags, 5 faded lime bags, 4 shiny tan bags, 5 mirrored chartreuse bags.\n" +
+            "plaid yellow bags contain 4 shiny chartreuse bags, 1 light lime bag, 2 dull green bags.\n" +
+            "plaid turquoise bags contain 3 dotted aqua bags, 3 posh magenta bags.\n" +
+            "striped olive bags contain 2 faded aqua bags, 5 dotted orange bags, 5 dull turquoise bags, 1 pale violet bag.\n" +
+            "faded teal bags contain 3 striped indigo bags.\n" +
+            "dull red bags contain 1 mirrored gray bag, 4 drab coral bags, 2 bright plum bags, 1 dull green bag.\n" +
+            "dull gold bags contain 5 bright blue bags.\n" +
+            "shiny magenta bags contain 1 light white bag.\n" +
+            "striped green bags contain 1 clear blue bag.\n" +
+            "dull teal bags contain 3 dark purple bags, 4 dim lime bags, 5 clear chartreuse bags.\n" +
+            "faded magenta bags contain 4 shiny gray bags, 5 pale crimson bags, 5 light coral bags, 2 pale white bags.\n" +
+            "pale tomato bags contain 4 dull black bags, 1 posh chartreuse bag, 1 faded cyan bag.\n" +
+            "muted blue bags contain 5 striped white bags, 1 faded orange bag.\n" +
+            "light blue bags contain 4 posh white bags.\n" +
+            "plaid chartreuse bags contain 2 bright gray bags.\n" +
+            "dull aqua bags contain 5 clear tan bags, 5 dotted red bags, 5 vibrant tomato bags.\n" +
+            "light lavender bags contain 5 clear fuchsia bags, 1 striped olive bag.\n" +
+            "bright green bags contain 4 vibrant violet bags, 2 vibrant maroon bags.\n" +
+            "light beige bags contain 1 striped maroon bag.\n" +
+            "drab indigo bags contain 4 posh tomato bags, 5 faded brown bags.\n" +
+            "dotted yellow bags contain 3 wavy violet bags, 4 bright violet bags, 4 vibrant lime bags, 1 pale beige bag.\n" +
+            "striped gold bags contain 2 light indigo bags, 3 dull red bags, 5 vibrant beige bags.\n" +
+            "muted indigo bags contain 5 bright purple bags, 1 pale plum bag, 5 wavy black bags.\n" +
+            "dark lime bags contain 2 faded blue bags.\n" +
+            "shiny white bags contain 4 clear tan bags, 3 pale yellow bags, 5 plaid tomato bags, 4 wavy turquoise bags.\n" +
+            "vibrant maroon bags contain 4 dark red bags, 2 dull aqua bags, 5 wavy aqua bags.\n" +
+            "drab teal bags contain 3 shiny indigo bags.\n" +
+            "bright plum bags contain 2 plaid chartreuse bags.\n" +
+            "vibrant yellow bags contain 3 posh purple bags.\n" +
+            "posh salmon bags contain 4 dim plum bags, 1 pale yellow bag, 2 shiny gold bags.\n" +
+            "shiny black bags contain 3 dim magenta bags.\n" +
+            "bright gray bags contain no other bags.\n" +
+            "dull orange bags contain 3 dotted purple bags.\n" +
+            "pale purple bags contain 2 bright cyan bags, 2 drab teal bags, 2 dotted gold bags, 4 mirrored fuchsia bags.\n" +
+            "dull yellow bags contain 3 posh gray bags.\n" +
+            "muted tomato bags contain 3 faded orange bags.\n" +
+            "drab olive bags contain 4 dim maroon bags, 1 bright turquoise bag, 3 shiny indigo bags, 5 vibrant lavender bags.\n" +
+            "clear salmon bags contain 2 dim chartreuse bags, 2 shiny black bags, 5 dotted indigo bags, 3 dotted aqua bags.\n" +
+            "posh black bags contain 2 wavy turquoise bags, 2 shiny plum bags, 2 mirrored gold bags.\n" +
+            "light gold bags contain 5 shiny tomato bags, 4 light cyan bags.\n" +
+            "shiny coral bags contain 3 faded silver bags.\n" +
+            "plaid magenta bags contain 1 vibrant black bag, 2 bright blue bags.\n" +
+            "dotted teal bags contain 4 faded olive bags, 5 vibrant brown bags, 3 clear salmon bags.\n" +
+            "striped purple bags contain 5 shiny bronze bags.\n" +
+            "dim tan bags contain 2 light tan bags, 1 dotted gold bag, 3 shiny white bags.\n" +
+            "light silver bags contain 5 dotted cyan bags, 4 dotted aqua bags.\n" +
+            "dull white bags contain 5 striped turquoise bags.\n" +
+            "plaid aqua bags contain 3 dim bronze bags, 5 dull brown bags, 3 faded plum bags, 2 mirrored crimson bags.\n" +
+            "dotted silver bags contain 1 faded teal bag.\n" +
+            "dull olive bags contain 1 dark turquoise bag, 3 muted orange bags.\n" +
+            "clear purple bags contain 3 drab salmon bags.\n" +
+            "mirrored plum bags contain 1 vibrant lavender bag.\n" +
+            "bright beige bags contain 4 plaid magenta bags, 1 dull turquoise bag, 4 dim white bags, 1 light aqua bag.\n" +
+            "pale red bags contain 1 muted lavender bag, 2 vibrant teal bags, 4 plaid cyan bags, 5 dull orange bags.\n" +
+            "drab orange bags contain 3 bright plum bags, 5 vibrant chartreuse bags.\n" +
+            "mirrored gold bags contain 2 wavy magenta bags.\n" +
+            "posh maroon bags contain 3 dotted lime bags, 2 muted black bags, 3 faded green bags.\n" +
+            "clear white bags contain 4 pale black bags.\n" +
+            "pale silver bags contain 2 dim coral bags, 2 dull lavender bags, 2 dark teal bags, 3 wavy green bags.\n" +
+            "vibrant tomato bags contain 5 dull lavender bags.\n" +
+            "striped orange bags contain 5 shiny salmon bags, 1 pale gold bag, 4 mirrored gray bags, 1 plaid black bag.\n" +
+            "dim beige bags contain 5 dim salmon bags, 2 striped yellow bags, 5 shiny orange bags, 5 light salmon bags.\n" +
+            "clear gold bags contain 2 dim salmon bags, 4 vibrant cyan bags.\n" +
+            "dim teal bags contain 3 light indigo bags, 3 pale green bags, 5 muted bronze bags.\n" +
+            "shiny silver bags contain 3 drab red bags, 1 pale magenta bag, 3 plaid blue bags, 4 pale white bags.\n" +
+            "dark beige bags contain 4 posh black bags, 1 dark maroon bag.\n" +
+            "bright bronze bags contain 4 mirrored yellow bags, 1 vibrant salmon bag, 2 mirrored teal bags, 1 shiny beige bag.\n" +
+            "dotted maroon bags contain 1 clear tomato bag.\n" +
+            "bright olive bags contain 3 striped tomato bags, 3 plaid indigo bags, 3 posh magenta bags.\n" +
+            "faded tomato bags contain 5 bright violet bags.\n" +
+            "mirrored magenta bags contain 3 wavy coral bags, 4 dull tan bags, 3 wavy chartreuse bags.\n" +
+            "striped aqua bags contain 3 drab teal bags, 3 drab crimson bags, 5 plaid gold bags, 2 vibrant aqua bags.\n" +
+            "clear crimson bags contain 5 striped chartreuse bags, 5 vibrant blue bags.\n" +
+            "striped blue bags contain 4 dull red bags, 3 vibrant white bags, 4 posh black bags.\n" +
+            "posh olive bags contain 5 muted cyan bags.\n" +
+            "plaid indigo bags contain 5 dotted fuchsia bags, 2 plaid chartreuse bags, 3 vibrant blue bags.\n" +
+            "mirrored lime bags contain 2 dotted lavender bags, 2 wavy bronze bags.\n" +
+            "wavy blue bags contain 5 mirrored green bags, 5 faded tomato bags, 1 posh turquoise bag.\n" +
+            "light fuchsia bags contain 3 faded tomato bags, 5 muted beige bags, 2 faded beige bags, 4 wavy indigo bags.\n" +
+            "dull plum bags contain 4 dark blue bags, 5 shiny maroon bags, 3 pale gray bags, 5 drab lime bags.\n" +
+            "drab fuchsia bags contain 3 dark maroon bags.\n" +
+            "pale teal bags contain 4 vibrant blue bags, 1 bright green bag, 3 dim crimson bags, 1 posh salmon bag.\n" +
+            "dull tomato bags contain 3 dim maroon bags, 4 plaid gray bags, 5 striped gold bags, 5 striped white bags.\n" +
+            "pale orange bags contain 4 drab yellow bags.\n" +
+            "wavy aqua bags contain 1 dim bronze bag.\n" +
+            "dim chartreuse bags contain 2 bright violet bags.\n" +
+            "dotted crimson bags contain 5 vibrant orange bags, 4 wavy magenta bags.\n" +
+            "faded cyan bags contain 3 mirrored blue bags, 3 shiny fuchsia bags, 4 bright indigo bags.\n" +
+            "pale salmon bags contain 2 pale cyan bags, 2 muted lime bags, 2 vibrant plum bags.\n" +
+            "drab lime bags contain 2 drab yellow bags, 2 light magenta bags, 3 dotted fuchsia bags.\n" +
+            "shiny bronze bags contain 1 posh lavender bag.\n" +
+            "dim fuchsia bags contain 5 dotted gold bags, 5 vibrant indigo bags, 4 shiny teal bags, 2 dotted silver bags.\n" +
+            "dark green bags contain 2 shiny blue bags.\n" +
+            "bright red bags contain 2 pale brown bags, 3 plaid blue bags, 4 drab bronze bags, 3 dim yellow bags.\n" +
+            "clear teal bags contain 2 drab white bags, 3 muted beige bags.\n" +
+            "pale aqua bags contain 4 light tan bags.\n" +
+            "dull lavender bags contain 1 dim bronze bag, 5 dim crimson bags, 1 dotted olive bag.\n" +
+            "dotted plum bags contain 1 light black bag.\n" +
+            "shiny teal bags contain 3 light indigo bags.\n" +
+            "dotted lime bags contain 1 shiny gold bag, 3 plaid crimson bags.\n" +
+            "dark tan bags contain 5 faded tan bags.\n" +
+            "vibrant indigo bags contain 3 shiny fuchsia bags.\n" +
+            "light tan bags contain 4 pale yellow bags, 1 pale crimson bag, 3 light gray bags.\n" +
+            "drab plum bags contain 2 shiny turquoise bags, 2 vibrant yellow bags, 4 muted brown bags, 2 drab lavender bags.\n" +
+            "dim white bags contain 5 dark red bags, 5 dotted olive bags.\n" +
+            "light red bags contain 2 vibrant indigo bags, 1 wavy salmon bag, 3 dull brown bags.\n" +
+            "mirrored fuchsia bags contain 5 dotted tomato bags.\n" +
+            "mirrored indigo bags contain 5 pale lime bags, 5 light magenta bags, 4 light gray bags, 2 dull red bags.\n" +
+            "dim yellow bags contain 2 muted beige bags, 2 plaid olive bags, 3 faded aqua bags.\n" +
+            "shiny gray bags contain 1 drab yellow bag, 3 shiny lavender bags, 1 posh white bag.\n" +
+            "faded violet bags contain 2 bright olive bags, 5 clear gray bags, 2 dark orange bags, 1 pale magenta bag.\n" +
+            "mirrored black bags contain 4 clear blue bags.\n" +
+            "drab aqua bags contain 1 vibrant crimson bag, 4 clear fuchsia bags.\n" +
+            "pale black bags contain 5 pale turquoise bags, 4 striped yellow bags, 4 dotted beige bags.\n" +
+            "wavy cyan bags contain 1 vibrant brown bag.\n" +
+            "dark silver bags contain 3 light tomato bags, 5 dotted lavender bags, 3 bright turquoise bags.\n" +
+            "faded orange bags contain 3 clear turquoise bags, 3 mirrored gold bags, 2 plaid bronze bags, 2 dotted fuchsia bags.\n" +
+            "drab crimson bags contain 5 clear blue bags.\n" +
+            "posh magenta bags contain 1 bright violet bag, 2 dotted beige bags, 2 bright gray bags.\n" +
+            "posh brown bags contain 3 dim tomato bags, 1 dim chartreuse bag, 5 shiny orange bags.\n" +
+            "drab gray bags contain 3 striped violet bags.\n" +
+            "pale cyan bags contain 5 dotted aqua bags, 3 striped tomato bags.\n" +
+            "wavy tan bags contain 3 pale indigo bags.\n" +
+            "plaid brown bags contain 2 dotted indigo bags, 1 dull indigo bag, 2 light brown bags.\n" +
+            "vibrant beige bags contain 1 shiny teal bag, 3 vibrant cyan bags, 2 posh gray bags, 3 striped tomato bags.\n" +
+            "shiny aqua bags contain 2 vibrant black bags, 2 muted coral bags, 4 vibrant coral bags.\n" +
+            "mirrored silver bags contain 3 drab silver bags, 1 clear turquoise bag.\n" +
+            "pale tan bags contain 3 pale magenta bags.\n" +
+            "striped cyan bags contain 5 drab tomato bags.\n" +
+            "mirrored coral bags contain 1 mirrored crimson bag, 1 bright maroon bag.\n" +
+            "pale white bags contain 4 shiny beige bags, 1 shiny maroon bag, 5 dim bronze bags.\n" +
+            "shiny beige bags contain 3 mirrored gold bags.\n" +
+            "mirrored chartreuse bags contain 1 dotted tomato bag, 2 bright cyan bags.\n" +
+            "wavy red bags contain 1 posh lavender bag, 1 vibrant blue bag, 3 muted brown bags.\n" +
+            "muted chartreuse bags contain 3 dim lavender bags, 4 pale plum bags, 4 light magenta bags.\n" +
+            "shiny purple bags contain 4 muted green bags, 5 light white bags, 2 faded tan bags, 5 light beige bags.\n" +
+            "clear tan bags contain 3 dotted red bags, 1 striped violet bag, 4 plaid chartreuse bags.\n" +
+            "bright teal bags contain 1 faded black bag, 3 faded maroon bags.\n" +
+            "posh orange bags contain 5 light gold bags, 3 posh aqua bags.\n" +
+            "striped gray bags contain 2 bright plum bags, 2 shiny gray bags.\n" +
+            "dim lime bags contain 1 plaid blue bag.\n" +
+            "posh fuchsia bags contain 1 dull indigo bag, 2 plaid blue bags.\n" +
+            "dotted tomato bags contain no other bags.\n" +
+            "dim plum bags contain 1 dim chartreuse bag.\n" +
+            "dim orange bags contain 2 muted magenta bags, 5 faded aqua bags.\n" +
+            "posh gold bags contain 5 light maroon bags, 4 dark turquoise bags, 1 posh white bag, 5 wavy beige bags.\n" +
+            "striped bronze bags contain 1 dark magenta bag.\n" +
+            "wavy lime bags contain 4 mirrored lavender bags, 3 pale bronze bags, 1 dull white bag.\n" +
+            "pale magenta bags contain 2 dim crimson bags, 4 plaid plum bags, 5 muted silver bags, 2 dim yellow bags.\n" +
+            "striped chartreuse bags contain 5 light black bags, 3 bright fuchsia bags, 4 pale black bags.\n" +
+            "vibrant tan bags contain 2 dim tan bags.\n" +
+            "shiny crimson bags contain 5 pale beige bags, 3 clear purple bags, 2 pale violet bags, 4 dotted chartreuse bags.\n" +
+            "vibrant orange bags contain no other bags.\n" +
+            "striped silver bags contain 5 clear orange bags, 2 dotted fuchsia bags.\n" +
+            "clear cyan bags contain 5 muted gray bags, 3 wavy aqua bags.\n" +
+            "light black bags contain 1 striped yellow bag.\n" +
+            "muted white bags contain 3 muted tomato bags, 5 light black bags, 4 pale black bags, 5 shiny gold bags.";
+
+    public static final String INPUT_8 = "acc -15\n" +
+            "jmp +164\n" +
+            "nop +157\n" +
+            "acc -12\n" +
+            "acc -19\n" +
+            "acc +41\n" +
+            "jmp +177\n" +
+            "acc +36\n" +
+            "acc +37\n" +
+            "nop +471\n" +
+            "jmp +433\n" +
+            "acc +24\n" +
+            "acc +13\n" +
+            "acc -12\n" +
+            "jmp +556\n" +
+            "jmp +1\n" +
+            "acc -15\n" +
+            "acc +33\n" +
+            "jmp +299\n" +
+            "jmp +344\n" +
+            "acc -3\n" +
+            "jmp +124\n" +
+            "acc +10\n" +
+            "nop +562\n" +
+            "acc +45\n" +
+            "jmp +386\n" +
+            "acc -3\n" +
+            "jmp +206\n" +
+            "acc -19\n" +
+            "acc +12\n" +
+            "jmp +424\n" +
+            "acc -18\n" +
+            "acc +23\n" +
+            "acc +12\n" +
+            "acc +0\n" +
+            "jmp +311\n" +
+            "nop +327\n" +
+            "jmp +301\n" +
+            "acc +20\n" +
+            "nop +375\n" +
+            "jmp +25\n" +
+            "acc -13\n" +
+            "acc +49\n" +
+            "acc +23\n" +
+            "acc -3\n" +
+            "jmp +346\n" +
+            "acc +2\n" +
+            "acc +3\n" +
+            "jmp +123\n" +
+            "acc -7\n" +
+            "nop +183\n" +
+            "jmp +165\n" +
+            "acc +47\n" +
+            "acc +34\n" +
+            "jmp +1\n" +
+            "jmp +359\n" +
+            "acc +12\n" +
+            "acc +16\n" +
+            "acc -3\n" +
+            "acc +0\n" +
+            "jmp +556\n" +
+            "acc +14\n" +
+            "acc -3\n" +
+            "jmp +559\n" +
+            "jmp +192\n" +
+            "jmp +495\n" +
+            "nop +264\n" +
+            "acc +3\n" +
+            "acc +47\n" +
+            "jmp +187\n" +
+            "acc -18\n" +
+            "jmp +1\n" +
+            "acc -12\n" +
+            "jmp -58\n" +
+            "acc +49\n" +
+            "nop +288\n" +
+            "jmp +145\n" +
+            "acc +46\n" +
+            "jmp +294\n" +
+            "acc +38\n" +
+            "nop +400\n" +
+            "jmp +373\n" +
+            "acc +7\n" +
+            "acc +31\n" +
+            "jmp +492\n" +
+            "acc +40\n" +
+            "acc +5\n" +
+            "acc +11\n" +
+            "jmp +263\n" +
+            "acc +29\n" +
+            "acc +10\n" +
+            "acc +21\n" +
+            "acc +14\n" +
+            "jmp +450\n" +
+            "nop +458\n" +
+            "acc +38\n" +
+            "nop +432\n" +
+            "acc +42\n" +
+            "jmp +191\n" +
+            "jmp +279\n" +
+            "nop +71\n" +
+            "acc -17\n" +
+            "jmp -64\n" +
+            "acc +17\n" +
+            "jmp +1\n" +
+            "acc +29\n" +
+            "jmp +506\n" +
+            "jmp +354\n" +
+            "acc +42\n" +
+            "acc +32\n" +
+            "jmp -40\n" +
+            "jmp +184\n" +
+            "acc +41\n" +
+            "acc -7\n" +
+            "acc +10\n" +
+            "acc +38\n" +
+            "jmp +100\n" +
+            "jmp +104\n" +
+            "jmp +245\n" +
+            "jmp +335\n" +
+            "jmp +20\n" +
+            "acc +3\n" +
+            "jmp +490\n" +
+            "jmp -62\n" +
+            "acc +34\n" +
+            "acc +34\n" +
+            "acc -1\n" +
+            "jmp +6\n" +
+            "acc +5\n" +
+            "acc -9\n" +
+            "acc -19\n" +
+            "jmp +397\n" +
+            "jmp +253\n" +
+            "acc +9\n" +
+            "jmp +270\n" +
+            "acc +8\n" +
+            "acc -16\n" +
+            "acc +32\n" +
+            "acc +48\n" +
+            "jmp +258\n" +
+            "acc +4\n" +
+            "acc +37\n" +
+            "nop +319\n" +
+            "jmp +318\n" +
+            "jmp -4\n" +
+            "acc -5\n" +
+            "jmp +32\n" +
+            "nop -86\n" +
+            "jmp +306\n" +
+            "acc -13\n" +
+            "acc +50\n" +
+            "acc -16\n" +
+            "jmp -53\n" +
+            "acc +31\n" +
+            "jmp +52\n" +
+            "acc -11\n" +
+            "jmp +89\n" +
+            "acc +21\n" +
+            "jmp +126\n" +
+            "acc +44\n" +
+            "acc +49\n" +
+            "nop +177\n" +
+            "jmp +44\n" +
+            "acc +8\n" +
+            "jmp +166\n" +
+            "acc +20\n" +
+            "acc -8\n" +
+            "acc +38\n" +
+            "acc +10\n" +
+            "jmp +311\n" +
+            "jmp +21\n" +
+            "acc -10\n" +
+            "nop +84\n" +
+            "acc -7\n" +
+            "acc +13\n" +
+            "jmp +78\n" +
+            "jmp +1\n" +
+            "jmp +366\n" +
+            "acc -6\n" +
+            "acc -12\n" +
+            "jmp -142\n" +
+            "nop +223\n" +
+            "jmp +42\n" +
+            "acc -6\n" +
+            "nop +227\n" +
+            "nop +193\n" +
+            "acc +23\n" +
+            "jmp +83\n" +
+            "acc -10\n" +
+            "acc +12\n" +
+            "jmp +1\n" +
+            "acc -8\n" +
+            "acc +3\n" +
+            "nop +28\n" +
+            "jmp +301\n" +
+            "acc +23\n" +
+            "jmp -170\n" +
+            "nop -79\n" +
+            "acc +21\n" +
+            "acc +37\n" +
+            "jmp +138\n" +
+            "acc +37\n" +
+            "acc +24\n" +
+            "nop +413\n" +
+            "acc -9\n" +
+            "jmp -179\n" +
+            "acc -1\n" +
+            "acc -10\n" +
+            "nop +261\n" +
+            "acc -19\n" +
+            "jmp +168\n" +
+            "acc -16\n" +
+            "acc +19\n" +
+            "acc +17\n" +
+            "acc +21\n" +
+            "jmp -9\n" +
+            "jmp +46\n" +
+            "acc +4\n" +
+            "nop +398\n" +
+            "acc +28\n" +
+            "jmp +396\n" +
+            "acc +11\n" +
+            "jmp +384\n" +
+            "jmp +375\n" +
+            "acc +25\n" +
+            "acc +30\n" +
+            "acc -11\n" +
+            "jmp +371\n" +
+            "jmp +249\n" +
+            "acc -10\n" +
+            "acc -15\n" +
+            "jmp -7\n" +
+            "jmp +38\n" +
+            "acc +29\n" +
+            "acc +15\n" +
+            "acc +46\n" +
+            "jmp -77\n" +
+            "acc +43\n" +
+            "jmp -83\n" +
+            "jmp -42\n" +
+            "acc +30\n" +
+            "acc +44\n" +
+            "acc +33\n" +
+            "acc +14\n" +
+            "jmp +326\n" +
+            "acc -3\n" +
+            "nop +49\n" +
+            "acc +12\n" +
+            "jmp +63\n" +
+            "acc -13\n" +
+            "acc -19\n" +
+            "acc -17\n" +
+            "jmp +126\n" +
+            "jmp +293\n" +
+            "acc +16\n" +
+            "jmp -185\n" +
+            "acc -12\n" +
+            "jmp -92\n" +
+            "acc -13\n" +
+            "acc +19\n" +
+            "acc -1\n" +
+            "jmp -138\n" +
+            "acc +28\n" +
+            "nop -243\n" +
+            "nop +352\n" +
+            "acc +43\n" +
+            "jmp +249\n" +
+            "acc -5\n" +
+            "acc +36\n" +
+            "jmp -217\n" +
+            "nop +197\n" +
+            "nop -106\n" +
+            "acc +30\n" +
+            "jmp +194\n" +
+            "acc +7\n" +
+            "acc -16\n" +
+            "nop +128\n" +
+            "jmp -239\n" +
+            "jmp -258\n" +
+            "acc +11\n" +
+            "nop -74\n" +
+            "acc +42\n" +
+            "acc +40\n" +
+            "jmp +72\n" +
+            "jmp -207\n" +
+            "nop +337\n" +
+            "nop -240\n" +
+            "nop -169\n" +
+            "jmp -55\n" +
+            "nop +165\n" +
+            "acc +27\n" +
+            "acc +4\n" +
+            "jmp -169\n" +
+            "acc -2\n" +
+            "jmp +69\n" +
+            "acc +0\n" +
+            "jmp -250\n" +
+            "acc +11\n" +
+            "acc +45\n" +
+            "acc +31\n" +
+            "jmp +195\n" +
+            "acc -10\n" +
+            "acc -8\n" +
+            "nop -283\n" +
+            "acc -2\n" +
+            "jmp +63\n" +
+            "acc +17\n" +
+            "acc +12\n" +
+            "acc +0\n" +
+            "nop +243\n" +
+            "jmp +190\n" +
+            "acc +17\n" +
+            "acc -18\n" +
+            "jmp +78\n" +
+            "acc +7\n" +
+            "acc +33\n" +
+            "jmp +244\n" +
+            "nop +29\n" +
+            "acc +20\n" +
+            "nop +150\n" +
+            "acc +29\n" +
+            "jmp -43\n" +
+            "acc +45\n" +
+            "nop -132\n" +
+            "acc +16\n" +
+            "acc +14\n" +
+            "jmp -237\n" +
+            "jmp -199\n" +
+            "acc -4\n" +
+            "jmp +179\n" +
+            "acc +13\n" +
+            "acc +15\n" +
+            "acc +6\n" +
+            "acc +46\n" +
+            "jmp -222\n" +
+            "acc -8\n" +
+            "acc +15\n" +
+            "jmp -26\n" +
+            "acc +38\n" +
+            "jmp +1\n" +
+            "nop +266\n" +
+            "jmp +44\n" +
+            "acc -13\n" +
+            "nop +209\n" +
+            "acc +21\n" +
+            "jmp +201\n" +
+            "acc +8\n" +
+            "acc +18\n" +
+            "jmp +190\n" +
+            "acc +35\n" +
+            "jmp -238\n" +
+            "jmp +69\n" +
+            "acc -11\n" +
+            "nop -182\n" +
+            "jmp -221\n" +
+            "acc -16\n" +
+            "acc -5\n" +
+            "acc +7\n" +
+            "jmp +39\n" +
+            "acc +26\n" +
+            "acc +43\n" +
+            "acc +20\n" +
+            "jmp +92\n" +
+            "acc +22\n" +
+            "jmp +81\n" +
+            "acc +32\n" +
+            "acc -13\n" +
+            "jmp +30\n" +
+            "acc +1\n" +
+            "jmp +201\n" +
+            "acc +4\n" +
+            "jmp -165\n" +
+            "acc -17\n" +
+            "jmp -84\n" +
+            "acc -16\n" +
+            "acc +2\n" +
+            "acc +47\n" +
+            "jmp +54\n" +
+            "jmp -195\n" +
+            "acc +33\n" +
+            "acc -17\n" +
+            "jmp -18\n" +
+            "jmp +256\n" +
+            "acc +1\n" +
+            "jmp -244\n" +
+            "acc +28\n" +
+            "acc +35\n" +
+            "jmp +189\n" +
+            "nop +32\n" +
+            "acc +9\n" +
+            "jmp +24\n" +
+            "acc +21\n" +
+            "acc +14\n" +
+            "acc +17\n" +
+            "jmp -67\n" +
+            "acc +21\n" +
+            "jmp -297\n" +
+            "acc +36\n" +
+            "acc +14\n" +
+            "acc -13\n" +
+            "jmp +115\n" +
+            "acc -2\n" +
+            "acc -13\n" +
+            "jmp -182\n" +
+            "nop +119\n" +
+            "acc -4\n" +
+            "acc +44\n" +
+            "acc -14\n" +
+            "jmp +61\n" +
+            "acc +41\n" +
+            "jmp -13\n" +
+            "nop -116\n" +
+            "jmp -294\n" +
+            "jmp +7\n" +
+            "jmp +17\n" +
+            "acc -14\n" +
+            "acc +42\n" +
+            "acc -6\n" +
+            "acc +24\n" +
+            "jmp +151\n" +
+            "nop -374\n" +
+            "nop -375\n" +
+            "acc +4\n" +
+            "jmp -268\n" +
+            "nop -27\n" +
+            "acc +16\n" +
+            "acc +2\n" +
+            "jmp -206\n" +
+            "jmp -320\n" +
+            "nop -196\n" +
+            "jmp +168\n" +
+            "nop +36\n" +
+            "acc +34\n" +
+            "jmp -402\n" +
+            "acc +36\n" +
+            "acc +38\n" +
+            "acc -11\n" +
+            "nop +17\n" +
+            "jmp -182\n" +
+            "acc +15\n" +
+            "jmp -145\n" +
+            "acc +43\n" +
+            "jmp -79\n" +
+            "jmp -391\n" +
+            "jmp -155\n" +
+            "nop -94\n" +
+            "acc +0\n" +
+            "acc +9\n" +
+            "jmp -441\n" +
+            "acc +3\n" +
+            "acc +6\n" +
+            "acc +50\n" +
+            "nop -334\n" +
+            "jmp +163\n" +
+            "acc +18\n" +
+            "acc -11\n" +
+            "jmp +21\n" +
+            "acc +10\n" +
+            "acc +4\n" +
+            "nop +132\n" +
+            "jmp -348\n" +
+            "acc +18\n" +
+            "nop -1\n" +
+            "acc -4\n" +
+            "nop +148\n" +
+            "jmp +165\n" +
+            "jmp +146\n" +
+            "jmp -460\n" +
+            "jmp -14\n" +
+            "acc +26\n" +
+            "nop -388\n" +
+            "nop -353\n" +
+            "jmp +119\n" +
+            "acc +26\n" +
+            "acc -1\n" +
+            "acc +9\n" +
+            "jmp -285\n" +
+            "acc +37\n" +
+            "jmp -345\n" +
+            "jmp -178\n" +
+            "acc +7\n" +
+            "acc +13\n" +
+            "jmp -39\n" +
+            "acc +29\n" +
+            "nop -200\n" +
+            "acc +50\n" +
+            "acc +24\n" +
+            "jmp -160\n" +
+            "acc +18\n" +
+            "jmp +63\n" +
+            "acc -11\n" +
+            "acc +1\n" +
+            "acc -6\n" +
+            "acc +33\n" +
+            "jmp -90\n" +
+            "acc -3\n" +
+            "acc +11\n" +
+            "acc +45\n" +
+            "jmp -197\n" +
+            "jmp -169\n" +
+            "acc +7\n" +
+            "acc -4\n" +
+            "jmp -281\n" +
+            "acc +48\n" +
+            "nop +19\n" +
+            "nop -25\n" +
+            "nop +9\n" +
+            "jmp -274\n" +
+            "nop -126\n" +
+            "acc +22\n" +
+            "acc -4\n" +
+            "jmp -408\n" +
+            "acc +1\n" +
+            "acc +0\n" +
+            "jmp +98\n" +
+            "acc +25\n" +
+            "acc +12\n" +
+            "acc -19\n" +
+            "jmp -90\n" +
+            "acc +44\n" +
+            "acc +20\n" +
+            "acc +21\n" +
+            "jmp -192\n" +
+            "acc -12\n" +
+            "jmp -70\n" +
+            "nop +3\n" +
+            "acc +17\n" +
+            "jmp -349\n" +
+            "acc +20\n" +
+            "acc -7\n" +
+            "acc +6\n" +
+            "nop -43\n" +
+            "jmp +53\n" +
+            "acc +34\n" +
+            "acc +48\n" +
+            "acc -4\n" +
+            "acc +8\n" +
+            "jmp -126\n" +
+            "acc +23\n" +
+            "acc +25\n" +
+            "jmp -349\n" +
+            "acc -4\n" +
+            "jmp -272\n" +
+            "jmp -129\n" +
+            "nop -366\n" +
+            "jmp -292\n" +
+            "acc +29\n" +
+            "nop -269\n" +
+            "acc +50\n" +
+            "nop -254\n" +
+            "jmp -321\n" +
+            "jmp -23\n" +
+            "acc +11\n" +
+            "nop -425\n" +
+            "nop -150\n" +
+            "acc -9\n" +
+            "jmp -467\n" +
+            "acc +18\n" +
+            "acc +27\n" +
+            "jmp -338\n" +
+            "jmp +1\n" +
+            "acc +21\n" +
+            "acc +27\n" +
+            "acc -11\n" +
+            "jmp -160\n" +
+            "acc +27\n" +
+            "acc +15\n" +
+            "acc +0\n" +
+            "acc +41\n" +
+            "jmp -386\n" +
+            "acc -10\n" +
+            "acc +14\n" +
+            "jmp -217\n" +
+            "nop -484\n" +
+            "acc +47\n" +
+            "jmp -529\n" +
+            "acc -10\n" +
+            "acc +48\n" +
+            "acc +0\n" +
+            "jmp -430\n" +
+            "acc +45\n" +
+            "acc -8\n" +
+            "acc +3\n" +
+            "nop -103\n" +
+            "jmp -387\n" +
+            "acc -16\n" +
+            "acc +39\n" +
+            "jmp +1\n" +
+            "acc +17\n" +
+            "jmp -350\n" +
+            "jmp -328\n" +
+            "acc +30\n" +
+            "acc +28\n" +
+            "jmp -309\n" +
+            "nop -361\n" +
+            "acc +1\n" +
+            "nop -468\n" +
+            "jmp -212\n" +
+            "acc +29\n" +
+            "acc -4\n" +
+            "jmp -249\n" +
+            "acc +45\n" +
+            "acc +30\n" +
+            "acc +40\n" +
+            "acc -17\n" +
+            "jmp -579\n" +
+            "acc +25\n" +
+            "jmp -525\n" +
+            "nop -217\n" +
+            "acc +17\n" +
+            "acc +3\n" +
+            "jmp -142\n" +
+            "nop +18\n" +
+            "jmp -493\n" +
+            "jmp +1\n" +
+            "jmp -495\n" +
+            "jmp -360\n" +
+            "acc +7\n" +
+            "acc +30\n" +
+            "acc -3\n" +
+            "nop -449\n" +
+            "jmp -326\n" +
+            "acc -10\n" +
+            "acc -8\n" +
+            "jmp -371\n" +
+            "acc +22\n" +
+            "acc +48\n" +
+            "acc +6\n" +
+            "acc +18\n" +
+            "jmp -59\n" +
+            "acc +17\n" +
+            "acc +14\n" +
+            "jmp -250\n" +
+            "acc +19\n" +
+            "acc +25\n" +
+            "acc -14\n" +
+            "acc -17\n" +
+            "jmp -517\n" +
+            "acc +29\n" +
+            "acc -4\n" +
+            "acc +9\n" +
+            "acc +17\n" +
+            "jmp +1";
+
+    public static final String INPUT_9 = "18\n" +
+            "15\n" +
+            "39\n" +
+            "28\n" +
+            "25\n" +
+            "48\n" +
+            "41\n" +
+            "1\n" +
+            "32\n" +
+            "33\n" +
+            "8\n" +
+            "49\n" +
+            "43\n" +
+            "36\n" +
+            "40\n" +
+            "5\n" +
+            "20\n" +
+            "26\n" +
+            "22\n" +
+            "38\n" +
+            "4\n" +
+            "14\n" +
+            "3\n" +
+            "35\n" +
+            "29\n" +
+            "30\n" +
+            "6\n" +
+            "37\n" +
+            "7\n" +
+            "76\n" +
+            "9\n" +
+            "12\n" +
+            "10\n" +
+            "11\n" +
+            "15\n" +
+            "13\n" +
+            "18\n" +
+            "74\n" +
+            "8\n" +
+            "45\n" +
+            "17\n" +
+            "32\n" +
+            "28\n" +
+            "16\n" +
+            "41\n" +
+            "19\n" +
+            "20\n" +
+            "14\n" +
+            "34\n" +
+            "22\n" +
+            "23\n" +
+            "21\n" +
+            "27\n" +
+            "35\n" +
+            "24\n" +
+            "25\n" +
+            "26\n" +
+            "29\n" +
+            "30\n" +
+            "51\n" +
+            "37\n" +
+            "31\n" +
+            "33\n" +
+            "63\n" +
+            "49\n" +
+            "36\n" +
+            "38\n" +
+            "39\n" +
+            "40\n" +
+            "61\n" +
+            "41\n" +
+            "42\n" +
+            "50\n" +
+            "83\n" +
+            "77\n" +
+            "44\n" +
+            "45\n" +
+            "52\n" +
+            "53\n" +
+            "55\n" +
+            "54\n" +
+            "56\n" +
+            "59\n" +
+            "71\n" +
+            "64\n" +
+            "67\n" +
+            "69\n" +
+            "72\n" +
+            "143\n" +
+            "97\n" +
+            "106\n" +
+            "90\n" +
+            "79\n" +
+            "99\n" +
+            "86\n" +
+            "95\n" +
+            "87\n" +
+            "98\n" +
+            "89\n" +
+            "122\n" +
+            "96\n" +
+            "100\n" +
+            "146\n" +
+            "107\n" +
+            "109\n" +
+            "110\n" +
+            "123\n" +
+            "255\n" +
+            "168\n" +
+            "131\n" +
+            "157\n" +
+            "141\n" +
+            "177\n" +
+            "185\n" +
+            "179\n" +
+            "362\n" +
+            "165\n" +
+            "166\n" +
+            "173\n" +
+            "175\n" +
+            "176\n" +
+            "189\n" +
+            "246\n" +
+            "212\n" +
+            "253\n" +
+            "230\n" +
+            "207\n" +
+            "216\n" +
+            "345\n" +
+            "219\n" +
+            "309\n" +
+            "354\n" +
+            "272\n" +
+            "351\n" +
+            "535\n" +
+            "438\n" +
+            "306\n" +
+            "385\n" +
+            "339\n" +
+            "331\n" +
+            "338\n" +
+            "340\n" +
+            "526\n" +
+            "348\n" +
+            "364\n" +
+            "365\n" +
+            "646\n" +
+            "419\n" +
+            "423\n" +
+            "559\n" +
+            "923\n" +
+            "426\n" +
+            "435\n" +
+            "491\n" +
+            "525\n" +
+            "578\n" +
+            "603\n" +
+            "767\n" +
+            "1202\n" +
+            "766\n" +
+            "688\n" +
+            "671\n" +
+            "669\n" +
+            "712\n" +
+            "678\n" +
+            "686\n" +
+            "774\n" +
+            "790\n" +
+            "713\n" +
+            "842\n" +
+            "784\n" +
+            "845\n" +
+            "914\n" +
+            "1275\n" +
+            "861\n" +
+            "1265\n" +
+            "917\n" +
+            "1401\n" +
+            "1016\n" +
+            "1103\n" +
+            "1181\n" +
+            "1688\n" +
+            "1340\n" +
+            "1347\n" +
+            "1357\n" +
+            "1349\n" +
+            "1497\n" +
+            "2095\n" +
+            "1877\n" +
+            "2963\n" +
+            "1460\n" +
+            "2131\n" +
+            "2130\n" +
+            "1555\n" +
+            "1626\n" +
+            "2185\n" +
+            "2126\n" +
+            "4460\n" +
+            "1778\n" +
+            "1933\n" +
+            "2020\n" +
+            "2098\n" +
+            "3243\n" +
+            "3953\n" +
+            "2563\n" +
+            "2844\n" +
+            "2800\n" +
+            "3903\n" +
+            "2696\n" +
+            "4226\n" +
+            "2809\n" +
+            "2957\n" +
+            "3015\n" +
+            "3086\n" +
+            "4869\n" +
+            "3181\n" +
+            "4641\n" +
+            "6910\n" +
+            "3333\n" +
+            "3404\n" +
+            "3711\n" +
+            "7084\n" +
+            "3798\n" +
+            "3876\n" +
+            "4031\n" +
+            "6755\n" +
+            "4661\n" +
+            "5363\n" +
+            "10658\n" +
+            "5505\n" +
+            "5496\n" +
+            "6213\n" +
+            "5653\n" +
+            "5711\n" +
+            "9228\n" +
+            "10859\n" +
+            "5972\n" +
+            "6348\n" +
+            "6267\n" +
+            "11924\n" +
+            "6514\n" +
+            "6737\n" +
+            "7044\n" +
+            "9074\n" +
+            "8692\n" +
+            "22783\n" +
+            "9848\n" +
+            "7674\n" +
+            "11149\n" +
+            "10298\n" +
+            "14345\n" +
+            "10874\n" +
+            "10868\n" +
+            "11216\n" +
+            "17972\n" +
+            "11844\n" +
+            "11364\n" +
+            "11625\n" +
+            "11683\n" +
+            "12320\n" +
+            "12239\n" +
+            "16646\n" +
+            "13311\n" +
+            "12781\n" +
+            "13251\n" +
+            "13558\n" +
+            "15429\n" +
+            "18408\n" +
+            "16366\n" +
+            "19841\n" +
+            "33651\n" +
+            "18542\n" +
+            "22513\n" +
+            "22493\n" +
+            "21166\n" +
+            "32622\n" +
+            "22084\n" +
+            "22551\n" +
+            "22580\n" +
+            "22989\n" +
+            "23469\n" +
+            "32161\n" +
+            "23308\n" +
+            "23922\n" +
+            "44481\n" +
+            "26339\n" +
+            "26032\n" +
+            "26092\n" +
+            "26809\n" +
+            "38917\n" +
+            "28987\n" +
+            "31795\n" +
+            "34774\n" +
+            "46415\n" +
+            "42464\n" +
+            "39708\n" +
+            "40626\n" +
+            "43250\n" +
+            "43659\n" +
+            "66719\n" +
+            "45569\n" +
+            "45131\n" +
+            "45540\n" +
+            "45888\n" +
+            "46297\n" +
+            "46777\n" +
+            "47230\n" +
+            "49340\n" +
+            "49954\n" +
+            "113134\n" +
+            "83090\n" +
+            "52124\n" +
+            "52901\n" +
+            "55796\n" +
+            "81381\n" +
+            "60782\n" +
+            "66569\n" +
+            "77238\n" +
+            "80334\n" +
+            "120960\n" +
+            "82958\n" +
+            "89199\n" +
+            "86909\n" +
+            "88790\n" +
+            "204050\n" +
+            "165258\n" +
+            "91019\n" +
+            "91428\n" +
+            "92185\n" +
+            "107920\n" +
+            "94007\n" +
+            "96570\n" +
+            "99294\n" +
+            "174341\n" +
+            "119470\n" +
+            "105025\n" +
+            "134282\n" +
+            "195864\n" +
+            "164147\n" +
+            "127351\n" +
+            "160076\n" +
+            "143807\n" +
+            "168257\n" +
+            "163292\n" +
+            "300620\n" +
+            "204490\n" +
+            "265360\n" +
+            "225301\n" +
+            "182447\n" +
+            "183204\n" +
+            "185026\n" +
+            "183613\n" +
+            "193301\n" +
+            "271158\n" +
+            "240377\n" +
+            "328833\n" +
+            "201595\n" +
+            "253752\n" +
+            "307099\n" +
+            "224495\n" +
+            "232376\n" +
+            "291498\n" +
+            "387787\n" +
+            "287427\n" +
+            "361558\n" +
+            "428985\n" +
+            "679285\n" +
+            "437365\n" +
+            "422824\n" +
+            "365651\n" +
+            "620978\n" +
+            "582585\n" +
+            "366060\n" +
+            "554859\n" +
+            "500400\n" +
+            "368639\n" +
+            "376914\n" +
+            "1234144\n" +
+            "441972\n" +
+            "561209\n" +
+            "426090\n" +
+            "493093\n" +
+            "456871\n" +
+            "511922\n" +
+            "593134\n" +
+            "953894\n" +
+            "578925\n" +
+            "648985\n" +
+            "653487\n" +
+            "727209\n" +
+            "992224\n" +
+            "959194\n" +
+            "731711\n" +
+            "734290\n" +
+            "858744\n" +
+            "980949\n" +
+            "1133784\n" +
+            "1370666\n" +
+            "745553\n" +
+            "1887631\n" +
+            "803004\n" +
+            "818886\n" +
+            "868062\n" +
+            "882961\n" +
+            "1005015\n" +
+            "1035796\n" +
+            "1504146\n" +
+            "968793\n" +
+            "1383275\n" +
+            "1172059\n" +
+            "1477264\n" +
+            "1546095\n" +
+            "1302472\n" +
+            "1550597\n" +
+            "1613615\n" +
+            "2173670\n" +
+            "1617251\n" +
+            "2984281\n" +
+            "1479843\n" +
+            "1548557\n" +
+            "1564439\n" +
+            "1685965\n" +
+            "2339459\n" +
+            "2177074\n" +
+            "1621890\n" +
+            "1787679\n" +
+            "1686948\n" +
+            "1751023\n" +
+            "2055020\n" +
+            "2207855\n" +
+            "3234522\n" +
+            "3885554\n" +
+            "3605617\n" +
+            "3090879\n" +
+            "2474531\n" +
+            "5431649\n" +
+            "3025938\n" +
+            "2866911\n" +
+            "3044282\n" +
+            "3028400\n" +
+            "3308838\n" +
+            "3798964\n" +
+            "3112996\n" +
+            "3101733\n" +
+            "3170447\n" +
+            "6911492\n" +
+            "3372913\n" +
+            "4878558\n" +
+            "5278807\n" +
+            "3409569\n" +
+            "3437971\n" +
+            "6827364\n" +
+            "5236255\n" +
+            "4262875\n" +
+            "5233793\n" +
+            "6037358\n" +
+            "5341442\n" +
+            "5500469\n" +
+            "5912502\n" +
+            "5502931\n" +
+            "5968644\n" +
+            "5892849\n" +
+            "5895311\n" +
+            "6072682\n" +
+            "6130133\n" +
+            "9070377\n" +
+            "6214729\n" +
+            "6272180\n" +
+            "11131566\n" +
+            "8606706\n" +
+            "10175377\n" +
+            "6847540\n" +
+            "12006002\n" +
+            "7672444\n" +
+            "11129104\n" +
+            "9475329\n" +
+            "10736724\n" +
+            "9604317\n" +
+            "10158186\n" +
+            "11788160\n" +
+            "12041326\n" +
+            "10841911\n" +
+            "11573151\n" +
+            "12167491\n" +
+            "12486909\n" +
+            "11861493\n" +
+            "11967993\n" +
+            "12025444\n" +
+            "12344862\n" +
+            "12977673\n" +
+            "21771808\n" +
+            "19650706\n" +
+            "13944624\n" +
+            "14519984\n" +
+            "15454246\n" +
+            "16322869\n" +
+            "17276761\n" +
+            "33599630\n" +
+            "21443322\n" +
+            "20446228\n" +
+            "19762503\n" +
+            "22883237\n" +
+            "15353384\n" +
+            "22503048\n" +
+            "24009319\n" +
+            "27422239\n" +
+            "22415062\n" +
+            "23886937\n" +
+            "29244754\n" +
+            "24370306\n" +
+            "23829486\n" +
+            "26545428\n" +
+            "27698246\n" +
+            "25322535\n" +
+            "26922297\n" +
+            "42533943\n" +
+            "44132809\n" +
+            "39267159\n" +
+            "49209472\n" +
+            "30807630\n" +
+            "49805534\n" +
+            "41163698\n" +
+            "39240321\n" +
+            "35115887\n" +
+            "35799612\n" +
+            "37768446\n" +
+            "37856432\n" +
+            "63221851\n" +
+            "49425345\n" +
+            "48199792\n" +
+            "46244548\n" +
+            "60271494\n" +
+            "50751783\n" +
+            "49152021\n" +
+            "112647196\n" +
+            "51867963\n" +
+            "52244832\n" +
+            "53020781\n" +
+            "81774264\n" +
+            "80232975\n" +
+            "65923517\n" +
+            "66607242\n" +
+            "105847563\n" +
+            "68576076\n" +
+            "81559413\n" +
+            "75039933\n" +
+            "70915499\n" +
+            "154047355\n" +
+            "72884333\n" +
+            "73568058\n" +
+            "97351813\n" +
+            "84100980\n" +
+            "94444340\n" +
+            "95396569\n" +
+            "122720079\n" +
+            "143799832\n" +
+            "99903804\n" +
+            "101019984\n" +
+            "126907896\n" +
+            "212551000\n" +
+            "168012398\n" +
+            "155272908\n" +
+            "223848984\n" +
+            "138807850\n" +
+            "135183318\n" +
+            "132530759\n" +
+            "205415092\n" +
+            "139491575\n" +
+            "230579887\n" +
+            "156599346\n" +
+            "144483557\n" +
+            "155016479\n" +
+            "217367890\n" +
+            "146452391\n" +
+            "213059633\n" +
+            "226975099\n" +
+            "178545320\n" +
+            "279565304\n" +
+            "227927328\n" +
+            "200923788\n" +
+            "226811700\n" +
+            "227927880\n" +
+            "457391587\n" +
+            "406473200\n" +
+            "267714077\n" +
+            "271338609\n" +
+            "289130105\n" +
+            "272022334\n" +
+            "273991168\n" +
+            "301468870\n" +
+            "277014316\n" +
+            "283975132\n" +
+            "285943966\n" +
+            "384527226\n" +
+            "303051737\n" +
+            "290935948\n" +
+            "692417166\n" +
+            "324997711\n" +
+            "670471192\n" +
+            "485081967\n" +
+            "544728393\n" +
+            "495641405\n" +
+            "568695409\n" +
+            "427735488\n" +
+            "1261112575\n" +
+            "695449565\n" +
+            "551689209\n" +
+            "947485508\n" +
+            "626466581\n" +
+            "545329777\n" +
+            "543360943\n" +
+            "546013502\n" +
+            "628049448\n" +
+            "551005484\n" +
+            "562958282\n" +
+            "560989448\n" +
+            "569919098\n" +
+            "576879914\n" +
+            "593987685\n" +
+            "615933659\n" +
+            "718671436\n" +
+            "752733199\n" +
+            "997654586\n" +
+            "912817455\n" +
+            "1040369798\n" +
+            "923376893\n" +
+            "1174062950\n" +
+            "1102694693\n" +
+            "973065265\n" +
+            "1122893416\n" +
+            "1088690720\n" +
+            "1089374445\n" +
+            "1122209691\n" +
+            "1220454266\n" +
+            "1091343279\n" +
+            "1094366427\n" +
+            "1108971784\n" +
+            "1154977133\n" +
+            "1111994932\n" +
+            "1192813573\n" +
+            "1137869362\n" +
+            "1163906783\n" +
+            "1170867599\n" +
+            "1209921344\n" +
+            "2347790706\n" +
+            "2087029031\n" +
+            "1665550654\n" +
+            "2092021013\n" +
+            "1836194348\n" +
+            "1896442158\n" +
+            "2249864294\n" +
+            "2061755985\n" +
+            "2062439710\n" +
+            "2064408544\n" +
+            "2197662504\n" +
+            "2178065165\n" +
+            "2886004920\n" +
+            "2185709706\n" +
+            "2284156852\n" +
+            "2200315063\n" +
+            "2203338211\n" +
+            "2220966716\n" +
+            "3246998146\n" +
+            "3089255731\n" +
+            "2356720356\n" +
+            "5089343131\n" +
+            "2334774382\n" +
+            "3727990364\n" +
+            "3301942357\n" +
+            "4520484088\n" +
+            "3501745002\n" +
+            "3886517370\n" +
+            "3732636506\n" +
+            "5425063311\n" +
+            "3958198143\n" +
+            "4239821150\n" +
+            "4124195695\n" +
+            "4363774871\n" +
+            "4264723607\n" +
+            "4378380228\n" +
+            "4381403376\n" +
+            "4484471915\n" +
+            "5935974717\n" +
+            "4403653274\n" +
+            "8010713065\n" +
+            "7388262372\n" +
+            "4555741098\n" +
+            "4691494738\n" +
+            "5424030113\n" +
+            "6599497989\n" +
+            "5636716739\n" +
+            "7665717228\n" +
+            "6803687359\n" +
+            "7034578863\n" +
+            "9806466687\n" +
+            "7856832201\n" +
+            "7619153876\n" +
+            "7997360113\n" +
+            "12150189143\n" +
+            "8321973014\n" +
+            "11512458067\n" +
+            "8388919302\n" +
+            "8934121326\n" +
+            "15742441404\n" +
+            "8759783604\n" +
+            "13024979111\n" +
+            "9095148012\n" +
+            "8959394372\n" +
+            "9247235836\n" +
+            "9979771211\n" +
+            "10328211477\n" +
+            "10115524851\n" +
+            "12227717472\n" +
+            "17636155138\n" +
+            "14456330190\n" +
+            "12440404098\n" +
+            "13838266222\n" +
+            "14422841235\n" +
+            "14653732739\n" +
+            "15616513989\n" +
+            "16378937480\n" +
+            "15941126890\n" +
+            "16319333127\n" +
+            "24436101401\n" +
+            "16710892316\n" +
+            "17148702906\n" +
+            "18054542384\n" +
+            "31079521495\n" +
+            "24900521262\n" +
+            "17719177976\n" +
+            "30494946482\n" +
+            "18206630208\n" +
+            "18939165583\n" +
+            "33955488265\n" +
+            "20095296062\n" +
+            "22555928949\n" +
+            "22343242323\n" +
+            "34147757098\n" +
+            "30594859629\n" +
+            "26278670320\n" +
+            "26863245333\n" +
+            "28261107457\n" +
+            "29076573974\n" +
+            "30270246728\n" +
+            "34880292473\n" +
+            "52934834857\n" +
+            "33089829796\n" +
+            "33030225443\n" +
+            "33859595222\n" +
+            "47418949634\n" +
+            "34867880882\n" +
+            "49286151703\n" +
+            "54539777777\n" +
+            "35925808184\n" +
+            "36658343559\n" +
+            "37145795791\n" +
+            "38301926270\n" +
+            "39034461645\n" +
+            "50690155691\n" +
+            "49419174282\n" +
+            "57423809831\n" +
+            "48621912643\n" +
+            "64129841950\n" +
+            "61158962793\n" +
+            "83344757818\n" +
+            "55124352790\n" +
+            "73182218743\n" +
+            "59346820702\n" +
+            "72064687088\n" +
+            "85558036573\n" +
+            "89407658659\n" +
+            "66120055239\n" +
+            "66889820665\n" +
+            "84549750913\n" +
+            "70793689066\n" +
+            "91685573568\n" +
+            "72584151743\n" +
+            "73071603975\n" +
+            "73804139350\n" +
+            "74960269829\n" +
+            "88453635927\n" +
+            "88992081961\n" +
+            "111618613388\n" +
+            "98041086925\n" +
+            "122014173455\n" +
+            "161037787670\n" +
+            "244382545488\n" +
+            "157622723661\n" +
+            "116283315583\n" +
+            "114471173492\n" +
+            "157387907627\n" +
+            "133150960052\n" +
+            "125466875941\n" +
+            "146875743325\n" +
+            "133009875904\n" +
+            "161576233704\n" +
+            "136913744305\n" +
+            "143865293041\n" +
+            "143377840809\n" +
+            "148031873804\n" +
+            "145655755718\n" +
+            "146388291093\n" +
+            "204736951510\n" +
+            "148764409179\n" +
+            "223507962866\n" +
+            "392414419292\n" +
+            "235380373054\n" +
+            "265392014264\n" +
+            "294907617129\n" +
+            "230754489075\n" +
+            "239938049433\n" +
+            "241750191524\n" +
+            "247481049396\n" +
+            "247622133544\n" +
+            "268844716750\n" +
+            "405758461055\n" +
+            "262380620246\n" +
+            "470128965774\n" +
+            "269923620209\n" +
+            "283302035398\n" +
+            "280291585114\n" +
+            "280779037346\n" +
+            "386326340526\n" +
+            "289766131902\n" +
+            "292044046811\n" +
+            "294420164897\n" +
+            "481688240957\n" +
+            "353501360689\n" +
+            "372272372045\n" +
+            "672706004406\n" +
+            "466134862129\n" +
+            "472504680599\n" +
+            "487560182977\n" +
+            "470692538508\n" +
+            "478235538471\n" +
+            "520717086779\n" +
+            "920328137950\n" +
+            "741349397349\n" +
+            "510002753790\n" +
+            "531225336996\n" +
+            "532304240455\n" +
+            "572823084157\n" +
+            "633792945803\n" +
+            "550215205323\n" +
+            "561070622460\n" +
+            "570057717016\n" +
+            "634280398035\n" +
+            "1020606738561\n" +
+            "584186296799\n" +
+            "586464211708\n" +
+            "647921525586\n" +
+            "725773732734\n" +
+            "819636222818\n" +
+            "838407234174\n" +
+            "1039306160931\n" +
+            "1057156750216\n" +
+            "988238292261\n" +
+            "1031763160968\n" +
+            "1080060470806\n" +
+            "1136679417031\n" +
+            "1564067401423\n" +
+            "1041228090786\n" +
+            "1092295959456\n" +
+            "2216739887837\n" +
+            "1063529577451\n" +
+            "1105127324612\n" +
+            "1156521928724\n" +
+            "1111285827783\n" +
+            "1360054130769\n" +
+            "1467557748404\n" +
+            "1154244013815\n" +
+            "1545409955552\n" +
+            "1564180966908\n" +
+            "1234385737294\n" +
+            "2246539973271\n" +
+            "1373695258320\n" +
+            "2650537280164\n" +
+            "2530217187044\n" +
+            "1870170395142\n" +
+            "2020001453229\n" +
+            "2093365616873\n" +
+            "2174815405234\n" +
+            "2121288561592\n" +
+            "2104757668237\n" +
+            "2133524050242\n" +
+            "2146355415398\n" +
+            "3257641243181\n" +
+            "2203581787239\n" +
+            "2168656902063\n" +
+            "2733749389089\n" +
+            "2216413152395\n" +
+            "3415580350694\n" +
+            "2981456222925\n" +
+            "2621801762219\n" +
+            "2388629751109\n" +
+            "2527939272135\n" +
+            "2608080995614\n" +
+            "4296947404112\n" +
+            "3884923017458\n" +
+            "4251113083635\n" +
+            "3243865653462\n" +
+            "6430471454354\n" +
+            "3890171848371\n" +
+            "3963536012015\n" +
+            "10315394471812\n" +
+            "4198123285110\n" +
+            "4308339455476\n" +
+            "13296850694737\n" +
+            "4557286653172\n" +
+            "4279879465640\n" +
+            "4315012317461\n" +
+            "4372238689302\n" +
+            "4744352424530\n" +
+            "4902406291152\n" +
+            "4605042903504\n" +
+            "5197869375320\n" +
+            "4916569023244\n" +
+            "8489965920962\n" +
+            "5010431513328\n" +
+            "4996710746723\n" +
+            "6498252843985\n" +
+            "11400659135137\n" +
+            "8161659297125\n" +
+            "7988218077992\n" +
+            "7801152306634\n" +
+            "7134037501833\n" +
+            "8088295133481\n" +
+            "8170051314011\n" +
+            "8478002750750\n" +
+            "8506462740586\n" +
+            "12688089206072\n" +
+            "12545504731164\n" +
+            "9116591113832\n" +
+            "11878389926363\n" +
+            "12775094217515\n" +
+            "19201811441771\n" +
+            "13111505644090\n" +
+            "12406195210138\n" +
+            "9507449194656\n" +
+            "9521611926748\n" +
+            "21051967471750\n" +
+            "15612040252583\n" +
+            "18624040308488\n" +
+            "12984928824715\n" +
+            "11494963590708\n" +
+            "24951699941302\n" +
+            "26712335441969\n" +
+            "15122255579825\n" +
+            "24183052796780\n" +
+            "14935189808467\n" +
+            "15640500242419\n" +
+            "16258346447492\n" +
+            "16648054064761\n" +
+            "16984465491336\n" +
+            "36958147014295\n" +
+            "18638203040580\n" +
+            "19029061121404\n" +
+            "20611554704540\n" +
+            "24284585136501\n" +
+            "21016575517456\n" +
+            "21002412785364\n" +
+            "21913644404794\n" +
+            "28107184404540\n" +
+            "32106518295248\n" +
+            "25133652179331\n" +
+            "27135463833127\n" +
+            "40745692431914\n" +
+            "28143017655469\n" +
+            "24479892415423\n" +
+            "26430153399175\n" +
+            "30057445388292\n" +
+            "41365343207642\n" +
+            "31380602027317\n" +
+            "30575690050886\n" +
+            "44162713300735\n" +
+            "40542931583993\n" +
+            "32906400512253\n" +
+            "58536671694423\n" +
+            "43118095456003\n" +
+            "37667264161984\n" +
+            "41628130221996\n" +
+            "45482305200787\n" +
+            "58040052691584\n" +
+            "99079603278416\n" +
+            "62147156577407\n" +
+            "47432566184539\n" +
+            "50020828809334\n" +
+            "55191097567623\n" +
+            "55709342230217\n" +
+            "50910045814598\n" +
+            "51615356248550\n" +
+            "52622910070892\n" +
+            "54537337803715\n" +
+            "55055582466309\n" +
+            "100537887667096\n" +
+            "70600376972285\n" +
+            "63482090563139\n" +
+            "95080269387708\n" +
+            "85113027854601\n" +
+            "70573664674237";
+
+    public static final String INPUT_10 = "49\n" +
+            "89\n" +
+            "70\n" +
+            "56\n" +
+            "34\n" +
+            "14\n" +
+            "102\n" +
+            "148\n" +
+            "143\n" +
+            "71\n" +
+            "15\n" +
+            "107\n" +
+            "127\n" +
+            "165\n" +
+            "135\n" +
+            "26\n" +
+            "119\n" +
+            "46\n" +
+            "53\n" +
+            "69\n" +
+            "134\n" +
+            "1\n" +
+            "40\n" +
+            "81\n" +
+            "140\n" +
+            "160\n" +
+            "33\n" +
+            "117\n" +
+            "82\n" +
+            "55\n" +
+            "25\n" +
+            "11\n" +
+            "128\n" +
+            "159\n" +
+            "61\n" +
+            "105\n" +
+            "112\n" +
+            "99\n" +
+            "93\n" +
+            "151\n" +
+            "20\n" +
+            "108\n" +
+            "168\n" +
+            "2\n" +
+            "109\n" +
+            "75\n" +
+            "139\n" +
+            "170\n" +
+            "65\n" +
+            "114\n" +
+            "21\n" +
+            "92\n" +
+            "106\n" +
+            "162\n" +
+            "124\n" +
+            "158\n" +
+            "38\n" +
+            "136\n" +
+            "95\n" +
+            "161\n" +
+            "146\n" +
+            "129\n" +
+            "154\n" +
+            "121\n" +
+            "86\n" +
+            "118\n" +
+            "88\n" +
+            "50\n" +
+            "48\n" +
+            "62\n" +
+            "155\n" +
+            "28\n" +
+            "120\n" +
+            "78\n" +
+            "60\n" +
+            "147\n" +
+            "87\n" +
+            "27\n" +
+            "7\n" +
+            "54\n" +
+            "39\n" +
+            "113\n" +
+            "5\n" +
+            "74\n" +
+            "169\n" +
+            "6\n" +
+            "43\n" +
+            "8\n" +
+            "29\n" +
+            "18\n" +
+            "68\n" +
+            "32\n" +
+            "19\n" +
+            "133\n" +
+            "22\n" +
+            "94\n" +
+            "47\n" +
+            "132\n" +
+            "59\n" +
+            "83\n" +
+            "12\n" +
+            "13\n" +
+            "96\n" +
+            "35";
 }

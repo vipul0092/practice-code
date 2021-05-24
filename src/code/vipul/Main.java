@@ -1,10 +1,6 @@
 package code.vipul;
 
-import code.vipul.aoc2020.Solve1;
-import code.vipul.aoc2020.Solve2;
-import code.vipul.aoc2020.Solve3;
-import code.vipul.aoc2020.Solve4;
-import code.vipul.aoc2020.Solve5;
+import code.vipul.aoc2020.Solve10;
 
 public class Main {
 
@@ -16,7 +12,7 @@ public class Main {
         // L3P2.solve();
         // L3P3.solve();
 
-        Solve5.solvePart2();
+        Solve10.solvePart2();
 
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 
