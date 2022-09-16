@@ -1,6 +1,18 @@
 package code.vipul;
 
-import code.vipul.aoc2020.Solve10;
+import code.vipul.aoc2015.Solve7;
+import code.vipul.aoc2018.Solve17;
+import code.vipul.aoc2020.Solve11;
+import code.vipul.aoc2020.Solve20;
+import code.vipul.aoc2021.Solve1;
+import code.vipul.aoc2021.Solve2;
+import code.vipul.aoc2021.Solve3;
+import code.vipul.leetcode.ClimbingStairs;
+import code.vipul.leetcode.Lock;
+import code.vipul.leetcode.LongestConsecutiveSequence;
+import code.vipul.leetcode.MaxPerformance;
+import code.vipul.leetcode.TargetSum;
+// import code.vipul.leetcode.PermutationInString;
 
 public class Main {
 
@@ -12,7 +24,16 @@ public class Main {
         // L3P2.solve();
         // L3P3.solve();
 
-        Solve10.solvePart2();
+        // Solve17.solve();
+        // PermutationInString.test();
+        // OCR.s();
+        // Solve3.solvePart2();
+        // LongestCommonSubsequence.solve();
+        //  TargetSum.solve();
+        // CGFinale.solve();
+
+        Solve20.solve();
+        // ClimbingStairs.test();
 
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
 

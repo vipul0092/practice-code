@@ -114,6 +114,8 @@ public class CGSemiFinal {
         p = Integer.parseInt(dp[0]);
         d = Integer.parseInt(dp[1]);
 
+
+
         perdoc = new int[d][p];
 
         for (int i=0; i < d; i++) {

@@ -285,6 +285,22 @@ public class Grid {
             return new Pos(i + 1, j);
         }
 
+        public Pos moveNE() {
+            return new Pos(i - 1, j + 1);
+        }
+
+        public Pos moveNW() {
+            return new Pos(i - 1, j - 1);
+        }
+
+        public Pos moveSE() {
+            return new Pos(i + 1, j + 1);
+        }
+
+        public Pos moveSW() {
+            return new Pos(i + 1, j - 1);
+        }
+
         public Pos moveLeftGrid(int steps) {
             return new Pos(i, j - steps);
         }
