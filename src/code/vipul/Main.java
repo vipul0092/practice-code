@@ -1,17 +1,6 @@
 package code.vipul;
 
-import code.vipul.aoc2015.Solve7;
-import code.vipul.aoc2018.Solve17;
-import code.vipul.aoc2020.Solve11;
-import code.vipul.aoc2020.Solve20;
-import code.vipul.aoc2021.Solve1;
-import code.vipul.aoc2021.Solve2;
-import code.vipul.aoc2021.Solve3;
-import code.vipul.leetcode.ClimbingStairs;
-import code.vipul.leetcode.Lock;
-import code.vipul.leetcode.LongestConsecutiveSequence;
-import code.vipul.leetcode.MaxPerformance;
-import code.vipul.leetcode.TargetSum;
+import code.vipul.aoc2020.day20.Solve20;
 // import code.vipul.leetcode.PermutationInString;
 
 public class Main {

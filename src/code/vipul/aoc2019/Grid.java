@@ -350,6 +350,17 @@ public class Grid {
             return j == COLS - 1;
         }
 
+        public boolean isCorner() {
+            return (isAtTopBoundary() && isAtLeftBoundary())
+                    || (isAtTopBoundary() && isAtRightBoundary())
+                    || (isAtBottomBoundary() && isAtLeftBoundary())
+                    || (isAtBottomBoundary() && isAtRightBoundary());
+        }
+
+        public boolean isAtEdge() {
+            return isAtTopBoundary() || isAtBottomBoundary() || isAtLeftBoundary() || isAtRightBoundary();
+        }
+
         @Override
         public int hashCode() {
             if (hash == -1) {
