@@ -261,6 +261,10 @@ public class Grid {
             this.j = j;
         }
 
+        public boolean isValid() {
+            return this.i >= 0 && this.j >= 0 && this.i < ROWS && this.j < COLS;
+        }
+
         public Pos copy() {
             return new Pos(this.i, this.j);
         }

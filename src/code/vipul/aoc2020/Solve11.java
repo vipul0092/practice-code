@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
 import static code.vipul.aoc2020.Inputs.INPUT_11;
 
@@ -35,7 +37,7 @@ public class Solve11 {
         var states = new HashSet<Integer>();
         var iterations = 0;
 
-        while(!states.contains(Arrays.deepHashCode(GRID))) {
+        while (!states.contains(Arrays.deepHashCode(GRID))) {
             states.add(Arrays.deepHashCode(GRID));
             var currentGrid = new Character[ROWS][COLUMNS];
             for (int i = 0; i < ROWS; i++) {
@@ -46,6 +48,42 @@ public class Solve11 {
                     }
                     Grid.Pos pos = Grid.Pos.of(i, j);
                     var evaluatedValue = evaluatePosition(GRID, pos);
+                    currentGrid[i][j] = evaluatedValue;
+                }
+            }
+            GRID = currentGrid;
+            iterations++;
+            // display();
+        }
+
+        var occupiedSeats = 0;
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLUMNS; j++) {
+                if (GRID[i][j] == '#') {
+                    occupiedSeats++;
+                }
+            }
+        }
+        System.out.println("Answer: " + occupiedSeats); // 2427
+    }
+
+    public static void solvePart2() {
+        parseInput(INPUT_11);
+        // display();
+        var states = new HashSet<Integer>();
+        var iterations = 0;
+
+        while (!states.contains(Arrays.deepHashCode(GRID))) {
+            states.add(Arrays.deepHashCode(GRID));
+            var currentGrid = new Character[ROWS][COLUMNS];
+            for (int i = 0; i < ROWS; i++) {
+                for (int j = 0; j < COLUMNS; j++) {
+                    if (GRID[i][j] == '.') {
+                        currentGrid[i][j] = '.';
+                        continue;
+                    }
+                    Grid.Pos pos = Grid.Pos.of(i, j);
+                    var evaluatedValue = evaluatePositionWithDirection(GRID, pos);
                     currentGrid[i][j] = evaluatedValue;
                 }
             }
@@ -80,19 +118,17 @@ public class Solve11 {
     }
 
     private static Character evaluatePosition(Character[][] currentGrid, Grid.Pos pos) {
-        List<Character> neighbours = getNeighbourValues(currentGrid, pos);
+        int occupiedNeighbours = getDirectionallyOccupiedSeatCount(currentGrid, pos, false);
         Character value = cellValue(currentGrid, pos);
         Character evaluatedPosition = null;
         if (value == 'L') {
-            var hasOccupiedAdjacentSeats = neighbours.stream().anyMatch(n -> n == '#');
-            if (!hasOccupiedAdjacentSeats) {
+            if (occupiedNeighbours == 0) {
                 evaluatedPosition = '#';
             } else {
                 evaluatedPosition = value;
             }
         } else if (value == '#') {
-            var occupiedAddjacentSeats = neighbours.stream().filter(n -> n == '#').count();
-            if (occupiedAddjacentSeats >= 4) {
+            if (occupiedNeighbours >= 4) {
                 evaluatedPosition = 'L';
             } else {
                 evaluatedPosition = value;
@@ -101,41 +137,49 @@ public class Solve11 {
         return evaluatedPosition;
     }
 
-    private static List<Character> getNeighbourValues(Character[][] currentGrid, Grid.Pos pos) {
-        List<Character> neighbourValues = new ArrayList<>();
+    private static Character evaluatePositionWithDirection(Character[][] currentGrid, Grid.Pos pos) {
+        int occupiedNeighbours = getDirectionallyOccupiedSeatCount(currentGrid, pos, true);
+        Character value = cellValue(currentGrid, pos);
+        Character evaluatedPosition = null;
+        if (value == 'L') {
+            if (occupiedNeighbours == 0) {
+                evaluatedPosition = '#';
+            } else {
+                evaluatedPosition = value;
+            }
+        } else if (value == '#') {
+            if (occupiedNeighbours >= 5) {
+                evaluatedPosition = 'L';
+            } else {
+                evaluatedPosition = value;
+            }
+        }
+        return evaluatedPosition;
+    }
 
-        if (!pos.isAtTopBoundary()) { // i - 1 >= 0
-            neighbourValues.add(cellValue(currentGrid, pos.moveUp()));
+    private static int getDirectionallyOccupiedSeatCount(Character[][] currentGrid, Grid.Pos pos, boolean recurse) {
+        int count = 0;
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveUp(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveDown(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveLeft(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveRight(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveNE(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveNW(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveSE(), recurse) ? 1 : 0);
+        count += (didFindAnOccupiedSeat(currentGrid, pos, p -> p.moveSW(), recurse) ? 1 : 0);
+
+        return count;
+    }
+
+    private static boolean didFindAnOccupiedSeat(Character[][] currentGrid, Grid.Pos startingPos,
+                                                 Function<Grid.Pos, Grid.Pos> nextPosGetter,
+                                                 boolean recurse) {
+        Grid.Pos pos = nextPosGetter.apply(startingPos);
+        while (pos.isValid() && cellValue(currentGrid, pos) == '.' && recurse) {
+            pos = nextPosGetter.apply(pos);
         }
 
-        if (!pos.isAtBottomBoundary()) { // i + 1 < ROWS
-            neighbourValues.add(cellValue(currentGrid, pos.moveDown()));
-        }
-
-        if (!pos.isAtLeftBoundary()) { // j - 1 >= 0
-            neighbourValues.add(cellValue(currentGrid, pos.moveLeft()));
-        }
-
-        if (!pos.isAtRightBoundary()) { // j + 1 < COLS
-            neighbourValues.add(cellValue(currentGrid, pos.moveRight()));
-        }
-
-        if (!pos.isAtTopBoundary() && !pos.isAtRightBoundary()) {
-            neighbourValues.add(cellValue(currentGrid, pos.moveNE()));
-        }
-
-        if (!pos.isAtTopBoundary() && !pos.isAtLeftBoundary()) {
-            neighbourValues.add(cellValue(currentGrid, pos.moveNW()));
-        }
-
-        if (!pos.isAtBottomBoundary() && !pos.isAtRightBoundary()) {
-            neighbourValues.add(cellValue(currentGrid, pos.moveSE()));
-        }
-
-        if (!pos.isAtBottomBoundary() && !pos.isAtLeftBoundary()) {
-            neighbourValues.add(cellValue(currentGrid, pos.moveSW()));
-        }
-        return neighbourValues;
+        return pos.isValid() && cellValue(currentGrid, pos) == '#';
     }
 
     private static Character cellValue(Character[][] currentGrid, Grid.Pos pos) {
@@ -143,7 +187,7 @@ public class Solve11 {
     }
 
     private static void display() {
-        for (int i=0; i < ROWS; i++) {
+        for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < COLUMNS; j++) {
                 System.out.print(cellValue(GRID, Grid.Pos.of(i, j)));
             }

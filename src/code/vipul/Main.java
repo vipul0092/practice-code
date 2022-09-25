@@ -1,7 +1,8 @@
 package code.vipul;
 
-import code.vipul.aoc2020.day20.Solve20;
-// import code.vipul.leetcode.PermutationInString;
+import code.vipul.aoc2020.Solve15;
+import code.vipul.aoc2020.Solve16;
+import code.vipul.aoc2020.Solve18;
 
 public class Main {
 
@@ -21,7 +22,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve20.solve();
+        Solve18.solvePart2();
         // ClimbingStairs.test();
 
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
