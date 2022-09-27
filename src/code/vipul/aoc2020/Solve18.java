@@ -5,7 +5,7 @@ import java.util.Stack;
 import static code.vipul.aoc2020.Inputs2.INPUT_18;
 
 /**
- * https://adventofcode.com/2020/day/18gitgithub
+ * https://adventofcode.com/2020/day/18
  */
 public class Solve18 {
 

@@ -3711,4 +3711,569 @@ public class Inputs2 {
             "(3 * (9 + 5) + 3 + 4 + (7 * 6 + 6 * 6)) * 8 + (6 + 2 * 8 * (6 + 6 * 7 * 3 + 5) + 3 + 5) * 3 * 7\n" +
             "5 * (4 * 2) + (5 * 7 + 4 + 2) * 6 + (2 * (6 * 8 * 3 + 5) + 8) + 8\n" +
             "9 * 2 + (7 * 5) + 2 + (9 + 4)";
+
+    public static final String INPUT_19 = "1: 65 3 | 106 55\n" +
+            "21: 106 67 | 65 98\n" +
+            "128: 65 94 | 106 17\n" +
+            "104: 13 106 | 79 65\n" +
+            "32: 106 21 | 65 9\n" +
+            "78: 127 106 | 88 65\n" +
+            "55: 106 126 | 65 59\n" +
+            "114: 122 65 | 45 106\n" +
+            "108: 65 49 | 106 12\n" +
+            "31: 106 71 | 65 100\n" +
+            "76: 65 65 | 106 65\n" +
+            "15: 12 106 | 46 65\n" +
+            "24: 65 94 | 106 91\n" +
+            "38: 106 51 | 65 91\n" +
+            "25: 22 76\n" +
+            "87: 97 65 | 48 106\n" +
+            "113: 106 12 | 65 76\n" +
+            "8: 42\n" +
+            "9: 106 117 | 65 86\n" +
+            "88: 62 65 | 75 106\n" +
+            "94: 65 65\n" +
+            "122: 106 12 | 65 56\n" +
+            "48: 49 106 | 91 65\n" +
+            "33: 76 106 | 12 65\n" +
+            "28: 81 65 | 83 106\n" +
+            "35: 106 106 | 22 65\n" +
+            "50: 106 35 | 65 51\n" +
+            "58: 106 106\n" +
+            "0: 8 11\n" +
+            "64: 106 76 | 65 58\n" +
+            "71: 90 106 | 43 65\n" +
+            "12: 106 65 | 106 106\n" +
+            "7: 81 65 | 30 106\n" +
+            "60: 22 106 | 106 65\n" +
+            "17: 106 106 | 65 65\n" +
+            "105: 120 65 | 52 106\n" +
+            "96: 106 102 | 65 29\n" +
+            "57: 94 106 | 58 65\n" +
+            "115: 106 24 | 65 45\n" +
+            "127: 65 52 | 106 38\n" +
+            "14: 54 65 | 36 106\n" +
+            "45: 94 106 | 12 65\n" +
+            "70: 63 106 | 19 65\n" +
+            "44: 17 106 | 12 65\n" +
+            "99: 51 65 | 35 106\n" +
+            "36: 119 106 | 109 65\n" +
+            "51: 106 65\n" +
+            "37: 125 106 | 5 65\n" +
+            "86: 118 65 | 114 106\n" +
+            "106: \"a\"\n" +
+            "126: 94 106\n" +
+            "79: 34 65 | 44 106\n" +
+            "61: 65 68 | 106 87\n" +
+            "119: 34 106 | 89 65\n" +
+            "29: 65 81 | 106 82\n" +
+            "120: 49 65 | 58 106\n" +
+            "53: 56 106 | 49 65\n" +
+            "5: 35 65 | 12 106\n" +
+            "73: 65 94 | 106 76\n" +
+            "10: 65 56 | 106 58\n" +
+            "83: 49 106 | 17 65\n" +
+            "89: 49 106 | 56 65\n" +
+            "43: 61 65 | 96 106\n" +
+            "68: 65 73 | 106 6\n" +
+            "82: 65 56 | 106 91\n" +
+            "4: 65 6 | 106 38\n" +
+            "2: 56 106 | 46 65\n" +
+            "30: 46 65 | 94 106\n" +
+            "3: 65 97 | 106 122\n" +
+            "56: 106 65 | 65 106\n" +
+            "74: 26 106 | 10 65\n" +
+            "107: 105 65 | 47 106\n" +
+            "47: 95 106 | 116 65\n" +
+            "77: 33 65 | 121 106\n" +
+            "80: 106 78 | 65 41\n" +
+            "66: 65 15 | 106 93\n" +
+            "118: 65 50 | 106 124\n" +
+            "112: 4 65 | 77 106\n" +
+            "69: 106 37 | 65 28\n" +
+            "92: 65 57 | 106 64\n" +
+            "101: 65 60 | 106 94\n" +
+            "91: 106 106 | 65 106\n" +
+            "90: 65 107 | 106 112\n" +
+            "109: 57 65 | 85 106\n" +
+            "39: 106 122 | 65 53\n" +
+            "40: 12 106\n" +
+            "84: 106 2 | 65 128\n" +
+            "103: 106 123 | 65 80\n" +
+            "52: 60 65 | 17 106\n" +
+            "95: 65 60 | 106 49\n" +
+            "46: 22 106 | 65 65\n" +
+            "111: 39 106 | 70 65\n" +
+            "117: 115 106 | 16 65\n" +
+            "13: 65 25 | 106 99\n" +
+            "124: 91 22\n" +
+            "62: 65 49 | 106 91\n" +
+            "98: 7 65 | 16 106\n" +
+            "59: 106 35 | 65 60\n" +
+            "125: 91 65 | 12 106\n" +
+            "81: 106 76 | 65 49\n" +
+            "49: 65 22 | 106 65\n" +
+            "34: 106 49 | 65 17\n" +
+            "85: 17 22\n" +
+            "27: 65 65 | 65 106\n" +
+            "100: 20 106 | 14 65\n" +
+            "23: 76 106 | 49 65\n" +
+            "16: 106 23 | 65 108\n" +
+            "97: 106 56\n" +
+            "11: 42 31\n" +
+            "93: 76 65 | 94 106\n" +
+            "67: 110 65 | 84 106\n" +
+            "19: 22 35\n" +
+            "26: 27 65 | 56 106\n" +
+            "22: 106 | 65\n" +
+            "18: 65 12 | 106 91\n" +
+            "65: \"b\"\n" +
+            "72: 40 106 | 113 65\n" +
+            "6: 65 51 | 106 58\n" +
+            "116: 76 106 | 17 65\n" +
+            "75: 106 76 | 65 35\n" +
+            "41: 65 66 | 106 72\n" +
+            "123: 104 65 | 1 106\n" +
+            "63: 106 51 | 65 60\n" +
+            "20: 106 69 | 65 111\n" +
+            "42: 65 103 | 106 32\n" +
+            "121: 106 17 | 65 35\n" +
+            "110: 85 65 | 18 106\n" +
+            "102: 101 106 | 50 65\n" +
+            "54: 106 74 | 65 92\n" +
+            "\n" +
+            "aaaaaabababbbbabaaababbb\n" +
+            "abbaabbabbbbbabaaabbbbab\n" +
+            "abbbabbabbbababbaaaabbabaaabaaba\n" +
+            "bbbbbaabaaaaabbbaaabbbbbabbbaabaabaaaabb\n" +
+            "babbbbbbbbabbbababbababbababbbab\n" +
+            "bbbbabbbabaaabaaabbbbabbbbabbbabaabaaabb\n" +
+            "babbbababbbabaaabaaaaaaaababbabbabbbbbaaaaabababbbaaabbabbbabbab\n" +
+            "baaabbaaaaabbbbbabbbabab\n" +
+            "aabaabbaabbababbaaaaaabbbabbaabaaaaabbbaabaabbaabaaaabbaaaababaa\n" +
+            "aaaababaaaaabbabbbbbaaaa\n" +
+            "abbaaabaaabbaabaababbbab\n" +
+            "bbbaaaabbbabaaabbbbabaab\n" +
+            "aabbbababbabaaaaabaabaaa\n" +
+            "abaaabbbabbbabbbabababbb\n" +
+            "bbbaabaaaabaabaaaababbbbbbbaabba\n" +
+            "baababbbbbbbbabaaabaabbabaaaabba\n" +
+            "abbaaaabaabbababababaabaabbbabaa\n" +
+            "baabaaaabbbbbaaababbbbaa\n" +
+            "abbbabbbaabbbbbbaabbaaaa\n" +
+            "baaabbbbbbbbbbabababbabbabbbabbaaaababbbbbaaaaaaabbbbbaababaaaab\n" +
+            "baaababbbabbaabbaaabbaaa\n" +
+            "aabbaabaaabbbbabbbabaabb\n" +
+            "bbbabaaabbbbaaabaaaabaaabbabbabaaabaaaabbaabbaabaaabbabaabababbbaaabbbbbbbaabbabbbabbbba\n" +
+            "aabbbbbbbaabbbbbaaaabaabbbbaababaaaaabbbbbabbbbb\n" +
+            "bbaabaabaabaabbaabababbabaababbaaaabaabbaabbaaabaababbbb\n" +
+            "aabababaababbbababbbbbba\n" +
+            "abbbaabbaabbbbabaabaaaba\n" +
+            "abbbbaaabaabbbbbabbbbaaaaababababbbabbababaaaaab\n" +
+            "babaababbbbbbabbaabbabbbaaaabbabaabbbbaabaaabaababaabbbbaabbbaaaaaaaaaba\n" +
+            "ababaaabbababbabbaaabbaaabbabbab\n" +
+            "baabbbbbbabaabbbaabbbbbbbabbaabaaabbbabbabbbaabbaaabbbabaaaababbaabbaabb\n" +
+            "aabbabbbbbbabababaaaabab\n" +
+            "babaabbbaaabbabbaabababb\n" +
+            "babaaababaababbaaaaabbab\n" +
+            "abaabbbbababaabbbaaaaaaaabbbbaab\n" +
+            "bbbbbabaaabababbabbabbaababbabbaabaabaabbaaaaabbaabbbaaa\n" +
+            "baabbabaaaaaababbaaabbba\n" +
+            "bbbaaaabbbbaaaaababbabbb\n" +
+            "bbbbbbabababaabbbbabbbbbabbbbaaabbabaaabaabaabbbaaabbaaabaaabbbabbbaabbbbababbbbbabbbabb\n" +
+            "aaaaaabbbbabbababbaaababaababbab\n" +
+            "aaaabaaabbbaaaababbbabab\n" +
+            "aaaabaaabaababbabbaaaabbabbbababbabbaaab\n" +
+            "abbabbbbbababbabaabbaabaaabbbbabababbaababaabbaaabaaaaaabbbabaabbabbbbaaabaabbabaabbabaa\n" +
+            "aababbbbbaabbababaababbabaaababbaaabaaaaabababaabbabbbbabbaaaaaa\n" +
+            "bbabbbbaaaaabaaababaabbbaababaabbbbbbaababbbbbbabbbbbaba\n" +
+            "aaabbbbbabababbababbabba\n" +
+            "aabbaaaabaabbabaabbbaaaa\n" +
+            "bbbbabbbbaaaaaabaaabbbab\n" +
+            "aaabaaaabaabbaaaaabaaaaa\n" +
+            "baabbabaabbaaaabbaaaaaba\n" +
+            "aabbbbabbbaaaabbababaabaabbbabab\n" +
+            "babbbbbbaabaabbbabaaaaba\n" +
+            "aaaaaabbaabababaabbababa\n" +
+            "abaabbbbbaabbbbbaabaabbbabbabaabbaaabaababbbbbba\n" +
+            "ababaabbbbabaaabaaabbaab\n" +
+            "bbababbaabbbabbaabbbaaba\n" +
+            "aabaabaabaabbbbbbbaababa\n" +
+            "aaaaaabaabaababbbababbabaaaaabaabaaaabbbbbbbaaaabbabbbba\n" +
+            "abbaabaabbbbabbbbabbaaab\n" +
+            "baaabbaabbaababbaaaabbaa\n" +
+            "bbbbabbbbbaaaabaabababab\n" +
+            "ababbbaaaaabbbbabbbbabbbbaabbbab\n" +
+            "aabaabaabbababbbbbbaabaaaaaababaaaaaaabb\n" +
+            "bababaaaaaaabbbbabaabbaa\n" +
+            "abaabbbabbabaabaabbbaaba\n" +
+            "bbbbbbaaabbabababaababaabaaaaaababbabbaa\n" +
+            "ababbbbbababbabbaaaabaabbaababaa\n" +
+            "abbbbababbbbabbababbaaab\n" +
+            "bbabbaaaabbbbbbbbbabaabaabaaaaabbbaaaabaaabababbababaabbbbaaabbb\n" +
+            "ababbbaabaaabbabbababbbb\n" +
+            "bbabaaabababaaabbaabaaab\n" +
+            "abaaabaabababbaaabaaaaab\n" +
+            "babbbbbbbabbbaaabbbabbbaabbbbbbabbbaabbbbababbbb\n" +
+            "aaaaabaabbabbbabbbbaaaabaababbbababbaaaababaaabbaaaaaaaaababaaab\n" +
+            "aaaaaabbaabbaabaaaabbbaaabaaabababbabbababbaaaaa\n" +
+            "aabbbabaababbbaabbbbbababbaaaaab\n" +
+            "bbabaaabaabbbbabaababaab\n" +
+            "bbabababaaaabbbababaabbbababbabbabbabbba\n" +
+            "bbbbbabaabbabaabbaaaabba\n" +
+            "babaaaaaaaaabaabbbbbbbaa\n" +
+            "abbaabaababaabbbabbaabab\n" +
+            "abbbbaaabbaaaaaaabaaabaabbaaabbbaabababbbbbabbaabbabaababaaaabaababbbabbaaabbabb\n" +
+            "aababbaaabbbbabbbbaaabba\n" +
+            "baaabbabbaabbabbaaaabbbb\n" +
+            "aaabaaabaaaabaabbababbba\n" +
+            "abbbbababaaabbabaabbaaab\n" +
+            "bababbaaaabaabababbbabab\n" +
+            "ababaababbabbaaaabbbbbbabbbbbabaaabbabbbbaabaabababbaabbbabbbabb\n" +
+            "abbabaabbbababbaabaaaabb\n" +
+            "bbbaaaaabaabbaababbabbaaababbbbbaabbbaaa\n" +
+            "aaabbaababbbaababbbbaaabbaabaaaaabbbbabbbbbbbbbbbabbbbabaababaabbaaabaababaaaaab\n" +
+            "aabbaababaaaaabbbbabbbba\n" +
+            "baababaaabbbaaaabaaaaaaa\n" +
+            "abbbabbabbbaabaaaaabbbaa\n" +
+            "bbbaabaabbbbbbbbbbaabbbb\n" +
+            "aabbaabaaaaaaaabbabaaabb\n" +
+            "aaaabaababbbaaababaababbabbaaabaaabbaaababaabaab\n" +
+            "aabbaaaaabaabbabbbaabbaababbabababbbaabbbbbabbaa\n" +
+            "abaaaaaabbbababbabbaaabb\n" +
+            "aabbaababbaaaabbaabbbababbaabbbb\n" +
+            "abababbaabaabbbbbabaaaab\n" +
+            "bbaabaaaaabaabaaabbbaabbaaaaabaabbaaabbabbaaaababaabbbabaabaabbb\n" +
+            "abaabbbbabbbaabbabaaaaaabaaabbbbbabbabbaaaaabbab\n" +
+            "abaaabbbbaabaabaaabbabaa\n" +
+            "bbaabaaabbbbbbabbbbbbbba\n" +
+            "bbbaaabbbabbaabbaaabaaabbabbaabbbaabaaab\n" +
+            "baababbaababaabbbababbbbabaabaaaaabbabaa\n" +
+            "abbbabbbaababbbaaabbabba\n" +
+            "baaabaabaababbbbabbbbabbaaaaabababbaabbabbaaaaababaababb\n" +
+            "aaaabaaaaaaabababbbabaab\n" +
+            "bbaaabbaaabbbaaabbbaabbbabbbbbbbbabbbaaabbabbaab\n" +
+            "aabaabaabbaabaaabbabbabbabbaabbababaababbababbbababbabbbbbaaaaaa\n" +
+            "bbbababbbbabaaabbbababaa\n" +
+            "aaaaaaababbbaabbbabbaabbbabbbbaa\n" +
+            "bbbaabaabbabbbbaabbababbaaabaaaaaaabaabaaaaababbaabaaaaababaaabbaaabaabaabbaaaaa\n" +
+            "babaaaaabbaaaababaabbbba\n" +
+            "aabbababbbbababbabbababbbbbabaab\n" +
+            "ababaaabbbbaaaaabbaabbbb\n" +
+            "bbaaaabaaabaabbabbbbbbbb\n" +
+            "baababbbbbaabbaabbaabbba\n" +
+            "ababaabbaaababbabbabaaaabbaabbbbbabaabaa\n" +
+            "aabbbbbbbbbbbbabbaabaaab\n" +
+            "bbbaaaababaabbababbaaaaa\n" +
+            "abbbbbbaababaaaabaaabbba\n" +
+            "aaaababaababaaabbbbabaaa\n" +
+            "aaabababababaabbabbaabbb\n" +
+            "abbbabbaaabbaaaabbbababa\n" +
+            "baabbbbbbaababbaabaaaaba\n" +
+            "ababaabbbbaaaabbaaabaaabbbbbabaa\n" +
+            "baabbbababaabaabaabaaaabbbbaaabaabbabbaaabbababb\n" +
+            "babbbaaaabaabaabbabbaaab\n" +
+            "bbaabbbabaabaaabaababbabbaaaabbbbbaabbbb\n" +
+            "abbbbabaaabbbbbababbabbb\n" +
+            "aababbaaaabababbbbababaabbabbaaabaaabaabababbaaaabbbbbaabaabaabb\n" +
+            "aaaabaaaaabbbbabbababbab\n" +
+            "aaaaabbbaaaaaaabbaaabbba\n" +
+            "bbaababbbaaaaaabaababaaa\n" +
+            "aaabaaaaaaababababaaabaaabaabbaa\n" +
+            "abbbaabbbbbaaabbababaaabbabbbababababbbb\n" +
+            "aabbbbabbababbabbbbaaaba\n" +
+            "baababbbababbbbbbabbbbba\n" +
+            "abababbaaaabbabbaababbbabbbaabaabbaaaaaabbabbbba\n" +
+            "aabaabbbbbbbbababbbabbbbababbbaabbaaaaaaaaabaababbaabaab\n" +
+            "babaaaababbbababbbaabbba\n" +
+            "aabbbbaabaabbbbbbababaaa\n" +
+            "bbabbbababbaaaabbbaababbbababababbaaabaa\n" +
+            "ababbbbbbbaabaaaabababbb\n" +
+            "bbbbbabaababaababaaabbaabaaabbaababbabbb\n" +
+            "babaababbabababaaaaabbab\n" +
+            "abbaabbaaaaaabbbbbbababa\n" +
+            "bbababbaaabbaababaaabaaa\n" +
+            "abaabbbaababaaabbbaaaababbaaaabaaaabaabbbbababaa\n" +
+            "abaaababbaabbaabaaaaabba\n" +
+            "abaababaabbabbbbabaaaabb\n" +
+            "aaaabaabaaaaabbababababbabaaaabbbbbabbaaaababaabaaaaaaab\n" +
+            "aaabaaaaaabbabbbbaaaabab\n" +
+            "aabaababbabbbbbbaaaaaaababbaabaabbbbbabaababbaabbbaaaaabbaaababa\n" +
+            "aabbbabaaabbababbaabaabb\n" +
+            "aababbbbbabbbbabaababaab\n" +
+            "babbabaabaaababbaababbaaabbababbbbbaabaabbabbaab\n" +
+            "aaaaaabaabababaabaaabaababbaaaaabbbabababbbabaaabbbbabbabbaaaaba\n" +
+            "aabbbbabbbbbbaabbbbabaab\n" +
+            "aaaaabbbbaabbaaabaabaababaaabaab\n" +
+            "aabbbbbbaababbbbaaaaabbaaabbbababbbbababbaaabbbbbaaabaabaabaabaa\n" +
+            "babbababbabaabbbbbbbabaa\n" +
+            "babbababbbabaabaaaabaaaababbbbabaaabaabb\n" +
+            "aaaaaabbbaabbabaabbabbab\n" +
+            "babaababaabaabbbbaaaabba\n" +
+            "baaabbbbababaaabaabaaaabababbababbaabbabbbbaaaabaaabbabababbaaaa\n" +
+            "babbabaabaababbbbbbbbaba\n" +
+            "babaaaaabababbaaaaababba\n" +
+            "bbbbbababaabbaabbaaaabbbabbabbabbaaaabaaababbbbbaababaaabbaaaaabbaaaabbb\n" +
+            "bbbaababaaaaaaabaaabaaaababbbbabbabbbaaa\n" +
+            "abaaabaabbbbabbbbbbababa\n" +
+            "abaabbbbabbabbaababbbaba\n" +
+            "ababbaaaaaaaabbabbaaaaaa\n" +
+            "baaabbabbbabbababaabaabababbaabaaabbbaabaaaaabaababbabbabbbbaaaaaabaaabbabaaabbabbbaabab\n" +
+            "bbaaaababaabbaaabbbbbbba\n" +
+            "ababaabaaaababbaaaababbb\n" +
+            "abaaababbaaabaababbababbbaabbaaabbbababa\n" +
+            "abaaabaaabbaaabbbbabababbabbaabbaaaabaaa\n" +
+            "ababaababbababbbababbbba\n" +
+            "bbabaaabbbaaababaaaababaabaababa\n" +
+            "aabbaababbabaaaabaaababbbbabbbababbbbabbbababbbaaababaaaabaaaabb\n" +
+            "babbaabbbbabbabaabbbbaabbaaabaaabbaabbaa\n" +
+            "baaaaabbaaabbbbbabbabbaaabbbbbabaababbab\n" +
+            "ababbbbbbbbbbabaaabaaabb\n" +
+            "aababbbaaaaaababbabbbbbaabbabbba\n" +
+            "aabaabaabbaaaabbbaabbaaabbabbbabbbbabaaa\n" +
+            "babbaabaaaabbbbbaaaabbbaabaabaaaabaababa\n" +
+            "baabbaaaabbaaabbaaaaaaababbbbbbb\n" +
+            "bbabbbaaababbabbabbbbabababbaaaa\n" +
+            "aabaababbabbabaabbaaaababaabbbba\n" +
+            "aaabbbbabbbbbbbbbabababb\n" +
+            "baaaaababaababbbabaaaaabaaabaaaababaabbbaaabaabbabbabaabababbabaaabbbbaa\n" +
+            "bbaaababbbaaababbbabbbaaabbaabbaabbaaabbaaaaaaaa\n" +
+            "baabbaaabbbaaaabbbbababbbaaababa\n" +
+            "babaabbbabbababbbababaab\n" +
+            "bbabaaababbabaaaaaabbbaaaaababbabaabaaaabaaaaaaa\n" +
+            "abbaaabbbabbabaababbbaaa\n" +
+            "abaabbbbabaababbbababaab\n" +
+            "baaabbabbababbaaaaabbaab\n" +
+            "bbbababbabbaabbabbbbbbabbabaaabbaaabbabababbabaaaabbbaaaaaaaaaaa\n" +
+            "bbababaaaabbbabaabbbbaabbababbaababbabbabbbbaaaabbbbbbabbbbbabbabbbbbbaaabaaabba\n" +
+            "abbaaabbbbbbbbabaaabaabb\n" +
+            "bbbbbbbbaabbbaabbbbabbba\n" +
+            "aababbaaaaabaaabbabaaaab\n" +
+            "baabbaabbaabbabbabbbaaba\n" +
+            "abbababbbbaababbabaaabbbaaaaabbbabbababa\n" +
+            "aabaabbabbaababbbbbbaabbaaabbaaa\n" +
+            "bbaaababbaabbbbbaaaabaaaababaabbbabbbababbbabaab\n" +
+            "bbbaaabbaaabaaaababbbbabbbbaaababababaab\n" +
+            "bbaababbaabaaaaababaababaabbaaaabaaabbaaaabbabbabbaabbaa\n" +
+            "aabbbabbaaaabbbaabbbaaaa\n" +
+            "baabbababbababababbbbbba\n" +
+            "bbabbbbbabbaabaabaaaabbaaaabbaba\n" +
+            "babaaaaaaaabaaaaabbaabab\n" +
+            "bbbbbaaabaaabaaabbbabbbaaabbaaabbababbab\n" +
+            "baaababbaabbabbbbabbbaaa\n" +
+            "ababbabbabbbaabbaabbbbabbbbbaaab\n" +
+            "aabbbbbabaaabbbbaabaaaab\n" +
+            "aaabaaaaaabbabbbaaabbbbaabaaaabbaabbaabb\n" +
+            "bbbaabaaabaaabababaabaaa\n" +
+            "baabbaaaabaaabaabbaaaabababaabbabbaaabaa\n" +
+            "baabbababbbaaabbaaaaaaaa\n" +
+            "aabbaababbbbbaababbabbba\n" +
+            "bbabbbaaaabbbabaabbbabbabbaababbbbabbbaaababbaaaaaaaaaaaaaaaabab\n" +
+            "abaabbabababbbabbaababbaaaaabaabaaaabaaaabaaabbababbbaba\n" +
+            "ababbbaaaabbbabaabbabaaa\n" +
+            "baaabaabbaababbaaaaabbab\n" +
+            "baaabaabbabababaaabaabbbbabaabaa\n" +
+            "aaaabababbbabbbbababbbba\n" +
+            "aabbbbababbbaabbbabbbbabbbbaaaabbbabbabbaabababb\n" +
+            "babaabaabbbbbaabaaaaabbbabababbaaaaabababaabbaaababbabba\n" +
+            "bbabbabaabaababbbbbabbba\n" +
+            "abbababbabbabbaabbaaaaaa\n" +
+            "babbbbbbabbabaababbbabbaaababbabbbbababa\n" +
+            "aabbaabaaaaaaababaaabaabbaabbabaababbabaabababaabaaababa\n" +
+            "baabaaaaaababbbaabbbabaa\n" +
+            "abaaabaabbaaababbbaabbbb\n" +
+            "aabbbbababaaabaaababaaabbabbbbababbabababbaabbbaaaaaabba\n" +
+            "aabbbaababaaabbbbabbaaab\n" +
+            "abbabbbbbaaaaabababaabababbabbbaaaabbbabbaabababababbbbbaabaababaabbabbbabbbababaaabbbab\n" +
+            "bbabbabbbababbaaaabbabaa\n" +
+            "abaaaaabaabababbbbbbaaaabaabbaaababababb\n" +
+            "baaaaaaaaaabbabbaaabbbbbabaabaababbbaababbbbbbabababbbbbaabbabbb\n" +
+            "bbbbbbbbbaabbabbbbabbababbaababababaabba\n" +
+            "baabbabbbbbbaabbbaabbabbbbbbbabbabbabbbb\n" +
+            "abbbbababbbbbabaabababab\n" +
+            "abababbabbaaaabbbbaababbaabbbbaaaabaaaaa\n" +
+            "baababbbaaaabbbaaabaabbabbabbbbbabaaababbbaabbba\n" +
+            "bbababbbabaabbbbababbababaaaaabaaabaabbaaababbbbbabaabbbaaaabbaabbbaabbaaaabbbbb\n" +
+            "aaaabaabaabbbbababbababa\n" +
+            "aabbbbbaababaabbabbbbabbbaabbababbaaaabbbababbba\n" +
+            "baaabbbbbbbaabaaaaaaabbbbaabbabbaabbbaaabbaababa\n" +
+            "aaababbaabbaabbaaaabbbaa\n" +
+            "bbbbbaabababbabbabbbbbab\n" +
+            "baabbbbbbbaababbaabbabaa\n" +
+            "aabaabbaaabbbabbababaaaa\n" +
+            "bbbabbbbaaaabaaaababbbaabaaaaaaa\n" +
+            "bbabbbbbbbababbabbaaaabbabbbbbaa\n" +
+            "baaaaabbbaabbbbbaababbab\n" +
+            "bbbaaaaababbabaabbabaabb\n" +
+            "abbbaaabbaabbaaababaaaab\n" +
+            "aabbababaabababaabbabbaaaaaaaaaaababaaaa\n" +
+            "aaaabbbaaaaaaaabbbbaabaaababbabbbbaaabaaababbabaaaababaa\n" +
+            "bbbabbbabbabaabaaabbbaaaabbaabaa\n" +
+            "abbbbaaaabaaaaaaaaabbabbbbabbbabbababaaa\n" +
+            "aabbaababbbbbbbbaaabbbab\n" +
+            "babaabbbaabbbbbbaabbaabb\n" +
+            "aababbbaaaabaaabaaaabbab\n" +
+            "aaaababaabaabbabaaaaabaabbabbbbbababbaaa\n" +
+            "bbabbbaababbbbabaabaaabb\n" +
+            "ababaabbbbbbbbbbbaaaabbb\n" +
+            "baabbaaabaaababbbabbbabb\n" +
+            "baabbbbbababaaabaabbbbabbbabbabb\n" +
+            "aabbaabaababaabbabbababa\n" +
+            "abbbabbabaabbaabbbabaabb\n" +
+            "ababbabbbbabbbaabaaaabba\n" +
+            "bbbbbbaaabbbbbababaababaaabbbbbbbbabbaaa\n" +
+            "bbbbbaababaababbaaaaabaababababbbbbabbba\n" +
+            "abbaaabbbaaabaabbaaaabba\n" +
+            "baaabbabbababbabaaabbaaa\n" +
+            "abaabbbabbabbabaabbbbaab\n" +
+            "bbbaaaaabbbababbaabaaabb\n" +
+            "bbabaaabbbbbbabababbabbb\n" +
+            "aaababbabbbbbabaaabbbaaa\n" +
+            "abbbaabbbaaabaababbabbab\n" +
+            "baaabbbbaabbbababbabbababbaaabaa\n" +
+            "abbabbaaaabaababbbbabbabaaabbbaa\n" +
+            "abbababbbabaabbbaaabbbbbaababbaababbabbbbabaabbaaaabaaba\n" +
+            "baaabaabbbbbbbbbabbbaaba\n" +
+            "ababaaabbaabbabbbaaaabaaabbaabbbaababaab\n" +
+            "abbbabbaabbabaabbabaabbbbbababaabaaabaaa\n" +
+            "baabbaaaaaaabaaaaaaaabab\n" +
+            "aaaaabaabbabababbbbabaaa\n" +
+            "aabbbaabbabbabaababbbbababbbababbaaaabbabbabbaaababbabbb\n" +
+            "bbbbabbabaabbaabbbaaababaaabbabbbbabbaaababaabbababbabba\n" +
+            "abaaabbbaaaaabaababbbaaa\n" +
+            "aaaabbbaaabababbbabbababbbabababbbabbabbababbbaa\n" +
+            "baaaaabbbabaabbbabbbbaab\n" +
+            "ababbbaabbabbaabbbbaaaabbbabbaabaababbabbaaaaaaaaaaaabbbbbaabbbaaaabaaab\n" +
+            "baababbabbbbbaaabbaabbba\n" +
+            "baaabbaabbaabaaaabbbabaa\n" +
+            "baabbaabaaabbbbbbabbabaaaaabaaba\n" +
+            "aabbabbbbbababbbbbabbaab\n" +
+            "bbabbbaaabbaaabbaaabababaaaaabbbbaaabbba\n" +
+            "baabaaaabaaabaabbaabbaaaaabbaaabaabbaabb\n" +
+            "baabaaaabbbaaaabbbaaabaa\n" +
+            "aaabbbbbbabaaaaaaaababbababaabbbbabababbbababbbbbaaaaaba\n" +
+            "bbabaaabbabbbbbbbaababbaabbaabbb\n" +
+            "baabbabbbbbbbbbbbaaaabba\n" +
+            "abaaababbbabbabaabaababb\n" +
+            "bbbabbbbaababababaababab\n" +
+            "bbbbbaaababaaaaaaabaababbbbabbbabbaaaaab\n" +
+            "aabbbaabaaaaabbbbbabbaaa\n" +
+            "aaabaaaababbaabbaabbaaaabbbbaabbbbaabbaa\n" +
+            "abababbaaabbbabbabbbabaa\n" +
+            "aabbbababbaaaabbaaaaaaabbbaababbbabbbabaabbbabababbaabab\n" +
+            "bababbaabababbaabbbbbbba\n" +
+            "bbababababbaabaaaaaaaaaa\n" +
+            "ababbbbbaabbabababaabaab\n" +
+            "bbbabbbabbabbaabbabbbabbabaaabbabbaaabbabbbbabaa\n" +
+            "bbabaaabbbbbbaaaaabbbabbabbaababbbbbbabbabbbbbbbaaaaaaaa\n" +
+            "ababaaababbabbaabbabbababbaaaaab\n" +
+            "abbbbbababababbbabaabaaabaaabababbabbaba\n" +
+            "abaabababaabbaaabbaababbbaaaabbaabaaababbbbbaaababbaaaaaaabbabbababbbaba\n" +
+            "bbbaaabababaaaaabaabbabbaabbaaabbaaaababaaabaabbbaabbabb\n" +
+            "abbabaabababaabbbbaaabbb\n" +
+            "aabbbaabbaabaaaabababaaa\n" +
+            "abaabbabaaaaaaababbbaaababaaaaaaabbbbaaabaaaaaaabaabbbba\n" +
+            "abbaabbabaabbaaabbabbaaa\n" +
+            "bbbbabbbabaababbbbababaa\n" +
+            "babbbbabbbbaaaaabbbaabab\n" +
+            "aabbababbabbbbbbbbaaaaab\n" +
+            "babaaabaaabaabbabababbbbabbabbbb\n" +
+            "aaabababbbbababbbbbaabaa\n" +
+            "aababbbbabbbbabbaabbbaaa\n" +
+            "abaaabbbbabbababbaabaaba\n" +
+            "abbbbaaaababaababbbbbaababbbabbabaaaabbabaaabaaababbbaab\n" +
+            "abbaabaaaaaabaabbbbaaaba\n" +
+            "abaabbbbbbaaababbaabbabaababaaababaabbabaaabaaababaaaaba\n" +
+            "aabbbabbbaaabaabbbaaabaa\n" +
+            "abbbbabbaabbbbaaabaaaababaabbbba\n" +
+            "aaaabababbbbaabbabbaabbb\n" +
+            "abaabbabbbbabbaababaabbaabababab\n" +
+            "aaababbababbbbbbbaababaa\n" +
+            "aaaabbbaaababababaaababbbbaabbbaabbbbbaa\n" +
+            "aababbababaabbbbabbaaaabaabbaabaaabaabaabbbbabbaababababaaabbbabbbbbabaabbbaabababaaabba\n" +
+            "baaabbbbbbbbabbabbabbaab\n" +
+            "bbabbbabbabaaaaaabababbaabbaabaaabbabbaabaababaabaabbbaa\n" +
+            "baabbaabaaabbabbaaabaaaabaaaaababbaaabaa\n" +
+            "abbaaabbbabaaaaabbbabaaa\n" +
+            "bbabaaabbabbaababababaaa\n" +
+            "bbbabbbbabbbaabbbbabaabb\n" +
+            "abbaaabaabaaababbbaabbabbbbaabaaabbbbbaabaabaabb\n" +
+            "aaabbabbbbbabbbbaabbababbabbabaabaabbbaabaaababa\n" +
+            "baaabbaabaababbabbbbaaba\n" +
+            "bbbbbababaabbaababaaaaba\n" +
+            "baaabbaabbbaabbbaababaaabbbabaababbabbbb\n" +
+            "abaabbbbabbbabbbbaaaabbb\n" +
+            "bbbabbbbbabbababaaabaabb\n" +
+            "baaababbbbbbbaabaabbbbabbabbaababbababbaabbaabbb\n" +
+            "aababbbaaabbbbbbaababbaabbaababbbaaabababbaabbbbbabababaaabaabbaababbbbb\n" +
+            "bbbbbbbbbbaaaababaaabbbbabaababbbabbaaab\n" +
+            "aababbbbabbaabbabaaabaaa\n" +
+            "abbbbabbbbabababaabbaaab\n" +
+            "bbabaababbbbbbaaababaabbbbbabaababaaaaabbbabbbababbbbbaa\n" +
+            "bbbaabaabbbbbaabbbaabaab\n" +
+            "aabbbbbbbbbbbbbbbbababbaaababbbaaaabaabb\n" +
+            "aabbbabababababaaabaababaaabbabbaabbbababbabbabaabaaabba\n" +
+            "abaababbbbbbabbababbaaab\n" +
+            "babbbbabbbaababbbbbbbbaa\n" +
+            "aaabbaaabbbbabaabbaabaab\n" +
+            "bbababbabaababbaabbbaabb\n" +
+            "abbaabaabbbaabaabbbbbaabbbbbaaba\n" +
+            "bbbaabaaabbabaabbbabaaaababbbaba\n" +
+            "ababaababbababbbbbbbababbabbabbaabbbaabaabaabaaa\n" +
+            "baaaaaababaaabaaabaababa\n" +
+            "ababaababbbaabaabaababab\n" +
+            "aabbbbbbbbabbabbabbaabbb\n" +
+            "abaabbbbbbabbabaaabaaaaa\n" +
+            "bbbbbaabaabababaabbaaaabababaabbaabbaabbabbbabab\n" +
+            "abbaaabaabaaababbaabaaab\n" +
+            "bbbbbbabbaaaaaabaabaabaabbbaaaabbbaabbbb\n" +
+            "babaaaaaaabbbbbbabababbb\n" +
+            "abaaaaaaabbababbbbbbaaaa\n" +
+            "bbbbabbbbaabbaaaabbbabbbabaaaaababaabaaa\n" +
+            "aaaaabaabababbabbbaaaaab\n" +
+            "abbababbbaaabbabbaabaabbaabbababbbaaabbbbbbbbbaabbbabaab\n" +
+            "abbabbaabbabbbababaabaaa\n" +
+            "baabbaabbbbbbbbbbbbaaaba\n" +
+            "aaaaababaaabaaaaabbbaabbabaaabaabaabbabbaabaaabababbababababaaabbabaabba\n" +
+            "bbabaababbbaaabbaaaaaabbbaaababa\n" +
+            "aaabaaaaaaaaabaaaabbabaa\n" +
+            "abbbabbbaababbbababaaaab\n" +
+            "aabbbbabaabbbbaaabbbbaaaaabbbabaaabababaaaaaaaaa\n" +
+            "baaaaaabbaaababbababaababbbaabbb\n" +
+            "baabbbbbbbbbbababbaabaaabbabbaaaabbabbbb\n" +
+            "baaabbabbaabbbbbbbbbbabaabbbabaabaabbbabbbbabbbababbbaba\n" +
+            "abbbbaaabbababbbababbbabbbbbbaaaaabbaaababaaaaabbbaabbbb\n" +
+            "aaaaabaaaaaabbbaababbbabbbabbbba\n" +
+            "bbbbabbbaabababaaaabbaab\n" +
+            "baabaaaabababbabbaaabbba\n" +
+            "bbaabaaaaabbababaabbabaa\n" +
+            "aabbababbbaaaabaaaaaabbbaaaaabbaababbaba\n" +
+            "abbbaabbbbaaaabababbbaab\n" +
+            "abaaababababaabbbbaabbba\n" +
+            "aabbaaababaabbaabbabbbbababaaaabbaaaaaba\n" +
+            "bbbbbbbbbbbbbaaaabbbbababbaaaababbbbbaabaaabbaabbabbaaababbbbbbaabbbabab\n" +
+            "abbabababbabbbbaaabaaabbaabbabba\n" +
+            "aaabbbbaababbabbbbabbbab\n" +
+            "bbbaaaaaabbbbaaaaabaabbabaaababbababbaab\n" +
+            "bbbababbbbbbbaaaaabbabba\n" +
+            "bbaaaabbbbbbbbbbaaaaabbbbbbabbbaaabababb\n" +
+            "aaabbbbaaaaaaabbbaabbaabbaabbabbaabaabaabaaaabaabababaabbbbabaaa\n" +
+            "abababbabbababbaabbababbbabbbaba\n" +
+            "aabbbabbabbbaaabaabbbaaa\n" +
+            "baaabbaabbbaaaabbaabaaab\n" +
+            "baabaaaabbbbbababaabaababbabaaabbbbabbbbbbaaabbbbaaaaaaabbbaabbb\n" +
+            "bbabaaabbbabbababababababaaaabab\n" +
+            "babababaabbbabaabbbaaaba\n" +
+            "abbaabaabbabaabaaababbab\n" +
+            "bbaaaababaaabbaaabaaabba\n" +
+            "bbabbbbbaaabbbbaaaabbaba\n" +
+            "aabaabababaabbbbababbaaa\n" +
+            "babaabbbbbababbaaababbab\n" +
+            "abbbbbbbbaaabbbababbbbbabababbbb\n" +
+            "babbabaabbbbbaabbbbbbbba\n" +
+            "abbbaabbaabbbaabaabbabaa\n" +
+            "aaaaaabaaabaabbabbaaaabbaabaabbbbbbabbab\n" +
+            "bbbaaabbaaabababaabbbaaa\n" +
+            "bbbaaaaaaabbbabbaabbaaab\n" +
+            "abaaaaaabbbbaabbbbabaaaaaabaabbbaaaaabbbbbaaaaaa";
 }

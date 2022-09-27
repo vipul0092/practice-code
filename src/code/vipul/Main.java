@@ -1,5 +1,6 @@
 package code.vipul;
 
+import code.vipul.aoc2020.Solve19;
 import code.vipul.aoc2020.Solve15;
 import code.vipul.aoc2020.Solve16;
 import code.vipul.aoc2020.Solve18;
@@ -22,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve18.solvePart2();
+        Solve19.solve();
         // ClimbingStairs.test();
 
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
