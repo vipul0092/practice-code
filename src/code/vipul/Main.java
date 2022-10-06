@@ -6,6 +6,10 @@ import code.vipul.aoc2020.Solve16;
 import code.vipul.aoc2020.Solve18;
 import code.vipul.aoc2020.Solve21;
 import code.vipul.aoc2020.Solve22;
+import code.vipul.aoc2020.Solve23;
+import code.vipul.aoc2020.Solve24;
+import code.vipul.aoc2020.Solve25;
+import code.vipul.aoc2020.day17.Solve17;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +32,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve22.solvePart2();
+        Solve17.solvePart2();
 
         // ClimbingStairs.test();
 
