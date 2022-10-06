@@ -4,6 +4,11 @@ import code.vipul.aoc2020.Solve19;
 import code.vipul.aoc2020.Solve15;
 import code.vipul.aoc2020.Solve16;
 import code.vipul.aoc2020.Solve18;
+import code.vipul.aoc2020.Solve21;
+import code.vipul.aoc2020.Solve22;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -23,7 +28,8 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve19.solve();
+        Solve22.solvePart2();
+
         // ClimbingStairs.test();
 
         //PermutationInOther.solve("abbc", "cbabadcbbabbcbabaabccbabc");
