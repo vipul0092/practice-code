@@ -1,6 +1,6 @@
 package code.vipul;
 
-import code.vipul.aoc2020.Solve17;
+import code.vipul.aoc2018.Solve17;
 
 public class Main {
 
@@ -20,7 +20,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve17.solvePart2();
+        Solve17.solve();
 
         // ClimbingStairs.test();
 
