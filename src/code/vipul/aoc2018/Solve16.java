@@ -17,9 +17,9 @@ import static java.util.stream.Collectors.toList;
  */
 public class Solve16 {
 
-    private static int[] registers = new int[4];
+    public static long[] registers = new long[4];
     private static String input = Inputs.DAY16;
-    private static final Map<String, TriFunction<Integer, Integer, Integer>> EVALUATORS;
+    public static final Map<String, TriFunction<Integer, Integer, Integer>> EVALUATORS;
 
     private static final Function<String, String> rowParser =
             (in) -> in.substring(in.lastIndexOf("[") + 1, in.lastIndexOf("]"));
@@ -152,7 +152,7 @@ public class Solve16 {
             opcodePotentialMaps.forEach((o, values) -> values.remove(opcode));
         }
 
-        registers = new int[4];
+        registers = new long[4];
 
         System.out.println();
         System.out.println("Running Program Now...");
@@ -189,7 +189,7 @@ public class Solve16 {
     }
 
     private static void muli(int a, int b, int c) {
-        registers[c] = registers[a] * b;
+        registers[c] = (registers[a] * (long) b);
     }
 
     private static void mulr(int a, int b, int c) {
@@ -245,7 +245,7 @@ public class Solve16 {
     }
 
     @FunctionalInterface
-    private interface TriFunction<a, b, c> {
+    public interface TriFunction<a, b, c> {
         void execute(a a, b b, c c);
     }
 }
