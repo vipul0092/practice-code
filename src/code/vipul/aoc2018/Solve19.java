@@ -25,7 +25,7 @@ public class Solve19 {
             "seti 8 0 4\n" +
             "seti 9 0 5";
 
-    private static int intPtrRegister = -1;
+    public static int intPtrRegister = -1;
 
     public static void solve() {
         registers = new long[6];
@@ -93,9 +93,9 @@ public class Solve19 {
             for (int i = 1; i <= sqrt; i++) {
                 if (val % i == 0) {
                     System.out.println("Factor found: " + i);
-                    System.out.println("Factor found: " + (val/i));
+                    System.out.println("Factor found: " + (val / i));
                     answer += i;
-                    answer += (val/i);
+                    answer += (val / i);
                 }
             }
 
@@ -103,15 +103,15 @@ public class Solve19 {
         }
     }
 
-    private static long getIntPtrLinkedRegisterValue() {
+    public static long getIntPtrLinkedRegisterValue() {
         return registers[intPtrRegister];
     }
 
-    private static void setLinkedRegisterValue(long value) {
+    public static void setLinkedRegisterValue(long value) {
         registers[intPtrRegister] = value;
     }
 
-    private static String getRegistersValues() {
+    public static String getRegistersValues() {
         StringBuilder s = new StringBuilder();
         for (long r : registers) {
             s.append(r).append(" ");
