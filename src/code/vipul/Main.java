@@ -2,6 +2,8 @@ package code.vipul;
 
 import code.vipul.aoc2018.Solve20;
 import code.vipul.aoc2018.Solve21;
+import code.vipul.aoc2018.Solve22;
+import code.vipul.aoc2018.Solve23;
 
 public class Main {
 
@@ -21,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve21.solvePart2();
+        Solve23.solve();
 
         // ClimbingStairs.test();
 
