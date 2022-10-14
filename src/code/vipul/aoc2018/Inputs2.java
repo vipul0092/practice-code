@@ -4470,4 +4470,53 @@ public final class Inputs2 {
             "pos=<19467831,10687219,70264667>, r=63964829\n" +
             "pos=<16165986,6037603,92476770>, r=94128389\n" +
             "pos=<67142760,-30497295,74720311>, r=94223722";
+
+    public static final String DAY_24 = "Immune System:\n" +
+            "228 units each with 8064 hit points (weak to cold) with an attack that does 331 cold damage at initiative 8\n" +
+            "284 units each with 5218 hit points (immune to slashing, fire; weak to radiation) with an attack that does 160 radiation damage at initiative 10\n" +
+            "351 units each with 4273 hit points (immune to radiation) with an attack that does 93 bludgeoning damage at initiative 2\n" +
+            "2693 units each with 9419 hit points (immune to radiation; weak to bludgeoning) with an attack that does 30 cold damage at initiative 17\n" +
+            "3079 units each with 4357 hit points (weak to radiation, cold) with an attack that does 13 radiation damage at initiative 1\n" +
+            "906 units each with 12842 hit points (immune to fire) with an attack that does 100 fire damage at initiative 6\n" +
+            "3356 units each with 9173 hit points (immune to fire; weak to bludgeoning) with an attack that does 24 radiation damage at initiative 9\n" +
+            "61 units each with 9474 hit points with an attack that does 1488 bludgeoning damage at initiative 11\n" +
+            "1598 units each with 10393 hit points (weak to fire) with an attack that does 61 cold damage at initiative 20\n" +
+            "5022 units each with 6659 hit points (immune to bludgeoning, fire, cold) with an attack that does 12 radiation damage at initiative 15\n" +
+            "\n" +
+            "Infection:\n" +
+            "120 units each with 14560 hit points (weak to radiation, bludgeoning; immune to cold) with an attack that does 241 radiation damage at initiative 18\n" +
+            "8023 units each with 19573 hit points (immune to bludgeoning, radiation; weak to cold, slashing) with an attack that does 4 bludgeoning damage at initiative 4\n" +
+            "3259 units each with 24366 hit points (weak to cold; immune to slashing, radiation, bludgeoning) with an attack that does 13 slashing damage at initiative 16\n" +
+            "4158 units each with 13287 hit points with an attack that does 6 fire damage at initiative 12\n" +
+            "255 units each with 26550 hit points with an attack that does 167 bludgeoning damage at initiative 5\n" +
+            "5559 units each with 21287 hit points with an attack that does 5 slashing damage at initiative 13\n" +
+            "2868 units each with 69207 hit points (weak to bludgeoning; immune to fire) with an attack that does 33 cold damage at initiative 14\n" +
+            "232 units each with 41823 hit points (immune to bludgeoning) with an attack that does 359 bludgeoning damage at initiative 3\n" +
+            "729 units each with 41762 hit points (weak to bludgeoning, fire) with an attack that does 109 fire damage at initiative 7\n" +
+            "3690 units each with 36699 hit points with an attack that does 17 slashing damage at initiative 19";
+
+    // Part 1: 33551; Part 2: 760
+    public static final String DAY_24_2 = "Immune System:\n" +
+            "84 units each with 9798 hit points (immune to bludgeoning) with an attack that does 1151 fire damage at initiative 9\n" +
+            "255 units each with 9756 hit points (weak to cold, radiation) with an attack that does 382 slashing damage at initiative 17\n" +
+            "4943 units each with 6022 hit points (weak to bludgeoning) with an attack that does 11 bludgeoning damage at initiative 4\n" +
+            "305 units each with 3683 hit points (weak to bludgeoning, slashing) with an attack that does 107 cold damage at initiative 5\n" +
+            "1724 units each with 6584 hit points (weak to radiation) with an attack that does 30 cold damage at initiative 6\n" +
+            "2758 units each with 5199 hit points (immune to slashing, bludgeoning, cold; weak to fire) with an attack that does 18 bludgeoning damage at initiative 15\n" +
+            "643 units each with 9928 hit points (immune to fire; weak to slashing, bludgeoning) with an attack that does 149 fire damage at initiative 14\n" +
+            "219 units each with 8810 hit points with an attack that does 368 cold damage at initiative 3\n" +
+            "9826 units each with 10288 hit points (weak to bludgeoning; immune to cold) with an attack that does 8 cold damage at initiative 18\n" +
+            "2417 units each with 9613 hit points (weak to fire, cold) with an attack that does 36 cold damage at initiative 19\n" +
+            "\n" +
+            "Infection:\n" +
+            "1379 units each with 46709 hit points with an attack that does 66 slashing damage at initiative 16\n" +
+            "1766 units each with 15378 hit points (weak to bludgeoning) with an attack that does 12 radiation damage at initiative 10\n" +
+            "7691 units each with 33066 hit points (weak to bludgeoning) with an attack that does 7 slashing damage at initiative 12\n" +
+            "6941 units each with 43373 hit points (weak to cold) with an attack that does 12 fire damage at initiative 7\n" +
+            "5526 units each with 28081 hit points (weak to fire, slashing) with an attack that does 7 bludgeoning damage at initiative 11\n" +
+            "5844 units each with 41829 hit points with an attack that does 11 bludgeoning damage at initiative 20\n" +
+            "370 units each with 25050 hit points (immune to radiation; weak to fire) with an attack that does 120 radiation damage at initiative 2\n" +
+            "164 units each with 42669 hit points with an attack that does 481 fire damage at initiative 13\n" +
+            "3956 units each with 30426 hit points (weak to radiation) with an attack that does 13 cold damage at initiative 8\n" +
+            "2816 units each with 35467 hit points (immune to slashing, radiation, fire; weak to cold) with an attack that does 24 slashing damage at initiative 1";
 }
