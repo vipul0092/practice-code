@@ -6,6 +6,7 @@ import code.vipul.aoc2018.Solve22;
 import code.vipul.aoc2018.Solve23;
 import code.vipul.aoc2018.Solve24;
 import code.vipul.aoc2018.Solve25;
+import code.vipul.aoc2018.Solve6;
 
 public class Main {
 
@@ -25,7 +26,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve25.solve();
+        Solve6.solve();
 
         // ClimbingStairs.test();
 
