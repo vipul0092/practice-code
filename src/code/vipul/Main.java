@@ -7,6 +7,12 @@ import code.vipul.aoc2018.Solve23;
 import code.vipul.aoc2018.Solve24;
 import code.vipul.aoc2018.Solve25;
 import code.vipul.aoc2018.Solve6;
+import code.vipul.aoc2022.Solve1;
+import code.vipul.aoc2022.Solve2;
+import code.vipul.aoc2022.Solve3;
+import code.vipul.aoc2022.Solve4;
+import code.vipul.aoc2022.Solve5;
+import code.vipul.leetcode.CombinationSum;
 
 public class Main {
 
@@ -26,7 +32,8 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve6.solve();
+        Solve5.solvePart2();
+        // CombinationSum.solve();
 
         // ClimbingStairs.test();
 

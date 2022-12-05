@@ -1,6 +1,7 @@
 package code.vipul.aoc2019;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -115,6 +116,7 @@ public class Solve1 {
         List<Integer> fuelValues = Arrays.stream(input.split("\n"))
                 .map(in -> Integer.parseInt(in))
                 .collect(Collectors.toList());
+        fuelValues.sort(Comparator.naturalOrder());
 
         int answer = 0;
         for (Integer val : fuelValues) {
