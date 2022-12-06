@@ -1,5 +1,6 @@
 package code.vipul.aoc2022;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -19,7 +20,7 @@ public class Solve6 {
     }
 
     private static void solveInternal(String in, int limit) {
-        Map<Character, Integer> sets = new LinkedHashMap<>();
+        Map<Character, Integer> sets = new HashMap<>();
         for (int i = 0; i < in.length(); i++) {
             char ch = in.charAt(i);
 
