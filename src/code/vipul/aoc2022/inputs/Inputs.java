@@ -6580,4 +6580,1107 @@ public class Inputs {
             "move 2 from 9 to 3\n" +
             "move 3 from 5 to 4\n" +
             "move 2 from 8 to 6";
+
+    public static final String INPUT_7 = "$ cd /\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir dtmbp\n" +
+            "dir dzbfsf\n" +
+            "dir fwrlqs\n" +
+            "305959 jjq.hjd\n" +
+            "dir qjnnw\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "dir gftgshl\n" +
+            "dir grct\n" +
+            "57336 tbqpqfgd.wvz\n" +
+            "267191 vqms\n" +
+            "dir wtgzgmvr\n" +
+            "$ cd gftgshl\n" +
+            "$ ls\n" +
+            "dir mtshhn\n" +
+            "dir smnslwd\n" +
+            "dir znbs\n" +
+            "$ cd mtshhn\n" +
+            "$ ls\n" +
+            "244930 fsclsm\n" +
+            "197930 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "205127 dbtvp.mbr\n" +
+            "dir grct\n" +
+            "270601 hcjtjptg\n" +
+            "146538 lsqvg.zmm\n" +
+            "310443 vnnf\n" +
+            "84541 vqms\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "20977 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd znbs\n" +
+            "$ ls\n" +
+            "192316 pjrpqc.gwh\n" +
+            "5233 tnqpmbjf.prg\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "297156 qzlmfj.lhc\n" +
+            "104088 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd wtgzgmvr\n" +
+            "$ ls\n" +
+            "dir cfvjph\n" +
+            "dir jzdqctm\n" +
+            "153202 slcz\n" +
+            "$ cd cfvjph\n" +
+            "$ ls\n" +
+            "201215 tlms\n" +
+            "$ cd ..\n" +
+            "$ cd jzdqctm\n" +
+            "$ ls\n" +
+            "dir hnbjcm\n" +
+            "112648 jjq.hjd\n" +
+            "319899 lhzjrmsd\n" +
+            "118481 pclps\n" +
+            "226538 pfnmnm\n" +
+            "dir vdzsn\n" +
+            "148960 wmvd\n" +
+            "dir zvh\n" +
+            "$ cd hnbjcm\n" +
+            "$ ls\n" +
+            "147907 ddgtnw.tpg\n" +
+            "dir hgh\n" +
+            "107668 qjpfhmw.gts\n" +
+            "dir qvnbfdq\n" +
+            "dir tlms\n" +
+            "dir wlvg\n" +
+            "$ cd hgh\n" +
+            "$ ls\n" +
+            "64701 smnslwd.hnd\n" +
+            "$ cd ..\n" +
+            "$ cd qvnbfdq\n" +
+            "$ ls\n" +
+            "36206 dzbfsf.qsr\n" +
+            "dir dzfpqb\n" +
+            "dir rvdlmnqv\n" +
+            "13989 tlms.jgl\n" +
+            "145493 vqms\n" +
+            "$ cd dzfpqb\n" +
+            "$ ls\n" +
+            "259317 dzbfsf.mwc\n" +
+            "36195 rtgrs.hff\n" +
+            "$ cd ..\n" +
+            "$ cd rvdlmnqv\n" +
+            "$ ls\n" +
+            "dir smnslwd\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "141659 gflcq\n" +
+            "315323 mwszdwvg\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "263149 gwws.zcb\n" +
+            "$ cd ..\n" +
+            "$ cd wlvg\n" +
+            "$ ls\n" +
+            "42151 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd vdzsn\n" +
+            "$ ls\n" +
+            "301547 smnslwd.hzc\n" +
+            "$ cd ..\n" +
+            "$ cd zvh\n" +
+            "$ ls\n" +
+            "111901 bsnmdtzq.mjp\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd dtmbp\n" +
+            "$ ls\n" +
+            "dir cscpfcjv\n" +
+            "dir hdjs\n" +
+            "dir jcrb\n" +
+            "dir spmc\n" +
+            "dir spwsfpww\n" +
+            "$ cd cscpfcjv\n" +
+            "$ ls\n" +
+            "260848 qzcffqvp\n" +
+            "$ cd ..\n" +
+            "$ cd hdjs\n" +
+            "$ ls\n" +
+            "dir tlms\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "174135 fwpwgz\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd jcrb\n" +
+            "$ ls\n" +
+            "77666 nqtvhszf\n" +
+            "198488 smnslwd\n" +
+            "40032 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd spmc\n" +
+            "$ ls\n" +
+            "dir hhwzwqzq\n" +
+            "319757 hlgvsbg\n" +
+            "dir jbrftqj\n" +
+            "$ cd hhwzwqzq\n" +
+            "$ ls\n" +
+            "43088 mrlnrp.nqs\n" +
+            "206555 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd jbrftqj\n" +
+            "$ ls\n" +
+            "296407 flb\n" +
+            "315927 fnbvwh.lcf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd spwsfpww\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir hzb\n" +
+            "dir smnslwd\n" +
+            "74678 smnslwd.crg\n" +
+            "130878 tlms\n" +
+            "239208 tlms.hjr\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "133732 gqddds\n" +
+            "dir grct\n" +
+            "240907 lslgfrm.fct\n" +
+            "64110 rtgrs.hff\n" +
+            "dir tlms\n" +
+            "275504 zvwjph.svd\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "18055 fvnm\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "54154 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd hzb\n" +
+            "$ ls\n" +
+            "178568 hmdszw\n" +
+            "132701 pzsfzr.zqz\n" +
+            "dir smnslwd\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "286526 dtcrb.tzw\n" +
+            "214568 smnslwd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "118657 ccmmrv.wgs\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "30773 grct.lbw\n" +
+            "dir jttqnbvn\n" +
+            "188768 pmdjrf.nqc\n" +
+            "dir ptbps\n" +
+            "dir tllwm\n" +
+            "176302 vqms\n" +
+            "$ cd jttqnbvn\n" +
+            "$ ls\n" +
+            "9663 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd ptbps\n" +
+            "$ ls\n" +
+            "132576 jzfs.hpq\n" +
+            "dir pwclsbw\n" +
+            "$ cd pwclsbw\n" +
+            "$ ls\n" +
+            "dir dzbfsf\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "157147 smnslwd.jcg\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd tllwm\n" +
+            "$ ls\n" +
+            "dir pcbgr\n" +
+            "dir smnslwd\n" +
+            "dir svc\n" +
+            "$ cd pcbgr\n" +
+            "$ ls\n" +
+            "dir grct\n" +
+            "65990 gvlc.ptr\n" +
+            "dir jtqg\n" +
+            "108430 pljrmjb.hld\n" +
+            "dir smtbvvpn\n" +
+            "dir vqjdpt\n" +
+            "130683 vqms\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "155740 hcstcmpz\n" +
+            "156312 rtgrs.hff\n" +
+            "317800 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd jtqg\n" +
+            "$ ls\n" +
+            "151962 rtgrs.hff\n" +
+            "181794 vwzsf\n" +
+            "$ cd ..\n" +
+            "$ cd smtbvvpn\n" +
+            "$ ls\n" +
+            "272000 fgqp.mhf\n" +
+            "dir mqgzwzn\n" +
+            "dir mspltflh\n" +
+            "dir smnslwd\n" +
+            "21242 vnnf\n" +
+            "dir vzjfv\n" +
+            "dir wnbtllq\n" +
+            "$ cd mqgzwzn\n" +
+            "$ ls\n" +
+            "dir rhp\n" +
+            "$ cd rhp\n" +
+            "$ ls\n" +
+            "297744 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd mspltflh\n" +
+            "$ ls\n" +
+            "32927 rlwp.phz\n" +
+            "109360 vlpzz\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "172760 vqjgbzd.glg\n" +
+            "$ cd ..\n" +
+            "$ cd vzjfv\n" +
+            "$ ls\n" +
+            "dir dcrlnllf\n" +
+            "dir ddgtnw\n" +
+            "dir pjhnl\n" +
+            "dir twfpbs\n" +
+            "$ cd dcrlnllf\n" +
+            "$ ls\n" +
+            "19043 thrvjqmj.smd\n" +
+            "$ cd ..\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "301193 fdh.pls\n" +
+            "$ cd ..\n" +
+            "$ cd pjhnl\n" +
+            "$ ls\n" +
+            "305148 dqfwn.zhg\n" +
+            "dir dzbfsf\n" +
+            "34622 smnslwd.nzj\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "227330 bdmbnm.zpl\n" +
+            "232365 cfmhqlhp.qvj\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd twfpbs\n" +
+            "$ ls\n" +
+            "dir rfn\n" +
+            "dir vdr\n" +
+            "$ cd rfn\n" +
+            "$ ls\n" +
+            "72138 grct\n" +
+            "$ cd ..\n" +
+            "$ cd vdr\n" +
+            "$ ls\n" +
+            "19296 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd wnbtllq\n" +
+            "$ ls\n" +
+            "283471 grct.vmq\n" +
+            "285265 sqqj\n" +
+            "248581 trgqdwsc.zjc\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd vqjdpt\n" +
+            "$ ls\n" +
+            "271132 hprsbjzw.lnr\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "4812 bcg.vwj\n" +
+            "dir ddgtnw\n" +
+            "30986 pwl.frb\n" +
+            "dir tlms\n" +
+            "dir vrwwh\n" +
+            "dir wwbdc\n" +
+            "304408 wwvvhr\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "303604 fsclsm\n" +
+            "71614 jlpzljjl.vzw\n" +
+            "110905 mzlj.qjz\n" +
+            "56751 pnhjdbnt\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "36089 bpnhvpdf.spq\n" +
+            "dir ddgtnw\n" +
+            "dir grct\n" +
+            "97469 jjq.hjd\n" +
+            "dir jlz\n" +
+            "dir nhvvs\n" +
+            "dir ptzptl\n" +
+            "dir rsqtp\n" +
+            "dir sgbnjmwq\n" +
+            "dir smnslwd\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "dir hwnfv\n" +
+            "dir jsdmffq\n" +
+            "268127 ndwhj\n" +
+            "255789 qzlfsmm\n" +
+            "230625 vnnf\n" +
+            "$ cd hwnfv\n" +
+            "$ ls\n" +
+            "224423 fzrj\n" +
+            "$ cd ..\n" +
+            "$ cd jsdmffq\n" +
+            "$ ls\n" +
+            "dir dzbfsf\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "283246 zrfjlcg.sct\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "40705 sgpc.wfv\n" +
+            "$ cd ..\n" +
+            "$ cd jlz\n" +
+            "$ ls\n" +
+            "dir vrcb\n" +
+            "$ cd vrcb\n" +
+            "$ ls\n" +
+            "223815 gctvnv.rpb\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd nhvvs\n" +
+            "$ ls\n" +
+            "10109 rtgrs.hff\n" +
+            "$ cd ..\n" +
+            "$ cd ptzptl\n" +
+            "$ ls\n" +
+            "dir chvn\n" +
+            "225860 grct\n" +
+            "dir hsp\n" +
+            "dir nglr\n" +
+            "dir qgbbv\n" +
+            "64084 swlgd.cjm\n" +
+            "dir tlms\n" +
+            "$ cd chvn\n" +
+            "$ ls\n" +
+            "314968 cbp\n" +
+            "dir ddgtnw\n" +
+            "282139 ddgtnw.ppr\n" +
+            "121887 vnnf\n" +
+            "dir wvrzs\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "19170 dzbfsf.tmf\n" +
+            "160727 wqbdcw\n" +
+            "$ cd ..\n" +
+            "$ cd wvrzs\n" +
+            "$ ls\n" +
+            "263372 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd hsp\n" +
+            "$ ls\n" +
+            "dir dzbfsf\n" +
+            "dir pcs\n" +
+            "dir rjvmwmgm\n" +
+            "179166 rtgrs.hff\n" +
+            "284238 sgb.gjc\n" +
+            "44485 smlqjjbt.pfb\n" +
+            "260588 vqms\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "dir ntmzsm\n" +
+            "$ cd ntmzsm\n" +
+            "$ ls\n" +
+            "dir drbl\n" +
+            "dir frnvqp\n" +
+            "258006 qhqss.hnm\n" +
+            "$ cd drbl\n" +
+            "$ ls\n" +
+            "244040 wccppjd.tcg\n" +
+            "$ cd ..\n" +
+            "$ cd frnvqp\n" +
+            "$ ls\n" +
+            "196291 pqwqbrdw\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd pcs\n" +
+            "$ ls\n" +
+            "102603 bvmnrf\n" +
+            "219969 tlms\n" +
+            "$ cd ..\n" +
+            "$ cd rjvmwmgm\n" +
+            "$ ls\n" +
+            "73837 ddgtnw\n" +
+            "dir tlms\n" +
+            "dir tnpfpcz\n" +
+            "247155 vnnf\n" +
+            "dir zmvwl\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "183532 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd tnpfpcz\n" +
+            "$ ls\n" +
+            "dir jjn\n" +
+            "274527 rtgrs.hff\n" +
+            "97897 ztpd\n" +
+            "$ cd jjn\n" +
+            "$ ls\n" +
+            "dir nlmt\n" +
+            "$ cd nlmt\n" +
+            "$ ls\n" +
+            "132838 mzdcb.gtf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd zmvwl\n" +
+            "$ ls\n" +
+            "184809 zzdl.lqq\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd nglr\n" +
+            "$ ls\n" +
+            "216870 clfrgzv.lsh\n" +
+            "dir ddgtnw\n" +
+            "22735 mhpgvbh.phg\n" +
+            "200235 vqms\n" +
+            "84345 wjrzwlp\n" +
+            "dir ztbjwv\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "dir zfdts\n" +
+            "$ cd zfdts\n" +
+            "$ ls\n" +
+            "13693 grct\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ztbjwv\n" +
+            "$ ls\n" +
+            "dir zzrsvbg\n" +
+            "$ cd zzrsvbg\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "258910 tlms.hrh\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd qgbbv\n" +
+            "$ ls\n" +
+            "dir crc\n" +
+            "dir prszvcp\n" +
+            "dir qwrnllw\n" +
+            "151124 rtqqp.wfv\n" +
+            "291754 vnnf\n" +
+            "279433 wgsjgqm.zrm\n" +
+            "$ cd crc\n" +
+            "$ ls\n" +
+            "257354 ffg\n" +
+            "258517 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd prszvcp\n" +
+            "$ ls\n" +
+            "279284 fnwgcvw.dbg\n" +
+            "201788 grct.ssc\n" +
+            "dir mtlr\n" +
+            "$ cd mtlr\n" +
+            "$ ls\n" +
+            "dir vztmrn\n" +
+            "$ cd vztmrn\n" +
+            "$ ls\n" +
+            "84994 dzbfsf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd qwrnllw\n" +
+            "$ ls\n" +
+            "dir nsrhgbt\n" +
+            "$ cd nsrhgbt\n" +
+            "$ ls\n" +
+            "dir smnslwd\n" +
+            "dir vsnmq\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "128046 rtgrs.hff\n" +
+            "$ cd ..\n" +
+            "$ cd vsnmq\n" +
+            "$ ls\n" +
+            "15634 zpqp\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "240233 rtgrs.hff\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd rsqtp\n" +
+            "$ ls\n" +
+            "dir grct\n" +
+            "dir hcsjjss\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "27078 rtgrs.hff\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "235401 hzpr\n" +
+            "107837 smnslwd.pqr\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd hcsjjss\n" +
+            "$ ls\n" +
+            "dir jhhw\n" +
+            "18002 nptmmjz.pgj\n" +
+            "dir tlms\n" +
+            "$ cd jhhw\n" +
+            "$ ls\n" +
+            "282291 mcmndtb.mjj\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "159577 tlms.ghp\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd sgbnjmwq\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir qfc\n" +
+            "34331 tlms.mdr\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "168852 vnnf\n" +
+            "63729 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd qfc\n" +
+            "$ ls\n" +
+            "321148 ftjjdg\n" +
+            "185489 mlp.ssf\n" +
+            "195188 tlms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "dir dzbfsf\n" +
+            "102016 grct.vmc\n" +
+            "dir gtjgtd\n" +
+            "41304 pbdh\n" +
+            "94958 tlms.tcf\n" +
+            "178471 vqms\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "dir dvvcg\n" +
+            "dir dznc\n" +
+            "51706 hpzg.rwm\n" +
+            "179994 vqms\n" +
+            "$ cd dvvcg\n" +
+            "$ ls\n" +
+            "dir bsswp\n" +
+            "$ cd bsswp\n" +
+            "$ ls\n" +
+            "189827 gpzmg\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd dznc\n" +
+            "$ ls\n" +
+            "3424 smnslwd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd gtjgtd\n" +
+            "$ ls\n" +
+            "152369 ddgtnw\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd vrwwh\n" +
+            "$ ls\n" +
+            "308054 grct.hgj\n" +
+            "$ cd ..\n" +
+            "$ cd wwbdc\n" +
+            "$ ls\n" +
+            "dir zwvtdc\n" +
+            "$ cd zwvtdc\n" +
+            "$ ls\n" +
+            "dir jqtv\n" +
+            "$ cd jqtv\n" +
+            "$ ls\n" +
+            "dir qdd\n" +
+            "165188 smnslwd.hwz\n" +
+            "$ cd qdd\n" +
+            "$ ls\n" +
+            "319798 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd svc\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "133886 fsclsm\n" +
+            "107226 jjq.hjd\n" +
+            "259031 wtnbwg.sct\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "124212 tlms.qws\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd fwrlqs\n" +
+            "$ ls\n" +
+            "45167 fsclsm\n" +
+            "42603 qfq.pqh\n" +
+            "$ cd ..\n" +
+            "$ cd qjnnw\n" +
+            "$ ls\n" +
+            "228764 gnlhtvzt\n" +
+            "dir grct\n" +
+            "134749 jbs.jnd\n" +
+            "66187 jjq.hjd\n" +
+            "dir mqbbh\n" +
+            "dir nlwjn\n" +
+            "dir rdn\n" +
+            "dir shffbpjj\n" +
+            "154029 spjc\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "98292 vnnf\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "dir zrb\n" +
+            "$ cd zrb\n" +
+            "$ ls\n" +
+            "244157 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd mqbbh\n" +
+            "$ ls\n" +
+            "dir dqmhnq\n" +
+            "dir dzbfsf\n" +
+            "243785 fgzd.rlv\n" +
+            "dir grct\n" +
+            "dir gwlcnf\n" +
+            "dir rnl\n" +
+            "dir slnqt\n" +
+            "dir smnslwd\n" +
+            "dir tlms\n" +
+            "183073 tlms.cvt\n" +
+            "dir wgctf\n" +
+            "$ cd dqmhnq\n" +
+            "$ ls\n" +
+            "149913 dzpn.qsg\n" +
+            "dir hmfvzjz\n" +
+            "198969 rtgrs.hff\n" +
+            "$ cd hmfvzjz\n" +
+            "$ ls\n" +
+            "dir dzbfsf\n" +
+            "dir hthgs\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "318705 cmgjqnb.wbq\n" +
+            "$ cd ..\n" +
+            "$ cd hthgs\n" +
+            "$ ls\n" +
+            "dir ljmsqbvz\n" +
+            "$ cd ljmsqbvz\n" +
+            "$ ls\n" +
+            "304509 dwrcjrw\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd dzbfsf\n" +
+            "$ ls\n" +
+            "116769 ccgfzf.pmh\n" +
+            "$ cd ..\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "246522 tlms.djc\n" +
+            "$ cd ..\n" +
+            "$ cd gwlcnf\n" +
+            "$ ls\n" +
+            "109428 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd rnl\n" +
+            "$ ls\n" +
+            "80705 grct.ptv\n" +
+            "dir mtwrqwwl\n" +
+            "174651 smnslwd.glg\n" +
+            "30849 swgp\n" +
+            "dir tlms\n" +
+            "$ cd mtwrqwwl\n" +
+            "$ ls\n" +
+            "dir wtmgr\n" +
+            "$ cd wtmgr\n" +
+            "$ ls\n" +
+            "134164 tlms.qmv\n" +
+            "316076 vqms\n" +
+            "138038 wnv\n" +
+            "dir zsmmhfq\n" +
+            "$ cd zsmmhfq\n" +
+            "$ ls\n" +
+            "316061 tlms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "224252 fsclsm\n" +
+            "4673 png.ntp\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd slnqt\n" +
+            "$ ls\n" +
+            "dir lzzwbcnl\n" +
+            "dir mpdrjwgl\n" +
+            "$ cd lzzwbcnl\n" +
+            "$ ls\n" +
+            "dir lhltmghz\n" +
+            "$ cd lhltmghz\n" +
+            "$ ls\n" +
+            "dir hzhfgsfd\n" +
+            "212254 lcj.rsh\n" +
+            "$ cd hzhfgsfd\n" +
+            "$ ls\n" +
+            "36945 fsclsm\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd mpdrjwgl\n" +
+            "$ ls\n" +
+            "176456 ctftvdhl.hzz\n" +
+            "79819 dzbfsf\n" +
+            "248804 jvlglnb.dpw\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "33395 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "dir jdvhnpv\n" +
+            "317469 lzsrnpd\n" +
+            "dir tlms\n" +
+            "$ cd jdvhnpv\n" +
+            "$ ls\n" +
+            "dir pbwh\n" +
+            "dir vfn\n" +
+            "$ cd pbwh\n" +
+            "$ ls\n" +
+            "170653 smnslwd\n" +
+            "$ cd ..\n" +
+            "$ cd vfn\n" +
+            "$ ls\n" +
+            "dir mcdpp\n" +
+            "$ cd mcdpp\n" +
+            "$ ls\n" +
+            "294474 dzbfsf.hfn\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "dir lvqjfj\n" +
+            "$ cd lvqjfj\n" +
+            "$ ls\n" +
+            "250581 rtgrs.hff\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd wgctf\n" +
+            "$ ls\n" +
+            "263836 crthpg.vlr\n" +
+            "dir ddgtnw\n" +
+            "256310 fsclsm\n" +
+            "dir mmlw\n" +
+            "dir qzq\n" +
+            "dir tlms\n" +
+            "209457 vqms\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "dir nrfgg\n" +
+            "$ cd nrfgg\n" +
+            "$ ls\n" +
+            "278109 dzbfsf\n" +
+            "301844 vqlp.wzt\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd mmlw\n" +
+            "$ ls\n" +
+            "dir gsvfvgn\n" +
+            "$ cd gsvfvgn\n" +
+            "$ ls\n" +
+            "4966 ddgtnw.rhb\n" +
+            "85130 pld.qtc\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd qzq\n" +
+            "$ ls\n" +
+            "89149 pgrgt.jmm\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "84537 bzfznn.cdg\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd nlwjn\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir psdb\n" +
+            "dir vdmlzzgd\n" +
+            "dir zdzrn\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "6932 dzbfsf.jjg\n" +
+            "$ cd ..\n" +
+            "$ cd psdb\n" +
+            "$ ls\n" +
+            "196117 bhwb.mfn\n" +
+            "127600 vschrflh.fgp\n" +
+            "$ cd ..\n" +
+            "$ cd vdmlzzgd\n" +
+            "$ ls\n" +
+            "5427 llch\n" +
+            "$ cd ..\n" +
+            "$ cd zdzrn\n" +
+            "$ ls\n" +
+            "dir lfpltz\n" +
+            "$ cd lfpltz\n" +
+            "$ ls\n" +
+            "157546 sffcz\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd rdn\n" +
+            "$ ls\n" +
+            "133184 fsclsm\n" +
+            "186144 mrntdh.spz\n" +
+            "117372 spdlb.vmp\n" +
+            "245469 vjrjwfwl.zzt\n" +
+            "$ cd ..\n" +
+            "$ cd shffbpjj\n" +
+            "$ ls\n" +
+            "dir ccwnzd\n" +
+            "dir pcqbmmzt\n" +
+            "$ cd ccwnzd\n" +
+            "$ ls\n" +
+            "143939 zlwqpwdl.hbh\n" +
+            "$ cd ..\n" +
+            "$ cd pcqbmmzt\n" +
+            "$ ls\n" +
+            "196568 bqm\n" +
+            "dir ddgtnw\n" +
+            "169897 jppm.lfw\n" +
+            "188545 psm.lml\n" +
+            "dir rcnp\n" +
+            "dir sjhrvszs\n" +
+            "83840 vnnf\n" +
+            "dir vvh\n" +
+            "dir wzcqnz\n" +
+            "dir zfctl\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "320675 dzbfsf\n" +
+            "$ cd ..\n" +
+            "$ cd rcnp\n" +
+            "$ ls\n" +
+            "60088 fsclsm\n" +
+            "dir grct\n" +
+            "dir qndvg\n" +
+            "153481 rzdzmm.prg\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "23004 rfgbpbt.mhp\n" +
+            "166737 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd qndvg\n" +
+            "$ ls\n" +
+            "181934 smnslwd.tpb\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd sjhrvszs\n" +
+            "$ ls\n" +
+            "dir gfpzrd\n" +
+            "283172 rtgrs.hff\n" +
+            "dir tlms\n" +
+            "$ cd gfpzrd\n" +
+            "$ ls\n" +
+            "110715 rltrjpg.lch\n" +
+            "117420 vnnf\n" +
+            "$ cd ..\n" +
+            "$ cd tlms\n" +
+            "$ ls\n" +
+            "211543 cvcq.lqw\n" +
+            "132575 tlms\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd vvh\n" +
+            "$ ls\n" +
+            "dir bscbv\n" +
+            "dir djzcnld\n" +
+            "276126 grct.tjl\n" +
+            "dir nlsstb\n" +
+            "$ cd bscbv\n" +
+            "$ ls\n" +
+            "116170 smnslwd.pvj\n" +
+            "295190 vqms\n" +
+            "$ cd ..\n" +
+            "$ cd djzcnld\n" +
+            "$ ls\n" +
+            "6635 dtnqpfqw.nlj\n" +
+            "27153 fzpnfnp.jbt\n" +
+            "164286 rlchrtlw\n" +
+            "231430 rtgrs.hff\n" +
+            "33326 wbfqtpjn.vsq\n" +
+            "$ cd ..\n" +
+            "$ cd nlsstb\n" +
+            "$ ls\n" +
+            "91522 dbpdbtvw\n" +
+            "221628 nfdgjsp.npf\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd wzcqnz\n" +
+            "$ ls\n" +
+            "244122 fcqwl.nwt\n" +
+            "dir grct\n" +
+            "19950 jjq.hjd\n" +
+            "296817 nwcvl\n" +
+            "dir smnslwd\n" +
+            "$ cd grct\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir qglfnbds\n" +
+            "dir wrthr\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "287254 drwqt\n" +
+            "90776 gddwrgh.qls\n" +
+            "$ cd ..\n" +
+            "$ cd qglfnbds\n" +
+            "$ ls\n" +
+            "dir qzh\n" +
+            "$ cd qzh\n" +
+            "$ ls\n" +
+            "164079 bswc\n" +
+            "207352 dzbfsf\n" +
+            "203683 ftdjsfbg.lbl\n" +
+            "60925 sgmtn.llc\n" +
+            "dir wws\n" +
+            "$ cd wws\n" +
+            "$ ls\n" +
+            "111099 mjq.fjz\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd wrthr\n" +
+            "$ ls\n" +
+            "dir ddgtnw\n" +
+            "dir jfv\n" +
+            "dir ndwlld\n" +
+            "dir nsnz\n" +
+            "dir vqql\n" +
+            "$ cd ddgtnw\n" +
+            "$ ls\n" +
+            "180911 dzbfsf\n" +
+            "301448 jjq.hjd\n" +
+            "dir mdmc\n" +
+            "dir nlls\n" +
+            "207270 vqms\n" +
+            "dir wsctbr\n" +
+            "$ cd mdmc\n" +
+            "$ ls\n" +
+            "267495 dzbfsf.mcl\n" +
+            "$ cd ..\n" +
+            "$ cd nlls\n" +
+            "$ ls\n" +
+            "221776 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd wsctbr\n" +
+            "$ ls\n" +
+            "93502 fsclsm\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd jfv\n" +
+            "$ ls\n" +
+            "129583 ddgtnw\n" +
+            "$ cd ..\n" +
+            "$ cd ndwlld\n" +
+            "$ ls\n" +
+            "217056 gtqc.zvq\n" +
+            "$ cd ..\n" +
+            "$ cd nsnz\n" +
+            "$ ls\n" +
+            "dir jhntl\n" +
+            "$ cd jhntl\n" +
+            "$ ls\n" +
+            "103365 trdnzfz\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd vqql\n" +
+            "$ ls\n" +
+            "201664 smnslwd.gzj\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd smnslwd\n" +
+            "$ ls\n" +
+            "318911 fsclsm\n" +
+            "dir jcvmgzc\n" +
+            "101015 rtgrs.hff\n" +
+            "$ cd jcvmgzc\n" +
+            "$ ls\n" +
+            "37799 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd ..\n" +
+            "$ cd zfctl\n" +
+            "$ ls\n" +
+            "dir fmfgjw\n" +
+            "dir lbz\n" +
+            "$ cd fmfgjw\n" +
+            "$ ls\n" +
+            "159825 ddgtnw.bhf\n" +
+            "210407 jjq.hjd\n" +
+            "$ cd ..\n" +
+            "$ cd lbz\n" +
+            "$ ls\n" +
+            "206810 gbcqz.lgw\n" +
+            "20178 rtgrs.hff";
 }

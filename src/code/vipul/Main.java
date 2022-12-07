@@ -33,7 +33,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve6.solvePart2();
+        Solve7.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
