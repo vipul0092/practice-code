@@ -2,12 +2,12 @@ package code.vipul.aoc2022;
 
 import code.vipul.aoc2022.inputs.Inputs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
@@ -40,6 +40,7 @@ public class Solve7 {
             "7214296 k";
 
     private static Dir parentDirectory;
+    private static List<Long> sizes = new ArrayList<>();
 
     public static void solve() {
         List<String> inputs = Arrays.stream(Inputs.INPUT_7.split("\n")).collect(Collectors.toList());
@@ -90,17 +91,16 @@ public class Solve7 {
             }
         }
 
-        populateSizesRecursive(parentDirectory);
-        long ans = sizes.values().stream()
+        long totalUsed = populateSizesRecursive(parentDirectory);
+        long part1 = sizes.stream()
                 .filter(size -> size <= 100000)
                 .mapToLong(l -> l).sum();
-        System.out.println(ans); //1334506
+        System.out.println(part1); //1334506
 
-        long required = 40000000L;
-        long used = sizes.get(parentDirectory);
+        long expectedUsage = 40000000L;
 
-        long atLeastFreeThisMuch = used - required;
-        List<Long> sorted = sizes.values().stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
+        long atLeastFreeThisMuch = totalUsed - expectedUsage;
+        List<Long> sorted = sizes.stream().sorted(Comparator.naturalOrder()).collect(Collectors.toList());
 
         long part2 = 0;
         for (Long v : sorted) {
@@ -112,14 +112,12 @@ public class Solve7 {
         System.out.println(part2); //7421137
     }
 
-    private static Map<Dir, Long> sizes = new HashMap<>();
-
     private static long populateSizesRecursive(Dir dir) {
         long size = dir.size;
         for (Dir d : dir.subdirs.values()) {
             size += (populateSizesRecursive(d));
         }
-        sizes.put(dir, size);
+        sizes.add(size);
         return size;
     }
 
@@ -128,7 +126,6 @@ public class Solve7 {
         private long size = 0;
         private final Map<String, Dir> subdirs;
         private final Dir parent;
-        private int hash = -1;
 
         public Dir(String n, Dir parent) {
             this.name = n;
@@ -144,29 +141,6 @@ public class Solve7 {
 
         public Dir getDir(String subname) {
             return subdirs.get(subname);
-        }
-
-        @Override
-        public int hashCode() {
-            if (hash == -1) {
-                hash = 5381;
-                hash += (hash << 5) + Objects.hashCode(name);
-                if (parent != null) {
-                    hash += (hash << 5) + Objects.hashCode(parent.name);
-                }
-            }
-            return hash;
-        }
-
-        @Override
-        public boolean equals(Object another) {
-            if (this == another) return true;
-            return another instanceof Dir && equalTo((Dir) another);
-        }
-
-        private boolean equalTo(Dir another) {
-            return Objects.equals(name, another.name)
-                    && (parent == null || Objects.equals(parent.name, another.parent.name));
         }
 
         @Override
