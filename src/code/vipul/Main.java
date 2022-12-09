@@ -35,6 +35,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
+        Solve9.solve();
         Solve9.solvePart2();
         // CombinationSum.solve();
 
