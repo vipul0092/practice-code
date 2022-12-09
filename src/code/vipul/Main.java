@@ -14,6 +14,7 @@ import code.vipul.aoc2022.Solve5;
 import code.vipul.aoc2022.Solve6;
 import code.vipul.aoc2022.Solve7;
 import code.vipul.aoc2022.Solve8;
+import code.vipul.aoc2022.Solve9;
 import code.vipul.leetcode.CombinationSum;
 
 public class Main {
@@ -34,7 +35,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve8.solve();
+        Solve9.solvePart2();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
