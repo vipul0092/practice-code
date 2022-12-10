@@ -7,6 +7,7 @@ import code.vipul.aoc2018.Solve23;
 import code.vipul.aoc2018.Solve24;
 import code.vipul.aoc2018.Solve25;
 import code.vipul.aoc2022.Solve1;
+import code.vipul.aoc2022.Solve10;
 import code.vipul.aoc2022.Solve2;
 import code.vipul.aoc2022.Solve3;
 import code.vipul.aoc2021.Solve4;
@@ -35,8 +36,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve9.solve();
-        Solve9.solvePart2();
+        Solve10.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();

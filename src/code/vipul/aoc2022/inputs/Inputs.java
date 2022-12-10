@@ -10299,4 +10299,149 @@ public class Inputs {
             "D 6\n" +
             "R 19\n" +
             "U 16";
+
+    public static final String INPUT_10 = "noop\n" +
+            "noop\n" +
+            "addx 6\n" +
+            "addx -1\n" +
+            "noop\n" +
+            "addx 5\n" +
+            "addx 3\n" +
+            "noop\n" +
+            "addx 3\n" +
+            "addx -1\n" +
+            "addx -13\n" +
+            "addx 17\n" +
+            "addx 3\n" +
+            "addx 3\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 5\n" +
+            "addx 1\n" +
+            "noop\n" +
+            "addx 4\n" +
+            "addx 1\n" +
+            "noop\n" +
+            "addx -38\n" +
+            "addx 5\n" +
+            "noop\n" +
+            "addx 2\n" +
+            "addx 3\n" +
+            "noop\n" +
+            "addx 2\n" +
+            "addx 2\n" +
+            "addx 3\n" +
+            "addx -2\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx -18\n" +
+            "addx 6\n" +
+            "addx 15\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx -22\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 30\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx -39\n" +
+            "addx 1\n" +
+            "addx 19\n" +
+            "addx -16\n" +
+            "addx 35\n" +
+            "addx -28\n" +
+            "addx -1\n" +
+            "addx 12\n" +
+            "addx -8\n" +
+            "noop\n" +
+            "addx 3\n" +
+            "addx 4\n" +
+            "noop\n" +
+            "addx -3\n" +
+            "addx 6\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 7\n" +
+            "addx -39\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx 2\n" +
+            "addx -1\n" +
+            "addx 2\n" +
+            "addx 2\n" +
+            "addx 5\n" +
+            "addx 1\n" +
+            "noop\n" +
+            "addx 4\n" +
+            "addx -13\n" +
+            "addx 18\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 12\n" +
+            "addx -9\n" +
+            "addx 8\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx -2\n" +
+            "addx -36\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx 3\n" +
+            "addx -2\n" +
+            "addx 2\n" +
+            "addx 2\n" +
+            "noop\n" +
+            "addx 3\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx 19\n" +
+            "addx -14\n" +
+            "noop\n" +
+            "addx 2\n" +
+            "addx 3\n" +
+            "noop\n" +
+            "addx -29\n" +
+            "addx 34\n" +
+            "noop\n" +
+            "addx -35\n" +
+            "noop\n" +
+            "addx -2\n" +
+            "addx 2\n" +
+            "noop\n" +
+            "addx 6\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "noop\n" +
+            "addx 2\n" +
+            "noop\n" +
+            "addx 3\n" +
+            "addx 2\n" +
+            "addx 5\n" +
+            "addx 2\n" +
+            "addx 1\n" +
+            "noop\n" +
+            "addx 4\n" +
+            "addx -17\n" +
+            "addx 18\n" +
+            "addx 4\n" +
+            "noop\n" +
+            "addx 1\n" +
+            "addx 4\n" +
+            "noop\n" +
+            "addx 1\n" +
+            "noop\n" +
+            "noop";
 }
