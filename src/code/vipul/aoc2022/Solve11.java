@@ -45,96 +45,24 @@ public class Solve11 {
             "    If true: throw to monkey 0\n" +
             "    If false: throw to monkey 1";
 
+    private static Map<Integer, Long> divisibilityChecks;
+    private static boolean trackForEachMonkey = false;
+
     public static void solve() {
-        List<String> inputs = Arrays.stream(Inputs.INPUT_11.split("\n")).collect(Collectors.toList());
-        // List<String> inputs = Arrays.stream(INPUT.split("\n")).collect(Collectors.toList());
-
-        int rounds = 20;
-        Map<Integer, Queue<Integer>> items = new HashMap<>();
-        Map<Integer, Integer> counts = new HashMap<>();
-
-        Map<Integer, Function<Integer, Integer>> operations = new HashMap<>();
-        Map<Integer, Function<Integer, Integer>> throwTest = new HashMap<>();
-
-        int currentMonkey = -1;
-        for (int i = 0; i < inputs.size(); ) {
-            String in = inputs.get(i);
-            if (in.isEmpty()) {
-                i++;
-                continue;
-            }
-            if (in.startsWith("Monkey")) {
-                currentMonkey = in.split(" ")[1].charAt(0) - 48;
-                items.put(currentMonkey, new ArrayDeque<>());
-                counts.put(currentMonkey, 0);
-                i++;
-            } else if (in.contains("Starting")) {
-                String[] parts = in.split(": ");
-                for (String item : parts[1].split(", ")) {
-                    items.get(currentMonkey).add(Integer.parseInt(item));
-                }
-                i++;
-            } else if (in.contains("Operation")) {
-                String[] parts = in.split("new = old ");
-                String[] op = parts[1].split(" ");
-                String val = op[1];
-                if (val.equals("old")) {
-                    if (op[0].charAt(0) == '*') {
-                        operations.put(currentMonkey, o -> o * o);
-                    } else if (op[0].charAt(0) == '+') {
-                        operations.put(currentMonkey, o -> o + o);
-                    }
-                } else if (op[0].charAt(0) == '*') {
-                    int v = Integer.parseInt(val);
-                    operations.put(currentMonkey, o -> o * v);
-                } else if (op[0].charAt(0) == '+') {
-                    int v = Integer.parseInt(val);
-                    operations.put(currentMonkey, o -> o + v);
-                }
-                i++;
-            } else if (in.contains("Test")) {
-                int divisible = Integer.parseInt(inputs.get(i).split(" divisible by ")[1]);
-                i++;
-                int trueThrow = Integer.parseInt(inputs.get(i).split("If true: throw to monkey ")[1]);
-                i++;
-                int falseThrow = Integer.parseInt(inputs.get(i).split("If false: throw to monkey ")[1]);
-
-                throwTest.put(currentMonkey, value -> value % divisible == 0 ? trueThrow : falseThrow);
-                i++;
-            }
-        }
-
-        for (int i = 0; i < rounds; i++) {
-            items.forEach((key, it) -> {
-                int monkey = key;
-
-                while (!it.isEmpty()) {
-                    int item = it.remove();
-                    int worry = (operations.get(monkey).apply(item)) / 3;
-                    counts.put(monkey, counts.get(monkey) + 1);
-                    int destinationMonkey = throwTest.get(monkey).apply(worry);
-                    items.get(destinationMonkey).add(worry);
-                }
-            });
-        }
-
-        List<Integer> values = counts.values().stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        int ans = values.get(0) * values.get(1);
-
-        System.out.println(ans);
-
+        solveInternal(Inputs.INPUT_11, 20, false);
     }
 
-    private static Map<Integer, Long> div;
-
     public static void solvePart2() {
-        List<String> inputs = Arrays.stream(Inputs.INPUT_11.split("\n")).collect(Collectors.toList());
-        // List<String> inputs = Arrays.stream(INPUT.split("\n")).collect(Collectors.toList());
+        solveInternal(Inputs.INPUT_11, 10000, true);
+    }
 
-        int rounds = 10000;
+    public static void solveInternal(String inputRows, int rounds, boolean track) {
+        trackForEachMonkey = track;
+        List<String> inputs = Arrays.stream(inputRows.split("\n")).collect(Collectors.toList());
+
         Map<Integer, Queue<Item>> items = new HashMap<>();
         Map<Integer, Long> counts = new HashMap<>();
-        div = new HashMap<>();
+        divisibilityChecks = new HashMap<>();
 
         Map<Integer, Function<Item, Item>> operations = new HashMap<>();
         Map<Integer, Function<Item, Integer>> throwTest = new HashMap<>();
@@ -152,32 +80,31 @@ public class Solve11 {
                 counts.put(currentMonkey, 0L);
                 i++;
             } else if (in.contains("Starting")) {
-                String[] parts = in.split(": ");
-                for (String item : parts[1].split(", ")) {
+                for (String item : in.split(": ")[1].split(", ")) {
                     items.get(currentMonkey).add(new Item(Long.parseLong(item)));
                 }
                 i++;
             } else if (in.contains("Operation")) {
-                String[] parts = in.split("new = old ");
-                String[] op = parts[1].split(" ");
+                String[] op = in.split("new = old ")[1].split(" ");
                 String val = op[1];
+                char operation = op[0].charAt(0);
                 if (val.equals("old")) {
-                    if (op[0].charAt(0) == '*') {
+                    if (operation == '*') {
                         operations.put(currentMonkey, o -> o.multiply(o));
-                    } else if (op[0].charAt(0) == '+') {
+                    } else if (operation == '+') {
                         operations.put(currentMonkey, o -> o.add(o));
                     }
-                } else if (op[0].charAt(0) == '*') {
+                } else if (operation == '*') {
                     long v = Long.parseLong(val);
                     operations.put(currentMonkey, o -> o.multiply(v));
-                } else if (op[0].charAt(0) == '+') {
+                } else if (operation == '+') {
                     long v = Long.parseLong(val);
                     operations.put(currentMonkey, o -> o.add(v));
                 }
                 i++;
             } else if (in.contains("Test")) {
                 long divisible = Long.parseLong(inputs.get(i).split(" divisible by ")[1]);
-                div.put(currentMonkey, divisible);
+                divisibilityChecks.put(currentMonkey, divisible);
                 i++;
                 int trueThrow = Integer.parseInt(inputs.get(i).split("If true: throw to monkey ")[1]);
                 i++;
@@ -205,7 +132,6 @@ public class Solve11 {
         long ans = values.get(0) * values.get(1);
 
         System.out.println(ans);
-
     }
 
     public static final class Item {
@@ -218,59 +144,55 @@ public class Solve11 {
         }
 
         public boolean isDivisible(int monkey) {
-            return track.get(monkey) % div.get(monkey) == 0;
+            return track.get(monkey) % divisibilityChecks.get(monkey) == 0;
         }
 
         public Item multiply(Item m) {
-            populate();
-            for (Map.Entry<Integer, Long> e : m.track.entrySet()) {
-                int monkey = e.getKey();
-                long v = e.getValue();
-
-                track.put(monkey, (v * track.get(monkey)) % div.get(monkey));
-            }
-            return this;
+            return operate((monkey, monkeyValue, __) ->
+                    trackForEachMonkey ? (monkeyValue * m.track.get(monkey)) % divisibilityChecks.get(monkey)
+                            : (monkeyValue * m.track.get(monkey)) / 3);
         }
 
         public Item multiply(Long l) {
-            populate();
-            for (Map.Entry<Integer, Long> e : track.entrySet()) {
-                int monkey = e.getKey();
-                long v = e.getValue();
-
-                track.put(monkey, (v * l) % div.get(monkey));
-            }
-            return this;
+            return operate((monkey, monkeyValue, __) ->
+                    trackForEachMonkey ? (monkeyValue * l) % divisibilityChecks.get(monkey)
+                            : (monkeyValue * l) / 3);
         }
 
         public Item add(Item m) {
-            populate();
-            for (Map.Entry<Integer, Long> e : m.track.entrySet()) {
-                int monkey = e.getKey();
-                long v = e.getValue();
-
-                track.put(monkey, (v + track.get(monkey)) % div.get(monkey));
-            }
-            return this;
+            return operate((monkey, monkeyValue, __) ->
+                    trackForEachMonkey ? (monkeyValue + m.track.get(monkey)) % divisibilityChecks.get(monkey)
+                            : (monkeyValue + m.track.get(monkey)) / 3);
         }
 
         public Item add(Long l) {
+            return operate((monkey, monkeyValue, __) ->
+                    trackForEachMonkey ? (monkeyValue + l) % divisibilityChecks.get(monkey)
+                            : (monkeyValue + l) / 3);
+        }
+
+        private Item operate(TriFunction<Integer, Long, Long> operator) {
             populate();
             for (Map.Entry<Integer, Long> e : track.entrySet()) {
                 int monkey = e.getKey();
                 long v = e.getValue();
 
-                track.put(monkey, (v + l) % div.get(monkey));
+                track.put(monkey, operator.execute(monkey, v, track.get(monkey)));
             }
             return this;
         }
 
         private void populate() {
             if (track.isEmpty()) {
-                for (Map.Entry<Integer, Long> e : div.entrySet()) {
+                for (Map.Entry<Integer, Long> e : divisibilityChecks.entrySet()) {
                     track.put(e.getKey(), value);
                 }
             }
+        }
+
+        @FunctionalInterface
+        public interface TriFunction<a, b, c> {
+            Long execute(a a, b b, c c);
         }
     }
 }
