@@ -10444,4 +10444,60 @@ public class Inputs {
             "addx 1\n" +
             "noop\n" +
             "noop";
+
+    public static final String INPUT_11 = "Monkey 0:\n" +
+            "  Starting items: 57\n" +
+            "  Operation: new = old * 13\n" +
+            "  Test: divisible by 11\n" +
+            "    If true: throw to monkey 3\n" +
+            "    If false: throw to monkey 2\n" +
+            "\n" +
+            "Monkey 1:\n" +
+            "  Starting items: 58, 93, 88, 81, 72, 73, 65\n" +
+            "  Operation: new = old + 2\n" +
+            "  Test: divisible by 7\n" +
+            "    If true: throw to monkey 6\n" +
+            "    If false: throw to monkey 7\n" +
+            "\n" +
+            "Monkey 2:\n" +
+            "  Starting items: 65, 95\n" +
+            "  Operation: new = old + 6\n" +
+            "  Test: divisible by 13\n" +
+            "    If true: throw to monkey 3\n" +
+            "    If false: throw to monkey 5\n" +
+            "\n" +
+            "Monkey 3:\n" +
+            "  Starting items: 58, 80, 81, 83\n" +
+            "  Operation: new = old * old\n" +
+            "  Test: divisible by 5\n" +
+            "    If true: throw to monkey 4\n" +
+            "    If false: throw to monkey 5\n" +
+            "\n" +
+            "Monkey 4:\n" +
+            "  Starting items: 58, 89, 90, 96, 55\n" +
+            "  Operation: new = old + 3\n" +
+            "  Test: divisible by 3\n" +
+            "    If true: throw to monkey 1\n" +
+            "    If false: throw to monkey 7\n" +
+            "\n" +
+            "Monkey 5:\n" +
+            "  Starting items: 66, 73, 87, 58, 62, 67\n" +
+            "  Operation: new = old * 7\n" +
+            "  Test: divisible by 17\n" +
+            "    If true: throw to monkey 4\n" +
+            "    If false: throw to monkey 1\n" +
+            "\n" +
+            "Monkey 6:\n" +
+            "  Starting items: 85, 55, 89\n" +
+            "  Operation: new = old + 4\n" +
+            "  Test: divisible by 2\n" +
+            "    If true: throw to monkey 2\n" +
+            "    If false: throw to monkey 0\n" +
+            "\n" +
+            "Monkey 7:\n" +
+            "  Starting items: 73, 80, 54, 94, 90, 52, 69, 58\n" +
+            "  Operation: new = old + 7\n" +
+            "  Test: divisible by 19\n" +
+            "    If true: throw to monkey 6\n" +
+            "    If false: throw to monkey 0";
 }
