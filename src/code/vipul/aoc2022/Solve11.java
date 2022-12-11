@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -68,22 +69,16 @@ public class Solve11 {
         Map<Integer, Function<Item, Integer>> throwTest = new HashMap<>();
 
         int currentMonkey = -1;
-        for (int i = 0; i < inputs.size(); ) {
+        for (int i = 0; i < inputs.size(); i++) {
             String in = inputs.get(i);
-            if (in.isEmpty()) {
-                i++;
-                continue;
-            }
             if (in.startsWith("Monkey")) {
                 currentMonkey = in.split(" ")[1].charAt(0) - 48;
                 items.put(currentMonkey, new ArrayDeque<>());
                 counts.put(currentMonkey, 0L);
-                i++;
             } else if (in.contains("Starting")) {
                 for (String item : in.split(": ")[1].split(", ")) {
                     items.get(currentMonkey).add(new Item(Long.parseLong(item)));
                 }
-                i++;
             } else if (in.contains("Operation")) {
                 String[] op = in.split("new = old ")[1].split(" ");
                 String val = op[1];
@@ -101,7 +96,6 @@ public class Solve11 {
                     long v = Long.parseLong(val);
                     operations.put(currentMonkey, o -> o.add(v));
                 }
-                i++;
             } else if (in.contains("Test")) {
                 long divisible = Long.parseLong(inputs.get(i).split(" divisible by ")[1]);
                 divisibilityChecks.put(currentMonkey, divisible);
@@ -112,18 +106,16 @@ public class Solve11 {
 
                 int finalCurrentMonkey = currentMonkey;
                 throwTest.put(currentMonkey, item -> item.isDivisible(finalCurrentMonkey) ? trueThrow : falseThrow);
-                i++;
             }
         }
 
         for (int i = 0; i < rounds; i++) {
-            items.forEach((monkey, it) -> {
-                while (!it.isEmpty()) {
-                    Item item = it.remove();
-                    Item worry = (operations.get(monkey).apply(item));
+            items.forEach((monkey, itemsQueue) -> {
+                while (!itemsQueue.isEmpty()) {
+                    Item item = (operations.get(monkey).apply(itemsQueue.remove()));
                     counts.put(monkey, counts.get(monkey) + 1);
-                    int destinationMonkey = throwTest.get(monkey).apply(worry);
-                    items.get(destinationMonkey).add(worry);
+                    int destinationMonkey = throwTest.get(monkey).apply(item);
+                    items.get(destinationMonkey).add(item);
                 }
             });
         }
@@ -148,36 +140,31 @@ public class Solve11 {
         }
 
         public Item multiply(Item m) {
-            return operate((monkey, monkeyValue, __) ->
-                    trackForEachMonkey ? (monkeyValue * m.track.get(monkey)) % divisibilityChecks.get(monkey)
-                            : (monkeyValue * m.track.get(monkey)) / 3);
+            return operate((monkey, value) -> value * m.track.get(monkey));
         }
 
         public Item multiply(Long l) {
-            return operate((monkey, monkeyValue, __) ->
-                    trackForEachMonkey ? (monkeyValue * l) % divisibilityChecks.get(monkey)
-                            : (monkeyValue * l) / 3);
+            return operate((monkey, value) -> value * l);
         }
 
         public Item add(Item m) {
-            return operate((monkey, monkeyValue, __) ->
-                    trackForEachMonkey ? (monkeyValue + m.track.get(monkey)) % divisibilityChecks.get(monkey)
-                            : (monkeyValue + m.track.get(monkey)) / 3);
+            return operate((monkey, value) -> value + m.track.get(monkey));
         }
 
         public Item add(Long l) {
-            return operate((monkey, monkeyValue, __) ->
-                    trackForEachMonkey ? (monkeyValue + l) % divisibilityChecks.get(monkey)
-                            : (monkeyValue + l) / 3);
+            return operate((monkey, value) -> value + l);
         }
 
-        private Item operate(TriFunction<Integer, Long, Long> operator) {
+        private Item operate(BiFunction<Integer, Long, Long> operator) {
             populate();
             for (Map.Entry<Integer, Long> e : track.entrySet()) {
                 int monkey = e.getKey();
                 long v = e.getValue();
 
-                track.put(monkey, operator.execute(monkey, v, track.get(monkey)));
+                long evaluatedValue = operator.apply(monkey, v);
+                track.put(monkey, trackForEachMonkey
+                        ? evaluatedValue % divisibilityChecks.get(monkey)
+                        : evaluatedValue / 3);
             }
             return this;
         }
@@ -188,11 +175,6 @@ public class Solve11 {
                     track.put(e.getKey(), value);
                 }
             }
-        }
-
-        @FunctionalInterface
-        public interface TriFunction<a, b, c> {
-            Long execute(a a, b b, c c);
         }
     }
 }
