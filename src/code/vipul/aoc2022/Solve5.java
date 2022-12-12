@@ -10,6 +10,7 @@ import static code.vipul.aoc2022.inputs.Inputs.INPUT_5;
 
 /**
  * Created by vgaur created on 05/12/22
+ * https://adventofcode.com/2022/day/5
  */
 public class Solve5 {
 

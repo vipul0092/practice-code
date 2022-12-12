@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import static code.vipul.aoc2022.inputs.Inputs.INPUT_4;
 
 /**
- * Created by vgaur created on 04/12/22
+ * https://adventofcode.com/2022/day/4
  */
 public class Solve4 {
 

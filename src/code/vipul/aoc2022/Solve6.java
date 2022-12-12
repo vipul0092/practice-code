@@ -6,6 +6,7 @@ import java.util.Map;
 
 /**
  * Created by vgaur created on 06/12/22
+ * https://adventofcode.com/2022/day/6
  */
 public class Solve6 {
 
