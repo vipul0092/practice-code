@@ -46,39 +46,17 @@ public class Solve15 {
         //parse(INPUT, 10, 20);
 
         int part1 = 0;
-        Set<Grid.Pos> validSensors = sensors.stream()
-                .filter(s -> Math.abs(s.j() - ycoordinateToTest) <= sensorDistance.get(s))
-                .collect(Collectors.toSet());
+        List<Pair<Integer, Integer>> ranges =
+                getSensorCoveredMergedRanges(ycoordinateToTest, Integer.MIN_VALUE, Integer.MAX_VALUE);
 
-        for (Grid.Pos s : validSensors) {
-            int ydis = Math.abs(s.j() - ycoordinateToTest);
-            int diff = sensorDistance.get(s) - ydis;
+        for (Pair<Integer, Integer> range : ranges) {
+            part1 += (range.right() - range.left() + 1);
 
-            minX = Math.min(minX, s.i() + diff);
-            minX = Math.min(minX, s.i() - diff);
-            maxX = Math.max(maxX, s.i() + diff);
-            maxX = Math.max(maxX, s.i() - diff);
+            int beaconsInRange = (int) beacons.stream()
+                    .filter(b -> b.j() == ycoordinateToTest && (b.i() >= range.left() && b.i() <= range.right()))
+                    .count();
+            part1 -= (beaconsInRange);
         }
-
-        for (int x = minX; x <= maxX; x++) {
-            Grid.Pos p = Grid.Pos.of(x, ycoordinateToTest);
-            if (beacons.contains(p)) {
-                continue;
-            }
-            boolean beaconExists = true;
-            for (Grid.Pos sensor : validSensors) {
-                int distance = distance(sensor, p);
-                if (distance <= sensorDistance.get(sensor)) {
-                    beaconExists = false;
-                    break;
-                }
-            }
-
-            if (!beaconExists) {
-                part1++;
-            }
-        }
-
         System.out.println(part1);
     }
 
@@ -88,77 +66,75 @@ public class Solve15 {
 
         Grid.Pos ans = null;
         for (int y = 0; y <= ymax; y++) {
-            //System.out.println("y: " + y);
 
             // For the given value of y
-            // Calculate all the ranges of x where the beacon can't be present for each sensor
-            // i.e. the range of x that each sensor covers for the given y
-            List<Pair<Integer, Integer>> ranges = new ArrayList<>();
-            for (Grid.Pos sensor : sensors) {
-                int ydiff = Math.abs(sensor.j() - y);
-                int detectionDistance = sensorDistance.get(sensor);
-
-                // if the diff of y coordinates is greater than what the sensor can detect
-                // there is no value in moving forward with this sensor
-                if (detectionDistance < ydiff) {
-                    continue;
-                }
-                int diff = Math.abs(detectionDistance - ydiff);
-
-                int curMinX = Integer.MAX_VALUE;
-                int curMaxX = 0;
-
-                curMinX = Math.min(curMinX, sensor.i() + diff);
-                curMinX = Math.min(curMinX, sensor.i() - diff);
-                curMaxX = Math.max(curMaxX, sensor.i() + diff);
-                curMaxX = Math.max(curMaxX, sensor.i() - diff);
-
-                ranges.add(Pair.of(Math.max(curMinX, 0), Math.min(curMaxX, ymax)));
-            }
-
-            // Sort the ranges found
-            ranges = ranges.stream().sorted((p1, p2) -> {
-                if (p1.left().equals(p2.left())) {
-                    return p1.right() - p2.right();
-                } else {
-                    return p1.left() - p2.left();
-                }
-            }).collect(Collectors.toList());
-
-
-            // Now we try to merge the ranges one by one
+            // Calculate all the merged ranges of x where the beacon can't be present for each sensor
+            // i.e. the ranges of x that each sensor covers for the given y
             // All the ranges must merge into a single range
             // If we find that's not the case, we've got our answer
             // because that means that a particular value of x is not detectable by any of the beacons
             // Here, we're exploiting the fact there is only one answer
-            Pair<Integer, Integer> range = ranges.get(0);
-            boolean disjoint = false;
-            int ansx = 0;
-            for (int i = 1; i < ranges.size(); i++) {
-                Pair<Integer, Integer> r = ranges.get(i);
-                if ((r.right() - range.left() < -1)) {
-                    ansx = r.right() + 1;
-                    disjoint = true;
-                    break;
-                } else if ((r.left() - range.right() > 1)) {
-                    ansx = r.left() - 1;
-                    disjoint = true;
-                    break;
-                }
-                range = Pair.of(Math.min(r.left(), range.left()), Math.max(r.right(), range.right()));
-            }
+            List<Pair<Integer, Integer>> ranges = getSensorCoveredMergedRanges(y, 0, ymax);
 
-            if (disjoint) {
-                ans = Grid.Pos.of(ansx, y);
+            if (ranges.size() > 1) {
+                ans = Grid.Pos.of(ranges.get(0).right() + 1, y);
                 break;
             }
-
         }
-
 
         System.out.println(ans);
         long a = (4000000L * ans.i()) + ans.j();
         System.out.println(a);
+    }
+
+    private static List<Pair<Integer, Integer>> getSensorCoveredMergedRanges(int y, int minX, int maxX) {
+        List<Pair<Integer, Integer>> ranges = new ArrayList<>();
+        for (Grid.Pos sensor : sensors) {
+            int ydiff = Math.abs(sensor.j() - y);
+            int detectionDistance = sensorDistance.get(sensor);
+
+            // if the diff of y coordinates is greater than what the sensor can detect
+            // there is no value in moving forward with this sensor
+            if (detectionDistance < ydiff) {
+                continue;
+            }
+            int diff = Math.abs(detectionDistance - ydiff);
+
+            int curMinX = Integer.MAX_VALUE;
+            int curMaxX = 0;
+
+            curMinX = Math.min(curMinX, sensor.i() + diff);
+            curMinX = Math.min(curMinX, sensor.i() - diff);
+            curMaxX = Math.max(curMaxX, sensor.i() + diff);
+            curMaxX = Math.max(curMaxX, sensor.i() - diff);
+
+            ranges.add(Pair.of(Math.max(curMinX, minX), Math.min(curMaxX, maxX)));
+        }
+        return merge(ranges);
+    }
+
+    private static List<Pair<Integer, Integer>> merge(List<Pair<Integer, Integer>> ranges) {
+        List<Pair<Integer, Integer>> merged = new ArrayList<>();
+        ranges = ranges.stream().sorted((p1, p2) -> {
+            if (p1.left().equals(p2.left())) {
+                return p1.right() - p2.right();
+            } else {
+                return p1.left() - p2.left();
+            }
+        }).collect(Collectors.toList());
+
+        Pair<Integer, Integer> current = ranges.get(0);
+        for (int i = 1; i < ranges.size(); i++) {
+            Pair<Integer, Integer> r = ranges.get(i);
+            if ((r.right() - current.left() < -1) || (r.left() - current.right() > 1)) {
+                merged.add(current);
+                current = r;
+            } else {
+                current = Pair.of(Math.min(r.left(), current.left()), Math.max(r.right(), current.right()));
+            }
+        }
+        merged.add(current);
+        return merged;
     }
 
     private static void parse(String input, int yval, int ymaxval) {
