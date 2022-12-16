@@ -41,8 +41,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve15.solve();
-        Solve15.solvePart2();
+        //Solve15.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();

@@ -11,6 +11,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -46,6 +47,7 @@ public class Solve15 {
         //parse(INPUT, 10, 20);
 
         int part1 = 0;
+        long s = System.currentTimeMillis();
         List<Pair<Integer, Integer>> ranges =
                 getSensorCoveredMergedRanges(ycoordinateToTest, Integer.MIN_VALUE, Integer.MAX_VALUE);
 
@@ -57,7 +59,9 @@ public class Solve15 {
                     .count();
             part1 -= (beaconsInRange);
         }
+        long e = System.currentTimeMillis();
         System.out.println(part1);
+        System.out.println("time taken: " + (e - s) + " ms");
     }
 
     public static void solvePart2() {
@@ -65,6 +69,7 @@ public class Solve15 {
         //parse(INPUT, 10, 20);
 
         Grid.Pos ans = null;
+        long s = System.currentTimeMillis();
         for (int y = 0; y <= ymax; y++) {
 
             // For the given value of y
@@ -81,10 +86,52 @@ public class Solve15 {
                 break;
             }
         }
-
+        long e = System.currentTimeMillis();
         System.out.println(ans);
         long a = (4000000L * ans.i()) + ans.j();
         System.out.println(a);
+        System.out.println("time taken: " + (e - s) + " ms");
+    }
+
+    public static void solvePart2_BoundaryMethod() {
+        //parse(INPUT, 10, 20);
+        parse(Inputs.INPUT_15, 2000000, 4000000);
+        Grid.Pos ans = null;
+        long s = System.currentTimeMillis();
+        for (Grid.Pos sensor : sensors) {
+            int distance = sensorDistance.get(sensor);
+
+            Set<Grid.Pos> boundary = getBoundary(moveUp(sensor, distance), moveRight(sensor, distance),
+                    point -> moveSE(point), point -> moveRight(point, 1));
+            if (isValid(moveUp(sensor, distance + 1))) {
+                boundary.add(moveUp(sensor, distance + 1));
+            }
+            ans = pointNotDetected(boundary);
+            if (ans != null) break;
+
+            boundary = getBoundary(moveDown(sensor, distance), moveRight(sensor, distance),
+                    point -> moveNE(point), point ->  moveRight(point, 1));
+            if (isValid(moveDown(sensor, distance + 1))) {
+                boundary.add(moveDown(sensor, distance + 1));
+            }
+            ans = pointNotDetected(boundary);
+            if (ans != null) break;
+
+            boundary = getBoundary(moveUp(sensor, distance), moveLeft(sensor, distance),
+                    point -> moveSW(point), point -> moveLeft(point,1));
+            ans = pointNotDetected(boundary);
+            if (ans != null) break;
+
+            boundary = getBoundary(moveDown(sensor, distance), moveLeft(sensor, distance),
+                    point -> moveNW(point), point -> moveLeft(point,1));
+            ans = pointNotDetected(boundary);
+            if (ans != null) break;
+        }
+        long e = System.currentTimeMillis();
+        System.out.println(ans);
+        long a = (4000000L * ans.i()) + ans.j();
+        System.out.println(a);
+        System.out.println("time taken: " + (e - s) + " ms");
     }
 
     private static List<Pair<Integer, Integer>> getSensorCoveredMergedRanges(int y, int minX, int maxX) {
@@ -170,7 +217,76 @@ public class Solve15 {
         return Grid.Pos.of(x, y);
     }
 
+    private static boolean isValid(Grid.Pos pos) {
+        return pos.i() >= 0 && pos.i() <= ymax && pos.j() >= 0 && pos.j() <= ymax;
+    }
+
+    private static Set<Grid.Pos> getBoundary(Grid.Pos start, Grid.Pos end,
+                                             Function<Grid.Pos, Grid.Pos> mover,
+                                             Function<Grid.Pos, Grid.Pos> boundaryPointGenerator) {
+        Set<Grid.Pos> points = new HashSet<>();
+        Grid.Pos current = start;
+        while (!current.equals(end)) {
+            if (isValid(current)) {
+                points.add(boundaryPointGenerator.apply(current));
+            }
+            current = mover.apply(current);
+        }
+        if (isValid(current)) {
+            points.add(boundaryPointGenerator.apply(current));
+        }
+        return points;
+    }
+
+    private static Grid.Pos pointNotDetected(Set<Grid.Pos> points) {
+        for (Grid.Pos point : points) {
+            boolean detectedInASensor = false;
+            for (Grid.Pos sensor : sensors) {
+                if (distance(sensor, point) <= sensorDistance.get(sensor)) {
+                    detectedInASensor = true;
+                    break;
+                }
+            }
+            if (!detectedInASensor) {
+                return point;
+            }
+        }
+        return null;
+    }
+
     private static int distance(Grid.Pos p1, Grid.Pos p2) {
-        return  Math.abs(p1.i() - p2.i()) + Math.abs(p1.j() - p2.j());
+        return Math.abs(p1.i() - p2.i()) + Math.abs(p1.j() - p2.j());
+    }
+
+    private static Grid.Pos moveUp(Grid.Pos pos, int steps) {
+        return Grid.Pos.of(pos.i(), pos.j() - steps);
+    }
+
+    private static Grid.Pos moveDown(Grid.Pos pos, int steps) {
+        return Grid.Pos.of(pos.i(), pos.j() + steps);
+    }
+
+    private static Grid.Pos moveLeft(Grid.Pos pos, int steps) {
+        return Grid.Pos.of(pos.i() - steps, pos.j());
+    }
+
+    private static Grid.Pos moveRight(Grid.Pos pos, int steps) {
+        return Grid.Pos.of(pos.i() + steps, pos.j());
+    }
+
+    private static Grid.Pos moveNE(Grid.Pos pos) {
+        return Grid.Pos.of(pos.i() + 1, pos.j() - 1);
+    }
+
+    private static Grid.Pos moveSE(Grid.Pos pos) {
+        return Grid.Pos.of(pos.i() + 1, pos.j() + 1);
+    }
+
+    private static Grid.Pos moveSW(Grid.Pos pos) {
+        return Grid.Pos.of(pos.i() - 1, pos.j() + 1);
+    }
+
+    private static Grid.Pos moveNW(Grid.Pos pos) {
+        return Grid.Pos.of(pos.i() - 1, pos.j() - 1);
     }
 }
