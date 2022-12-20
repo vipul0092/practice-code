@@ -47,7 +47,7 @@ public class Solve16 {
         int MAX_TIME = 30;
 
         final long startTime = System.nanoTime();
-        int val = traverseValves("AA", 0, 0, MAX_TIME, false);
+        int val = traverseValves("AA", 0, MAX_TIME, false);
         final long duration = (System.nanoTime() - startTime) / 1000000;
 
         System.out.println("Runtime(in ms): " + duration);
@@ -57,14 +57,21 @@ public class Solve16 {
     public static void solvePart2() {
         parse(Inputs.INPUT_16);
         int MAX_TIME = 30;
-
-        int val = traverseValves("AA", 0, 0, MAX_TIME, false);
-        System.out.println(val);
-
-        final long startTime = System.nanoTime();
         int part2 = 0;
         int max = 1 << nonzeroValves.size();
         int maxBitSet = max - 1;
+
+        long startTime = System.nanoTime();
+
+        // Populate all the possible variations
+        for (int i = 0; i < max; i++) {
+            traverseValves("AA", i, MAX_TIME, false);
+        }
+        long duration = (System.nanoTime() - startTime) / 1000000;
+        System.out.println("Runtime(in ms): " + duration);
+        startTime = System.nanoTime();
+
+        // Iterator over all item combinations where the selected items are disjoint sets
         for (int i = 1; i < max; i++) {
             for (int j = 1; j < max; j++) {
                 if ((i & j) != j) {
@@ -73,10 +80,10 @@ public class Solve16 {
 
                 long elephantSelection = (i & ~j);
                 long usSelection = j;
-                int a = traverseValves("AA", maxBitSet & ~elephantSelection, maxBitSet & ~elephantSelection,
+                int a = traverseValves("AA", maxBitSet & ~elephantSelection,
                         26, false);
 
-                int b = traverseValves("AA", maxBitSet & ~usSelection, maxBitSet & ~usSelection,
+                int b = traverseValves("AA", maxBitSet & ~usSelection,
                         26, false);
 
                 // part2 = Math.max(part2, a + b);
@@ -86,16 +93,15 @@ public class Solve16 {
                 }
             }
         }
-        final long duration = (System.nanoTime() - startTime) / 1000000;
+        duration = (System.nanoTime() - startTime) / 1000000;
 
         System.out.println("Runtime(in ms): " + duration);
         System.out.println(part2);
     }
 
-    private static int traverseValves(String valve, long valvesAlreadyOpened, long valvesVisited, int remainingTime,
-                                      boolean nonzeroValve) {
+    private static int traverseValves(String valve, long valvesAlreadyOpened, int remainingTime, boolean nonzeroValve) {
         Pair<String, Pair<Long, Integer>> key = Pair.of(valve, Pair.of(valvesAlreadyOpened, remainingTime));
-        if (nonzeroValve && stateCache.containsKey(key)) {
+        if (stateCache.containsKey(key)) {
             return stateCache.get(key);
         }
 
@@ -106,23 +112,21 @@ public class Solve16 {
         int val = 0;
         Map<String, Integer> distanceMap = leastDistance.get(valve);
 
-        if (nonzeroValve) {
-            valvesVisited = setBit(valvesVisited, ids.get(valve));
-        }
-
         boolean wentSomewhere = false;
+        boolean isValveOpen = nonzeroValve && isBitSet(valvesAlreadyOpened, ids.get(valve));
+        long valveOpenBitset = nonzeroValve ? setBit(valvesAlreadyOpened, ids.get(valve)) : valvesAlreadyOpened;
         for (var e : distanceMap.entrySet()) {
             String valveToGo = e.getKey();
             Integer dis = e.getValue();
-            if (!isBitSet(valvesVisited, ids.get(valveToGo))) {
+            if (!isBitSet(valvesAlreadyOpened, ids.get(valveToGo))) {
                 wentSomewhere = true;
-                if (nonzeroValve && !isBitSet(valvesAlreadyOpened, ids.get(valve))) {
+                if (nonzeroValve && !isValveOpen) {
                     val = Math.max(val, (flow.get(valve) * (remainingTime - 1)) +
-                            traverseValves(valveToGo, setBit(valvesAlreadyOpened, ids.get(valve)),
-                                    valvesVisited, remainingTime - 1 - dis, true));
+                            (remainingTime - 1 - dis > 0 ? traverseValves(valveToGo, valveOpenBitset,
+                                    remainingTime - 1 - dis, true) : 0));
                 }
-                val = Math.max(val, traverseValves(valveToGo, valvesAlreadyOpened,
-                        valvesVisited, remainingTime - dis, true));
+                val = Math.max(val, (remainingTime - dis > 0 ? traverseValves(valveToGo, valvesAlreadyOpened,
+                        remainingTime - dis, true) : 0));
             }
         }
 
