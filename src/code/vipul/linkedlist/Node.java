@@ -7,6 +7,7 @@ public class Node {
 
     public final String value;
     public Integer intValue = null;
+    public long longVal;
     public Node next;
     public Node prev;
 
@@ -16,6 +17,11 @@ public class Node {
 
     private Node(int val) {
         this.intValue = val;
+        this.value = null;
+    }
+
+    private Node(long val) {
+        this.longVal = val;
         this.value = null;
     }
 
@@ -32,6 +38,10 @@ public class Node {
     }
 
     public static Node of(String val) {
+        return new Node(val);
+    }
+
+    public static Node of(long val) {
         return new Node(val);
     }
 
