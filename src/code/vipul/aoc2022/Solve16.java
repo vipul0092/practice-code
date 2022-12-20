@@ -56,7 +56,7 @@ public class Solve16 {
 
     public static void solvePart2() {
         parse(Inputs.INPUT_16);
-        int MAX_TIME = 30;
+        int MAX_TIME = 26;
         int part2 = 0;
         int max = 1 << nonzeroValves.size();
         int maxBitSet = max - 1;
