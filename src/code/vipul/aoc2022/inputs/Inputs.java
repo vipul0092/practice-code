@@ -18403,4 +18403,4492 @@ public class Inputs {
             "-937\n" +
             "-8802\n" +
             "-1039";
+
+    public static final String INPUT_21 = "jqtv: sgqw + ldhr\n" +
+            "zzvc: rrwv * gggt\n" +
+            "fnsb: lmjw * rszr\n" +
+            "gwzg: lshd / jsgr\n" +
+            "hsbm: 18\n" +
+            "hwln: 2\n" +
+            "jjfp: nzwt + zjcj\n" +
+            "slmj: qswf * jjnw\n" +
+            "wcwv: 5\n" +
+            "bcwl: 1\n" +
+            "rncw: 4\n" +
+            "zzlb: wbww * vrwh\n" +
+            "rcqs: jcpb * swcp\n" +
+            "sbvf: nfms + sztj\n" +
+            "wsww: 6\n" +
+            "sdjz: vztc * crnw\n" +
+            "spzr: wndq * lbgp\n" +
+            "nfcv: htdd + zjll\n" +
+            "lwqd: qvhw / vthg\n" +
+            "nrcf: scjn + zfzg\n" +
+            "vjsn: 1\n" +
+            "wndn: 2\n" +
+            "vhrc: jwfn + mspt\n" +
+            "cfbn: 4\n" +
+            "sdhj: 2\n" +
+            "gmph: 5\n" +
+            "fsrm: vmlj * tgfq\n" +
+            "rjgw: hngl + jcrj\n" +
+            "bwcd: bhdz * mbsw\n" +
+            "nprt: 4\n" +
+            "tcsz: hccw * pbwr\n" +
+            "gpgc: jdmm + sjls\n" +
+            "npmg: jcnz + ldlc\n" +
+            "qfww: gwsn * trwp\n" +
+            "lcqh: 3\n" +
+            "qcrh: vsng * tsbh\n" +
+            "whcv: dbth + wnwm\n" +
+            "btwg: qnrg + twfd\n" +
+            "qbzh: mvqb * vzvd\n" +
+            "sgns: 2\n" +
+            "gpvb: 2\n" +
+            "llsw: bmhg + wcwv\n" +
+            "dvpp: snqf - hqjl\n" +
+            "rchb: vhvl + sqcq\n" +
+            "wlcg: cdbl * lvlj\n" +
+            "fsdl: 7\n" +
+            "pwpr: 4\n" +
+            "jplc: 5\n" +
+            "zbwj: 2\n" +
+            "vwzq: 2\n" +
+            "shmr: 2\n" +
+            "ldlp: 2\n" +
+            "fmpb: 7\n" +
+            "cjmm: hdzq * vjwn\n" +
+            "jfmq: lvgg * gpdw\n" +
+            "qzqt: sljt + mcdz\n" +
+            "bzbq: 4\n" +
+            "swcp: 3\n" +
+            "drjj: cfbn * nnld\n" +
+            "rntn: wqdg * czrg\n" +
+            "gzfw: 2\n" +
+            "jvct: 2\n" +
+            "hbqf: ptrt / dlcr\n" +
+            "gqtn: 2\n" +
+            "rbvj: jfmp * lblh\n" +
+            "mzmb: 5\n" +
+            "jcmd: qdsp + chng\n" +
+            "mpvh: 5\n" +
+            "vjwn: 5\n" +
+            "jnss: 2\n" +
+            "hrbh: cqmw - fpjc\n" +
+            "cgmw: hvlt * jdlm\n" +
+            "ndcv: rssv * smdz\n" +
+            "hjjj: 2\n" +
+            "jlgh: 3\n" +
+            "snbq: 5\n" +
+            "zvsp: ghzw + qjbs\n" +
+            "jdmz: rjgw + llrp\n" +
+            "tsbw: 6\n" +
+            "lthg: 5\n" +
+            "qmcq: glzc * fmrv\n" +
+            "cgtz: 2\n" +
+            "rndp: 2\n" +
+            "tghl: 9\n" +
+            "zhcg: 4\n" +
+            "bstc: sppm * pprt\n" +
+            "lljb: nwds - tcpl\n" +
+            "rrrh: sjcz + jlrq\n" +
+            "gzss: qrjt - pwpr\n" +
+            "gqrd: 1\n" +
+            "cddp: 17\n" +
+            "vdlv: gfqv * chrw\n" +
+            "hczn: 5\n" +
+            "psct: ghns + rsjs\n" +
+            "zsbf: mwrm + tndn\n" +
+            "nbgd: 13\n" +
+            "vfjv: 2\n" +
+            "vzbg: 6\n" +
+            "dtfb: zgvb + gzgl\n" +
+            "vcbv: bnbc + hfff\n" +
+            "rsjs: lzds * fvbf\n" +
+            "wtlw: 2\n" +
+            "qzgp: gmqp / djdr\n" +
+            "rscv: dfjm + fwfc\n" +
+            "chhp: hvqw * cjff\n" +
+            "fmfs: gvrq * hpsd\n" +
+            "vmlj: 3\n" +
+            "zqdm: 3\n" +
+            "fhzp: 1\n" +
+            "gzdc: 5\n" +
+            "mhpv: qhvm * wlcg\n" +
+            "rnnw: 3\n" +
+            "hslq: 3\n" +
+            "qfjs: tnbs * nprt\n" +
+            "gfvj: 3\n" +
+            "bzgr: 5\n" +
+            "cmld: gpfj + scbn\n" +
+            "cldz: tmzj - jplj\n" +
+            "tfhz: twlq / pcpw\n" +
+            "qmdh: 2\n" +
+            "mttp: 4\n" +
+            "dcrw: qrhl + twgz\n" +
+            "sgps: 2\n" +
+            "wwrn: dgvn * qmwv\n" +
+            "pwch: 2\n" +
+            "qwvl: 9\n" +
+            "hqbb: 17\n" +
+            "qrcj: 4\n" +
+            "bhfz: 3\n" +
+            "vhcq: hsbm + ffzz\n" +
+            "jqln: 6\n" +
+            "pmnj: rcfb - jmtn\n" +
+            "znnc: cbqz * pphv\n" +
+            "jjdg: 5\n" +
+            "nszd: 4\n" +
+            "dhbt: 14\n" +
+            "mwpl: 2\n" +
+            "vgmc: tlqj + fhbv\n" +
+            "bnwl: rlmq + tvbw\n" +
+            "gmqp: wbld - psgb\n" +
+            "ptqp: bjzz / phjb\n" +
+            "qmrq: gtrr + zppb\n" +
+            "cvzt: 2\n" +
+            "vgrw: 2\n" +
+            "gplp: 17\n" +
+            "frdl: 3\n" +
+            "zfnf: 1\n" +
+            "nssj: 4\n" +
+            "lngs: dfcl * mzgg\n" +
+            "pzsm: 9\n" +
+            "lszv: fdpq * dqwj\n" +
+            "qnrg: 13\n" +
+            "nlmb: 2\n" +
+            "vznr: rvhv + hgtn\n" +
+            "fcps: fqmz * mqzm\n" +
+            "gljv: fnsb / gfst\n" +
+            "wncs: chhp / fcrh\n" +
+            "ltzb: lwqd + rtww\n" +
+            "mhsc: mhsn / gscj\n" +
+            "mgbf: hcdj - gfsl\n" +
+            "nczs: bfdn / mvmh\n" +
+            "dnnm: bfcg + cbqn\n" +
+            "mrhq: zthf / vfjv\n" +
+            "hpjc: llsw * tfnb\n" +
+            "ftsw: fqlh * lqbt\n" +
+            "dlrm: 2\n" +
+            "dcqg: psrd * wbsl\n" +
+            "fztl: wfzs * fmvz\n" +
+            "bnlz: tjsc * thlh\n" +
+            "pcjc: gshw * wmvl\n" +
+            "ctfg: 3\n" +
+            "qqtb: gtmd + cdtm\n" +
+            "zmcs: 2\n" +
+            "zjbr: jmqm + jtfz\n" +
+            "jprp: zdwc * zmdt\n" +
+            "bjwv: mqrs * nrrc\n" +
+            "zbnc: hpcp + tfdc\n" +
+            "sscn: gbqm - npfh\n" +
+            "gmcd: czfr + twvb\n" +
+            "lrcl: 3\n" +
+            "vpcj: snqv * bfqb\n" +
+            "szws: 3\n" +
+            "wtvw: 3\n" +
+            "rpmw: 2\n" +
+            "gtsb: 3\n" +
+            "ftpv: mllt * ltzb\n" +
+            "smdg: 2\n" +
+            "hpsh: 4\n" +
+            "gplr: 2\n" +
+            "zffg: rtzz + vplq\n" +
+            "qfzd: 2\n" +
+            "hvct: 7\n" +
+            "psvj: rljf / wjcr\n" +
+            "dwbn: qbjp / hvct\n" +
+            "lgdz: 1\n" +
+            "cwtl: 18\n" +
+            "mhnm: 3\n" +
+            "pzzf: rchf + dwlf\n" +
+            "rvfw: hwpw + pvpt\n" +
+            "qmwv: 2\n" +
+            "cjhc: ftfv * dwwq\n" +
+            "mjhf: 2\n" +
+            "hngl: 8\n" +
+            "chwr: 2\n" +
+            "gchg: 13\n" +
+            "httv: phvs * nvdj\n" +
+            "qwqz: wjsd + msdj\n" +
+            "cwds: 2\n" +
+            "fcrh: 2\n" +
+            "tlzz: vnwn + dldr\n" +
+            "dmgj: 12\n" +
+            "bhhq: qpdj + czzr\n" +
+            "pcrj: twhz + cshd\n" +
+            "tbcl: hbwn + mrsb\n" +
+            "lglt: djsv / vjbm\n" +
+            "ndng: lthg * srfq\n" +
+            "lpvp: pcdj - qglm\n" +
+            "lqbt: 3\n" +
+            "vndr: cprd + whhg\n" +
+            "qfhb: 5\n" +
+            "vssr: tvvs + gtqb\n" +
+            "frlz: 3\n" +
+            "dhsw: hslj + zqrl\n" +
+            "jmzt: pnbb / lggf\n" +
+            "mbmm: tpgt * gqtn\n" +
+            "zmmg: tgmc * fscm\n" +
+            "lpvq: 2\n" +
+            "pprt: 3\n" +
+            "qrzg: 4\n" +
+            "njqg: tfpl + lrpt\n" +
+            "fnvh: jnts * clhp\n" +
+            "ddvd: tjtg * vptb\n" +
+            "nzng: 2\n" +
+            "qdcc: nzcs / zrtp\n" +
+            "stqr: zlwb * qgjb\n" +
+            "rszr: qcrh + lngs\n" +
+            "vwhs: 18\n" +
+            "wzhd: 2\n" +
+            "wddc: 7\n" +
+            "jtfz: rnnw + lmvd\n" +
+            "slrp: twqq + qstf\n" +
+            "wlwv: hngp * slrp\n" +
+            "pqws: 18\n" +
+            "mhnw: 9\n" +
+            "fdjw: 11\n" +
+            "vqll: 5\n" +
+            "lhbr: nqjv + vhrc\n" +
+            "gnbp: 12\n" +
+            "fmgt: 4\n" +
+            "gccf: 5\n" +
+            "jrfz: 4\n" +
+            "mvqb: qdcc + bslg\n" +
+            "htgh: drzs + bwcd\n" +
+            "tcpl: zzjj * sgwc\n" +
+            "trwh: dnfp + zfnt\n" +
+            "cnbc: gbvv + hmdd\n" +
+            "vmth: wsrp * bqgv\n" +
+            "lfrw: 2\n" +
+            "dflz: rdrs * lfqs\n" +
+            "qcrb: mrcv * bggh\n" +
+            "wjwg: 2\n" +
+            "gzbb: 2\n" +
+            "dvbp: ndtw + gtsc\n" +
+            "gvrq: pbfq + tzfn\n" +
+            "sbnf: 2\n" +
+            "dlwp: jmpq / pmht\n" +
+            "csgc: 3\n" +
+            "bdvm: 3\n" +
+            "zbhg: rchb + qjpm\n" +
+            "vbbr: tbfv * ztmc\n" +
+            "vllh: zgwd * cpvl\n" +
+            "gtzl: 1\n" +
+            "ntvh: 7\n" +
+            "vzvr: lqwm + tzwn\n" +
+            "bhnj: lzvw * tpgw\n" +
+            "tbtw: 2\n" +
+            "ftpw: 3\n" +
+            "dswt: 3\n" +
+            "ssgq: 2\n" +
+            "cpqt: rqsc + rwjv\n" +
+            "zhvd: 3\n" +
+            "fbbz: jjvr * ljst\n" +
+            "ptrt: fjvb * cvzt\n" +
+            "vjnr: 11\n" +
+            "hjph: 3\n" +
+            "pcdj: dnnm * rjqg\n" +
+            "fmtd: mpwl * fjrr\n" +
+            "bdpd: ngjl * tbhf\n" +
+            "gczj: bzvc + hzgn\n" +
+            "qvhw: 20\n" +
+            "sgmt: pjgb * pznf\n" +
+            "qvvl: 5\n" +
+            "jjwt: 15\n" +
+            "qrvs: lrcl * dwcz\n" +
+            "vrvg: qszv + drzr\n" +
+            "dmwm: 2\n" +
+            "chmb: gfzs + tfsg\n" +
+            "mrqf: fjqv * shzc\n" +
+            "vtfd: 13\n" +
+            "pwgc: 2\n" +
+            "zbzs: 2\n" +
+            "flzr: 10\n" +
+            "cmqn: 5\n" +
+            "btvm: 2\n" +
+            "dhll: vgmb + jmpr\n" +
+            "drng: pgnj / zjwz\n" +
+            "hfft: lvgb * pwgc\n" +
+            "wjwt: 2\n" +
+            "ljth: 2\n" +
+            "srsl: 5\n" +
+            "fcng: 2\n" +
+            "cbvf: bvzs * qrzg\n" +
+            "fcmn: jmvq * mhdt\n" +
+            "llcl: 5\n" +
+            "bgbl: ndcq * zqsd\n" +
+            "smdm: zvwh + rgnn\n" +
+            "lrhz: 2\n" +
+            "jfsh: 4\n" +
+            "svjq: mclr - zltp\n" +
+            "tdfj: 2\n" +
+            "lggf: 2\n" +
+            "zhlc: 3\n" +
+            "btgg: 2\n" +
+            "zzjj: gghd + jhdv\n" +
+            "cpjg: qwvm * sbvf\n" +
+            "sgdz: 12\n" +
+            "glbm: dpjz * psct\n" +
+            "tnnl: 2\n" +
+            "fsvh: lgnr + vtjv\n" +
+            "pzrp: nlll * wgbc\n" +
+            "psft: 3\n" +
+            "gfwt: 4\n" +
+            "jfbd: nncb + bnlc\n" +
+            "rwzl: jpzv * vztw\n" +
+            "grbp: dtfb + tnws\n" +
+            "cqzs: qpdz * bfmn\n" +
+            "btnm: 1\n" +
+            "mdqb: 2\n" +
+            "gbpl: 5\n" +
+            "sjls: rsmg * bwpc\n" +
+            "gghd: smdg * chzq\n" +
+            "hlmj: 10\n" +
+            "vrwh: 5\n" +
+            "hslj: 3\n" +
+            "dpqj: 7\n" +
+            "sspc: 4\n" +
+            "fsbf: fgmm + pplm\n" +
+            "dnqh: tcdv * hczn\n" +
+            "gjlc: 3\n" +
+            "cdmj: 19\n" +
+            "cnqz: btdt - nhzd\n" +
+            "wclp: smbs + ddlh\n" +
+            "scjn: 2\n" +
+            "qwvm: 11\n" +
+            "vtfz: 5\n" +
+            "mwtn: qzqt - dtpw\n" +
+            "mwtv: 4\n" +
+            "nvrh: 2\n" +
+            "tpgt: 3\n" +
+            "npnf: wbtm + bqmp\n" +
+            "zznq: lttm * qjjt\n" +
+            "rngc: 3\n" +
+            "cbqn: jhbz * qjbg\n" +
+            "ghzw: wwrn * vhqg\n" +
+            "qtjz: rgrc + swrs\n" +
+            "mpcd: lqdp + rnns\n" +
+            "jgnc: 4\n" +
+            "mtlp: 2\n" +
+            "qqbc: bhnm + gwvv\n" +
+            "pznb: 3\n" +
+            "trhv: bzpl * nthd\n" +
+            "hzqw: 5\n" +
+            "wqdf: 4\n" +
+            "blsp: bjtz * wcmn\n" +
+            "qmmc: vdlv / ccsm\n" +
+            "vsmw: lnth / jhwf\n" +
+            "jjfl: 3\n" +
+            "lnhh: bgbb - nmtv\n" +
+            "mpwr: lfrw * qstn\n" +
+            "psrd: cgjz / clrs\n" +
+            "zzdc: jwgp * wcmf\n" +
+            "lsjh: 3\n" +
+            "mrnp: cjmm * dmwm\n" +
+            "zfhp: zcgr - ccnh\n" +
+            "qvwq: 11\n" +
+            "bcdz: 2\n" +
+            "dmzc: 2\n" +
+            "tcdn: dnrm - stvs\n" +
+            "hwbs: 6\n" +
+            "pnwf: wgpr + sztp\n" +
+            "sztp: 6\n" +
+            "gbbl: 4\n" +
+            "wwgj: bqpt * slhp\n" +
+            "hnqr: sdjz + tnwl\n" +
+            "ttfn: hrnh + fffg\n" +
+            "humn: 922\n" +
+            "rbrp: cfmr + dtct\n" +
+            "wlgf: ddvd + vzvr\n" +
+            "sgwc: 7\n" +
+            "bmtn: lnsp - snvl\n" +
+            "qjbs: dlgl + htrq\n" +
+            "dzrn: 7\n" +
+            "vgdz: 5\n" +
+            "fqfb: gfhv * mtcc\n" +
+            "wwqs: 3\n" +
+            "mbsw: qrtl * rvmw\n" +
+            "pjzl: zhsc * fqjs\n" +
+            "ncfp: 3\n" +
+            "lqjr: mtjc + tbcl\n" +
+            "qgnt: 4\n" +
+            "cpvp: hsgd * snbq\n" +
+            "ddlh: 4\n" +
+            "wggd: 2\n" +
+            "lfsn: 4\n" +
+            "vbln: zzwp + thrv\n" +
+            "vbtf: 2\n" +
+            "tnws: ftgn + flsh\n" +
+            "pcpw: 2\n" +
+            "prmm: hqwr * fsmg\n" +
+            "swnb: hdsv + mpsz\n" +
+            "gtqb: wzcg + fqfr\n" +
+            "dfjm: 6\n" +
+            "rtst: jqln * dhll\n" +
+            "fpjn: pvnr * nszj\n" +
+            "pfvq: 4\n" +
+            "pwhq: 3\n" +
+            "wfqg: 19\n" +
+            "ccdb: qhmh / jjfl\n" +
+            "qpjd: qmdh + tjfl\n" +
+            "cgvd: rvjf + lgdm\n" +
+            "dldh: 3\n" +
+            "lngq: 2\n" +
+            "mfmd: lrhz * fcsg\n" +
+            "zfzg: 4\n" +
+            "shzc: sgns * pjtr\n" +
+            "sltq: zjsq * wrwp\n" +
+            "zzht: 5\n" +
+            "dqqh: 8\n" +
+            "ndzm: 4\n" +
+            "wwwr: rntn / jcmj\n" +
+            "pvpt: pwzl * zzst\n" +
+            "cvhh: 2\n" +
+            "wqdg: dhmw + cgpq\n" +
+            "wbjr: 2\n" +
+            "scdg: gndg + cpqn\n" +
+            "ccnh: 3\n" +
+            "gnzf: 3\n" +
+            "smbs: 3\n" +
+            "zhct: 3\n" +
+            "zgtg: 4\n" +
+            "bqpq: bjwv + hvsg\n" +
+            "ncpd: ptmn + mzst\n" +
+            "zltw: vndr / mpvh\n" +
+            "sdlh: rdjc * rwjz\n" +
+            "fpvf: 2\n" +
+            "dtds: 7\n" +
+            "jcnz: slmj + fttg\n" +
+            "crqh: 9\n" +
+            "pgtg: mjqt * rnqn\n" +
+            "cpcz: pbjs * hbqf\n" +
+            "mqrs: lwqz + rhbf\n" +
+            "sqgp: jshp * sfvf\n" +
+            "chzq: pttz / vlpn\n" +
+            "btwt: 2\n" +
+            "npfh: ntmd * fmtd\n" +
+            "crgv: 18\n" +
+            "ncnm: lsqd * vglv\n" +
+            "clns: 10\n" +
+            "scsn: spzr - hhvl\n" +
+            "pnpn: hgsg * tfdt\n" +
+            "nvzg: 6\n" +
+            "nzfs: cswv * cnqz\n" +
+            "znsm: 2\n" +
+            "ncnf: 3\n" +
+            "flnm: tsmz + hslq\n" +
+            "wgmt: mnrf - hrpz\n" +
+            "tgvl: sprc * gbwz\n" +
+            "cbdq: rhvv / cntw\n" +
+            "nsnh: 3\n" +
+            "gtwf: 3\n" +
+            "jshp: 3\n" +
+            "lsws: 2\n" +
+            "twvb: 9\n" +
+            "gcvs: vcbv * npff\n" +
+            "gshw: 2\n" +
+            "mzqc: dqqh - mjfb\n" +
+            "fsjd: 6\n" +
+            "gnqz: 2\n" +
+            "zwwn: 14\n" +
+            "fgdz: hcfl * pzzz\n" +
+            "zslr: 3\n" +
+            "mvvh: 2\n" +
+            "dbtg: vgbd + rwrn\n" +
+            "tqrh: 5\n" +
+            "zqfs: btgg * lfgw\n" +
+            "bwcf: 2\n" +
+            "nbdb: 4\n" +
+            "btct: 2\n" +
+            "zdnt: chmb * ggwm\n" +
+            "vnhd: 3\n" +
+            "trvb: dhbt / lgwt\n" +
+            "thqf: tzrw * mdqb\n" +
+            "rslg: 2\n" +
+            "bfws: qfgl * nldb\n" +
+            "jbrb: hltl + llhv\n" +
+            "bhlj: 1\n" +
+            "jqpp: 5\n" +
+            "wwnz: hnhg + vqht\n" +
+            "gsbv: 4\n" +
+            "llpl: ljfm * jsfz\n" +
+            "fsrs: 3\n" +
+            "rvvh: ptqv * mqhj\n" +
+            "jlqc: 14\n" +
+            "gdps: 2\n" +
+            "hdzp: dncl + bvqh\n" +
+            "bjdn: 3\n" +
+            "mmdh: 2\n" +
+            "wbsl: llpl + fntf\n" +
+            "fhdw: 18\n" +
+            "dswp: 3\n" +
+            "ffdm: tqgs * vhds\n" +
+            "cmpm: 3\n" +
+            "ffcz: lmcr * npnf\n" +
+            "wcmf: lgbz * zpzs\n" +
+            "gnww: vgvl - rbbc\n" +
+            "wwgb: rgnt / jbhb\n" +
+            "vhgl: 8\n" +
+            "hcws: 5\n" +
+            "mljb: 3\n" +
+            "hdzq: 13\n" +
+            "fdpr: 9\n" +
+            "wssl: ggfl * ctnl\n" +
+            "lvmc: mdff / lrzr\n" +
+            "gvfg: zzdc + mgvm\n" +
+            "mzln: 2\n" +
+            "rljf: bpdl + ppfl\n" +
+            "djhz: bscq - tdth\n" +
+            "vhsg: 4\n" +
+            "bsrd: 3\n" +
+            "wlfb: 14\n" +
+            "vpjh: 20\n" +
+            "tjsc: 6\n" +
+            "mngp: 13\n" +
+            "lzpw: 3\n" +
+            "fttg: nszd * ltbg\n" +
+            "wrcb: 2\n" +
+            "mfzc: 1\n" +
+            "bcdr: 4\n" +
+            "vglv: 3\n" +
+            "bmhg: 2\n" +
+            "sdrb: 1\n" +
+            "mwvf: hhsc + cbpp\n" +
+            "zsrq: 3\n" +
+            "hmdd: pcwr * nfvn\n" +
+            "bgbb: lzrv * ncpd\n" +
+            "mwjq: 13\n" +
+            "dwcz: ljth * dswp\n" +
+            "pffb: 2\n" +
+            "dgdm: 16\n" +
+            "chzf: mbmr * vjnr\n" +
+            "cgjz: wzqd * htms\n" +
+            "mlgq: qzdp * hhdg\n" +
+            "vglz: wdjv - llgl\n" +
+            "vwfq: ctcr * cfwl\n" +
+            "gnrj: 2\n" +
+            "hzdm: dhrb / dgcb\n" +
+            "ncps: ptqp * wgbt\n" +
+            "crft: znnb / ssgq\n" +
+            "dmtb: gppw + gczj\n" +
+            "vlnv: 3\n" +
+            "sdww: zwlb * zgnh\n" +
+            "lddn: qqbc + wlgf\n" +
+            "tqbt: 3\n" +
+            "ppfl: chzf + gbcl\n" +
+            "jlfd: tmlw - hjjj\n" +
+            "lsqw: thqf * wtsj\n" +
+            "cddz: hwqz / tzrv\n" +
+            "lfjc: rvgv * gdps\n" +
+            "gswj: vvlv * vmjb\n" +
+            "tbvn: fztl / jnfn\n" +
+            "ccqj: 9\n" +
+            "hnmz: 3\n" +
+            "rnpp: fmwn + vmps\n" +
+            "jgpj: 2\n" +
+            "cvqw: sjnv + ttvf\n" +
+            "dpjz: 2\n" +
+            "bsht: hqld + dmtg\n" +
+            "swrs: 14\n" +
+            "cprd: fpvf * nnmc\n" +
+            "bbrh: gmcd * gtcg\n" +
+            "lqzm: 5\n" +
+            "wrwp: 11\n" +
+            "zgvb: rdjr * lcpl\n" +
+            "qfjz: 2\n" +
+            "bhvr: 7\n" +
+            "qqtm: 4\n" +
+            "fgfs: 2\n" +
+            "sjvp: llvn - jwwj\n" +
+            "trqf: 2\n" +
+            "vjhf: hngj + plnd\n" +
+            "nhzd: 5\n" +
+            "srgg: 4\n" +
+            "qgsv: vssr + fccc\n" +
+            "dcjj: 3\n" +
+            "hrnh: 2\n" +
+            "sqsb: 2\n" +
+            "ppth: jbbt * tmrj\n" +
+            "hqld: 1\n" +
+            "hhdg: 2\n" +
+            "vdzd: 5\n" +
+            "tmrj: dlbw + njjn\n" +
+            "rjdg: rbct * pdnj\n" +
+            "wfnn: rchh + zlqp\n" +
+            "rvcl: vvst * whnl\n" +
+            "wjnf: bzbq + lzdq\n" +
+            "qrff: cdnw + dnpq\n" +
+            "qhvm: gqjf * mtlp\n" +
+            "llrp: vzwm * sbhb\n" +
+            "qljr: 6\n" +
+            "tfdc: ttfn + cccc\n" +
+            "fnlh: zdnt * qfrg\n" +
+            "dfqv: zltw - bgwj\n" +
+            "dgcb: 4\n" +
+            "hbrr: 7\n" +
+            "hhhl: gplp + sqbz\n" +
+            "szwj: frjm / htdh\n" +
+            "prgc: 3\n" +
+            "rmff: 4\n" +
+            "nsvs: ptzm * rmzt\n" +
+            "lglv: 2\n" +
+            "vmpw: 1\n" +
+            "qnsd: 2\n" +
+            "mvjj: ldlp * lvmg\n" +
+            "rbvs: 2\n" +
+            "tzfn: gbbj * dbgm\n" +
+            "trpz: gtzl + fvgz\n" +
+            "mjnr: 2\n" +
+            "bcrn: zqff + scht\n" +
+            "cndc: 13\n" +
+            "qtfr: 6\n" +
+            "wmpt: lbzh + ptmb\n" +
+            "mcbt: 2\n" +
+            "vffr: 7\n" +
+            "qsnj: 6\n" +
+            "gldv: 2\n" +
+            "qfqr: 5\n" +
+            "qwvh: wbpf * mblb\n" +
+            "mtnf: 4\n" +
+            "qrhl: 3\n" +
+            "jhbz: qlmb + jbgp\n" +
+            "rtww: pggz * ftpw\n" +
+            "rgwr: jppv * wpmr\n" +
+            "wbpf: zptz + zjwf\n" +
+            "vdzr: 2\n" +
+            "gnqn: jwhg * bzgr\n" +
+            "fjrr: 5\n" +
+            "nlld: 12\n" +
+            "zmdt: 2\n" +
+            "rchh: 2\n" +
+            "fsdb: hhrh * rmff\n" +
+            "ltgw: 4\n" +
+            "bwhc: 2\n" +
+            "rzhf: bwcf * hqbb\n" +
+            "pwqj: 4\n" +
+            "zlwb: 7\n" +
+            "jpvb: 2\n" +
+            "mhgv: 10\n" +
+            "wnwm: 3\n" +
+            "drlb: lcsq / mmdh\n" +
+            "gzbm: ndwg * rngc\n" +
+            "lcpl: rfbr * qwds\n" +
+            "ffzb: jnss * dlrs\n" +
+            "dbmt: zmcs * nbgd\n" +
+            "bmtb: 3\n" +
+            "jmpv: 18\n" +
+            "jtvq: wbjr * lrph\n" +
+            "pjtr: 3\n" +
+            "dpgf: 6\n" +
+            "vsng: zjfp * bsrd\n" +
+            "lvqd: qdwv / zwmg\n" +
+            "tnwl: zzlb + gnsl\n" +
+            "brrn: 8\n" +
+            "vvhl: dwgq * gpzj\n" +
+            "njjn: 1\n" +
+            "jmss: pnpn / wtlw\n" +
+            "twvv: 2\n" +
+            "jbph: 13\n" +
+            "rhvv: sdhj * brmc\n" +
+            "pnjc: 2\n" +
+            "fpjc: 2\n" +
+            "pwbw: hlwh + zbvn\n" +
+            "tsbh: 3\n" +
+            "ltbg: 16\n" +
+            "vjcm: vffg * fsdl\n" +
+            "rsrv: qcrb + npmg\n" +
+            "zvtn: 2\n" +
+            "sgtm: nvdg + llct\n" +
+            "tfpl: stpw + gmtj\n" +
+            "pqtf: 4\n" +
+            "zsfh: zlpj * lhzr\n" +
+            "bqjb: svbh + crgv\n" +
+            "dvdc: hwth + jgnc\n" +
+            "vgsw: trvb + zpnd\n" +
+            "fctq: 9\n" +
+            "jdsl: whcw / zcsl\n" +
+            "jlpd: mjwq * jzfv\n" +
+            "pmwt: lddh / mslg\n" +
+            "jjds: 2\n" +
+            "rdrs: zfhp * npvr\n" +
+            "sjbf: 3\n" +
+            "bzvv: 3\n" +
+            "gvsv: dbhc * dcgz\n" +
+            "lmcr: 2\n" +
+            "zhsc: 7\n" +
+            "qdbc: jpvb * twwt\n" +
+            "lnqt: 3\n" +
+            "qnmd: tfhz - vwch\n" +
+            "ltdz: 19\n" +
+            "twqq: 1\n" +
+            "vnwn: lpvp * shqp\n" +
+            "cdvw: 2\n" +
+            "dqvn: rnqq + pcjf\n" +
+            "vdpj: 4\n" +
+            "mvmh: 2\n" +
+            "wwgg: 3\n" +
+            "fqtb: 2\n" +
+            "mtcc: 3\n" +
+            "lwqz: dglw * mqmf\n" +
+            "wjcr: 3\n" +
+            "rlnp: 7\n" +
+            "zqts: nbdb * srgg\n" +
+            "snqf: sgdz + tpmb\n" +
+            "cbwd: 20\n" +
+            "mzpj: chwr + jjwt\n" +
+            "qfrg: rhzf * vssn\n" +
+            "mzqn: 8\n" +
+            "nfgq: wgsz * pnns\n" +
+            "rprr: 4\n" +
+            "nvdg: jzrl * rbht\n" +
+            "sglt: 5\n" +
+            "pdzb: bzjc * lpcs\n" +
+            "llms: dhnw * zrzs\n" +
+            "lhzr: 3\n" +
+            "bzqr: ftsb / tnnl\n" +
+            "hzvh: gfjn + nfld\n" +
+            "qbfc: 2\n" +
+            "qqpq: 7\n" +
+            "dbth: tdfj * bfws\n" +
+            "hssv: 2\n" +
+            "zfnt: 1\n" +
+            "cnsl: ppns / rgpp\n" +
+            "jtst: 4\n" +
+            "gjlq: 3\n" +
+            "rchf: 4\n" +
+            "lnrd: gtdp * zbzs\n" +
+            "shsr: lmhh * pmhn\n" +
+            "gtdp: 4\n" +
+            "fcsg: 14\n" +
+            "jppv: lwsv * gmph\n" +
+            "plnd: phqn * ttfd\n" +
+            "hhvl: mcjs / wrcb\n" +
+            "fnhv: 2\n" +
+            "jfmp: zgrs / rpqj\n" +
+            "mgjb: 6\n" +
+            "qtws: ndzm * qtjz\n" +
+            "ngft: rwzq * bqds\n" +
+            "jzsc: 2\n" +
+            "mcdz: mljb * qwbz\n" +
+            "dnfp: 6\n" +
+            "zzst: rnbv + tmwd\n" +
+            "nwds: gfzf * gsbw\n" +
+            "rnbv: mjsf * cqzm\n" +
+            "gphq: 1\n" +
+            "gcwb: 5\n" +
+            "hgjt: bttf * dnqh\n" +
+            "dhms: 5\n" +
+            "ldhr: 11\n" +
+            "stpw: vjsn + zqfs\n" +
+            "qrjt: fdjw * mjrh\n" +
+            "jcrj: trpz * pwhq\n" +
+            "hmpd: 3\n" +
+            "rmzt: 2\n" +
+            "vmgh: 6\n" +
+            "rfbr: 2\n" +
+            "ptzm: 15\n" +
+            "qpdj: ddql * ctdd\n" +
+            "rhdb: vbsf + bstc\n" +
+            "cdll: 2\n" +
+            "tqfj: 2\n" +
+            "dtpw: fqfb * mdrg\n" +
+            "bhsh: 5\n" +
+            "qwvt: 11\n" +
+            "mcsj: qvvl * vdzd\n" +
+            "nwzt: 3\n" +
+            "nthd: 7\n" +
+            "bwsg: 6\n" +
+            "fhlv: gvsv + tbvn\n" +
+            "gtmd: mzws * cgdj\n" +
+            "sqlj: cpvp * ndcv\n" +
+            "jqhq: 20\n" +
+            "vwcp: jlrc + btnm\n" +
+            "wbgd: gjgd * vdpw\n" +
+            "qhmh: sqlj + scsn\n" +
+            "fgrc: tqvg + qwbr\n" +
+            "fvgz: 16\n" +
+            "lzfz: httv / tswd\n" +
+            "bcfp: wspr * snzq\n" +
+            "mjwq: 3\n" +
+            "qzdp: sglt + vgcd\n" +
+            "ghcs: cmqn * srsl\n" +
+            "pwzl: 7\n" +
+            "gtnq: vzsn / qlwg\n" +
+            "fwgc: sltq + jlpd\n" +
+            "sqcq: ffzb + pbcl\n" +
+            "drcj: 1\n" +
+            "qfhh: 2\n" +
+            "nfnr: cbsn * gbbl\n" +
+            "qstn: 5\n" +
+            "trpc: 1\n" +
+            "gbgp: 2\n" +
+            "sstl: wwgb * mcbt\n" +
+            "jrns: phtz + sbtg\n" +
+            "zpmc: bbff + mfzc\n" +
+            "mqzm: 5\n" +
+            "fgqf: rppb * frnn\n" +
+            "pwgl: blhh + gnww\n" +
+            "grqw: nvbj + tvhc\n" +
+            "jmdp: gbfg * lqzm\n" +
+            "qshd: 8\n" +
+            "tpqw: 2\n" +
+            "cfmr: 2\n" +
+            "wqgd: slsg - qssb\n" +
+            "twwt: htmf - mlfj\n" +
+            "gvlv: 2\n" +
+            "rgrc: zfnf + nqbp\n" +
+            "zjwz: 4\n" +
+            "ctdd: 2\n" +
+            "vwch: wjvs * cnbc\n" +
+            "vvlv: 7\n" +
+            "hbmb: qtws + cpcz\n" +
+            "lgnr: tfcr * mztl\n" +
+            "bhgm: lvmc * jfsh\n" +
+            "ntsd: ldmc * vnhd\n" +
+            "qglm: dhng * pfms\n" +
+            "qgzw: 2\n" +
+            "zcsl: fgsh + pqbn\n" +
+            "tmpj: vsmp / dbdz\n" +
+            "pbbn: cnsl + mrvp\n" +
+            "rpcr: 4\n" +
+            "vbns: cddp * bvfh\n" +
+            "tvvs: 1\n" +
+            "clrs: 3\n" +
+            "vdgb: bhvr * grqw\n" +
+            "bqpn: 2\n" +
+            "hngp: 5\n" +
+            "bhzz: 5\n" +
+            "fdpq: cjmj * bhzz\n" +
+            "tcvt: dmtb / mzqc\n" +
+            "zwlc: srjt + nsqp\n" +
+            "zpvc: 11\n" +
+            "cbqz: 2\n" +
+            "wqrh: ghrg + mmcr\n" +
+            "cspn: mzpq - cbnb\n" +
+            "lqlj: plcf + fdfr\n" +
+            "dglw: 7\n" +
+            "rjqg: tdgt * wmnw\n" +
+            "jhdv: wfnn + hlln\n" +
+            "hgml: nqpq * bhgv\n" +
+            "jvnd: 3\n" +
+            "rnvf: 13\n" +
+            "qlzb: bjpv + brrn\n" +
+            "slzr: hbms - wrsm\n" +
+            "nnsg: sznz * lprw\n" +
+            "qpnr: llms + zqrt\n" +
+            "hsfw: mwtv * dmzc\n" +
+            "zcsw: 2\n" +
+            "dhmw: 3\n" +
+            "pmmd: 5\n" +
+            "mdff: qnzn * bcbq\n" +
+            "root: pdzb + bhlw\n" +
+            "dtqm: vsmw + qzbc\n" +
+            "chzd: 11\n" +
+            "ttgc: 2\n" +
+            "mhsn: gbwt - lszv\n" +
+            "vzwm: 2\n" +
+            "cnmf: 4\n" +
+            "gfzs: dlvl * hcws\n" +
+            "rtzz: cdll * smrp\n" +
+            "lmgv: 3\n" +
+            "lnth: czvw + dtfc\n" +
+            "mqhj: 4\n" +
+            "wjsd: 2\n" +
+            "hhrh: 12\n" +
+            "tsqj: jmwh + mhfr\n" +
+            "cccc: prdm - vvpd\n" +
+            "zczl: svmr * zjnd\n" +
+            "czfr: 4\n" +
+            "dgtr: 7\n" +
+            "mpvl: zprp * gwtn\n" +
+            "wdjv: vjhf / clns\n" +
+            "lntt: fhhv * mngp\n" +
+            "mghq: wttc * frdl\n" +
+            "gblp: mwvf * mdzg\n" +
+            "tzwd: 7\n" +
+            "mpcj: 3\n" +
+            "prfj: 4\n" +
+            "tfbb: pbfh - qcvl\n" +
+            "pnns: vznr + tcps\n" +
+            "zjwf: jprp * cnfc\n" +
+            "tjwq: 6\n" +
+            "bpdl: nfnt * cwnt\n" +
+            "bqpt: hhhl * pljn\n" +
+            "pbmg: 5\n" +
+            "whvf: 5\n" +
+            "mpzb: nqlv + svln\n" +
+            "lnpg: rbhf + cdmj\n" +
+            "jbbt: 2\n" +
+            "mhqj: 5\n" +
+            "mclr: 19\n" +
+            "jbbn: cqzs - zvlj\n" +
+            "mstw: 3\n" +
+            "rdml: wrfr * gbgp\n" +
+            "gbqm: gldv * qhjn\n" +
+            "dtqg: 16\n" +
+            "hpqj: 3\n" +
+            "zcrc: chzd + lwlq\n" +
+            "lzvw: 2\n" +
+            "jmpr: dntm / mjhf\n" +
+            "mgdn: wzdv + rvnn\n" +
+            "lhph: 14\n" +
+            "tgfq: 3\n" +
+            "pltd: rsvr + ggcg\n" +
+            "rhhw: trwh * dddd\n" +
+            "cvbl: lbpl / pvnd\n" +
+            "hwcz: gpnb + wlrl\n" +
+            "phzm: 2\n" +
+            "hfqb: sdww + qrtd\n" +
+            "cjbf: 2\n" +
+            "jglj: 5\n" +
+            "glff: 2\n" +
+            "pbfh: zmhz * mclp\n" +
+            "sznz: 3\n" +
+            "mrcv: cpqt - qbhq\n" +
+            "vdwc: vznb + ntsd\n" +
+            "rsnz: 2\n" +
+            "pjwt: gjsr * tncm\n" +
+            "zmhz: 5\n" +
+            "lttm: vgfq - ffdm\n" +
+            "svln: prfj * dpgf\n" +
+            "pmhn: 5\n" +
+            "npff: qzfd * wjnt\n" +
+            "ztbj: 9\n" +
+            "slhp: 2\n" +
+            "rnzs: 7\n" +
+            "crnw: grzh * gfdb\n" +
+            "fcjl: 16\n" +
+            "bdcz: pmrf + vdgb\n" +
+            "rwjz: 4\n" +
+            "cqts: 4\n" +
+            "bfhm: pjpz * lwdf\n" +
+            "dtct: 5\n" +
+            "jsfj: 2\n" +
+            "pnbb: bgrp * rfwd\n" +
+            "wzlq: pndc * tshv\n" +
+            "gpdw: grhm / zvtn\n" +
+            "cmvw: 1\n" +
+            "twhl: 17\n" +
+            "gwvv: ggvw + svgf\n" +
+            "pbfq: 2\n" +
+            "prdm: mmjj + qpjd\n" +
+            "smrp: dvbp - nffr\n" +
+            "bhlw: bldz * mdbz\n" +
+            "drwc: mznh + wlbd\n" +
+            "jjlv: 9\n" +
+            "bfvb: pcrj + tctv\n" +
+            "htdd: jdqs * pqgv\n" +
+            "vztc: jczn + trpc\n" +
+            "jjms: nfrh * mfwg\n" +
+            "tqqg: 17\n" +
+            "mjnj: dgmm + qlzb\n" +
+            "nslg: ptrn * pffb\n" +
+            "jwwj: fznv * lfjc\n" +
+            "rwrn: rblr / hclf\n" +
+            "fphv: pbbn + fnqm\n" +
+            "tctv: cvhh * wpss\n" +
+            "svjw: jjlv * dswq\n" +
+            "ljst: 3\n" +
+            "tmlw: 10\n" +
+            "jghj: nsjz * wsbp\n" +
+            "bvqh: hrpj * drlb\n" +
+            "fvbf: tcsz / zcsw\n" +
+            "qzmv: tgvl / ttgc\n" +
+            "pndc: 3\n" +
+            "hlvv: dbhp * gcwb\n" +
+            "lmmp: nwgh + bmbg\n" +
+            "vhqg: 5\n" +
+            "bttf: wnmj * zqdg\n" +
+            "pzdn: 11\n" +
+            "nltw: 6\n" +
+            "ghhz: 3\n" +
+            "hfff: 5\n" +
+            "bzvc: dctv * bqpn\n" +
+            "dbgm: 3\n" +
+            "jmtn: 1\n" +
+            "vjht: 3\n" +
+            "cdbl: 2\n" +
+            "mqmf: zslr + vmgh\n" +
+            "zjsq: 5\n" +
+            "gwwv: 2\n" +
+            "zdzc: scdg / lfns\n" +
+            "qcvl: rhnq + ptzb\n" +
+            "gscj: 3\n" +
+            "bwdm: 2\n" +
+            "znnb: sdlh + gnbp\n" +
+            "rbhf: 18\n" +
+            "vznb: mfmd + vcqd\n" +
+            "bmbg: clqr * csgc\n" +
+            "fscm: 11\n" +
+            "jbcd: 2\n" +
+            "jwfn: zzvc * vjbf\n" +
+            "jnts: 7\n" +
+            "gpnb: 3\n" +
+            "fvmf: jcmd * ncnm\n" +
+            "nfrh: bpfw + gthr\n" +
+            "wmvl: 7\n" +
+            "qdwv: lqjr * vrml\n" +
+            "ldlw: 16\n" +
+            "pbcl: 1\n" +
+            "mznv: 2\n" +
+            "qmzz: tdvq - dznn\n" +
+            "fhhv: 2\n" +
+            "vffg: 3\n" +
+            "nwzn: 3\n" +
+            "clqr: 3\n" +
+            "qwdt: vmdv * mzln\n" +
+            "hvsg: jpzl * gpvb\n" +
+            "wrvg: 7\n" +
+            "rvmw: bfqg + zzjw\n" +
+            "tvbw: 2\n" +
+            "bjpv: 15\n" +
+            "ghtw: 2\n" +
+            "lsqd: 2\n" +
+            "flsh: tzwd * ngfj\n" +
+            "pqjp: zsbf * qtfr\n" +
+            "wbld: zgtg * dfqv\n" +
+            "dcgz: 3\n" +
+            "svbh: pbmg * bmlf\n" +
+            "ggwm: bgtq * jlgh\n" +
+            "dlmj: 5\n" +
+            "nqsr: 1\n" +
+            "hhzl: dljm * cjpq\n" +
+            "dbhc: szws + sgnm\n" +
+            "hhcc: ftpv - zcbs\n" +
+            "jzfv: jphs * tsqj\n" +
+            "mgvz: mpcd * gsbv\n" +
+            "frjm: sbrq * qfjz\n" +
+            "zlqp: 4\n" +
+            "gfzf: fszm * pfgd\n" +
+            "njnq: 6\n" +
+            "ndcq: rtst + rrrh\n" +
+            "wfwl: 5\n" +
+            "qstq: cgmw + lwtl\n" +
+            "rwjv: frrl + jbtj\n" +
+            "gdqb: ngcl + qdbc\n" +
+            "rjjs: ncls * hbqs\n" +
+            "mlfl: jjms * vdlz\n" +
+            "pjqw: 3\n" +
+            "qbjp: lrsw * twhl\n" +
+            "sztj: 3\n" +
+            "fdfr: lqvp * qbbp\n" +
+            "twfd: zhlc + vrvg\n" +
+            "ccsm: 2\n" +
+            "cpnv: 5\n" +
+            "hqwr: 2\n" +
+            "dlhs: nsvs + ldfw\n" +
+            "rbnz: 2\n" +
+            "gscl: zqts + dzrn\n" +
+            "nrdj: zmnl + rzhf\n" +
+            "vrct: mcmq + fght\n" +
+            "hctw: 2\n" +
+            "dlvl: 4\n" +
+            "nldb: vjcm - ngnc\n" +
+            "tlfd: tcdn + mrqf\n" +
+            "qvtt: bdvm * mpcj\n" +
+            "vhcg: 3\n" +
+            "tqgs: qjvm * hdwn\n" +
+            "nbzn: 6\n" +
+            "qswf: cgcg / frwb\n" +
+            "gwsn: qshd - dwlw\n" +
+            "rgfs: vllh + vwzq\n" +
+            "bnww: 3\n" +
+            "wrsm: 1\n" +
+            "vvbj: vtsl * jtvq\n" +
+            "mjrh: 3\n" +
+            "frwb: 4\n" +
+            "bfqb: sqzj - bwgg\n" +
+            "vdpw: 4\n" +
+            "rblr: vglz + djhz\n" +
+            "lmfb: 4\n" +
+            "cmwv: hjpp * fdbz\n" +
+            "csms: 7\n" +
+            "dswq: lnqt * cjbf\n" +
+            "zrdm: 2\n" +
+            "rgnn: 14\n" +
+            "lwdf: fctq + jnfq\n" +
+            "tdrf: 6\n" +
+            "whss: gtqg + rjjs\n" +
+            "czvw: vbns + gswj\n" +
+            "qdjj: 3\n" +
+            "crdr: nfgq / fcng\n" +
+            "sjcz: hgdw * pnjc\n" +
+            "vgbd: fzrl * gljv\n" +
+            "wlbd: rbgw * gjlq\n" +
+            "gbfg: 3\n" +
+            "gjdt: 2\n" +
+            "lcwm: wlfb * wsww\n" +
+            "ghns: hhcc + lmsj\n" +
+            "fzpq: 3\n" +
+            "hccw: 2\n" +
+            "zgjz: 7\n" +
+            "qwds: 8\n" +
+            "ztjv: jthz * tqrh\n" +
+            "dwlf: 2\n" +
+            "gpzj: 11\n" +
+            "hqjl: chgw * ncfp\n" +
+            "dldr: rslg * hrdc\n" +
+            "ztmc: 5\n" +
+            "dplc: mswh * qfjs\n" +
+            "cvpc: drwc + bnlz\n" +
+            "zwrm: 5\n" +
+            "vdfv: 3\n" +
+            "wfqv: jglj * mbmm\n" +
+            "brst: 5\n" +
+            "rqsc: jjnc + dvsm\n" +
+            "cdtm: gzss * tsqd\n" +
+            "ljfm: 3\n" +
+            "pfms: lhgm * zrdh\n" +
+            "tcdv: 5\n" +
+            "mgvm: plgv * nplj\n" +
+            "lvgb: hwns + cbbd\n" +
+            "fmwn: 3\n" +
+            "dzqr: jjfp * hctw\n" +
+            "smbq: 5\n" +
+            "cbgn: nwzn * zwvc\n" +
+            "hmzq: qbtn * hsbs\n" +
+            "drtb: 3\n" +
+            "nmtv: flzr + gphq\n" +
+            "vzww: rlbb * qrvs\n" +
+            "tnbs: dtqg + hnqz\n" +
+            "ngwc: jplc + cgvd\n" +
+            "qgrp: 7\n" +
+            "mrtq: 1\n" +
+            "fsdj: dzdh + shsr\n" +
+            "vplq: 11\n" +
+            "dlrs: 5\n" +
+            "bzrm: gdqb / spvz\n" +
+            "tndn: 3\n" +
+            "lwlq: ltgw * dqvr\n" +
+            "gmtj: hqsm * swnl\n" +
+            "fpzw: hnhz * hwln\n" +
+            "tsmz: 4\n" +
+            "rrzb: 5\n" +
+            "gtcg: 2\n" +
+            "wsrp: hvlv + flgs\n" +
+            "mclp: dtqm - fmbv\n" +
+            "hvqw: 2\n" +
+            "djsv: jqtv * sbsb\n" +
+            "jbhb: 8\n" +
+            "jdlm: 5\n" +
+            "nffr: 17\n" +
+            "qdhg: 3\n" +
+            "zzjw: vgsw * shqf\n" +
+            "fvlr: pgjp + dbnq\n" +
+            "ptmn: gzfw * jlqc\n" +
+            "vjbf: 4\n" +
+            "zcbs: qbzm - hpcw\n" +
+            "vflv: 16\n" +
+            "ttvf: 5\n" +
+            "zzdz: 4\n" +
+            "svsj: phhg * cvpc\n" +
+            "wgbt: 2\n" +
+            "nqbp: ncmp * vpnv\n" +
+            "mzrt: 11\n" +
+            "ddnf: 2\n" +
+            "jmvq: 3\n" +
+            "jjnw: 4\n" +
+            "rcfb: tncr - tshh\n" +
+            "gfqv: bfhm + vstq\n" +
+            "lqdm: tjwq * cnqp\n" +
+            "bzpl: 7\n" +
+            "mltt: 4\n" +
+            "zdwc: ctfg + jqhq\n" +
+            "jdht: 2\n" +
+            "wvgl: 4\n" +
+            "zrzs: 5\n" +
+            "mnhr: 2\n" +
+            "wjnt: wncs + pzsm\n" +
+            "nbhs: 6\n" +
+            "fmrv: 2\n" +
+            "vmdv: 10\n" +
+            "pwgd: cmpm * bwdm\n" +
+            "vfzl: 5\n" +
+            "fwfc: 16\n" +
+            "tfnb: 2\n" +
+            "gfdb: vhdl * dztc\n" +
+            "cpwh: 5\n" +
+            "gwtn: zbnc / ttvg\n" +
+            "ptrn: 4\n" +
+            "vgpc: 4\n" +
+            "nqlv: 19\n" +
+            "sppm: bnww + qpnr\n" +
+            "bzgt: 2\n" +
+            "pdnj: 2\n" +
+            "pgjp: mfrf * wpcw\n" +
+            "plbv: pmmd * nztc\n" +
+            "lblh: 2\n" +
+            "hctd: mhnm * gtsb\n" +
+            "hctr: 5\n" +
+            "bfcg: tffr + tmhp\n" +
+            "plgv: fgqf + rhdb\n" +
+            "mzst: gnqn + fbpv\n" +
+            "dfvq: 3\n" +
+            "fqlh: 5\n" +
+            "rtjh: pjrw * ncps\n" +
+            "tvhc: wvsn * wwdd\n" +
+            "wzdv: bwsg * phcm\n" +
+            "lgbz: wcch + jnls\n" +
+            "spmn: 2\n" +
+            "tshh: 3\n" +
+            "jbgp: 15\n" +
+            "srfq: 6\n" +
+            "pbjs: 2\n" +
+            "fszm: rpmw * jrfz\n" +
+            "snqv: mhnw * sbvd\n" +
+            "jjnc: 16\n" +
+            "hsfc: fsvh / ddnf\n" +
+            "pdcm: 3\n" +
+            "hnhz: gfwt + shhp\n" +
+            "zpff: 3\n" +
+            "jwgp: fnlh + qbzh\n" +
+            "bnlc: wlvh * cnpp\n" +
+            "fzqz: 5\n" +
+            "pvdl: hpqj * jqpp\n" +
+            "gpfj: 3\n" +
+            "zpnd: 16\n" +
+            "bcbq: 2\n" +
+            "lbcg: pcjc / mggr\n" +
+            "htms: lgdz + mlfl\n" +
+            "pjgb: vtjj + nssj\n" +
+            "glzc: wwgg * lprd\n" +
+            "jhrp: 3\n" +
+            "dhnw: 5\n" +
+            "mmjw: 2\n" +
+            "nztc: bcfn + glcz\n" +
+            "nszj: lztl * mwtn\n" +
+            "hdlr: 3\n" +
+            "twgz: 10\n" +
+            "cgpq: 8\n" +
+            "gppw: qmzz * lfgs\n" +
+            "ttfd: tlcl - dflz\n" +
+            "mhdt: 3\n" +
+            "hddr: 15\n" +
+            "rdrg: 4\n" +
+            "mggr: 2\n" +
+            "pfgd: pzrp / qhvz\n" +
+            "dvsm: 1\n" +
+            "rbct: vpcj + thfm\n" +
+            "czzr: dszq * cvbl\n" +
+            "wghn: 11\n" +
+            "dvtv: 2\n" +
+            "hdwn: fdpr + vgrw\n" +
+            "qfgl: 3\n" +
+            "fwrq: tqrq * dghg\n" +
+            "glcz: ncnw + vtfd\n" +
+            "bnrh: 2\n" +
+            "bvtv: 14\n" +
+            "cgdj: rdvt * zzht\n" +
+            "ngjl: 5\n" +
+            "trcb: 18\n" +
+            "lfns: 2\n" +
+            "tbhf: 5\n" +
+            "qssb: 3\n" +
+            "sbvd: 2\n" +
+            "pbwr: cslj + whss\n" +
+            "zgnh: gccf * vgdz\n" +
+            "fjqm: 5\n" +
+            "rlmq: 20\n" +
+            "jdsh: 5\n" +
+            "szdw: 9\n" +
+            "pplm: nbzn + vwfq\n" +
+            "rlht: brvs * gnrj\n" +
+            "mtjc: jmdp + tbhg\n" +
+            "cpcw: vszp * crdr\n" +
+            "ftfv: 4\n" +
+            "svvv: vvhl + fgdz\n" +
+            "lgwt: 2\n" +
+            "gfhv: 3\n" +
+            "cswv: 10\n" +
+            "pvnr: 2\n" +
+            "lmvd: 5\n" +
+            "wcch: 1\n" +
+            "zgng: 3\n" +
+            "zpmp: 2\n" +
+            "zqff: 4\n" +
+            "rpsg: 3\n" +
+            "qqnl: jnms + fmff\n" +
+            "wpmr: 5\n" +
+            "zcfm: 2\n" +
+            "ljnr: wwnz + wmpt\n" +
+            "qszg: 2\n" +
+            "cntw: 2\n" +
+            "fght: zppw * vzbg\n" +
+            "jltc: 3\n" +
+            "hjht: 5\n" +
+            "fjqr: vmth - tzrb\n" +
+            "hwpw: gcvs + lhlf\n" +
+            "wmnw: 5\n" +
+            "cgcg: dlhs * mmzc\n" +
+            "wjmm: sqgp + cbdq\n" +
+            "zqrl: 4\n" +
+            "grhm: cpsz * rsnz\n" +
+            "mnrf: ghhz * fbmn\n" +
+            "lmsj: rgfs + dplc\n" +
+            "wnqq: gzbm + jmzz\n" +
+            "mjfb: 1\n" +
+            "hlln: 3\n" +
+            "qnzn: drcj + pqjp\n" +
+            "vggf: 2\n" +
+            "rvtw: frlz * rmrb\n" +
+            "cmng: 3\n" +
+            "gtrr: sznt * lpvq\n" +
+            "jczr: qwrp * hvfc\n" +
+            "trwp: 4\n" +
+            "qbsj: rjph + vpjh\n" +
+            "mdjs: vmsr + hwcz\n" +
+            "btdt: fpzw + nslg\n" +
+            "rmrb: 2\n" +
+            "hhqc: zggz + wwwr\n" +
+            "svnz: tsbw * qbcn\n" +
+            "sjdz: 17\n" +
+            "hjpp: 10\n" +
+            "qlwg: 3\n" +
+            "crhl: 2\n" +
+            "fqjs: 12\n" +
+            "tncr: zgbd * mzmb\n" +
+            "tcgv: jlqz * csrh\n" +
+            "tnfh: 4\n" +
+            "mmvq: 17\n" +
+            "pqbn: 2\n" +
+            "bwgg: nwrc + hzqw\n" +
+            "wfmd: vhsg * mttp\n" +
+            "nznz: hddr + qszg\n" +
+            "qjbg: 2\n" +
+            "mztl: spzz + hmzq\n" +
+            "mcmq: mrnp - bbrh\n" +
+            "bslg: pwbw + jchr\n" +
+            "ncnw: jbrb * dfwq\n" +
+            "pppw: 3\n" +
+            "mvzn: 3\n" +
+            "ldfw: pfvq * pvdh\n" +
+            "cpqn: 12\n" +
+            "wvsn: btvm * csms\n" +
+            "dzlw: 2\n" +
+            "wcmn: ngwc + grbp\n" +
+            "csrh: jczr / wjwt\n" +
+            "jptp: mpzb * cldn\n" +
+            "rppb: brjg / trqf\n" +
+            "hwqz: scfh * vwjd\n" +
+            "lrft: qmrq * zvsp\n" +
+            "lgdm: 2\n" +
+            "fmql: zzsn * tmpj\n" +
+            "rwzq: tqqg * sgps\n" +
+            "vhvl: vzhr + fqtb\n" +
+            "hnqz: hzdm * ncnf\n" +
+            "cwlv: 2\n" +
+            "pttz: cpfz * cjfh\n" +
+            "dgvn: 3\n" +
+            "nwrr: cjww * gvlv\n" +
+            "lhgm: 3\n" +
+            "jcmj: 6\n" +
+            "bqmp: 3\n" +
+            "qtwp: 3\n" +
+            "phqn: 2\n" +
+            "mswh: 4\n" +
+            "qjpn: 2\n" +
+            "zzhv: rndp * drng\n" +
+            "qjjt: 2\n" +
+            "thfm: jdmz * mzpj\n" +
+            "rrwv: 5\n" +
+            "vfqw: 5\n" +
+            "lrph: 3\n" +
+            "ngcl: nlmb * dbnf\n" +
+            "wgsz: 2\n" +
+            "mlfj: 4\n" +
+            "ftsb: lcwm - csrl\n" +
+            "gwml: gnzf * cgtz\n" +
+            "qstf: hrbh * crhl\n" +
+            "vlpn: 3\n" +
+            "wndq: rvfw * tcvw\n" +
+            "jjqj: 1\n" +
+            "dfwq: 5\n" +
+            "ldlc: cmwv + nfcv\n" +
+            "mfrf: 17\n" +
+            "pjgq: 2\n" +
+            "wbww: lqvb + zrpw\n" +
+            "gngd: gjrc + lljb\n" +
+            "gthr: 5\n" +
+            "fnqm: 3\n" +
+            "fwsp: 15\n" +
+            "qdsp: bqpq / jjds\n" +
+            "gfst: 5\n" +
+            "tsqd: 2\n" +
+            "ggfl: ncjc + dtds\n" +
+            "jthz: 5\n" +
+            "dntm: zbzd + prgc\n" +
+            "zsmw: 3\n" +
+            "qjvm: 3\n" +
+            "jsjl: 10\n" +
+            "sbtg: fzqz + jvzh\n" +
+            "sqbz: rbrp * pjgq\n" +
+            "wgzd: 7\n" +
+            "gnsl: jmpv * nfnr\n" +
+            "ngfj: 3\n" +
+            "dmsj: pltd * jvfs\n" +
+            "fmff: 12\n" +
+            "lqwm: rwzl + cqtz\n" +
+            "mjzl: jsfj * lddn\n" +
+            "nnld: 2\n" +
+            "bjzz: dvjg + smbq\n" +
+            "cjff: sbnf * rbfg\n" +
+            "prcg: 4\n" +
+            "hwzw: 2\n" +
+            "srpp: 2\n" +
+            "vtjj: 5\n" +
+            "tfsg: rghm * pjtz\n" +
+            "smdz: rprr + hthm\n" +
+            "ngvv: fsct - qvwq\n" +
+            "ngqr: 4\n" +
+            "dznn: jdsh * fnpt\n" +
+            "dgdf: zmmg + dwbn\n" +
+            "wfzs: 4\n" +
+            "fmbv: mpwr + bdpd\n" +
+            "nsjz: 3\n" +
+            "fnqj: 2\n" +
+            "cjmg: 5\n" +
+            "jnms: wznq * qgrp\n" +
+            "dnrm: ljnr - mdjs\n" +
+            "gsrm: mpnb + tmwl\n" +
+            "tqsn: 6\n" +
+            "tdth: jvct * wvqj\n" +
+            "srjt: hscj * btwt\n" +
+            "zjcj: 7\n" +
+            "jdqs: gjlc + ldlw\n" +
+            "vhfn: 2\n" +
+            "wnmj: 6\n" +
+            "psnf: mgjb * nznz\n" +
+            "jhjm: 4\n" +
+            "nhgg: 2\n" +
+            "cbpp: fsrm + twzf\n" +
+            "dlbw: 10\n" +
+            "ghrg: gpmv + hnmz\n" +
+            "wpcw: 2\n" +
+            "cjww: 3\n" +
+            "jnls: 5\n" +
+            "scfh: 2\n" +
+            "htrq: vfqw * zqdm\n" +
+            "cfwl: svjw - wjnf\n" +
+            "vptb: qqtm + brzt\n" +
+            "dljm: 3\n" +
+            "cnpp: 3\n" +
+            "trnz: bzqr * fphv\n" +
+            "qbtn: 6\n" +
+            "wmsl: cwlv * wbgd\n" +
+            "phtz: mstw * crqh\n" +
+            "jczn: pwch * fsrs\n" +
+            "pcwr: 7\n" +
+            "pjpz: 2\n" +
+            "zptz: 17\n" +
+            "hwnn: njnq + wjmm\n" +
+            "dlcr: 2\n" +
+            "nsqp: bmfs - lbrw\n" +
+            "bltp: mvjj - lqdm\n" +
+            "fqmz: 3\n" +
+            "vmps: 3\n" +
+            "scbn: pznb * fmpb\n" +
+            "cqzm: zppc * wvgl\n" +
+            "rzwq: 2\n" +
+            "cpvl: 5\n" +
+            "rvnn: qfhh * jfbd\n" +
+            "rnqn: 7\n" +
+            "dzjh: hctd + fwln\n" +
+            "ldmc: 8\n" +
+            "jmzz: qvtt + dmsj\n" +
+            "hgtn: gbpl * vffr\n" +
+            "twzf: zpvc * nzng\n" +
+            "zrtp: 2\n" +
+            "dmtg: fcmn * ghtw\n" +
+            "vcch: qwqz + pvdl\n" +
+            "tldh: pqtf * dhmt\n" +
+            "vtsl: 2\n" +
+            "tmwd: vdwc + qwdt\n" +
+            "brjg: vzww / gzbb\n" +
+            "tqrq: 3\n" +
+            "dbnq: thft * gvrt\n" +
+            "fdcm: vbbr * pdcm\n" +
+            "lvmg: ngmw + whcv\n" +
+            "dhlj: 17\n" +
+            "lgsf: 2\n" +
+            "zcjm: pmvq * tqbz\n" +
+            "lnsp: rdml * mmjw\n" +
+            "jmqm: 15\n" +
+            "lfqs: 5\n" +
+            "chng: 9\n" +
+            "bvsl: 2\n" +
+            "mspt: dlwp * dzlw\n" +
+            "mfvt: 9\n" +
+            "sjlw: nvzg + zgpl\n" +
+            "jphs: 2\n" +
+            "cvqp: 1\n" +
+            "llgl: lglt * lsqw\n" +
+            "wzqd: 3\n" +
+            "rsfq: vgmc * fgcg\n" +
+            "dqwj: 5\n" +
+            "mlvs: 3\n" +
+            "pznf: bcfp / jzsc\n" +
+            "qlmb: fqwz * prfv\n" +
+            "twhz: 15\n" +
+            "pcjf: 5\n" +
+            "gnjr: 3\n" +
+            "pjrw: 4\n" +
+            "vcqd: 17\n" +
+            "vjqp: 2\n" +
+            "llvt: jrns * fslr\n" +
+            "nwgh: pzzf * cgfq\n" +
+            "zwmg: 2\n" +
+            "cvgd: 2\n" +
+            "dwgq: mvzn + tnjm\n" +
+            "jcpg: qsnj + zphz\n" +
+            "sbsb: hfvp * lgjq\n" +
+            "rpqj: 3\n" +
+            "chrw: vhcg * qrcj\n" +
+            "bvfh: 6\n" +
+            "fhsd: fcjl + vmpw\n" +
+            "hcdj: bnwl + zjfd\n" +
+            "ssvf: 7\n" +
+            "czrg: vjqp * lmgv\n" +
+            "nqjv: fjqr * bzgt\n" +
+            "qbbp: pgvh + rpsg\n" +
+            "qdfh: 3\n" +
+            "lqvp: 4\n" +
+            "vpzp: 5\n" +
+            "brvs: fwsp - sgpn\n" +
+            "cpfz: jvnf - mzrt\n" +
+            "rbgw: fnvh + ncld\n" +
+            "fngq: ztbj + bcdr\n" +
+            "djdr: 5\n" +
+            "vzvd: 4\n" +
+            "lqjw: zjbr * dcjj\n" +
+            "wsbp: nvln + vwjh\n" +
+            "zppc: rscv / jbcd\n" +
+            "rssv: 2\n" +
+            "nvbj: 1\n" +
+            "dwwq: 2\n" +
+            "mdls: zwlc + bsvn\n" +
+            "pggz: njvg - jhjm\n" +
+            "wlvh: 12\n" +
+            "spzz: nltw + nczs\n" +
+            "nfnt: rvvh + jtvh\n" +
+            "hgdw: qrnq * vrct\n" +
+            "vthg: 2\n" +
+            "dlgl: 2\n" +
+            "nlll: 6\n" +
+            "dbhp: 4\n" +
+            "dfcl: 2\n" +
+            "svgf: 5\n" +
+            "lwcm: 18\n" +
+            "qrtd: fpjn + bzth\n" +
+            "tfcr: qtwp + jtst\n" +
+            "jsgr: 2\n" +
+            "mqlh: 5\n" +
+            "cslj: hsfc * zhct\n" +
+            "qrnq: 2\n" +
+            "mbfr: bssz + gqrl\n" +
+            "cbsn: 2\n" +
+            "zggz: 18\n" +
+            "jnfn: 3\n" +
+            "tbfv: vwcp + dbmt\n" +
+            "zmnl: jltc * qjvs\n" +
+            "zrpw: qzmv + mcsj\n" +
+            "bpfw: 1\n" +
+            "bfmn: fnhv + wgzd\n" +
+            "wzcg: 1\n" +
+            "wspr: 2\n" +
+            "dzdh: 3\n" +
+            "jsfz: 3\n" +
+            "lbzh: 4\n" +
+            "rljt: 11\n" +
+            "fgmm: 15\n" +
+            "zqdg: 2\n" +
+            "dgmm: 1\n" +
+            "fgcg: lggb + cbwd\n" +
+            "dddd: hwnn - cjhc\n" +
+            "vqht: sgtm + hdqs\n" +
+            "hqqb: dgtr * zwrm\n" +
+            "bnqs: 8\n" +
+            "dmvg: bhgm * qzfj\n" +
+            "mzws: 5\n" +
+            "mbmr: pmwt - mpvl\n" +
+            "dhsr: 3\n" +
+            "dhng: 12\n" +
+            "rdjc: 10\n" +
+            "stvs: mflc + blsf\n" +
+            "phjb: 4\n" +
+            "jcpb: 7\n" +
+            "shhp: zhvd * cmng\n" +
+            "vnjf: nsbp * cddz\n" +
+            "tshv: 4\n" +
+            "rttz: 5\n" +
+            "flgs: pgtg * llch\n" +
+            "gjrc: qbsj * dcrw\n" +
+            "bzjc: ccdb + pnnj\n" +
+            "wvch: 2\n" +
+            "gqjf: 4\n" +
+            "zwlb: 2\n" +
+            "vstq: 1\n" +
+            "lgwh: zpff * dprq\n" +
+            "fqwz: 4\n" +
+            "cqtm: 1\n" +
+            "cmzf: jbzm + wwdw\n" +
+            "fslr: 2\n" +
+            "mjqt: jptp / vlnv\n" +
+            "tdvq: lhbr / btct\n" +
+            "mdrg: 3\n" +
+            "vzhr: crsn + ssvf\n" +
+            "shqf: 3\n" +
+            "nzwt: hbrq * qwvl\n" +
+            "lwsv: 5\n" +
+            "tmzj: srpp * wfwl\n" +
+            "pljn: 2\n" +
+            "mmzc: 2\n" +
+            "jbtj: 4\n" +
+            "pmht: 7\n" +
+            "vsmp: hdlr * lmmp\n" +
+            "vsdq: lgwh + jgjg\n" +
+            "bcfn: bngb / qnsd\n" +
+            "smlt: bcrn + vflv\n" +
+            "tdcq: 2\n" +
+            "thlh: 5\n" +
+            "cgfq: 2\n" +
+            "fwjl: 2\n" +
+            "zjfp: 9\n" +
+            "jqtj: dmvg + zznq\n" +
+            "qjvs: dgdm + fcps\n" +
+            "wnhq: pjwt + fsjd\n" +
+            "tjtg: 4\n" +
+            "rvjf: 4\n" +
+            "vgvl: bzvv * dqvn\n" +
+            "zqsd: 13\n" +
+            "jlrc: bnrh * ntvh\n" +
+            "vpnv: 8\n" +
+            "ncjc: lwcm / hjph\n" +
+            "vvst: 2\n" +
+            "fhbv: zgws + dhlj\n" +
+            "svmr: 2\n" +
+            "smvj: tqjw + hctr\n" +
+            "nnmc: psvj - hnqr\n" +
+            "mrvp: jlfd + hpsh\n" +
+            "rhnq: zffg + fsdj\n" +
+            "tffr: cbvf * dzqr\n" +
+            "jgfs: rgwr * cdvw\n" +
+            "thft: 5\n" +
+            "qwzw: 4\n" +
+            "lhzh: tcvt - qwvh\n" +
+            "cjpq: 3\n" +
+            "tmwl: zbwj * tldh\n" +
+            "bhgv: vdzr * nwzt\n" +
+            "nssq: dbzt - nnsg\n" +
+            "wpss: wrvg + dvdc\n" +
+            "bsgb: mhqj * mlgq\n" +
+            "nqfl: dfvq * ztjv\n" +
+            "mflc: pjqw * lngq\n" +
+            "ddql: hqqb + wcvd\n" +
+            "qhjn: vbcs * vnjf\n" +
+            "rnns: zsmw * vgpc\n" +
+            "gbwt: vbln * glff\n" +
+            "mrsb: fwnm + rcqs\n" +
+            "gscw: 9\n" +
+            "nrzt: vjht * gfvj\n" +
+            "lvgg: 2\n" +
+            "pvdh: 4\n" +
+            "bjtz: 3\n" +
+            "vgcd: 2\n" +
+            "zphz: lmfb * zsfh\n" +
+            "bzth: zdjv * lnhh\n" +
+            "cbsv: grqg * rqrm\n" +
+            "sftq: 4\n" +
+            "chgw: 2\n" +
+            "jmwh: 18\n" +
+            "mhfr: 5\n" +
+            "pjtz: 9\n" +
+            "lqdp: 4\n" +
+            "ttqz: 3\n" +
+            "gpmv: 3\n" +
+            "csrl: sqsb * wghn\n" +
+            "tcps: 12\n" +
+            "qbhq: mvvh + rdtt\n" +
+            "zbbj: cpjg * wwqc\n" +
+            "bhdz: 2\n" +
+            "lpcs: 3\n" +
+            "fbmn: 3\n" +
+            "bvzs: 2\n" +
+            "ptmc: 8\n" +
+            "tpvb: 19\n" +
+            "rhzb: 4\n" +
+            "vjbm: lsjh * znsm\n" +
+            "zcgr: jsjl * fmgt\n" +
+            "wwdd: 2\n" +
+            "dbdz: 7\n" +
+            "mjsf: 7\n" +
+            "dncl: htgh * bgbl\n" +
+            "spph: cvqw * tbhm\n" +
+            "dvjg: vsdq - pqws\n" +
+            "fmvz: ttqz * bmgh\n" +
+            "nsbp: 2\n" +
+            "mzpq: bvmn + jmzt\n" +
+            "dhrb: mjnr + crft\n" +
+            "bgrp: 2\n" +
+            "zpzs: pmnj - nvrh\n" +
+            "fccc: 2\n" +
+            "lggb: 17\n" +
+            "hlwh: svsj + mdls\n" +
+            "tlcl: gngd / gdqm\n" +
+            "shqp: pzdn * smvj\n" +
+            "mftb: 4\n" +
+            "whnl: cwtl + qstq\n" +
+            "ndwg: mnhr + lnrd\n" +
+            "vwjd: hcbq + smtz\n" +
+            "fntf: 2\n" +
+            "dvtm: 5\n" +
+            "dbnf: humn - trnz\n" +
+            "rhbf: zzhv + jghj\n" +
+            "mpsz: 4\n" +
+            "vwjh: 3\n" +
+            "wgvl: 16\n" +
+            "bjzh: 1\n" +
+            "jvnf: pwgd * hsfw\n" +
+            "jlqz: 4\n" +
+            "whcw: qtnp * btgb\n" +
+            "pvjj: jhrp * rnpp\n" +
+            "mhpf: 3\n" +
+            "zvlj: mjzl + llvt\n" +
+            "hbwn: vqll + tdrf\n" +
+            "npvr: 3\n" +
+            "hdqs: llcl * whvf\n" +
+            "hrpz: 2\n" +
+            "jnfq: 2\n" +
+            "bldz: zsrq * hdzp\n" +
+            "tmhp: qgsv + jgfs\n" +
+            "hwth: 18\n" +
+            "jngb: 3\n" +
+            "sgqw: 6\n" +
+            "tpmb: bjdn + drjj\n" +
+            "cbnb: 6\n" +
+            "jvqm: psnf - mwjq\n" +
+            "mdbz: jmss * bfvb\n" +
+            "frrl: 6\n" +
+            "gtsc: cnmf * psjv\n" +
+            "bngb: twvv * svvv\n" +
+            "tcvw: 5\n" +
+            "gtqg: bltp + lvqd\n" +
+            "hdsv: wqcz * vvbj\n" +
+            "svwp: 6\n" +
+            "tpgw: 11\n" +
+            "dqdj: 19\n" +
+            "qwrp: 4\n" +
+            "gfjn: lzfz * bwhc\n" +
+            "frnn: fnqj * qwvt\n" +
+            "dtfc: wlwv + jcpg\n" +
+            "hscj: rzwq * bhhq\n" +
+            "tqvg: vggf * fjqm\n" +
+            "wtsj: 2\n" +
+            "qzbc: rncw * tpvb\n" +
+            "ggvw: 15\n" +
+            "cgtp: 2\n" +
+            "rfwd: gchg * bmtb\n" +
+            "wttc: bcwl + trcb\n" +
+            "lrsw: mtnf + pppw\n" +
+            "ncld: ctsf * mpdv\n" +
+            "zgws: 6\n" +
+            "jchr: hhzl * cbgn\n" +
+            "jlrq: mfvt * ccqj\n" +
+            "rpzc: 3\n" +
+            "zwvc: wzlq + cbsv\n" +
+            "jpzv: 3\n" +
+            "njvg: dlmj * vdfv\n" +
+            "cshd: wqgd + cjmg\n" +
+            "ncmp: 2\n" +
+            "wgbc: 20\n" +
+            "lfgw: 3\n" +
+            "wlrl: ghcs + rzbm\n" +
+            "vgmb: 1\n" +
+            "bsvn: sgjs * sscn\n" +
+            "scwh: 13\n" +
+            "cbcv: cmvw + hgml\n" +
+            "qtwr: smdm + zbhg\n" +
+            "fgsh: 4\n" +
+            "cbbd: 9\n" +
+            "hltl: qfhb * mhgv\n" +
+            "zgwd: 7\n" +
+            "gqdd: 10\n" +
+            "fsld: 2\n" +
+            "wcvd: lntt * fbps\n" +
+            "hsbs: 3\n" +
+            "qzfj: 5\n" +
+            "vztw: jjqj + sbdc\n" +
+            "ngnc: 4\n" +
+            "hpsd: bjcw + wwqs\n" +
+            "fdbz: pmwb / vhgl\n" +
+            "ftgn: mzqn * wbzb\n" +
+            "ncls: fhsd * qslv\n" +
+            "rjph: ngvv - lbcg\n" +
+            "pgvh: 4\n" +
+            "qwbz: wnhq / gnqz\n" +
+            "ptmb: hpjc * wndn\n" +
+            "bjcw: 8\n" +
+            "gqrl: rpcr * fgfs\n" +
+            "gdqm: 2\n" +
+            "hwns: 14\n" +
+            "vbcs: 2\n" +
+            "vhdl: 2\n" +
+            "lbmf: 2\n" +
+            "gjgd: vdpj + pwqj\n" +
+            "lqnw: sstl / hssv\n" +
+            "hpcp: rnvf * ptmc\n" +
+            "nvdj: 2\n" +
+            "wgpr: qwzw + njqg\n" +
+            "rbht: 10\n" +
+            "mwrm: 4\n" +
+            "dprq: rpzc + tnfh\n" +
+            "lhlf: qtgd + fsmz\n" +
+            "ggcg: 2\n" +
+            "fhnv: qnmd * gnjr\n" +
+            "zzsn: zpmc + qrff\n" +
+            "bhnm: mzjn + hcfd\n" +
+            "zjnd: 7\n" +
+            "pvnd: nbtd + wqdf\n" +
+            "bfqg: gjdt * dgdf\n" +
+            "cqtz: 2\n" +
+            "lmjw: 5\n" +
+            "sfvf: 2\n" +
+            "fznv: dswt * btvj\n" +
+            "sljt: mgdn / lbmf\n" +
+            "rzbm: nwrr + snsv\n" +
+            "cdnw: hpmh * dpqj\n" +
+            "hrpj: zbbj + fmql\n" +
+            "psgb: scwh * lnpg\n" +
+            "qhvz: 8\n" +
+            "fwln: 10\n" +
+            "jgbm: 3\n" +
+            "zprp: 9\n" +
+            "vpmg: 2\n" +
+            "fzrl: 2\n" +
+            "zphg: 17\n" +
+            "rgpp: 2\n" +
+            "hvlt: cqvp + sftq\n" +
+            "ttvg: 2\n" +
+            "cldn: 3\n" +
+            "ctsf: 5\n" +
+            "rlbb: 8\n" +
+            "fffg: tghl * qfqr\n" +
+            "wrfr: 13\n" +
+            "blsf: 13\n" +
+            "ppns: qwrh / tpqw\n" +
+            "bvmb: rzql / zpmp\n" +
+            "mblb: 3\n" +
+            "hnhg: tcgv + wmsl\n" +
+            "hmvh: zcrc + pjzl\n" +
+            "tzrw: csll * zcfm\n" +
+            "jgjg: hwbs * nrcf\n" +
+            "nwrc: jvnd * lgsf\n" +
+            "grzh: 2\n" +
+            "hthm: 3\n" +
+            "gndg: 10\n" +
+            "wwhp: 2\n" +
+            "ftlt: 2\n" +
+            "rvhv: rbvs * drtb\n" +
+            "hsgd: vfzl * rbnz\n" +
+            "fbpv: 9\n" +
+            "nplj: rjdg + plbv\n" +
+            "gzgl: mgvz + smlt\n" +
+            "prsn: 2\n" +
+            "hzgn: sdrb + fbbz\n" +
+            "pnnj: tlfd * vbtf\n" +
+            "vzsn: tfbb * qdfh\n" +
+            "jpmg: wcqt * gplr\n" +
+            "dwlw: 1\n" +
+            "fsmz: sjvp - fpwf\n" +
+            "tzrv: 2\n" +
+            "ntmd: 3\n" +
+            "jftp: 3\n" +
+            "mdzg: 2\n" +
+            "cjfh: 3\n" +
+            "zlpj: 3\n" +
+            "phhg: 4\n" +
+            "lshd: flnm * gwml\n" +
+            "gbbj: 3\n" +
+            "slsg: fwjl * wclp\n" +
+            "hcfd: 1\n" +
+            "pmrf: cndc * wggd\n" +
+            "vbsf: hlvv + mjtn\n" +
+            "bscq: jpnm + ngft\n" +
+            "vtjv: jfmq + lqnw\n" +
+            "pqgv: 2\n" +
+            "phvs: gscl * nhgg\n" +
+            "wjvs: rqpj + wtvw\n" +
+            "rsmg: 3\n" +
+            "wwqc: zhcg * jgbm\n" +
+            "fpwf: znnc + jpmg\n" +
+            "hvlv: jbbn / wzhd\n" +
+            "mznh: 7\n" +
+            "cnqp: crfb * fsld\n" +
+            "fccj: ndng + dcqg\n" +
+            "nbtd: 3\n" +
+            "ntqr: 7\n" +
+            "drzs: rsrv * rdrg\n" +
+            "sjnv: vwhs + ftsw\n" +
+            "wznq: 5\n" +
+            "vmsr: zdzc * wspm\n" +
+            "clhp: svwp + cpwh\n" +
+            "llch: 3\n" +
+            "qslv: nrzt + hwzw\n" +
+            "tmsh: 4\n" +
+            "zgbd: 3\n" +
+            "sqzj: tdrv - tmsh\n" +
+            "bggh: 4\n" +
+            "lddh: sgmt + mhsc\n" +
+            "zppb: vpzp * hbrr\n" +
+            "lprw: 12\n" +
+            "dfdn: pvjj + bhlj\n" +
+            "fqfr: cqtm + bnqs\n" +
+            "pmwb: pcht + nssq\n" +
+            "qgjb: 7\n" +
+            "nqpq: 2\n" +
+            "vgfq: fwrq * dbtg\n" +
+            "qtnp: 9\n" +
+            "nfms: cpnv + zdnq\n" +
+            "dqvr: nwrn * cfqv\n" +
+            "rbfg: 11\n" +
+            "lqvb: 4\n" +
+            "snzq: brst + wssl\n" +
+            "lwtl: 6\n" +
+            "vmjb: 5\n" +
+            "jbzm: 7\n" +
+            "jwhg: 2\n" +
+            "zrdh: glbm / tbtw\n" +
+            "hclf: 4\n" +
+            "mfwg: 2\n" +
+            "psjv: 3\n" +
+            "qwbr: rnzs * wqrh\n" +
+            "gggt: 2\n" +
+            "zdjv: 5\n" +
+            "lcsq: hmvh * qmcq\n" +
+            "rqrm: 5\n" +
+            "dghg: nbhs + nqsr\n" +
+            "dfvl: 5\n" +
+            "lvlj: 3\n" +
+            "zvwh: hbmb / bcdz\n" +
+            "cfqv: 2\n" +
+            "fsct: fvlr - fhdw\n" +
+            "tzwn: wgvl + cvqp\n" +
+            "hfvp: 3\n" +
+            "pmvq: 2\n" +
+            "wbtm: 4\n" +
+            "lgjq: 2\n" +
+            "jplj: 3\n" +
+            "zzwp: jqtj / rhzb\n" +
+            "qbcn: 6\n" +
+            "sprc: 4\n" +
+            "qzfd: wwgj / jfld\n" +
+            "gbwz: 6\n" +
+            "fjqv: 19\n" +
+            "sgpn: 4\n" +
+            "jjvr: 11\n" +
+            "mmcr: 1\n" +
+            "cnfc: 2\n" +
+            "tcss: 4\n" +
+            "bssz: 11\n" +
+            "cqmw: 13\n" +
+            "rsvr: 9\n" +
+            "gzrq: dmgj * rdms\n" +
+            "btgb: sspc * shmr\n" +
+            "zjll: 3\n" +
+            "hpcw: tqfj * svjq\n" +
+            "pzzz: dvpp * wvch\n" +
+            "vhds: 4\n" +
+            "tlqj: mwpl * zslm\n" +
+            "llhv: 3\n" +
+            "brzt: qfzd * hlmj\n" +
+            "rbbc: 1\n" +
+            "cwnt: zczl + mjnj\n" +
+            "llvn: dhms * hfqb\n" +
+            "bgwj: jssp * qqpq\n" +
+            "btvj: 7\n" +
+            "smtz: 2\n" +
+            "rdjr: 4\n" +
+            "nrrc: 2\n" +
+            "vdlz: 3\n" +
+            "thrv: mgbf + pwgl\n" +
+            "tnjm: 4\n" +
+            "fsmg: 13\n" +
+            "brmc: fwhb + prcg\n" +
+            "sbhb: jgpj + cbcv\n" +
+            "vrml: lfsn * dqdj\n" +
+            "hngj: fwgc + lqjw\n" +
+            "crsn: cvgd * wgmt\n" +
+            "cjmj: bhsh + nlld\n" +
+            "fnpt: pnwf * bhfz\n" +
+            "twlq: fvmf + jzcs\n" +
+            "bmlf: 5\n" +
+            "grqg: ffcz + dvtm\n" +
+            "nfvn: 11\n" +
+            "tdrv: hmpd * dzjh\n" +
+            "ndtw: qljr * ntqr\n" +
+            "gfsl: 9\n" +
+            "sbrq: bqjb - cwds\n" +
+            "hhsc: hzvh - fngq\n" +
+            "phcm: prsn * mlvs\n" +
+            "sgjs: tcss * gtwf\n" +
+            "zgpl: lqlj + wfqv\n" +
+            "ngmw: rbvj * gwwv\n" +
+            "rqpj: 4\n" +
+            "rdtt: cqts + qbfc\n" +
+            "lrzr: 2\n" +
+            "vssn: 5\n" +
+            "qjpm: zphg * ngqr\n" +
+            "jpnm: rhhw + hgjt\n" +
+            "bmfs: zcjm / vhfn\n" +
+            "mpdv: phzm + rljt\n" +
+            "bbff: gsrm + dfdn\n" +
+            "jtvh: 3\n" +
+            "mzgg: bdcz - prmm\n" +
+            "bgtq: 3\n" +
+            "dqmp: lcqh * dhsr\n" +
+            "zqrt: mghq / qdjj\n" +
+            "jzcs: lhzh * mznv\n" +
+            "csll: 4\n" +
+            "zjfd: 17\n" +
+            "spvz: dhsw - bjzh\n" +
+            "hcfl: 3\n" +
+            "jshb: 3\n" +
+            "mzjn: dlrm * dfvl\n" +
+            "fnsf: 5\n" +
+            "rnqq: 2\n" +
+            "tqjw: 8\n" +
+            "ptzb: trhv * cgtp\n" +
+            "tjfl: 4\n" +
+            "hcbq: fzpq * gscw\n" +
+            "hbqs: rlnp * jftp\n" +
+            "jdmm: 14\n" +
+            "qtgd: svnz * vcch\n" +
+            "lbgp: tlzz * qdhg\n" +
+            "zgrs: jbph * ftqr\n" +
+            "lbrw: rlht * dldh\n" +
+            "gsbw: bzrm + jvqm\n" +
+            "bvmn: 4\n" +
+            "zslm: 3\n" +
+            "wqcz: 4\n" +
+            "nzcs: fsbf * swnb\n" +
+            "nncb: zwwn - gqrd\n" +
+            "qwrh: dvtv * bhnj\n" +
+            "dhmt: 4\n" +
+            "gbcl: fnsf * cpcw\n" +
+            "rdvt: 7\n" +
+            "rzql: cspn * gqdd\n" +
+            "lprd: jngb * tzlm\n" +
+            "hbms: ltdz - vpmg\n" +
+            "tgmc: 4\n" +
+            "wvqj: bvmb / gzdc\n" +
+            "mllt: hfft - gfhs\n" +
+            "prfv: 4\n" +
+            "scht: 3\n" +
+            "htdh: 2\n" +
+            "bfdn: qqtb * bvsl\n" +
+            "wbzb: 5\n" +
+            "zthf: bvtv * wfmd\n" +
+            "jpzl: 3\n" +
+            "hpmh: 5\n" +
+            "rghm: 3\n" +
+            "crfb: 3\n" +
+            "bmgh: 11\n" +
+            "hvfc: 3\n" +
+            "tswd: 4\n" +
+            "ctnl: 2\n" +
+            "htmf: cmzf + fsdb\n" +
+            "tncm: 4\n" +
+            "hgsg: lrft + gzrq\n" +
+            "nwrn: zmjp / zrdm\n" +
+            "sbdc: sjbf * qgzw\n" +
+            "rgnt: nrdj + fmfs\n" +
+            "lzds: 2\n" +
+            "lmhh: 2\n" +
+            "vvpd: 4\n" +
+            "snvl: lglv * mqlh\n" +
+            "dctv: wnqq + rtjh\n" +
+            "cqvp: szdw + mltt\n" +
+            "blhh: gwzg + jdsl\n" +
+            "cpsz: mmvq + bmtn\n" +
+            "zmjp: wjwg * sjlw\n" +
+            "lfgs: 2\n" +
+            "pqwp: 2\n" +
+            "bnbc: mftb + pqwp\n" +
+            "dnpq: fccg + fhzp\n" +
+            "vszp: 2\n" +
+            "lzdq: 9\n" +
+            "bqds: rvtw * zgng\n" +
+            "lrpt: 18\n" +
+            "jzrl: 2\n" +
+            "jvzh: dqmp * psft\n" +
+            "nvln: 4\n" +
+            "mcjs: fhnv + nzfs\n" +
+            "fwhb: 15\n" +
+            "fjvb: qfww + nqfl\n" +
+            "gvrt: 5\n" +
+            "tdgt: rvcl + qtwr\n" +
+            "tbhg: 14\n" +
+            "fwnm: 8\n" +
+            "lztl: 2\n" +
+            "plcf: 3\n" +
+            "rdms: gpgc + zzdz\n" +
+            "wcqt: gblp / qjpn\n" +
+            "tfdt: 2\n" +
+            "zbzd: cmld + sjdz\n" +
+            "zltp: mhpf * spmn\n" +
+            "ffzz: slzr * jjdg\n" +
+            "zbvn: stqr * szwj\n" +
+            "lzrv: 2\n" +
+            "gbvv: frtm * tqsn\n" +
+            "dbzt: hhqc * rttz\n" +
+            "zppw: ftlt + glbv\n" +
+            "drzr: jdht * jshb\n" +
+            "jssp: 16\n" +
+            "zdnq: 3\n" +
+            "nfld: vhcq + bsht\n" +
+            "sznt: 4\n" +
+            "mslg: 2\n" +
+            "fccg: 5\n" +
+            "hrdc: gvfg * zgjz\n" +
+            "swnl: 3\n" +
+            "dszq: 3\n" +
+            "tzrb: fhlv + fccj\n" +
+            "hbrq: 4\n" +
+            "rvgv: 8\n" +
+            "tqbz: rsfq - spph\n" +
+            "fbps: 6\n" +
+            "bqgv: 2\n" +
+            "jvfs: 2\n" +
+            "gthb: tdcq * lzpw\n" +
+            "sgnm: 4\n" +
+            "whhg: gtnq + bsgb\n" +
+            "ftqr: 3\n" +
+            "qszv: 1\n" +
+            "wwdw: btwg - mrtq\n" +
+            "frtm: 9\n" +
+            "pgnj: pzwt * ppth\n" +
+            "glbv: lsws + hjht\n" +
+            "tbhm: 2\n" +
+            "gfhs: 5\n" +
+            "mjtn: 8\n" +
+            "mpwl: 5\n" +
+            "hqsm: 8\n" +
+            "lbpl: wfqg * cldz\n" +
+            "ctcr: 2\n" +
+            "snsv: 1\n" +
+            "ptqv: 4\n" +
+            "jfld: 4\n" +
+            "mpnb: 2\n" +
+            "bwpc: 5\n" +
+            "pzwt: 2\n" +
+            "qrtl: 3\n" +
+            "jhwf: 3\n" +
+            "jmpq: qqnl * wddc\n" +
+            "pphv: mbfr + mrhq\n" +
+            "llct: qgnt * wwhp\n" +
+            "dztc: qmmc / gthb\n" +
+            "wspm: 2\n" +
+            "qpdz: qzgp + blsp\n" +
+            "gjsr: 2\n" +
+            "rhzf: lhph + tqbt\n" +
+            "tzlm: 3\n" +
+            "mmjj: mhpv + rrzb\n" +
+            "pcht: fdcm / vtfz\n" +
+            "qbzm: fgrc * nsnh\n" +
+            "msdj: 4";
+
+    public static final String INPUT_21_2 = "jtrg: gcpq - fvjz\n" +
+            "vjhv: 4\n" +
+            "fcmd: 5\n" +
+            "djgl: gwjr - vbpp\n" +
+            "snzw: 2\n" +
+            "lswd: bcnm * vdhw\n" +
+            "lqvp: 5\n" +
+            "qwqj: 3\n" +
+            "zrrv: 4\n" +
+            "hpnm: 5\n" +
+            "wsfb: pmhj + ftds\n" +
+            "wpqh: 2\n" +
+            "mjhb: drbf - lhtt\n" +
+            "vmnt: 4\n" +
+            "tqlp: 1\n" +
+            "jddv: mllh + zwmz\n" +
+            "lnqh: mwzc + fdwf\n" +
+            "pmnp: dnhl * cjbb\n" +
+            "nznb: 10\n" +
+            "pbzf: 2\n" +
+            "mwsh: dhff * ddzt\n" +
+            "znwg: fvtf * pvfj\n" +
+            "nnbp: mbzc * smhz\n" +
+            "hlbq: 4\n" +
+            "fqcp: 11\n" +
+            "jzhn: 2\n" +
+            "jlbj: dnth + jjlw\n" +
+            "nhdh: wdhl - zsgd\n" +
+            "qvmh: 13\n" +
+            "ffng: 3\n" +
+            "jsld: 2\n" +
+            "cshh: nrdq + sbsn\n" +
+            "jrcq: 2\n" +
+            "bsmt: 4\n" +
+            "wfhb: 10\n" +
+            "cmzv: 3\n" +
+            "plrf: 4\n" +
+            "mmtl: 1\n" +
+            "pqlw: 5\n" +
+            "tstp: 4\n" +
+            "vgjv: 6\n" +
+            "rncj: ctft + lslz\n" +
+            "stfq: rnjg * vqsf\n" +
+            "rcnd: djgl * qmfb\n" +
+            "sntt: jhrb / hqcg\n" +
+            "fbdq: 2\n" +
+            "stcn: tjjp + bdgs\n" +
+            "lmcz: wmfn + gmhc\n" +
+            "zfwp: dcst + dmlt\n" +
+            "cssc: 1\n" +
+            "cwfs: 2\n" +
+            "qcts: nswn + gjgd\n" +
+            "nwsf: 1\n" +
+            "dmwq: 13\n" +
+            "mdfc: 2\n" +
+            "qswf: 2\n" +
+            "jzjq: bfdb * qssl\n" +
+            "cntb: 4\n" +
+            "lsgz: 5\n" +
+            "gnfh: fbqz * zptq\n" +
+            "zpcm: brlb + bsmt\n" +
+            "wjdr: 3\n" +
+            "grfq: 5\n" +
+            "fbqz: 2\n" +
+            "nswn: sqlp / jctd\n" +
+            "rszm: 2\n" +
+            "dzpm: gmzt * nbsz\n" +
+            "qvbz: 1\n" +
+            "lclw: zglp * gwdq\n" +
+            "fqhc: rncj * hfvv\n" +
+            "wzhg: 2\n" +
+            "fvzr: nrvw + gnfh\n" +
+            "bznd: 7\n" +
+            "qvgj: 11\n" +
+            "qqjs: wrnn * vprv\n" +
+            "swmz: 5\n" +
+            "vnsd: 16\n" +
+            "htdp: hcwn * vfmg\n" +
+            "schl: sprf - bqbp\n" +
+            "qgrh: 2\n" +
+            "mmlz: 5\n" +
+            "qhvj: 4\n" +
+            "smvn: 2\n" +
+            "cjcv: hvdv * dnfb\n" +
+            "hgdg: sqbl / lvsn\n" +
+            "lbbz: gdhl - dvhb\n" +
+            "tnwh: znff / cppg\n" +
+            "cctm: hnbf + rrzz\n" +
+            "mtlr: 4\n" +
+            "fnnb: wpbs + vntw\n" +
+            "ffdv: 2\n" +
+            "zcjd: 4\n" +
+            "zhzr: 2\n" +
+            "hcwn: tqcc / jlwh\n" +
+            "zbsr: 3\n" +
+            "fncf: 4\n" +
+            "wdvc: 2\n" +
+            "nstj: gglr * ffvv\n" +
+            "dvbq: qlvv / vnhv\n" +
+            "lpss: 4\n" +
+            "pnlj: 5\n" +
+            "fjwm: pljt + wsrf\n" +
+            "gwgw: 2\n" +
+            "ndfw: dppd + wssb\n" +
+            "tqql: 6\n" +
+            "prsm: trpd + rcnn\n" +
+            "hltd: mdcm + jpjh\n" +
+            "lmgz: wzhg * bchn\n" +
+            "ptws: lfvh + gflw\n" +
+            "pwjw: nvsc * gjrw\n" +
+            "qqzg: 2\n" +
+            "btpq: wscz + drtm\n" +
+            "lbfr: hfqg / lzhw\n" +
+            "jzjc: 4\n" +
+            "gpsw: jszl * fcbh\n" +
+            "pjzl: 5\n" +
+            "lshr: 5\n" +
+            "dtww: jvqv * blhs\n" +
+            "gvsq: gdds * nvgv\n" +
+            "ttwt: 7\n" +
+            "frng: jrhh * bwdw\n" +
+            "qdtc: qqnz * jwmz\n" +
+            "smws: btmm + svdl\n" +
+            "dwcm: hpnm * jdth\n" +
+            "zbwr: fnhz * lvhl\n" +
+            "crjp: zcgw * hnzn\n" +
+            "pdfd: fhts * ddwq\n" +
+            "tgvm: rsmh / ffpn\n" +
+            "jtrd: twrw * nhgm\n" +
+            "fhrq: 15\n" +
+            "hqbg: hhwc * vsmf\n" +
+            "wssb: rtgm + tgvj\n" +
+            "dhff: mjft * ddwd\n" +
+            "zczs: 3\n" +
+            "jswv: fhls * clvh\n" +
+            "cqdv: nfrj * pznq\n" +
+            "blrq: 3\n" +
+            "qrgm: rgsj - zgpd\n" +
+            "drlt: 10\n" +
+            "tnbr: bfwf + qltm\n" +
+            "cvtg: 5\n" +
+            "qzbq: hqrp + psbt\n" +
+            "hncw: 3\n" +
+            "mzsm: zqnb - tqcj\n" +
+            "gbgs: vrfn * lcwj\n" +
+            "lhcz: njrl * rztm\n" +
+            "gsrm: chbh * dgdl\n" +
+            "pwzq: fpdt * rznb\n" +
+            "mbqh: tbrt * blrq\n" +
+            "fnbb: tcdt + wjtw\n" +
+            "gwdv: 8\n" +
+            "fhdf: 2\n" +
+            "sqrc: lhcz - vqnp\n" +
+            "rrsb: jzhn * jgqm\n" +
+            "wcwq: vmtp - wwzs\n" +
+            "hgvf: ndws + dtdv\n" +
+            "htvl: 7\n" +
+            "bssv: 3\n" +
+            "csdm: 4\n" +
+            "zqgl: 3\n" +
+            "tcgc: 3\n" +
+            "gqvf: gzdz * gtss\n" +
+            "stjc: 3\n" +
+            "vnmt: hvbs - tvtw\n" +
+            "cszm: bvmr * hrsr\n" +
+            "hglr: 1\n" +
+            "zbnp: 4\n" +
+            "qtwt: 4\n" +
+            "thfd: qwjw + lpvz\n" +
+            "wrwh: dwzn / vcms\n" +
+            "wdwf: 4\n" +
+            "swfz: nvsl + jqrs\n" +
+            "bwdw: msdh / nvtf\n" +
+            "qrqq: 19\n" +
+            "pzhz: gjgl + gvjb\n" +
+            "nztv: 2\n" +
+            "lcws: 2\n" +
+            "mfmn: 3\n" +
+            "cqwh: blbl + jplh\n" +
+            "ltcd: pshp * pnlj\n" +
+            "dlbb: 5\n" +
+            "bshq: 8\n" +
+            "tjpt: srpd * srrg\n" +
+            "hqcg: 2\n" +
+            "thgf: fssb / zfnh\n" +
+            "zfbv: 2\n" +
+            "http: vssf - nbcv\n" +
+            "fhcq: rplb - sfnm\n" +
+            "pvcr: 4\n" +
+            "hzvl: 5\n" +
+            "flzl: 2\n" +
+            "cqpp: rmmj * pmdg\n" +
+            "cgqp: 2\n" +
+            "fqbg: cmzv * ncjl\n" +
+            "tshv: flbg * vlgh\n" +
+            "qwrp: lqhf * lttb\n" +
+            "bvmr: 2\n" +
+            "ppnj: 16\n" +
+            "jsrq: 3\n" +
+            "qnbf: jrcq * mmgn\n" +
+            "hgnn: 2\n" +
+            "jtgb: 5\n" +
+            "hmtz: ffdv * vwng\n" +
+            "lnjz: dfbw + nhjb\n" +
+            "vmbv: lnpp * cmgr\n" +
+            "jvgr: mrzm + jjmh\n" +
+            "gtss: 3\n" +
+            "fpcp: lczq / zgrr\n" +
+            "jlfc: lstv * vfgh\n" +
+            "wqjd: lprt + jrdc\n" +
+            "gvsb: tpch + jhrw\n" +
+            "lpfq: wzgj + bplr\n" +
+            "mzhb: 7\n" +
+            "nwcb: 2\n" +
+            "lszb: 4\n" +
+            "wgzs: 5\n" +
+            "gthh: dsbq + nbgd\n" +
+            "jrvt: 2\n" +
+            "zmnt: 2\n" +
+            "rczp: mqjn * lbmp\n" +
+            "cpmj: 11\n" +
+            "gdsh: rqdt + wmbb\n" +
+            "gcvh: ndtg * tllz\n" +
+            "jbrw: fgtb + hsnt\n" +
+            "dzwf: 6\n" +
+            "tqlq: 1\n" +
+            "bplh: 2\n" +
+            "fmmv: 13\n" +
+            "lhmd: 2\n" +
+            "qwqh: 2\n" +
+            "qdwc: fhdf * jcvn\n" +
+            "btmm: trnr + nljg\n" +
+            "pzqc: 4\n" +
+            "wrqm: 3\n" +
+            "szct: ffsw + nwzz\n" +
+            "gpjb: 5\n" +
+            "htcs: lnbn - qwbp\n" +
+            "zwsn: 2\n" +
+            "jcmn: pvrq + jtmh\n" +
+            "qzmg: cwqt - hhlw\n" +
+            "nmzp: 4\n" +
+            "ffhm: tgvm * rnrq\n" +
+            "mcrc: 3\n" +
+            "ndrn: 2\n" +
+            "rggc: tgcr + wfwp\n" +
+            "bsmg: gjjq / fmnl\n" +
+            "grwz: bfch * mfvl\n" +
+            "cbnr: plls - nclc\n" +
+            "ddlg: dmtw + sjnq\n" +
+            "jfqf: pcbc * fnnb\n" +
+            "hwlp: fzrg * bmbg\n" +
+            "sbsn: vdct + bdss\n" +
+            "nprn: rbwt + snss\n" +
+            "spjm: pppj * pbzf\n" +
+            "trpd: 18\n" +
+            "phrl: 5\n" +
+            "njfq: 5\n" +
+            "dzqb: sqzm * rhjz\n" +
+            "bldh: snqq * tlvz\n" +
+            "djcd: vsqb * ddvz\n" +
+            "lqtl: cqdq - bftl\n" +
+            "bhcq: rzwg * gvjp\n" +
+            "bgsg: 10\n" +
+            "qprs: 1\n" +
+            "plls: 10\n" +
+            "bjmj: 2\n" +
+            "tfbz: 2\n" +
+            "fzdd: 14\n" +
+            "hqhc: pfsm * jfct\n" +
+            "rdlc: 2\n" +
+            "zfnh: 2\n" +
+            "pwcm: wqws + qphw\n" +
+            "qrjm: bpjc * qcrz\n" +
+            "mnzp: jwvj + wgzs\n" +
+            "zghq: pljc + vprr\n" +
+            "dnfb: zdwz * qfmz\n" +
+            "znth: 3\n" +
+            "rlwz: 2\n" +
+            "ggbr: 16\n" +
+            "hrdf: 5\n" +
+            "pghp: 1\n" +
+            "rqvf: 3\n" +
+            "jbmb: 14\n" +
+            "tjbr: pmwb * nshg\n" +
+            "hsfj: 2\n" +
+            "ljzn: hsct + ctnr\n" +
+            "rgtm: 5\n" +
+            "nlwj: zllm * rzqg\n" +
+            "swsq: sghd * nbcm\n" +
+            "bdrv: 18\n" +
+            "whpf: 14\n" +
+            "fnnh: 5\n" +
+            "bsfs: 4\n" +
+            "rtlz: dddq + jmpb\n" +
+            "nhgm: 5\n" +
+            "ndws: 1\n" +
+            "nqlc: 7\n" +
+            "dsvw: hjfc + zhnq\n" +
+            "fngh: 5\n" +
+            "rljz: 2\n" +
+            "ddzs: 2\n" +
+            "ghfp: zfbv * lwzr\n" +
+            "hqrp: 2\n" +
+            "lbrp: qjfv * plsf\n" +
+            "qlft: 4\n" +
+            "fbrc: 18\n" +
+            "ddwq: lclw - hvqg\n" +
+            "pbtv: jsrg + wwpz\n" +
+            "fgbd: hjjh * fdhf\n" +
+            "tmqt: gvsb + dnnl\n" +
+            "mvfn: ggbr + thqt\n" +
+            "gmhc: 19\n" +
+            "tglv: zsrc * sdgj\n" +
+            "hwdn: 3\n" +
+            "pdpz: lzvh + nvfn\n" +
+            "blhs: jbdm / qvqb\n" +
+            "ztvc: 7\n" +
+            "zpjn: nsmz * smvn\n" +
+            "sjpc: 2\n" +
+            "gflw: zqmw + fgqc\n" +
+            "tdvj: 2\n" +
+            "jhhj: 5\n" +
+            "plmg: bgsg + bnfs\n" +
+            "vzvj: 3\n" +
+            "rplb: vnff / drlr\n" +
+            "mvfr: phqs + rggc\n" +
+            "jrdc: 2\n" +
+            "vldl: glww + tlfz\n" +
+            "jmdl: 3\n" +
+            "nvnp: 4\n" +
+            "swgs: 5\n" +
+            "pmwb: qlvb + wzzz\n" +
+            "rhqq: 2\n" +
+            "fgqc: dncf + tqsn\n" +
+            "bcbr: 5\n" +
+            "mwtd: 8\n" +
+            "nprt: 2\n" +
+            "ljzs: 6\n" +
+            "wnnp: 2\n" +
+            "czdw: fvhf * btpl\n" +
+            "tlhj: 11\n" +
+            "rqff: 3\n" +
+            "vhrw: dwvz * trjz\n" +
+            "jsft: gccz * prvd\n" +
+            "zjzm: wzsf / bpll\n" +
+            "dwwj: qnww / mmcf\n" +
+            "vgqz: jcmn + mrqz\n" +
+            "pchw: ghmt * znql\n" +
+            "jrqb: gqzb + ndhv\n" +
+            "dgdl: tstw + zvfn\n" +
+            "pcbc: 3\n" +
+            "vqnp: fqbg * nqtd\n" +
+            "qmdd: 2\n" +
+            "wctc: 2\n" +
+            "cpmt: 2\n" +
+            "tgdp: mfvn * rvhr\n" +
+            "cdnp: vwnl + bhfp\n" +
+            "qqpp: rtlz * fhgh\n" +
+            "dsrp: nrwz * fzpf\n" +
+            "mndv: 2\n" +
+            "rgjj: lmgz - gggw\n" +
+            "tbbv: lntf / hzbf\n" +
+            "lnbn: flvv * ddlg\n" +
+            "qfmz: jswv + qbjn\n" +
+            "zclw: 4\n" +
+            "qhtd: pwrp * hqwh\n" +
+            "jzcz: 2\n" +
+            "qsgm: qthv * nmzp\n" +
+            "lzvq: nfpz + jddv\n" +
+            "bnjm: hfrm + hwlp\n" +
+            "njvp: 3\n" +
+            "cctv: njhw * jcbs\n" +
+            "lfgr: tjpz + tbhc\n" +
+            "cmgr: 3\n" +
+            "lrpg: jhsm * vlzc\n" +
+            "nsvp: 4\n" +
+            "gdhl: nbpt * rclq\n" +
+            "hwzd: ndsq + lsmv\n" +
+            "gsfg: 5\n" +
+            "hfqg: mbqh + mbhw\n" +
+            "ttbz: 2\n" +
+            "mjbw: 7\n" +
+            "svdn: bczr * mpmg\n" +
+            "vhdl: mmzz - whqt\n" +
+            "bgrr: zbnf + snqg\n" +
+            "nwmc: mfjn + spjm\n" +
+            "cfhf: 3\n" +
+            "lrwn: 4\n" +
+            "qvrz: 6\n" +
+            "tjhv: 7\n" +
+            "lhww: 5\n" +
+            "htcc: nwrh / htmh\n" +
+            "qjdt: sdgq + humn\n" +
+            "jcll: rhqq * bfct\n" +
+            "rzgp: ggsz * zcrr\n" +
+            "nbgd: vvsd + gcll\n" +
+            "jlwh: 2\n" +
+            "vwwh: 1\n" +
+            "czdb: 2\n" +
+            "gbbs: 3\n" +
+            "flfj: 3\n" +
+            "rttt: dfmf * gcrf\n" +
+            "twqq: dsvd * vzrl\n" +
+            "stgf: 3\n" +
+            "frpq: 5\n" +
+            "gwhh: 2\n" +
+            "mrzm: jbln + ljzn\n" +
+            "smbv: 16\n" +
+            "zglp: vcwt + mmhz\n" +
+            "nzlm: 4\n" +
+            "mbhw: jbrw + jvgr\n" +
+            "vlzc: wbtj + sqhb\n" +
+            "bvwd: 3\n" +
+            "qgsf: trwl * qvrt\n" +
+            "brlb: qsfp * sqhd\n" +
+            "smch: 3\n" +
+            "fgvp: 12\n" +
+            "sbdv: 2\n" +
+            "hcdp: tlgh * jppq\n" +
+            "lszn: 9\n" +
+            "dqtl: pnwd + zzss\n" +
+            "fmwj: jtqt - gfpq\n" +
+            "wcfl: 4\n" +
+            "tdmq: 2\n" +
+            "vqvv: 2\n" +
+            "jqdf: 1\n" +
+            "vffn: 5\n" +
+            "hbhj: zlwm * jdqp\n" +
+            "mwzc: 19\n" +
+            "gbsz: npcg * cvtg\n" +
+            "whzh: 2\n" +
+            "rhjz: 7\n" +
+            "lfwn: 5\n" +
+            "jtzh: 1\n" +
+            "hbbj: rqcn * pdwm\n" +
+            "djlq: ncrq - ccpq\n" +
+            "zqbp: wmvj + pdpf\n" +
+            "bwnt: 3\n" +
+            "ntrn: 6\n" +
+            "nfmg: vblt * tgdp\n" +
+            "ccvm: 20\n" +
+            "fdhf: 2\n" +
+            "hqjt: fwsq - pmrv\n" +
+            "bmwj: 2\n" +
+            "svvr: 2\n" +
+            "jzmc: 3\n" +
+            "jrrn: tfjh * hwnm\n" +
+            "msmz: pdcq + ffhm\n" +
+            "blth: 3\n" +
+            "dmgj: bwdq * cctw\n" +
+            "njng: 3\n" +
+            "bpjc: 13\n" +
+            "ztfc: fwqn + hqww\n" +
+            "fsgw: gvgr - mdfc\n" +
+            "lgpd: 1\n" +
+            "jmlj: 3\n" +
+            "zbvf: ffbn * qmvv\n" +
+            "njjd: gcgw * lqpg\n" +
+            "gplr: ngdz * vffp\n" +
+            "pgrm: 18\n" +
+            "mjqb: 5\n" +
+            "cmtl: qsqt * wdvc\n" +
+            "bqvs: 2\n" +
+            "lllf: 2\n" +
+            "pznq: 3\n" +
+            "wbpz: cghq * tglv\n" +
+            "fbmm: lpgn + pjrs\n" +
+            "pljc: rcwv / vnmz\n" +
+            "cmgq: bjcj + jzbn\n" +
+            "fmvc: 2\n" +
+            "rstf: 20\n" +
+            "zlwm: 5\n" +
+            "gzmh: lswd + zrvt\n" +
+            "btpr: 3\n" +
+            "tpfh: 5\n" +
+            "vfsz: 18\n" +
+            "qwjw: 5\n" +
+            "hnzn: mmtl + tjtv\n" +
+            "rgcg: 8\n" +
+            "jdbg: 3\n" +
+            "tvng: 2\n" +
+            "nvbz: 2\n" +
+            "rzwg: 5\n" +
+            "bftl: 4\n" +
+            "dnnl: jvjc + fnzz\n" +
+            "jdth: 11\n" +
+            "qhdq: 2\n" +
+            "hpdp: phrl * nptm\n" +
+            "jndt: 1\n" +
+            "wsbm: spzh + hstn\n" +
+            "shfg: zgrn * qcwb\n" +
+            "zthv: 4\n" +
+            "qjvv: lmgg + dgjp\n" +
+            "tlwh: 2\n" +
+            "qzfr: 1\n" +
+            "jbhd: frdt + ppnj\n" +
+            "jhsm: 11\n" +
+            "bgwg: lwcv * bqlz\n" +
+            "qfth: 3\n" +
+            "wzpd: mgqp * hvns\n" +
+            "htzw: 2\n" +
+            "mbbn: bvwd * htvl\n" +
+            "dppd: nptj * bwmz\n" +
+            "qhdd: 5\n" +
+            "dbrb: dhwd * qsjh\n" +
+            "vbhd: wpgg * jrtg\n" +
+            "mccw: czdb * fvzq\n" +
+            "ljnc: 2\n" +
+            "dcst: vvcs * fgqh\n" +
+            "qqnz: qhgw - djct\n" +
+            "nvsc: qwrp - wvnh\n" +
+            "cbhp: 5\n" +
+            "tqsz: zbnp * tpwq\n" +
+            "cmgf: 2\n" +
+            "lcwj: hzth + spzs\n" +
+            "zmwj: pwlh * tfjl\n" +
+            "sfnm: bzrh * bgns\n" +
+            "sdfm: 2\n" +
+            "qcrz: 2\n" +
+            "mjcw: 9\n" +
+            "dvdh: ctts * qcts\n" +
+            "rfql: vpjv / mzjh\n" +
+            "bnbz: ggmn + pghp\n" +
+            "mhmd: 2\n" +
+            "bplr: 5\n" +
+            "jhcs: 2\n" +
+            "fhls: 2\n" +
+            "wcwg: 2\n" +
+            "jngd: 3\n" +
+            "twvm: 7\n" +
+            "mfvl: vncn * zccc\n" +
+            "sgcz: hrgv * tvdc\n" +
+            "jjcl: wjdr * zbqp\n" +
+            "fnzz: 6\n" +
+            "tjjp: tnch + gqvf\n" +
+            "qdwh: jchm * ndrn\n" +
+            "gtbb: cqcw + tdrm\n" +
+            "bdgs: tmfw * wbqr\n" +
+            "swjl: ghnb + pbtv\n" +
+            "dsqj: vlsh + hmvc\n" +
+            "pvfj: 7\n" +
+            "snrn: 19\n" +
+            "vnzw: lcgc + tjpt\n" +
+            "bdsm: 5\n" +
+            "zbhr: zggg - vfbj\n" +
+            "mvhp: svjl * bfgq\n" +
+            "vfgh: gvmv / cccv\n" +
+            "psqm: 1\n" +
+            "jtvb: cmtl + sdfm\n" +
+            "qdsd: tsmb * lrps\n" +
+            "jzdl: 11\n" +
+            "zbnf: lzsb / bshq\n" +
+            "rwsz: flrm * htnj\n" +
+            "wddq: qpzz * jngw\n" +
+            "nczg: rvgj + ztjj\n" +
+            "bzrh: 16\n" +
+            "qpqn: cfsr * qbqq\n" +
+            "lwzr: jtrd - qhsf\n" +
+            "cfsr: 7\n" +
+            "vzvr: nrzg * qzbq\n" +
+            "zrgn: rjnp + jrqb\n" +
+            "tgml: 1\n" +
+            "zjzn: 4\n" +
+            "rznb: 3\n" +
+            "nzsw: 3\n" +
+            "pgqj: 3\n" +
+            "vmss: 2\n" +
+            "mhgw: 13\n" +
+            "rtnd: 4\n" +
+            "jthr: 2\n" +
+            "tstw: 12\n" +
+            "qvcb: 4\n" +
+            "pbhl: psmj * mbbp\n" +
+            "jcvg: mbfh + svjg\n" +
+            "prqt: rcnd / ncnr\n" +
+            "rgsj: 17\n" +
+            "nlrv: zbsr * mdhh\n" +
+            "chdg: 5\n" +
+            "mcbm: 6\n" +
+            "ntps: 3\n" +
+            "dfdj: wcnm + qvlz\n" +
+            "zmvl: 3\n" +
+            "zgbr: gcqd * lbrp\n" +
+            "trjc: 20\n" +
+            "nfrq: wcwg * bssv\n" +
+            "qtjq: 2\n" +
+            "qnww: vfqv + rgnc\n" +
+            "vbsh: 3\n" +
+            "jwvj: 2\n" +
+            "qpzz: 2\n" +
+            "gdjt: dqrj * lwgv\n" +
+            "lzsg: 3\n" +
+            "drww: 11\n" +
+            "rlln: 2\n" +
+            "frmj: qdwc + bldh\n" +
+            "bfgq: ztpf + hwfm\n" +
+            "pnwd: mndv * jchz\n" +
+            "dptr: ttgv * jtst\n" +
+            "nzmf: bvhz * vlvl\n" +
+            "czjc: 2\n" +
+            "tbcs: lggq * vmlh\n" +
+            "sstp: qrjm * vfdb\n" +
+            "cmqq: 2\n" +
+            "nbzg: 6\n" +
+            "cpfr: gzmh + chct\n" +
+            "lhrp: qfvw * snzw\n" +
+            "nnlw: 4\n" +
+            "mvls: 3\n" +
+            "ghrg: qpqn / cmpg\n" +
+            "tjpz: hqwt * wsbm\n" +
+            "psgm: jjcl + llsh\n" +
+            "czfb: 3\n" +
+            "wfwp: mmlz + lrjp\n" +
+            "dgdf: sstp + nvnm\n" +
+            "tttc: 7\n" +
+            "vdct: 7\n" +
+            "mstt: fwvh * cptm\n" +
+            "rlzt: wjgb * tsrb\n" +
+            "rlbv: 10\n" +
+            "mjnb: crnp + zvlq\n" +
+            "qlgr: 11\n" +
+            "mjnr: 3\n" +
+            "rtzs: 4\n" +
+            "lhlv: fqww * rldr\n" +
+            "ptmr: 2\n" +
+            "nglm: 2\n" +
+            "mtdz: njjd * gfbg\n" +
+            "wfpc: gsgr * zdzt\n" +
+            "jtnd: 5\n" +
+            "gvzz: 10\n" +
+            "lqhf: 19\n" +
+            "rbrh: 4\n" +
+            "qhgz: phgs * lnqg\n" +
+            "wzjl: 12\n" +
+            "svdl: ztzb * fmwj\n" +
+            "vmmw: 2\n" +
+            "ttmm: 2\n" +
+            "vvzh: dlbn + dwcm\n" +
+            "qfbb: 3\n" +
+            "lntf: lnts / hfff\n" +
+            "hwnh: 2\n" +
+            "rtgm: 17\n" +
+            "zrsg: 3\n" +
+            "zzss: vmnt + zqgl\n" +
+            "thht: 10\n" +
+            "tvdp: trnv * zfvm\n" +
+            "bhpv: 2\n" +
+            "tshn: qdwh + djcd\n" +
+            "thhg: 9\n" +
+            "whqt: fqcp * vvzh\n" +
+            "ttml: 9\n" +
+            "mcsn: 16\n" +
+            "prvw: 3\n" +
+            "nrzm: 14\n" +
+            "mqmf: 3\n" +
+            "qftq: 2\n" +
+            "pshp: 5\n" +
+            "sqqh: 12\n" +
+            "whcc: 7\n" +
+            "cjqf: mjfd * qlwh\n" +
+            "jchz: 5\n" +
+            "dggs: 4\n" +
+            "swgn: dlww / tvrv\n" +
+            "zvvp: 3\n" +
+            "gtmc: qtwt + wscl\n" +
+            "msmh: 3\n" +
+            "tgvj: twrz + trjc\n" +
+            "ptrf: mtlh + ttwt\n" +
+            "zmfw: 2\n" +
+            "mzhg: 3\n" +
+            "chgl: 2\n" +
+            "rcwv: http + trqf\n" +
+            "tbgz: zclw * hcdp\n" +
+            "svbc: dzsb * vcbb\n" +
+            "sltd: 16\n" +
+            "nhjb: wlch * zbns\n" +
+            "mbhg: prbw * htzw\n" +
+            "bqfj: rmlg + tqpm\n" +
+            "jswp: 10\n" +
+            "wndm: lqfp + qrzq\n" +
+            "qszr: lwbr * mzsm\n" +
+            "gwjr: mwtd + nhdb\n" +
+            "dddq: bpdt * dqtl\n" +
+            "gqst: 2\n" +
+            "mhbp: 3\n" +
+            "vmgn: cnhm * vzvj\n" +
+            "mwtb: lqtl + pzml\n" +
+            "djnb: 3\n" +
+            "mgwj: zfwc * vbzp\n" +
+            "qvlz: cbrz / swgs\n" +
+            "dmlt: tvng * pvjr\n" +
+            "vljz: vjwv + zsth\n" +
+            "ppjm: jmdf / qphn\n" +
+            "ggsz: 3\n" +
+            "fllf: vtns + rrsb\n" +
+            "fbct: 3\n" +
+            "rcnn: 1\n" +
+            "frch: gpsw + blpf\n" +
+            "nshg: 3\n" +
+            "ghpd: 8\n" +
+            "dwcv: 3\n" +
+            "hhwc: 2\n" +
+            "btvv: dpgr * hgvf\n" +
+            "ftfn: dfzf + vcsb\n" +
+            "mtvr: 1\n" +
+            "bjvn: vsbt + tqsl\n" +
+            "wbtw: dhbb + msmz\n" +
+            "fbpq: vgrh + dqwz\n" +
+            "rspd: dfdj + snjb\n" +
+            "bdmd: cnrb * pcjl\n" +
+            "zjmz: zflw + npvm\n" +
+            "qjss: 2\n" +
+            "mfjn: 3\n" +
+            "bpdt: 2\n" +
+            "rgnc: 4\n" +
+            "tlgh: 3\n" +
+            "wvnh: wljd + cntb\n" +
+            "jftd: qwqh * mmtv\n" +
+            "svtt: bcbr * hrdf\n" +
+            "zcsq: 2\n" +
+            "cmpb: 2\n" +
+            "lsmv: fldl * jwnv\n" +
+            "cfbh: 4\n" +
+            "fnzp: hwdq + gqrz\n" +
+            "jrhz: wshh * bqwf\n" +
+            "cwff: fpcg / vcdp\n" +
+            "tqsn: jsss - jndt\n" +
+            "wsnp: 10\n" +
+            "mbfh: 10\n" +
+            "nnzh: 2\n" +
+            "vvpr: mmdc + qdtc\n" +
+            "wnbs: 2\n" +
+            "jwgn: 5\n" +
+            "cdhw: tbvt * cmqq\n" +
+            "hrgv: jjqs - ghfp\n" +
+            "gggw: 1\n" +
+            "zbmw: nlmg + npbq\n" +
+            "hzth: 5\n" +
+            "sfpd: jrhz / nqgr\n" +
+            "pbbm: 2\n" +
+            "pqjr: vjhv * ngln\n" +
+            "dvhb: pptt * jcvg\n" +
+            "hbrf: rznw + brph\n" +
+            "zbqp: 5\n" +
+            "jrfd: 2\n" +
+            "ttzm: 4\n" +
+            "tzbd: 5\n" +
+            "qthh: 12\n" +
+            "zbzs: 4\n" +
+            "qhdn: fgss - glfv\n" +
+            "qcrr: cpjl + slnc\n" +
+            "frdt: wwbb + zwsh\n" +
+            "hzjl: qtct * wmtz\n" +
+            "vdbw: hltd * rjlb\n" +
+            "snqq: thfd + cwjn\n" +
+            "nvtf: zlgj * jjfq\n" +
+            "rldr: npcc + rjrg\n" +
+            "pjlr: whvr + vmdp\n" +
+            "qlvv: qlth + wtfl\n" +
+            "mdhq: tlbj + tbgz\n" +
+            "drpf: 2\n" +
+            "dsvd: 2\n" +
+            "mmgn: vtqs + wbjg\n" +
+            "fwmd: 13\n" +
+            "rfnb: 4\n" +
+            "ftjn: 2\n" +
+            "ttrt: 1\n" +
+            "tzns: cnml * fwbj\n" +
+            "sszm: 2\n" +
+            "jmmd: mlns * ggsd\n" +
+            "jngw: 3\n" +
+            "ghdl: qlhz * wcsm\n" +
+            "rmfn: vmhp + brbj\n" +
+            "tdrm: jrlv * zjjb\n" +
+            "vvsd: hdnj * jrdn\n" +
+            "pptt: 14\n" +
+            "wbqh: drzr - nnbp\n" +
+            "dvrq: mbsq + hjnp\n" +
+            "hmvc: jbnl + lzvq\n" +
+            "djct: dzwf * dlnv\n" +
+            "rcdr: 4\n" +
+            "glhf: 2\n" +
+            "nclj: 1\n" +
+            "qlth: mzhg * pnzd\n" +
+            "gzhh: 7\n" +
+            "jvcd: 2\n" +
+            "mzjh: 2\n" +
+            "psjs: 4\n" +
+            "rtmp: lllf * zsfr\n" +
+            "tfqd: vqmz / tdmq\n" +
+            "wbjg: fqhc + dnwp\n" +
+            "hgcs: fzhc + fmdt\n" +
+            "pnrf: 4\n" +
+            "rjnp: jgnp + mcdl\n" +
+            "pmml: 14\n" +
+            "nvst: 7\n" +
+            "ztgn: 2\n" +
+            "ptcd: mswn * rdlc\n" +
+            "nwrh: vbhd + srjq\n" +
+            "spdf: 2\n" +
+            "szwt: 10\n" +
+            "nlws: tftg + ldsb\n" +
+            "lnpp: lrhs + rqzs\n" +
+            "dwzn: vdbw * jrfd\n" +
+            "nqgr: 3\n" +
+            "dpqs: 8\n" +
+            "trqs: rtgq + pgpt\n" +
+            "hfvt: 3\n" +
+            "rqrt: 3\n" +
+            "fnzf: rlwz * sqdw\n" +
+            "ccpq: 9\n" +
+            "bpzr: 10\n" +
+            "tllz: 2\n" +
+            "tsrb: jhhj * bplh\n" +
+            "rlvs: wlcs + clbs\n" +
+            "bzhc: 6\n" +
+            "sqhb: zzsb * qvgj\n" +
+            "qbcp: 2\n" +
+            "trjz: rzgp + bjtr\n" +
+            "plnr: 8\n" +
+            "wlrd: trhr * bzsh\n" +
+            "rptt: 2\n" +
+            "fwht: 2\n" +
+            "cctw: 3\n" +
+            "zhjr: ptjl * zgmn\n" +
+            "gmhb: wvtt * msmh\n" +
+            "tjlr: fhjl + wndm\n" +
+            "vjwv: zwcn * fllz\n" +
+            "twrz: 2\n" +
+            "whbr: 5\n" +
+            "wrmm: qqjs / wwfm\n" +
+            "mgvp: fncf * rlln\n" +
+            "tclr: rfst * wcgv\n" +
+            "wmvj: 2\n" +
+            "wsrf: 3\n" +
+            "czdz: 3\n" +
+            "djvs: qswt * cwhz\n" +
+            "fmcj: 14\n" +
+            "gvgr: jrsq * znjl\n" +
+            "tcpp: qvbz + ddng\n" +
+            "nptj: 2\n" +
+            "vdfv: dggn * zghq\n" +
+            "lggq: 3\n" +
+            "vvcs: drtr + fqvf\n" +
+            "hrsr: czjc * fzdd\n" +
+            "spzs: dmwq + cvnp\n" +
+            "tdwc: 3\n" +
+            "hvsq: mhbp * hdqh\n" +
+            "hlhc: cwbv + bcsh\n" +
+            "ndwd: dpwm * dsrm\n" +
+            "mwjm: 1\n" +
+            "fhbt: vbnh * sbdv\n" +
+            "dhbb: ttmm * svbc\n" +
+            "jmjc: 2\n" +
+            "lvhn: 4\n" +
+            "cjfr: 5\n" +
+            "fzrg: 2\n" +
+            "lslz: sfwp * nnlw\n" +
+            "nfmq: wnbs * mfqd\n" +
+            "qwzc: 6\n" +
+            "fnjc: fmgv * shfg\n" +
+            "wjpl: hbbj + wnnp\n" +
+            "bjtr: 1\n" +
+            "cbts: 6\n" +
+            "pzml: gqqs * vrds\n" +
+            "cprd: cvsc * gzrf\n" +
+            "zrpj: swsq / jncf\n" +
+            "rcjj: tbbv * bvhw\n" +
+            "bwdq: 3\n" +
+            "dfmf: ljzs + wpqh\n" +
+            "cpjl: 5\n" +
+            "hgbc: jhpl + fhbh\n" +
+            "qswt: 9\n" +
+            "tbvd: 3\n" +
+            "smht: nzsw * ntgm\n" +
+            "wfvc: 1\n" +
+            "fwqn: gjnn + mrhn\n" +
+            "rjsh: zljs / gjbl\n" +
+            "ljnh: jshp + mdqz\n" +
+            "qlvb: rqff * wctc\n" +
+            "zzdc: gvhl + dsrp\n" +
+            "pbsz: gbbs + zjzn\n" +
+            "hzbf: 2\n" +
+            "rbgn: 6\n" +
+            "vvpd: vghv * jsld\n" +
+            "bmbg: 4\n" +
+            "gjrw: 5\n" +
+            "fqrw: 16\n" +
+            "mdfm: 3\n" +
+            "zdzt: 3\n" +
+            "jpll: fvzr * vmcp\n" +
+            "cnrb: 2\n" +
+            "vcwt: bslp * qjss\n" +
+            "sgzq: ptcd + vsch\n" +
+            "wscc: 7\n" +
+            "nbqw: qhfc + pfft\n" +
+            "zftd: ztnz + lshr\n" +
+            "lwbr: 2\n" +
+            "mjqh: mwjd + tpfh\n" +
+            "vntw: hvsq * bmbp\n" +
+            "jmdf: wsfb + dhvj\n" +
+            "mlns: cgsl / cwfs\n" +
+            "qbqq: 2\n" +
+            "sghd: 2\n" +
+            "wlsv: 5\n" +
+            "mrqz: dwcz * zqwg\n" +
+            "pgmf: pwzq * qzmg\n" +
+            "bqlz: rbgn + qrqq\n" +
+            "ndml: sqqh + jbtv\n" +
+            "lwqj: ndfc + qfsd\n" +
+            "thzq: 7\n" +
+            "bcsh: gwbb * zmpt\n" +
+            "jfnd: mlzr - lcvq\n" +
+            "nwps: mnrv + nhdh\n" +
+            "bghq: 7\n" +
+            "ncnr: 2\n" +
+            "rvhr: 2\n" +
+            "wdls: bdsm + vhpb\n" +
+            "rpcj: 5\n" +
+            "wzgj: thhg * qfbb\n" +
+            "crpn: gtqg + fdrw\n" +
+            "ptsg: pwcf * cfbh\n" +
+            "llbs: rgns - tcmn\n" +
+            "bcbv: 1\n" +
+            "dwpb: 2\n" +
+            "lqhz: plrf * zfsz\n" +
+            "jncf: 2\n" +
+            "jbnl: sqnc - djvs\n" +
+            "znhf: rczp * nglm\n" +
+            "fwwb: lhrp + schl\n" +
+            "wpbs: 1\n" +
+            "wrsm: hlhc * njzm\n" +
+            "fbpg: 2\n" +
+            "hhnt: tgpw + fnmz\n" +
+            "fmdt: mjlm + ntrn\n" +
+            "spvg: rghc * jrrn\n" +
+            "wlwf: rstf + clgp\n" +
+            "whlv: 3\n" +
+            "ttgd: 5\n" +
+            "ssss: 3\n" +
+            "vdff: 5\n" +
+            "jzdr: tdpv - vnsd\n" +
+            "pcfz: zcjd + whcc\n" +
+            "gprb: 3\n" +
+            "hfcp: fhpp + qdct\n" +
+            "zzsb: 4\n" +
+            "frhj: vnwn * fnnh\n" +
+            "tqpm: vvbs / tfbz\n" +
+            "jhrv: ptzt * stgf\n" +
+            "hzbl: 2\n" +
+            "zgqv: mtml + wfvc\n" +
+            "jgqm: jhrv + qhph\n" +
+            "npcg: 3\n" +
+            "wcnm: 10\n" +
+            "vssf: qvbr / chgl\n" +
+            "tgcb: mqbj * qmdd\n" +
+            "mbbp: sqsc * gpbt\n" +
+            "wvtt: zczs * qzjd\n" +
+            "gnjb: lnwq * qjbw\n" +
+            "lbmp: 2\n" +
+            "lzhw: 2\n" +
+            "dsrm: 18\n" +
+            "lcmq: 2\n" +
+            "hsct: zhww * htww\n" +
+            "qmjd: 3\n" +
+            "flvv: 2\n" +
+            "jctd: 2\n" +
+            "ffbn: 3\n" +
+            "nbcm: cjfr * jfcn\n" +
+            "fvgl: 4\n" +
+            "bnfs: 1\n" +
+            "mwrv: 2\n" +
+            "bzpj: 3\n" +
+            "zqhv: zghv * qmtw\n" +
+            "jfnq: 3\n" +
+            "vcpt: 6\n" +
+            "fztq: 2\n" +
+            "wfbt: 2\n" +
+            "dfbw: bbhh + gdjt\n" +
+            "vspm: wfpc / zsnb\n" +
+            "nrzg: 2\n" +
+            "tvmq: 5\n" +
+            "lljt: nvcw * hsjl\n" +
+            "dvjd: dzfw * wsnp\n" +
+            "qdct: ztgn * njfq\n" +
+            "wvrf: 6\n" +
+            "dzsb: 2\n" +
+            "srhh: 12\n" +
+            "jcjv: cjcv + lzcp\n" +
+            "zrbq: 3\n" +
+            "hbbr: czfb * mzhb\n" +
+            "qjhl: sljw * jpbw\n" +
+            "qltm: rlbv * zjfb\n" +
+            "npbq: jlmf + fhdb\n" +
+            "spwv: 2\n" +
+            "wvrz: rpln + fwmd\n" +
+            "lhgf: 3\n" +
+            "gfbg: jhrs * bsfs\n" +
+            "lsqd: 3\n" +
+            "srzc: fhcw * fsfp\n" +
+            "ldmm: 10\n" +
+            "cppg: 2\n" +
+            "vdpj: clls * mhhg\n" +
+            "btdb: wqhm * pgrm\n" +
+            "lrzt: 4\n" +
+            "lnsm: 7\n" +
+            "sfww: 3\n" +
+            "jjbq: 7\n" +
+            "qfvw: zcsq * ljnh\n" +
+            "bspf: 2\n" +
+            "smnt: 3\n" +
+            "jjlw: fgwm * htjn\n" +
+            "tvhp: 3\n" +
+            "qrrh: zzcd + gwrv\n" +
+            "mbsq: 1\n" +
+            "cqcw: 9\n" +
+            "bnrc: 1\n" +
+            "gvsn: 2\n" +
+            "tvdc: 11\n" +
+            "pshs: 4\n" +
+            "lhcp: 3\n" +
+            "cghq: wlrd - rlvs\n" +
+            "tjjg: nfmq * mjvj\n" +
+            "hhlw: 4\n" +
+            "fzhc: fhvr + fnzp\n" +
+            "zjfb: ltsl + tzbd\n" +
+            "gbqg: 2\n" +
+            "mmgf: nstj * gcjf\n" +
+            "dpfg: pfsj * vwvj\n" +
+            "bfws: stcn + nndc\n" +
+            "qdlh: 2\n" +
+            "fdnv: vmbv - mjnb\n" +
+            "ddqd: 2\n" +
+            "htms: qvjr * sglf\n" +
+            "cnrr: 6\n" +
+            "ptsz: 5\n" +
+            "hsjl: 6\n" +
+            "vvlm: 2\n" +
+            "hrwz: 4\n" +
+            "dspv: 3\n" +
+            "fhbh: gplr * mdrb\n" +
+            "zgrr: 2\n" +
+            "fdrw: lsqd * qvcb\n" +
+            "gbtb: 2\n" +
+            "mszz: 5\n" +
+            "vmdp: cncm * tlhf\n" +
+            "bfch: 2\n" +
+            "ztnz: 1\n" +
+            "rsmh: gfnr + snll\n" +
+            "zmvd: 18\n" +
+            "ctnr: 10\n" +
+            "hqzd: swjl - fvrn\n" +
+            "rclq: fcmc + dvtg\n" +
+            "bqdg: bqdt - hgnn\n" +
+            "ntzw: wscc + nbzg\n" +
+            "dnwp: zfsh * szbm\n" +
+            "fhts: 11\n" +
+            "qqgf: 3\n" +
+            "mrnd: vwwh + cdhw\n" +
+            "rgns: vmsg + flvh\n" +
+            "fdwf: qdsd / lbbb\n" +
+            "szlw: 7\n" +
+            "pqqt: 4\n" +
+            "dbrv: 4\n" +
+            "zrvt: wrwh * gmhb\n" +
+            "tljd: 2\n" +
+            "zncn: mbdv - cwff\n" +
+            "gnvq: qqzg * ppjm\n" +
+            "zbst: fnzf - pqlw\n" +
+            "jszl: 4\n" +
+            "mmzg: 2\n" +
+            "zfvm: 5\n" +
+            "ptqf: 4\n" +
+            "tzfm: 1\n" +
+            "bldl: crjp / hlls\n" +
+            "htnj: 19\n" +
+            "cpwn: 9\n" +
+            "mmtv: pstr + rlqb\n" +
+            "chtq: 3\n" +
+            "fhdb: 14\n" +
+            "pmdg: 4\n" +
+            "jbtv: fmmv - hwdn\n" +
+            "lnwq: 7\n" +
+            "lrps: 10\n" +
+            "btpl: 11\n" +
+            "lnts: nqjg + brrf\n" +
+            "cwhz: 3\n" +
+            "vnwn: scvz + qjwp\n" +
+            "gglr: 3\n" +
+            "qtgc: 5\n" +
+            "cdrc: 4\n" +
+            "drlr: 2\n" +
+            "vvvf: 2\n" +
+            "qmtw: 2\n" +
+            "clds: 2\n" +
+            "mcqd: nlrs / mmzg\n" +
+            "mswn: rtzs + pjhq\n" +
+            "jrhh: 2\n" +
+            "lqpg: 4\n" +
+            "thqt: 8\n" +
+            "ddvz: rfpc + ztfc\n" +
+            "nsdg: 4\n" +
+            "twsf: rplv + jzdl\n" +
+            "wscz: 3\n" +
+            "hfvv: 2\n" +
+            "slnc: htcc + mvsw\n" +
+            "bpss: 16\n" +
+            "fwsr: 3\n" +
+            "cnml: wdhs * hjqq\n" +
+            "nfrj: svdn + tnbr\n" +
+            "rqzs: nvzh + mvhp\n" +
+            "ptjl: 3\n" +
+            "vttc: jbmb - jtzh\n" +
+            "qpvl: ghgl + thgf\n" +
+            "wwbb: 12\n" +
+            "vblt: 2\n" +
+            "mtml: 6\n" +
+            "whgj: 5\n" +
+            "vwng: 14\n" +
+            "fgnt: 15\n" +
+            "pcdg: 19\n" +
+            "wnvd: mqlm - lvpq\n" +
+            "pcvj: gmfw + cpwn\n" +
+            "zjjb: 2\n" +
+            "glbh: 11\n" +
+            "cmmv: fhcq * ljss\n" +
+            "rqdt: lrpr + bqdg\n" +
+            "zvfn: rpcj * thzq\n" +
+            "lljs: tjhd * tdvj\n" +
+            "tvrv: 2\n" +
+            "jfcp: 5\n" +
+            "nqjg: hbrf * zjnr\n" +
+            "fwnj: frng + wqzm\n" +
+            "hpnb: 3\n" +
+            "rvcm: 3\n" +
+            "fhcw: 5\n" +
+            "mvnq: 4\n" +
+            "jtnp: 4\n" +
+            "cnhm: clzw / fwht\n" +
+            "zfwc: 11\n" +
+            "zwmz: 3\n" +
+            "snjb: 10\n" +
+            "sqzm: 17\n" +
+            "sgpt: 3\n" +
+            "vgtn: wcbw * cdgm\n" +
+            "wzsf: nwmc * zpsw\n" +
+            "bbhh: swfz - wpmd\n" +
+            "rrnh: pjlr * zqbp\n" +
+            "gcgw: 2\n" +
+            "qzmb: 3\n" +
+            "dtmr: 3\n" +
+            "jwlg: qcrr / rbws\n" +
+            "zwms: jmlj * qhvj\n" +
+            "dqrj: fjwm * ffng\n" +
+            "mpft: lbfr - qpfn\n" +
+            "ggqn: 6\n" +
+            "mqlm: gwgj * qjgv\n" +
+            "htgm: nfhs * gbtb\n" +
+            "lltz: lrwp * tnsw\n" +
+            "ljhw: 5\n" +
+            "wqws: 1\n" +
+            "fgnq: lgpd + lhvb\n" +
+            "hpzb: ljhw * mnzp\n" +
+            "gqlc: 4\n" +
+            "ggbs: 5\n" +
+            "jhrw: swmz + qhct\n" +
+            "fscd: 13\n" +
+            "wlcs: gsrm + wcgz\n" +
+            "tnsw: 2\n" +
+            "fvjz: tvdp + mjlg\n" +
+            "jgnp: 12\n" +
+            "tvnl: 15\n" +
+            "tmjt: 7\n" +
+            "cznl: 11\n" +
+            "lfvh: pbcs / qqbp\n" +
+            "pmhj: 14\n" +
+            "pmvr: tfdg + mbhg\n" +
+            "njvg: zpnj * mcjc\n" +
+            "gzdz: jqjv - rszm\n" +
+            "rqcn: 3\n" +
+            "pmrv: btdb - pwcm\n" +
+            "nfpz: qbvt * fbdq\n" +
+            "rplv: 1\n" +
+            "ngdz: 2\n" +
+            "gmzt: 2\n" +
+            "clbs: hqzd * bspf\n" +
+            "hvqg: dsvw * smch\n" +
+            "rlqb: 2\n" +
+            "fzlp: 2\n" +
+            "ztzb: 2\n" +
+            "jqrs: scbm * vgjv\n" +
+            "hvlz: bpss + djlq\n" +
+            "ghmt: zpwb * njng\n" +
+            "ztjj: 4\n" +
+            "prvd: nzlm + fgnt\n" +
+            "bqlg: 2\n" +
+            "rmsf: 9\n" +
+            "dmcc: frhj * dwcv\n" +
+            "scbm: 11\n" +
+            "sdcp: 12\n" +
+            "gsff: pjgf - hjvv\n" +
+            "ndtg: lwwp / ddft\n" +
+            "sqsc: 2\n" +
+            "wgqb: 1\n" +
+            "pwrp: mtdz + qswq\n" +
+            "jbhh: rqvb + tgpj\n" +
+            "zsfr: grww - bhcq\n" +
+            "cdfn: gwdv * nnbt\n" +
+            "fqql: hncw * nnjf\n" +
+            "tfwc: 3\n" +
+            "gzrf: btgp / npgl\n" +
+            "sdgq: gdqn * hpdp\n" +
+            "dlww: fvgd + fwwb\n" +
+            "tqsl: lflb * qrqm\n" +
+            "cqdq: dtlh * qqgf\n" +
+            "drtr: 3\n" +
+            "qsfp: 3\n" +
+            "lczq: jmcg + gvnp\n" +
+            "lzhl: 5\n" +
+            "mtrp: mhvr / jdmv\n" +
+            "tfjp: 17\n" +
+            "zgnh: bgrr * ngvn\n" +
+            "zcgw: hrwz + plnr\n" +
+            "qhsf: 6\n" +
+            "gjbl: 2\n" +
+            "zggg: rjsh / nwcb\n" +
+            "tpch: 5\n" +
+            "tvtw: 2\n" +
+            "snvq: tnwh + qhjp\n" +
+            "fllz: 11\n" +
+            "vfqv: gnjb + hmtz\n" +
+            "gwgj: swgn - fllf\n" +
+            "ldsb: 4\n" +
+            "lcjl: gsrs * ngjt\n" +
+            "qjsb: tjlr / rfhc\n" +
+            "sqlp: lnjz * tljd\n" +
+            "lnwn: qqdl * lgnj\n" +
+            "ddzt: qhdn + ztvc\n" +
+            "njwf: pbpg * ztzt\n" +
+            "cqtd: cpmt * mjmt\n" +
+            "qhgw: tshn / dmgj\n" +
+            "fzpf: wjjm + tgrt\n" +
+            "zhnq: lljt / wvrf\n" +
+            "qbrv: 3\n" +
+            "dwcz: 6\n" +
+            "fhql: 3\n" +
+            "wwzs: 5\n" +
+            "bczr: pdfm * dnqz\n" +
+            "ggsd: 4\n" +
+            "jcvn: nbqw * brnt\n" +
+            "vpsn: 4\n" +
+            "wwwh: cznl * frpq\n" +
+            "qhfc: hgdg * zjbl\n" +
+            "hfrm: 18\n" +
+            "npvg: 6\n" +
+            "vcbn: dpct * tpvb\n" +
+            "njbj: hbqc / sfww\n" +
+            "wwpz: pvcr * rdff\n" +
+            "nsmz: mdbv + jzjc\n" +
+            "jlnp: 11\n" +
+            "ljss: 2\n" +
+            "bfct: 3\n" +
+            "pgwv: ftfn + cqpp\n" +
+            "jpgt: 2\n" +
+            "blbl: ssss * lspg\n" +
+            "wtfl: fwnj + frmj\n" +
+            "dfzf: jswh + dzjc\n" +
+            "mggd: nzsm * ptjt\n" +
+            "gwmv: 15\n" +
+            "zmqm: 13\n" +
+            "bcnm: hgpb * lrpg\n" +
+            "brnt: 2\n" +
+            "ngvn: spsz + wzlh\n" +
+            "hwdq: ttml + jmcc\n" +
+            "gqqs: bscz * wbtr\n" +
+            "dlbn: whpf * vtjl\n" +
+            "ztzt: pdpz + mjhb\n" +
+            "pbjp: czfp + pqjr\n" +
+            "mtlh: lpfq / ntpq\n" +
+            "hzrb: zqlr - nfzj\n" +
+            "nfzj: qsgm + mdgw\n" +
+            "ttpt: zmvd * jblr\n" +
+            "wtsz: 3\n" +
+            "wjgb: tqlq + ggqn\n" +
+            "vdhw: pdfd + jmmd\n" +
+            "dhjz: fqql + zhzr\n" +
+            "jzhs: qzfr + gpcq\n" +
+            "dsbq: lhlv * mdfm\n" +
+            "grvn: 7\n" +
+            "rtjl: 3\n" +
+            "cbjb: 8\n" +
+            "wshh: dbrv + lpfh\n" +
+            "jplh: jgmw + dphd\n" +
+            "lzcp: bglm * fmfw\n" +
+            "fcbh: wdsr * ljnc\n" +
+            "nfqj: 2\n" +
+            "ggmn: jtvb / wdwf\n" +
+            "ccbw: jpll / dnvt\n" +
+            "zrdc: gtng * glbh\n" +
+            "zgzl: 3\n" +
+            "bslp: lbqq + fmcj\n" +
+            "vsqb: mfff * hzbl\n" +
+            "fnmz: mgwj * zrsg\n" +
+            "qlhz: 3\n" +
+            "phqs: zrrv * ccvm\n" +
+            "ghnb: mpfp + qblt\n" +
+            "zdlz: dndl + jlnp\n" +
+            "ndfc: 3\n" +
+            "pbcs: zbfl * ggcg\n" +
+            "qqzv: fmvc * zncr\n" +
+            "ffbd: drjt - lnwn\n" +
+            "bwpf: ghpd * sctd\n" +
+            "dpct: tsjj + nclj\n" +
+            "hjsn: 17\n" +
+            "vmlh: mslh + pfvl\n" +
+            "qdcm: 3\n" +
+            "nthl: dggs * qjsb\n" +
+            "crnp: rnjd * jllm\n" +
+            "qfdf: pbhl - fnrq\n" +
+            "jgmw: 5\n" +
+            "rjrg: 15\n" +
+            "tjrg: 3\n" +
+            "dppc: 7\n" +
+            "zhvn: lszb * drww\n" +
+            "mmdc: slwm / fmpc\n" +
+            "fgfh: 2\n" +
+            "nqps: jfcp * nggv\n" +
+            "jjfq: 4\n" +
+            "mcjc: fpcp + wqjd\n" +
+            "szdl: 2\n" +
+            "fvhf: 2\n" +
+            "drhf: 3\n" +
+            "dhvj: tvhp * qrgm\n" +
+            "gcll: cjnc + prqt\n" +
+            "rmmj: 5\n" +
+            "zqlr: nszv + grvn\n" +
+            "jjqs: sglz * cdjn\n" +
+            "mglc: qwww * gzww\n" +
+            "rcvg: ttzm + cdnp\n" +
+            "tbhc: 11\n" +
+            "nnbt: 2\n" +
+            "tdpv: znth * htcs\n" +
+            "jnbq: 9\n" +
+            "zbbs: bsmg + nbvf\n" +
+            "vfnv: 2\n" +
+            "gcqd: vvvf * jsrp\n" +
+            "jpjh: hbhj * btvs\n" +
+            "jqqg: bcbv + grwz\n" +
+            "jblr: nsrb * rvcm\n" +
+            "npnw: fmhw / mgqv\n" +
+            "fssh: 2\n" +
+            "zjzr: hjvw * lvwc\n" +
+            "jmcg: 1\n" +
+            "szvm: mcpz * pmqp\n" +
+            "bdss: nlws + vjhs\n" +
+            "wcgz: zbvf * sqpr\n" +
+            "dtwp: vfsz + hfnn\n" +
+            "shtd: ndfw + jzsd\n" +
+            "tbrt: bjvn * tfwc\n" +
+            "fssb: jwlg * jthr\n" +
+            "nrdq: dsqj * wnps\n" +
+            "jjmh: tgcb + dzpm\n" +
+            "jrnd: 18\n" +
+            "ddph: sdcp + gwgw\n" +
+            "lpgm: tjhv + hzjl\n" +
+            "cwjn: 4\n" +
+            "qzjd: zbwr - ntnv\n" +
+            "qwdl: sgcz + hgbc\n" +
+            "qswq: 3\n" +
+            "hqwt: 2\n" +
+            "zgmn: fgbd + rdbg\n" +
+            "psbt: zpcm - gbqg\n" +
+            "vjjz: jwgd + szrj\n" +
+            "ntgm: gtwc * nlwj\n" +
+            "mmhz: nqps * htgm\n" +
+            "ntcc: cvmw * rljz\n" +
+            "jpgh: mvfr + twsf\n" +
+            "gdmt: wtfw * jjlj\n" +
+            "sqdw: qrcv + fzpw\n" +
+            "hbqc: zgqv * mfmn\n" +
+            "vrfn: 3\n" +
+            "whvf: sffg + vcbn\n" +
+            "zncr: lpds + wlpg\n" +
+            "bscz: 4\n" +
+            "nvnm: zjzm + fhbt\n" +
+            "hntc: nczg * mmwt\n" +
+            "vghv: gtmc + qmjd\n" +
+            "rznw: 13\n" +
+            "zjnr: 7\n" +
+            "gldd: rmsf - pzmg\n" +
+            "hjsv: 5\n" +
+            "lbbb: 2\n" +
+            "gvjp: 2\n" +
+            "pcgt: wjml * mhmd\n" +
+            "pstr: 11\n" +
+            "rnfm: 3\n" +
+            "bvhw: 5\n" +
+            "vbnh: 4\n" +
+            "dtlh: sfpd * gwhh\n" +
+            "ffpn: pshs + rlbf\n" +
+            "nglr: mtvr + vjjz\n" +
+            "vmtp: 20\n" +
+            "fzpw: tjmq * bwnt\n" +
+            "szbm: 2\n" +
+            "mcth: 2\n" +
+            "csmq: mdhq + mccw\n" +
+            "sqdr: 2\n" +
+            "vcmp: trqs * wjhg\n" +
+            "fsfp: wrsm + wllh\n" +
+            "lvwc: 4\n" +
+            "lvsn: 3\n" +
+            "czct: bjdf * ntps\n" +
+            "dvmt: fgnq * sdbb\n" +
+            "dtdv: rmjr * nlpm\n" +
+            "fhjl: bdrv + szlw\n" +
+            "tgcr: 10\n" +
+            "brph: mpcn + zjch\n" +
+            "bzsh: qwdl + mwsh\n" +
+            "gfnr: fhsh + prvl\n" +
+            "blpf: nznb * qtgc\n" +
+            "fldl: 4\n" +
+            "dgjp: lvhn * cbjb\n" +
+            "njzm: 2\n" +
+            "fmpc: 3\n" +
+            "pdwm: 3\n" +
+            "vtqs: jfnq * gcgc\n" +
+            "qjwp: nprt * jwgn\n" +
+            "ncjl: 3\n" +
+            "clpz: nzmf * rgjj\n" +
+            "jljs: ntbz + hzvl\n" +
+            "ghjw: vnzw + svsh\n" +
+            "dnvt: 4\n" +
+            "dmtz: 20\n" +
+            "gsrs: spvg / jhcs\n" +
+            "szrj: 4\n" +
+            "ncrq: gtcb * swpl\n" +
+            "wtmq: 17\n" +
+            "sbjd: 2\n" +
+            "cncm: 2\n" +
+            "dvtg: 3\n" +
+            "fqww: 5\n" +
+            "nzcj: 2\n" +
+            "tnvb: 2\n" +
+            "fqzp: tmjn + czbg\n" +
+            "lhtt: 4\n" +
+            "vlsd: njgb + tcpp\n" +
+            "zpcz: 2\n" +
+            "qsjh: 2\n" +
+            "bjcj: mqms / rblt\n" +
+            "ltlr: spwv * ptrf\n" +
+            "vmvw: 2\n" +
+            "qthv: 3\n" +
+            "njgb: ddph + zrdc\n" +
+            "vqsf: tnvb + lgsp\n" +
+            "mjfd: 7\n" +
+            "cptm: bdmd + jvjb\n" +
+            "cjbb: 3\n" +
+            "qjqd: pwzw * jbhh\n" +
+            "jstm: 3\n" +
+            "pnvs: 9\n" +
+            "qhrj: mznz * fsdr\n" +
+            "rrpw: sntt + nwsf\n" +
+            "bpll: 2\n" +
+            "hfnn: 11\n" +
+            "lptc: 7\n" +
+            "fmfw: 2\n" +
+            "djhm: 2\n" +
+            "mvlw: pwjw + nmmt\n" +
+            "mnrv: 5\n" +
+            "wcbw: drfr + qjhl\n" +
+            "cqmv: jjbq * mvhz\n" +
+            "hvjt: mtrp * zmvl\n" +
+            "sffg: hntc - tdwj\n" +
+            "tsmb: jvcd * cbhp\n" +
+            "thlt: 3\n" +
+            "wzml: 2\n" +
+            "bvhz: 2\n" +
+            "phgs: 3\n" +
+            "wnft: hpnb * hfgp\n" +
+            "mfvn: lmhb + cctm\n" +
+            "qvjr: 2\n" +
+            "tnch: dpfg - ptqf\n" +
+            "cdjn: qhdq + jbhw\n" +
+            "jrsq: 3\n" +
+            "vnwc: mvnq + vpbg\n" +
+            "cmsq: 5\n" +
+            "lmth: gtbb * ddqd\n" +
+            "spsz: dppc * vjdp\n" +
+            "bzmp: whgj * ghrg\n" +
+            "mjlg: nntg + qvmh\n" +
+            "rmjr: 3\n" +
+            "wdsr: lmth / hllp\n" +
+            "trwl: bbmm + cmmv\n" +
+            "wggw: vlvv + crll\n" +
+            "zqvb: hzhq * jhdr\n" +
+            "fmlb: 4\n" +
+            "fsdr: fvgl * pbjp\n" +
+            "dmtw: 10\n" +
+            "nndc: ttpt + lbbz\n" +
+            "brqf: ljmq + pmnp\n" +
+            "cvnp: jdbg * tbvd\n" +
+            "fwvh: 3\n" +
+            "bfdb: 11\n" +
+            "hlls: 4\n" +
+            "fwbj: 5\n" +
+            "jvcb: 4\n" +
+            "mwbv: jsft / nbmb\n" +
+            "trqf: 12\n" +
+            "glww: pbbm * dwwj\n" +
+            "svhq: vltb + wzpd\n" +
+            "hjnp: 6\n" +
+            "pfpz: lvfr * gbpm\n" +
+            "lfvb: 2\n" +
+            "qhct: cmpb + hjsv\n" +
+            "mjvj: 13\n" +
+            "tlbj: jtgb * brqf\n" +
+            "cgsl: hbrc * zhcn\n" +
+            "ntcg: ldmm + tbcs\n" +
+            "vjdp: mszz * szwt\n" +
+            "zbns: qpvl - cjld\n" +
+            "qwww: 20\n" +
+            "zgpd: 4\n" +
+            "mdcm: qhrj + vmgn\n" +
+            "ztfz: 6\n" +
+            "clgp: 10\n" +
+            "zsth: vzvr * nnzl\n" +
+            "tqcj: 3\n" +
+            "fhpp: 1\n" +
+            "hzfc: 5\n" +
+            "jzsd: 4\n" +
+            "rblt: 2\n" +
+            "bqbp: 13\n" +
+            "bqcm: fbpg * rfql\n" +
+            "dpld: 2\n" +
+            "jhdr: jzcz * cqwh\n" +
+            "tzng: 12\n" +
+            "shnj: hpzb * grfq\n" +
+            "lwgv: 4\n" +
+            "jsrg: zmfw * gjmm\n" +
+            "zhcn: 2\n" +
+            "lstv: 2\n" +
+            "gcpq: zjmz / nfrq\n" +
+            "gpbt: 9\n" +
+            "gjgl: fwwf * prvw\n" +
+            "ldch: mggd * whlv\n" +
+            "lflb: 4\n" +
+            "qvrt: 2\n" +
+            "psmj: chjp - ptws\n" +
+            "qblt: vhrj * lfwn\n" +
+            "ptzt: 3\n" +
+            "mdbv: 9\n" +
+            "rbwt: 3\n" +
+            "rpln: 7\n" +
+            "rlbf: 2\n" +
+            "fhgh: wzjl + dzqb\n" +
+            "rjbf: 3\n" +
+            "pwss: 3\n" +
+            "mdzz: cgqp * svhq\n" +
+            "rdbg: dbrb / mwrv\n" +
+            "prbw: 3\n" +
+            "fwwf: 2\n" +
+            "dnqs: jpvz + qhtd\n" +
+            "nzsr: 2\n" +
+            "mcnw: smws / mqmf\n" +
+            "jpvz: zpmt * tbsc\n" +
+            "dzht: 7\n" +
+            "lrwp: 3\n" +
+            "gjmm: 12\n" +
+            "cmpg: 2\n" +
+            "zccc: 5\n" +
+            "gjgd: bfws * ddzs\n" +
+            "gfpq: zbmw / ncpg\n" +
+            "mjmt: glrg * jsrq\n" +
+            "zdwz: 2\n" +
+            "jllm: 6\n" +
+            "lwcv: 2\n" +
+            "bpzz: jpts * cmsq\n" +
+            "vftq: shnj - jrnd\n" +
+            "vlvv: lhmd * pmml\n" +
+            "zmpt: 4\n" +
+            "zhww: 11\n" +
+            "jmpb: 3\n" +
+            "lpgn: 5\n" +
+            "cvmw: bbnp * ptmr\n" +
+            "njhw: 3\n" +
+            "zpsw: 4\n" +
+            "gvhl: hrnd + qqpp\n" +
+            "hjqq: 2\n" +
+            "jpdq: 3\n" +
+            "nszv: fscd * qlft\n" +
+            "glgs: rjtw + vmvw\n" +
+            "wfgq: fbrc + qthh\n" +
+            "wcdr: 2\n" +
+            "wjhg: dgdf + hvlz\n" +
+            "qnbb: gpsl / ngdp\n" +
+            "qnsz: rwpv + nghz\n" +
+            "snqg: 4\n" +
+            "dggn: 4\n" +
+            "sqbl: mjnr * jhvn\n" +
+            "hsnt: rwzn + thzn\n" +
+            "zsgd: zgzl * nfqj\n" +
+            "cbmq: 14\n" +
+            "gqrz: qwzc + dtwp\n" +
+            "htmh: 4\n" +
+            "fgtb: sbhb * ghdl\n" +
+            "lmwt: lzhl + tpdz\n" +
+            "tpwq: 17\n" +
+            "zpnj: 2\n" +
+            "vjrj: bzpj * mvls\n" +
+            "lttb: 2\n" +
+            "jdmv: 2\n" +
+            "jbbm: 5\n" +
+            "qsbt: nglr + scjp\n" +
+            "chct: vcmp * fnjc\n" +
+            "wtfw: 2\n" +
+            "tgbl: 5\n" +
+            "fgwm: 2\n" +
+            "zjch: shtd + vdpj\n" +
+            "qjfv: 5\n" +
+            "btzb: 5\n" +
+            "rnjg: 3\n" +
+            "nlpm: 2\n" +
+            "mpcn: sgqz * bmwj\n" +
+            "gsgr: ntcc / vpsn\n" +
+            "ndhv: ntzm / lfvb\n" +
+            "cvsc: 2\n" +
+            "thzn: tpnn - tjbr\n" +
+            "rrzz: 9\n" +
+            "btvh: nvst + pnrf\n" +
+            "fhjw: tgml + btpq\n" +
+            "gvjb: lptc * svvr\n" +
+            "lbns: gpsn + wnft\n" +
+            "jbdm: mcbm * fjrl\n" +
+            "vvss: fzlp * sqrc\n" +
+            "jqgl: 4\n" +
+            "wbtj: glgs + bzwc\n" +
+            "pnzd: bwpf + mqrg\n" +
+            "qvbr: jcdv + cmqc\n" +
+            "pfft: 3\n" +
+            "jjlj: 5\n" +
+            "gcrf: 8\n" +
+            "ddft: 2\n" +
+            "tmgs: cprd + wbpz\n" +
+            "wpml: 3\n" +
+            "ljmq: 14\n" +
+            "fwtz: 3\n" +
+            "bglm: 7\n" +
+            "gwrv: wtsz * hdwb\n" +
+            "lzsb: vvpd * rzrv\n" +
+            "qlwh: 2\n" +
+            "srrg: 4\n" +
+            "pwzl: jzwn * pwss\n" +
+            "zbth: 1\n" +
+            "bmbp: 2\n" +
+            "lflt: lrzt + btzb\n" +
+            "trnv: zppz / vbsh\n" +
+            "srvs: 17\n" +
+            "ntnv: cszm * nwps\n" +
+            "fqgf: 4\n" +
+            "pppj: 5\n" +
+            "wftw: qnbf + bldl\n" +
+            "vnff: vvpr + njwf\n" +
+            "gtng: 3\n" +
+            "vbpp: 4\n" +
+            "nghz: lbns * ljrs\n" +
+            "gvgb: cbmq / wcdr\n" +
+            "pwlh: 4\n" +
+            "pwzw: 4\n" +
+            "vvmp: dwpb * zbzs\n" +
+            "wmtz: jwqz * dpld\n" +
+            "lzvh: chtq * jpqs\n" +
+            "fgss: nnzh * gwmv\n" +
+            "ctts: zzdc + vljz\n" +
+            "tsjj: 12\n" +
+            "gcgc: 19\n" +
+            "msdv: 3\n" +
+            "gzww: fngh + sgpt\n" +
+            "qssl: 2\n" +
+            "mjgs: 10\n" +
+            "vltb: pcdg * gprb\n" +
+            "vlsh: 14\n" +
+            "tcdt: jtrg / bznd\n" +
+            "gbpm: gdmt - qzmb\n" +
+            "tqcc: zfwp + snrn\n" +
+            "hjjh: tmjt * mcqd\n" +
+            "twrw: 5\n" +
+            "znjl: 3\n" +
+            "dndl: 2\n" +
+            "jvqv: 18\n" +
+            "gccz: 2\n" +
+            "qpfn: snlj * fvgh\n" +
+            "flrm: 2\n" +
+            "wdhs: fbct * lhgf\n" +
+            "nqjw: 2\n" +
+            "zsnb: 3\n" +
+            "cmqc: tqsz * jswp\n" +
+            "bbhm: 18\n" +
+            "mpfp: lnsm * hfvt\n" +
+            "tlvz: wdls - nzcj\n" +
+            "lnzn: 16\n" +
+            "wqzm: ptsz * qbmq\n" +
+            "crll: tzns / qgrh\n" +
+            "htww: 9\n" +
+            "dtqt: 2\n" +
+            "jzwn: 2\n" +
+            "hdqh: jvcb + czdz\n" +
+            "fhvr: 15\n" +
+            "btgp: nztv * cpfr\n" +
+            "njrz: djtd + twvm\n" +
+            "gwdq: 4\n" +
+            "nbcv: mglc + dmcc\n" +
+            "vvbs: tfqd - vnwc\n" +
+            "vffp: 4\n" +
+            "jtzr: 3\n" +
+            "jqjv: njvg - drlt\n" +
+            "tfdg: 1\n" +
+            "jvjc: 5\n" +
+            "sdgj: mcrc * gbgs\n" +
+            "tcmn: 5\n" +
+            "qfsd: 18\n" +
+            "ffvv: 2\n" +
+            "jrdn: brts + qbrv\n" +
+            "mgfs: trzc + vhwv\n" +
+            "mjlm: fgvp * vmss\n" +
+            "mllh: nrzm * vqvv\n" +
+            "pfsj: 3\n" +
+            "rrfv: pgzz + psqm\n" +
+            "fvtf: 11\n" +
+            "mhvr: vnmt * qswf\n" +
+            "tgrt: sltd * cqmv\n" +
+            "wjml: tvmq + wrmm\n" +
+            "wbtr: 3\n" +
+            "tlhf: 3\n" +
+            "cccv: 2\n" +
+            "cjld: tstc + lmwt\n" +
+            "dqwz: 5\n" +
+            "nvgv: 13\n" +
+            "rdff: zhjr / rjbf\n" +
+            "cbrz: mbbn * lhww\n" +
+            "mswc: 2\n" +
+            "bqdt: mwjm + hqgc\n" +
+            "tpdz: gldd + hfws\n" +
+            "hllp: 2\n" +
+            "tvrz: pfpz * fhrq\n" +
+            "smhz: 3\n" +
+            "fdcl: 5\n" +
+            "hfws: drpf * wrmz\n" +
+            "wcgv: 4\n" +
+            "qmvv: wsgw * bngr\n" +
+            "zzcd: 4\n" +
+            "pdcq: dspv * tnhj\n" +
+            "dzfw: 5\n" +
+            "lsct: svlt * mtlr\n" +
+            "rmlg: 2\n" +
+            "znff: vqzj * pcfz\n" +
+            "tgpj: 5\n" +
+            "mrhn: 1\n" +
+            "tfjh: glth + hfcp\n" +
+            "jpqs: 5\n" +
+            "mtbp: 3\n" +
+            "lpzj: 3\n" +
+            "jdgg: jtnp * sjpc\n" +
+            "qhph: lcjl / ttbz\n" +
+            "vbzp: 11\n" +
+            "sqpr: wpml * cmgq\n" +
+            "zpwb: 7\n" +
+            "phnp: rbtv + wcfl\n" +
+            "bchn: sgzq / nprn\n" +
+            "dphd: 3\n" +
+            "lffw: msdv * czrh\n" +
+            "mmwt: 7\n" +
+            "pfsm: 3\n" +
+            "tbsc: jmdl + fqrw\n" +
+            "rnrq: 4\n" +
+            "nzsm: 3\n" +
+            "trjj: 5\n" +
+            "drbf: znhf * psjs\n" +
+            "fpcg: tqql * zbhr\n" +
+            "ggps: wbrr + fqzp\n" +
+            "zgwl: fhql * blth\n" +
+            "ncpg: 3\n" +
+            "qphw: 10\n" +
+            "mfff: 7\n" +
+            "bqwf: 3\n" +
+            "cwqt: dfjw + rtmp\n" +
+            "lgnj: 7\n" +
+            "jtqt: szvm * dvdh\n" +
+            "wwfm: 3\n" +
+            "pfhq: bfqr * wvff\n" +
+            "hvdv: 2\n" +
+            "wgmt: gvzz + nthl\n" +
+            "lvhl: vvss / hrwc\n" +
+            "glfv: 6\n" +
+            "wsgw: mnqq - tqlp\n" +
+            "nggv: 2\n" +
+            "gpsn: jqdf + ztfz\n" +
+            "tfjl: 4\n" +
+            "zppz: mtbp * whvf\n" +
+            "mrdm: jrvt * srhh\n" +
+            "bwzr: chdg * qhdd\n" +
+            "nlmg: qfdf * qgtn\n" +
+            "wzlh: zqvb + rcjj\n" +
+            "btwt: ggps + qsbt\n" +
+            "pdpf: 9\n" +
+            "qhjp: 1\n" +
+            "wqdw: dnqs * tmgs\n" +
+            "bgns: nchh * mjqh\n" +
+            "ntpq: 2\n" +
+            "dnqz: 2\n" +
+            "bbmm: czln * qjvv\n" +
+            "bhbq: mjgs * zqhv\n" +
+            "rhjr: 2\n" +
+            "nchh: 4\n" +
+            "hstn: 3\n" +
+            "hjvv: 1\n" +
+            "dncf: 17\n" +
+            "vncn: 7\n" +
+            "rztm: 19\n" +
+            "hdnj: pqqt + hqhc\n" +
+            "ztpf: wnmv * psgm\n" +
+            "bjdf: 5\n" +
+            "tcqh: 2\n" +
+            "ghgl: mhss + vdnc\n" +
+            "pcjl: 4\n" +
+            "prvl: tcgc + rtnd\n" +
+            "zghv: rspd * fssh\n" +
+            "mcpz: 3\n" +
+            "fvgd: ddqf / mgfs\n" +
+            "mcdl: bqfj * tcqh\n" +
+            "wmbb: lnzn - pjzl\n" +
+            "vtjl: 2\n" +
+            "rjtw: 5\n" +
+            "zpmt: jcjv + qpmr\n" +
+            "hrnd: dptr * vlsd\n" +
+            "nczf: 2\n" +
+            "zfsh: pfhq - vhrw\n" +
+            "pvjr: clpz / rptt\n" +
+            "zptq: fbpq + wnrh\n" +
+            "qmfb: 2\n" +
+            "clvh: 5\n" +
+            "vcbb: 4\n" +
+            "hvbs: bbhm + gbsz\n" +
+            "sglf: 11\n" +
+            "gwbb: 2\n" +
+            "zvmr: 18\n" +
+            "fmnw: jfnd / bwlr\n" +
+            "swpl: 2\n" +
+            "tpvb: 2\n" +
+            "fvgh: lljs / ftjn\n" +
+            "tbvt: 11\n" +
+            "mmzz: qjdt / lzsg\n" +
+            "nclc: 3\n" +
+            "qvqb: 2\n" +
+            "mpmg: 2\n" +
+            "wpgg: lwqj + wddq\n" +
+            "qjbw: 2\n" +
+            "gvnp: lffw + bqlg\n" +
+            "cwbv: fhjw * cdbt\n" +
+            "zwcn: rrpw * jlbj\n" +
+            "mqjn: 3\n" +
+            "lpfh: 15\n" +
+            "pmqp: zgbr + zgnh\n" +
+            "snss: 3\n" +
+            "mdqz: rttt - phnp\n" +
+            "hvns: 2\n" +
+            "bwmz: 8\n" +
+            "clls: fwsr * wrqm\n" +
+            "fqvf: 4\n" +
+            "tpmj: 4\n" +
+            "mnqq: bhpv * nlrv\n" +
+            "gjnn: 15\n" +
+            "hgpb: dvmt + gqlc\n" +
+            "tmjn: 4\n" +
+            "nvfn: qftq * gvgb\n" +
+            "wqhm: 3\n" +
+            "mfqd: 3\n" +
+            "rjlb: 2\n" +
+            "rbws: 2\n" +
+            "gdds: 2\n" +
+            "drzr: vdff * wjpl\n" +
+            "pwzr: 3\n" +
+            "bngr: 2\n" +
+            "bssz: 9\n" +
+            "zjbl: 2\n" +
+            "scvz: gzhh * qdcm\n" +
+            "vhrj: blfd / nzsr\n" +
+            "mlzr: fnbb * vldl\n" +
+            "mslh: 17\n" +
+            "lrhs: hhnt * qtjq\n" +
+            "dnth: 19\n" +
+            "hfff: 2\n" +
+            "jcbs: 5\n" +
+            "fcmc: tvnl + tshv\n" +
+            "pljt: 4\n" +
+            "shdh: 2\n" +
+            "nvsl: mdzz + wbqh\n" +
+            "lztr: dtqt * jlfc\n" +
+            "lqfp: 2\n" +
+            "nmmt: ltlr + ntcg\n" +
+            "mdrb: qjqd / cdrc\n" +
+            "jwgd: 3\n" +
+            "mdhh: 2\n" +
+            "llsh: 6\n" +
+            "fdzt: ttgd + hglr\n" +
+            "msdh: tmqt * flzl\n" +
+            "nqtd: 3\n" +
+            "dzjc: 5\n" +
+            "wvff: 5\n" +
+            "splz: 11\n" +
+            "mmpn: 2\n" +
+            "gtcb: ggbs * jzmc\n" +
+            "qpmr: dtww + wvrz\n" +
+            "jmcc: pchw - btvh\n" +
+            "nnjf: 3\n" +
+            "cdgm: 11\n" +
+            "jlmf: 3\n" +
+            "fmnl: 3\n" +
+            "hvmb: 10\n" +
+            "wghc: rgtm * jbbm\n" +
+            "vsbt: jtnd * djnb\n" +
+            "jcdv: wnvd * glhf\n" +
+            "dpwm: 6\n" +
+            "lbqq: 5\n" +
+            "vprv: wzml + fbmm\n" +
+            "chbh: svtt + bwzr\n" +
+            "czln: sqrh + nvbz\n" +
+            "cjnc: 18\n" +
+            "plsf: lfgr + tclr\n" +
+            "vgrh: 4\n" +
+            "sgqz: mwbv * djhm\n" +
+            "jvjb: lflt * qlgr\n" +
+            "zfsz: whzh + nqlc\n" +
+            "ltsl: 1\n" +
+            "mvhz: 5\n" +
+            "czfp: 1\n" +
+            "rghc: 2\n" +
+            "vtns: zrgn + lpfj\n" +
+            "nptm: 4\n" +
+            "qwbp: pbsz + rbrh\n" +
+            "vhpb: 8\n" +
+            "gzjw: 18\n" +
+            "tlfz: 7\n" +
+            "pjhq: 2\n" +
+            "jwqz: 4\n" +
+            "ptjt: 3\n" +
+            "pgzz: wlwf - rgcg\n" +
+            "zljs: wgmt + czdw\n" +
+            "fnhz: jzhs * pnvs\n" +
+            "fgqh: jtzr + rfnb\n" +
+            "brts: 8\n" +
+            "mgqv: 2\n" +
+            "flbg: btwt + vcpt\n" +
+            "zfwf: 2\n" +
+            "wnmv: 3\n" +
+            "zrwh: 10\n" +
+            "qcwb: 2\n" +
+            "gfwv: 2\n" +
+            "pwcf: 2\n" +
+            "mqhj: 3\n" +
+            "hqwh: mvfn + lgjg\n" +
+            "bzwc: hbbr + njbj\n" +
+            "sbhb: 14\n" +
+            "pwww: 4\n" +
+            "jppq: 4\n" +
+            "djvn: 3\n" +
+            "jhvn: cdfn + wdlz\n" +
+            "lmhb: lrwn * lltz\n" +
+            "rwpv: mwtb * shdh\n" +
+            "vnmz: 5\n" +
+            "wbrr: 12\n" +
+            "tjhd: qnbb + bpzr\n" +
+            "lcgc: gplp * wbvj\n" +
+            "mmcf: 2\n" +
+            "gdqn: hzfc * gsff\n" +
+            "vprr: vftq + tpmj\n" +
+            "mhhg: jngd * jstm\n" +
+            "lhvb: 5\n" +
+            "vqzj: 2\n" +
+            "fmgv: lztr + cqdv\n" +
+            "hfgp: 2\n" +
+            "hdwb: 11\n" +
+            "vpbg: 7\n" +
+            "nbpt: 10\n" +
+            "czbg: 4\n" +
+            "dlnv: mhgw * tlwh\n" +
+            "jhqp: jqqg + llbs\n" +
+            "bwlr: 3\n" +
+            "vmhp: njvp + mrdm\n" +
+            "qrqm: 11\n" +
+            "hbrc: mvmf + wwwh\n" +
+            "lgjg: fqgf + hwzd\n" +
+            "ddng: 6\n" +
+            "gjjq: vdfv - srzc\n" +
+            "wnps: 2\n" +
+            "nvcw: vfnv * lrtp\n" +
+            "zbfl: 4\n" +
+            "rnjd: pzhz + hvjt\n" +
+            "hjvw: 8\n" +
+            "nfhs: lfgh / fgfh\n" +
+            "svlt: 7\n" +
+            "hqww: 2\n" +
+            "hnbf: 20\n" +
+            "vfdb: 13\n" +
+            "jtst: 10\n" +
+            "drtm: rnfm * brrd\n" +
+            "jzbn: ffbd * lpzj\n" +
+            "fmhw: mcth * jhqp\n" +
+            "lmgg: ndml - zbth\n" +
+            "mqbj: gqst * qszr\n" +
+            "tjtv: 6\n" +
+            "wntd: vspm * gsfg\n" +
+            "tnhj: 5\n" +
+            "gpcq: fmlb * hlbq\n" +
+            "vsmf: mjbw * splz\n" +
+            "sqhd: 3\n" +
+            "jrtg: 2\n" +
+            "glrg: 7\n" +
+            "vdnc: fztq * zbst\n" +
+            "drfr: 3\n" +
+            "lpfj: vjrj + ldch\n" +
+            "nnzl: cpmj + ndwd\n" +
+            "lpds: rtjl * bnbz\n" +
+            "nvzh: npnw * vjwq\n" +
+            "vqmz: jzdr * nczf\n" +
+            "qqbp: 4\n" +
+            "wmfn: hgcs / jmjc\n" +
+            "jpts: 6\n" +
+            "qgtn: 2\n" +
+            "ntbz: 6\n" +
+            "mjft: 4\n" +
+            "dvzb: wntd - gvsq\n" +
+            "mwjd: wfbt * qwqj\n" +
+            "vlvl: 3\n" +
+            "zsrc: zvmr + ccbw\n" +
+            "root: mcnw + wqdw\n" +
+            "trzc: 1\n" +
+            "sprf: fcmd * jftd\n" +
+            "ngln: 4\n" +
+            "mgqp: 16\n" +
+            "humn: 3803\n" +
+            "zllm: 2\n" +
+            "czrh: 3\n" +
+            "btvs: gnvq + smht\n" +
+            "ctft: 15\n" +
+            "jrwj: 6\n" +
+            "fpdt: 17\n" +
+            "blsf: wfhb * lwbw\n" +
+            "srjq: rsrw * clds\n" +
+            "gplp: 3\n" +
+            "nfgj: jnnn + zwms\n" +
+            "qqdl: 2\n" +
+            "vjwq: 3\n" +
+            "jchm: mmgf + fmnw\n" +
+            "wmnp: 5\n" +
+            "njrl: 7\n" +
+            "slwm: bhbq - vgtn\n" +
+            "wdhl: prsm * spdf\n" +
+            "qvvp: rcvg + tzfm\n" +
+            "npcc: 4\n" +
+            "ggcg: tzng + crpn\n" +
+            "lcvq: lpgm * qrrh\n" +
+            "zqwg: 3\n" +
+            "svjl: 4\n" +
+            "gtwc: 2\n" +
+            "gmfw: 4\n" +
+            "jhpl: rmfn + cssc\n" +
+            "qbvt: wgqb + gdsh\n" +
+            "zgrn: 4\n" +
+            "ljrs: zmnt * jzjq\n" +
+            "pvrq: fsgw + pcgt\n" +
+            "mvsw: 3\n" +
+            "trhr: bnjm + fwtz\n" +
+            "ngjt: 2\n" +
+            "hwnm: 2\n" +
+            "clzw: hqjt + mvlw\n" +
+            "srpd: 4\n" +
+            "lgsp: 5\n" +
+            "tpnn: tvrz + btvv\n" +
+            "rzrv: 4\n" +
+            "gcjf: 20\n" +
+            "lrtp: mrnd + vvmp\n" +
+            "lwwp: mmpn * jljs\n" +
+            "nntg: 10\n" +
+            "htjn: tdwc * djvn\n" +
+            "sglz: flfj * zgwl\n" +
+            "rpsz: 2\n" +
+            "qsph: 7\n" +
+            "ddwd: nsvp * jrwj\n" +
+            "jwmz: wlsv * drhf\n" +
+            "hzjp: 3\n" +
+            "zvlq: bzmp * gfwv\n" +
+            "wpmd: 10\n" +
+            "bbnp: lnqh / dtmr\n" +
+            "lfgh: zdlz + pcvj\n" +
+            "tjmq: 3\n" +
+            "spzh: 16\n" +
+            "jsrp: dvbq + rvwq\n" +
+            "nhdb: plmg + sbjd\n" +
+            "pjgf: lpss * zwsn\n" +
+            "hwfm: rpsz + mgvp\n" +
+            "dvbt: rlzt / sqdr\n" +
+            "trnr: dvzb + htdp\n" +
+            "rtgq: pgbr + njrz\n" +
+            "gtqg: whbr * wmnp\n" +
+            "znql: 2\n" +
+            "vwnl: bghq * blls\n" +
+            "jcgv: 11\n" +
+            "jbhw: 5\n" +
+            "pgbr: 4\n" +
+            "gvmv: wftw * sszm\n" +
+            "lvfr: smnt + jqgl\n" +
+            "lspg: wrnd / qbcp\n" +
+            "vrds: 8\n" +
+            "qrzq: lhcp * tgbl\n" +
+            "rzcv: 5\n" +
+            "wzzz: jbhd + zfwf\n" +
+            "dpgr: 7\n" +
+            "tncv: lnbt + qsng\n" +
+            "zlgj: 2\n" +
+            "dnhl: 11\n" +
+            "vjhs: 1\n" +
+            "hfgn: 4\n" +
+            "rfst: 4\n" +
+            "tftg: 3\n" +
+            "sqrh: 5\n" +
+            "wlpg: gpjb * hsfj\n" +
+            "nlrs: nqjw * dzht\n" +
+            "gqzb: 1\n" +
+            "zqnb: gvsn * btfd\n" +
+            "nwzz: jfqf * lcmq\n" +
+            "wrmz: 8\n" +
+            "cdbt: 3\n" +
+            "zgdn: 5\n" +
+            "hjfc: tjrg * tfjp\n" +
+            "zflw: mstt + hqbg\n" +
+            "pjrs: 2\n" +
+            "ndsq: 1\n" +
+            "jsss: 8\n" +
+            "vnhv: 2\n" +
+            "qbjn: mswc * qfth\n" +
+            "rfpc: zjzr + lszn\n" +
+            "jtmh: csdm * czct\n" +
+            "vfmg: 2\n" +
+            "wjjm: pgmf / pwzl\n" +
+            "drjt: vttc + bpzz\n" +
+            "ffsw: hzjp * zbbs\n" +
+            "lprt: pmvr + rdpc\n" +
+            "lvpq: szdl * cshh\n" +
+            "qsqt: 11\n" +
+            "fnrq: nfmg + csmq\n" +
+            "snlj: 2\n" +
+            "qsng: 6\n" +
+            "bfqr: rcdr + ntzw\n" +
+            "fvrn: qhgz + qqzv\n" +
+            "wnrh: 7\n" +
+            "chhz: 2\n" +
+            "mqrg: nfgj * rqrt\n" +
+            "vhwv: cfhf + bzhc\n" +
+            "jshp: bssz * qvrz\n" +
+            "svjg: fdcl + bnrc\n" +
+            "vsch: npvg * ffdw\n" +
+            "rvgj: 18\n" +
+            "mznz: nsdg * bjmj\n" +
+            "btfd: pzqc + qsph\n" +
+            "rvwq: jdgg * lsct\n" +
+            "hrwc: 4\n" +
+            "wdlz: 3\n" +
+            "ffdw: 5\n" +
+            "brbj: tlhj + jcgv\n" +
+            "mbzc: 2\n" +
+            "vzrl: 4\n" +
+            "wscl: blsf + zpjn\n" +
+            "ddqf: qgsf - qnsz\n" +
+            "wrnn: 2\n" +
+            "blfd: tjjg + rwsz\n" +
+            "tstc: hvmb + jpdq\n" +
+            "nbsz: srvs * brbb\n" +
+            "pwzz: 2\n" +
+            "rzqg: 4\n" +
+            "brbb: 7\n" +
+            "qtlq: thht + mqhj\n" +
+            "fhsh: 3\n" +
+            "sqnc: dvjd + dvbt\n" +
+            "vfbj: vvlm + tstp\n" +
+            "svsh: bgwg - qtlq\n" +
+            "grww: thlt * wtmq\n" +
+            "fwsq: wggw * brgc\n" +
+            "lrjp: 2\n" +
+            "wbqr: 10\n" +
+            "ttgv: 3\n" +
+            "qtct: 2\n" +
+            "sljw: jcll + ttrt\n" +
+            "nrwz: 3\n" +
+            "pzmg: 2\n" +
+            "nbvf: wcwq * tncv\n" +
+            "jfcn: htms / pwzz\n" +
+            "cpzn: 3\n" +
+            "vlgh: 2\n" +
+            "nbmb: 2\n" +
+            "jhrs: 2\n" +
+            "glth: cjqf + stfq\n" +
+            "vwvj: 7\n" +
+            "jpbw: 4\n" +
+            "nljg: rrnh * jpgt\n" +
+            "brrf: gthh + bqcm\n" +
+            "snll: zmwj + smbv\n" +
+            "cwqj: rzcv * cnrr\n" +
+            "wjtw: ltcd * cbnr\n" +
+            "tmfw: 2\n" +
+            "wcsm: rqvf * hnqr\n" +
+            "ntzm: hfgn * zftd\n" +
+            "jnnn: 1\n" +
+            "jbln: vgqz + frch\n" +
+            "lpvz: ptsg * pwww\n" +
+            "qphn: 2\n" +
+            "vmcp: 4\n" +
+            "qjgv: btpr + pwzr\n" +
+            "djtd: 6\n" +
+            "wllh: vffn * hjsn\n" +
+            "fvzq: rrfv + qvvp\n" +
+            "pgpt: stjc * rhjr\n" +
+            "jdqp: 2\n" +
+            "whvr: zthv + pgqj\n" +
+            "gtlc: rjzj * gzjw\n" +
+            "jwnv: 3\n" +
+            "qrcv: 14\n" +
+            "rwzn: vhdl * znwg\n" +
+            "lrpr: 3\n" +
+            "mhss: ghjw - wghc\n" +
+            "zqmw: 4\n" +
+            "rbtv: dhjz + hwnh\n" +
+            "hzhq: cqtd + dlbb\n" +
+            "pdfm: zrpj + fbpt\n" +
+            "jrlv: 4\n" +
+            "zcrr: 2\n" +
+            "mbdv: mpft * bqvs\n" +
+            "wrnd: cmgf * dvrq\n" +
+            "bfwf: zgdn * pgwv\n" +
+            "blls: 2\n" +
+            "jhrb: 20\n" +
+            "wljd: 8\n" +
+            "nsrb: 5\n" +
+            "sjnq: jnbq - zpcz\n" +
+            "nrvw: zmqm + mcsn\n" +
+            "tgpw: zncn / mjqb\n" +
+            "grqn: 1\n" +
+            "brrd: 3\n" +
+            "brgc: 2\n" +
+            "rdpc: 2\n" +
+            "dhwd: zhvn + cctv\n" +
+            "sctd: 5\n" +
+            "wlch: 2\n" +
+            "rfhc: 2\n" +
+            "npgl: 2\n" +
+            "vpjv: jpgh * chhz\n" +
+            "sdbb: 3\n" +
+            "lwbw: 2\n" +
+            "zwsh: 1\n" +
+            "fbpt: 18\n" +
+            "vcdp: 2\n" +
+            "gpsl: lmcz * lcws\n" +
+            "mdgw: 4\n" +
+            "sfwp: qdlh * nvnp\n" +
+            "jswh: 1\n" +
+            "vcsb: 1\n" +
+            "vcms: 4\n" +
+            "chjp: szct / mjcw\n" +
+            "hnqr: 3\n" +
+            "dfjw: zrwh * fdzt\n" +
+            "scjp: 3\n" +
+            "dwvz: 2\n" +
+            "dgjh: 10\n" +
+            "mvmf: wbtw * cbts\n" +
+            "lnqg: vmmw * hzrb\n" +
+            "jfct: 3\n" +
+            "ftds: grqn + gcvh\n" +
+            "mqms: lqhz + dpqs\n" +
+            "fjrl: 4\n" +
+            "pbpg: 7\n" +
+            "tdwj: wfgq - tttc\n" +
+            "vmsg: 13\n" +
+            "flvh: 10\n" +
+            "qbmq: lsgz * twqq\n" +
+            "pfvl: 14\n" +
+            "lnbt: 15\n" +
+            "wbvj: 9\n" +
+            "npvm: gtlc + fdnv\n" +
+            "rjzj: dmtz + zrbq\n" +
+            "bhfp: qprs + dgjh\n" +
+            "rsrw: trjj * lqvp\n" +
+            "hqgc: cpzn * zvvp\n" +
+            "rqvb: cwqj + snvq\n" +
+            "ngdp: 2";
 }

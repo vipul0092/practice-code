@@ -1,11 +1,11 @@
 package code.vipul;
 
 
-import code.vipul.aoc2018.Solve21;
 import code.vipul.aoc2018.Solve22;
 import code.vipul.aoc2018.Solve23;
 import code.vipul.aoc2018.Solve24;
 import code.vipul.aoc2018.Solve25;
+import code.vipul.aoc2022.Solve21;
 import code.vipul.aoc2022.Solve1;
 import code.vipul.aoc2022.Solve10;
 import code.vipul.aoc2022.Solve11;
@@ -46,8 +46,9 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve16.solve();
-        Solve16.solvePart2();
+
+        Solve21.solvePart2();
+
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
