@@ -1,32 +1,7 @@
 package code.vipul;
 
 
-import code.vipul.aoc2018.Solve23;
-import code.vipul.aoc2018.Solve24;
-import code.vipul.aoc2018.Solve25;
-import code.vipul.aoc2022.Solve21;
-import code.vipul.aoc2022.Solve1;
-import code.vipul.aoc2022.Solve10;
-import code.vipul.aoc2022.Solve11;
-import code.vipul.aoc2022.Solve12;
-import code.vipul.aoc2022.Solve13;
-import code.vipul.aoc2022.Solve14;
-import code.vipul.aoc2022.Solve15;
-import code.vipul.aoc2022.Solve16;
-import code.vipul.aoc2022.Solve17;
-import code.vipul.aoc2022.Solve18;
-import code.vipul.aoc2022.Solve19;
-import code.vipul.aoc2022.Solve2;
-import code.vipul.aoc2022.Solve20;
 import code.vipul.aoc2022.Solve22;
-import code.vipul.aoc2022.Solve3;
-import code.vipul.aoc2021.Solve4;
-import code.vipul.aoc2022.Solve5;
-import code.vipul.aoc2022.Solve6;
-import code.vipul.aoc2022.Solve7;
-import code.vipul.aoc2022.Solve8;
-import code.vipul.aoc2022.Solve9;
-import code.vipul.leetcode.CombinationSum;
 
 public class Main {
 
@@ -45,7 +20,6 @@ public class Main {
         // LongestCommonSubsequence.solve();
         //  TargetSum.solve();
         // CGFinale.solve();
-
 
         Solve22.solvePart2();
 
