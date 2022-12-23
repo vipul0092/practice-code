@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 /**
  * Created by vgaur created on 21/12/22
+ * https://adventofcode.com/2022/day/21
  */
 public class Solve21 {
 
@@ -52,7 +53,7 @@ public class Solve21 {
         String rootM2 = root.monkey2;
 
         boolean found1 = findAndMark(rootM1);
-        long ans = -1;
+        long ans;
         if (found1) {
             ans = calc(rootM2, rootM1);
         } else {
@@ -63,35 +64,29 @@ public class Solve21 {
 
     private static long calc(String unmarkedChild, String markedChild) {
         long requiredValue = dive(monkeys.get(unmarkedChild));
-
         Monkey m = monkeys.get(markedChild);
-        Fraction current = new Fraction(requiredValue);
+        long current = requiredValue;
 
         while(!m.hasHumn()) {
             current = evaluate(m, current);
             m = monkeys.get(marked.contains(m.monkey1) ? m.monkey1 : m.monkey2);
-            current = current.normalize();
         }
         current = evaluate(m, current);
-        current = current.normalize();
-        return current.n / current.d;
+        return current;
     }
 
 
-    private static Fraction evaluate(Monkey m, Fraction current) {
+    private static long evaluate(Monkey m, long current) {
         Monkey currentUnmarked = monkeys.get(marked.contains(m.monkey1) ? m.monkey2 : m.monkey1);
         Monkey currentMarked = monkeys.get(marked.contains(m.monkey1) ? m.monkey1 : m.monkey2);
-        Fraction num = new Fraction(dive(currentUnmarked));
+        long num = dive(currentUnmarked);
         boolean isSecondMarked = m.monkey2.equals(currentMarked.name);
 
-//        System.out.println(String.format("current: %s, evaluating: %s, num: %s, is marked second: %s",
-//                current, m.operation, num, isSecondMarked));
-
         switch (m.operation) {
-            case '/': return isSecondMarked ? num.divide(current) : num.multiply(current);
-            case '-': return isSecondMarked ? num.subtract(current) : num.add(current);
-            case '*': return current.divide(num);
-            case '+': return current.subtract(num);
+            case '/': return isSecondMarked ? num / current : num * current;
+            case '-': return isSecondMarked ? num - current : num + current;
+            case '*': return current / num;
+            case '+': return current - num;
             default: throw new RuntimeException();
         }
     }
@@ -135,100 +130,6 @@ public class Solve21 {
                 monkeys.put(m, monkey);
             }
         }
-    }
-
-    private static final class Fraction {
-        private final long n;
-        private final long d;
-
-        public Fraction(long num) {
-            this.n = num;
-            this.d = 1;
-        }
-
-        public Fraction(long n, long d) {
-            this.n = n;
-            this.d = d;
-        }
-
-        public Fraction add(Fraction f) {
-            long resd = f.d * this.d;
-            long resn = (f.n * this.d) + (this.n * f.d);
-            if (resd < 0) {
-                resn = -resn;
-                resd = -resd;
-            }
-            return new Fraction(resn, resd);
-        }
-
-        public Fraction subtract(Fraction f) {
-            long resd = f.d * this.d;
-            long resn = (this.n * f.d) - (f.n * this.d);
-            if (resd < 0) {
-                resn = -resn;
-                resd = -resd;
-            }
-            return new Fraction(resn, resd);
-        }
-
-        public Fraction multiply(Fraction f) {
-            f = f.normalize();
-            long n1 = this.n;
-            long n2 = f.n;
-            long d1 = this.d;
-            long d2 = f.d;
-
-            if (n1 % d2 == 0) {
-                n1 = n1 / d2;
-                d2 = 1;
-            } else if (d2 % n1 == 0) {
-                d2 = d2 / n1;
-                n1 = 1;
-            }
-
-            if (n2 % d1 == 0) {
-                n2 = n2 / d1;
-                d1 = 1;
-            } else if (d1 % n2 == 0) {
-                d1 = d1 / n2;
-                n2 = 1;
-            }
-
-            long resd = d1 * d2;
-            long resn = n1 * n2;
-            if (resd < 0) {
-                resn = -resn;
-                resd = -resd;
-            }
-            return new Fraction(resn, resd).normalize();
-        }
-
-        public Fraction divide(Fraction f) {
-            return multiply(new Fraction(f.d, f.n));
-        }
-
-        public Fraction normalize() {
-            long newn = this.n % this.d == 0 ? this.n / this.d : this.n;
-            long newd = this.n % this.d == 0 ? 1 : this.d;
-
-            long _gcd = gcd(Math.abs(newn), Math.abs(newd));
-            if (_gcd > 1) {
-                newn /= _gcd;
-                newd /= _gcd;
-            }
-            return new Fraction(newn, newd);
-        }
-
-        @Override
-        public String toString() {
-            return d == 1 ? String.valueOf(n) : String.format("%s/%s", n, d);
-        }
-    }
-
-    private static long gcd(long a, long b) {
-        if (a == 0)
-            return b;
-        return gcd(b % a, a);
     }
 
     private static long dive(Monkey monkey) {
