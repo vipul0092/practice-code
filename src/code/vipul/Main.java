@@ -23,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve21.solvePart2();
+        Solve22.solvePart2();
 
         // CombinationSum.solve();
 

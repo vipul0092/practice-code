@@ -4,14 +4,11 @@ import code.vipul.Pair;
 import code.vipul.aoc2019.Grid;
 import code.vipul.aoc2022.inputs.Inputs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
@@ -94,9 +91,7 @@ public class Solve22 {
     private static Map<Grid.Pos, Character> values;
     private static String movement;
 
-    private static Set<Pair<Edge, Direction>> transitionalEdgesWithDirection;
-    private static Map<Edge, Pair<Edge, Direction>> sameDirectionTransitions;
-    private static Map<Edge, Pair<Edge, Direction>> oppositeDirectionTransitions;
+    private static List<EdgeTransition> edgeTransitions;
 
     public static void solve() {
         parse(Inputs.INPUT_22);
@@ -130,7 +125,6 @@ public class Solve22 {
         }
 
         int ans = (1000 * (position.i() + 1)) + (4 * (position.j() + 1) + direction.value());
-
         System.out.println(ans);
     }
 
@@ -171,7 +165,6 @@ public class Solve22 {
         }
 
         int ans = (1000 * (position.i() + 1)) + (4 * (position.j() + 1) + direction.value());
-
         System.out.println(ans);
     }
 
@@ -220,9 +213,9 @@ public class Solve22 {
             Direction nextDirection = currentDir;
             if (!values.containsKey(next)) {
                 // Calculate the next moved position and direction when the point switches from one face to another
-                var moveResult = moveAcrossEdge(current, currentDir);
-                next = moveResult.left();
-                nextDirection = moveResult.right();
+                EdgeTransition applicableTransition = getApplicableTransition(current, currentDir);
+                next = applicableTransition.transition(current);
+                nextDirection = applicableTransition.changedDirection;
             }
             char val = values.get(next);
             if (val == '#') { // we cant move forward, return the current position and direction
@@ -241,10 +234,6 @@ public class Solve22 {
     // |2|1|
     // |3|
     private static void populateEdgesAndTransitions() {
-        sameDirectionTransitions = new HashMap<>();
-        oppositeDirectionTransitions = new HashMap<>();
-        transitionalEdgesWithDirection = new HashSet<>();
-
         Edge SIX_RIGHT = new Edge("6 right", 0, 49, 149, 149);
         Edge SIX_TOP = new Edge("6 top ", 0, 0, 100, 149);
         Edge SIX_BOT = new Edge("6 bot", 49, 49, 100, 149);
@@ -265,68 +254,25 @@ public class Solve22 {
         Edge THREE_LEFT = new Edge("3 left", 150, 199, 0, 0);
         Edge THREE_BOT = new Edge("3 bot", 199, 199, 0, 49);
 
-        sameDirectionTransitions.put(SIX_TOP, Pair.of(THREE_BOT, Direction.UP));
-        sameDirectionTransitions.put(THREE_BOT, Pair.of(SIX_TOP, Direction.DOWN));
-        sameDirectionTransitions.put(SIX_BOT, Pair.of(FOUR_RIGHT, Direction.LEFT));
-        sameDirectionTransitions.put(FOUR_RIGHT, Pair.of(SIX_BOT, Direction.UP));
-        sameDirectionTransitions.put(FIVE_TOP, Pair.of(THREE_LEFT, Direction.RIGHT));
-        sameDirectionTransitions.put(THREE_LEFT, Pair.of(FIVE_TOP, Direction.DOWN));
-        sameDirectionTransitions.put(FOUR_LEFT, Pair.of(TWO_TOP, Direction.DOWN));
-        sameDirectionTransitions.put(TWO_TOP, Pair.of(FOUR_LEFT, Direction.RIGHT));
-        sameDirectionTransitions.put(ONE_BOT, Pair.of(THREE_RIGHT, Direction.LEFT));
-        sameDirectionTransitions.put(THREE_RIGHT, Pair.of(ONE_BOT, Direction.UP));
-        oppositeDirectionTransitions.put(SIX_RIGHT, Pair.of(ONE_RIGHT, Direction.LEFT));
-        oppositeDirectionTransitions.put(ONE_RIGHT, Pair.of(SIX_RIGHT, Direction.LEFT));
-        oppositeDirectionTransitions.put(FIVE_LEFT, Pair.of(TWO_LEFT, Direction.RIGHT));
-        oppositeDirectionTransitions.put(TWO_LEFT, Pair.of(FIVE_LEFT, Direction.RIGHT));
-
-        transitionalEdgesWithDirection.add(Pair.of(SIX_RIGHT, Direction.RIGHT));
-        transitionalEdgesWithDirection.add(Pair.of(SIX_TOP, Direction.UP));
-        transitionalEdgesWithDirection.add(Pair.of(SIX_BOT, Direction.DOWN));
-        transitionalEdgesWithDirection.add(Pair.of(FIVE_LEFT, Direction.LEFT));
-        transitionalEdgesWithDirection.add(Pair.of(FIVE_TOP, Direction.UP));
-        transitionalEdgesWithDirection.add(Pair.of(FOUR_LEFT, Direction.LEFT));
-        transitionalEdgesWithDirection.add(Pair.of(FOUR_RIGHT, Direction.RIGHT));
-        transitionalEdgesWithDirection.add(Pair.of(ONE_RIGHT, Direction.RIGHT));
-        transitionalEdgesWithDirection.add(Pair.of(ONE_BOT, Direction.DOWN));
-        transitionalEdgesWithDirection.add(Pair.of(TWO_LEFT, Direction.LEFT));
-        transitionalEdgesWithDirection.add(Pair.of(TWO_TOP, Direction.UP));
-        transitionalEdgesWithDirection.add(Pair.of(THREE_RIGHT, Direction.RIGHT));
-        transitionalEdgesWithDirection.add(Pair.of(THREE_LEFT, Direction.LEFT));
-        transitionalEdgesWithDirection.add(Pair.of(THREE_BOT, Direction.DOWN));
+        edgeTransitions = new ArrayList<>();
+        edgeTransitions.add(new EdgeTransition(SIX_RIGHT, Direction.RIGHT, ONE_RIGHT, Direction.LEFT, true));
+        edgeTransitions.add(new EdgeTransition(ONE_RIGHT, Direction.RIGHT, SIX_RIGHT, Direction.LEFT, true));
+        edgeTransitions.add(new EdgeTransition(FIVE_LEFT, Direction.LEFT, TWO_LEFT, Direction.RIGHT, true));
+        edgeTransitions.add(new EdgeTransition(TWO_LEFT, Direction.LEFT, FIVE_LEFT, Direction.RIGHT, true));
+        edgeTransitions.add(new EdgeTransition(SIX_TOP, Direction.UP, THREE_BOT, Direction.UP, false));
+        edgeTransitions.add(new EdgeTransition(THREE_BOT, Direction.DOWN, SIX_TOP, Direction.DOWN, false));
+        edgeTransitions.add(new EdgeTransition(SIX_BOT, Direction.DOWN, FOUR_RIGHT, Direction.LEFT, false));
+        edgeTransitions.add(new EdgeTransition(FOUR_RIGHT, Direction.RIGHT, SIX_BOT, Direction.UP, false));
+        edgeTransitions.add(new EdgeTransition(FIVE_TOP, Direction.UP, THREE_LEFT, Direction.RIGHT, false));
+        edgeTransitions.add(new EdgeTransition(THREE_LEFT, Direction.LEFT, FIVE_TOP, Direction.DOWN, false));
+        edgeTransitions.add(new EdgeTransition(FOUR_LEFT, Direction.LEFT, TWO_TOP, Direction.DOWN, false));
+        edgeTransitions.add(new EdgeTransition(TWO_TOP, Direction.UP, FOUR_LEFT, Direction.RIGHT, false));
+        edgeTransitions.add(new EdgeTransition(ONE_BOT, Direction.DOWN, THREE_RIGHT, Direction.LEFT, false));
+        edgeTransitions.add(new EdgeTransition(THREE_RIGHT, Direction.RIGHT, ONE_BOT, Direction.UP, false));
     }
 
-    private static Edge getContainingEdge(Grid.Pos pos, Direction direction) {
-        return transitionalEdgesWithDirection.stream().filter(e ->
-                e.right() == direction
-                        && pos.i() >= e.left().imin && pos.i() <= e.left().imax
-                        && pos.j() >= e.left().jmin && pos.j() <= e.left().jmax)
-                .findFirst().orElseThrow().left();
-    }
-
-    private static Pair<Grid.Pos, Direction> moveAcrossEdge(Grid.Pos position, Direction movingDirection) {
-        Edge atEdge = getContainingEdge(position, movingDirection);
-
-        int finalI = -1, finalJ = -1, diff = -1;
-        Pair<Edge, Direction> toEdgeDirection;
-        if (sameDirectionTransitions.containsKey(atEdge)) {
-            toEdgeDirection = sameDirectionTransitions.get(atEdge);
-            diff = atEdge.isHorizontal() ? Math.abs(position.j() - atEdge.jmin) : Math.abs(position.i() - atEdge.imin);
-        } else {
-            toEdgeDirection = oppositeDirectionTransitions.get(atEdge);
-            diff = atEdge.isHorizontal() ? Math.abs(position.j() - atEdge.jmax) : Math.abs(position.i() - atEdge.imax);
-        }
-
-        Edge to = toEdgeDirection.left();
-        if (to.isHorizontal()) {
-            finalI = to.imin;
-            finalJ = to.jmin + diff;
-        } else {
-            finalI = to.imin + diff;
-            finalJ = to.jmin;
-        }
-        Grid.Pos moved = Grid.Pos.of(finalI, finalJ);
-        return Pair.of(moved, toEdgeDirection.right());
+    private static EdgeTransition getApplicableTransition(Grid.Pos point, Direction currentDirection) {
+        return edgeTransitions.stream().filter(e -> e.canTransition(point, currentDirection)).findFirst().orElseThrow();
     }
 
     private static void parse(String input) {
@@ -355,13 +301,50 @@ public class Solve22 {
         }
     }
 
+    private static class EdgeTransition {
+        private final Edge from;
+        private final Direction initialDirection;
+        private final Edge to;
+        private final Direction changedDirection;
+        private final boolean isAsymmetricTransition;
+
+        public EdgeTransition(Edge from, Direction initialDirection, Edge to, Direction changedDirection,
+                              boolean isAsymmetricTransition) {
+            this.from = from;
+            this.initialDirection = initialDirection;
+            this.to = to;
+            this.changedDirection = changedDirection;
+            this.isAsymmetricTransition = isAsymmetricTransition;
+        }
+
+        public boolean canTransition(Grid.Pos point, Direction currentDirection) {
+            return initialDirection == currentDirection && from.contains(point);
+        }
+
+        public Grid.Pos transition(Grid.Pos position) {
+            int finalI = -1, finalJ = -1, diff = -1;
+            if (isAsymmetricTransition) {
+                diff = from.isHorizontal() ? Math.abs(position.j() - from.jmax) : Math.abs(position.i() - from.imax);
+            } else {
+                diff = from.isHorizontal() ? Math.abs(position.j() - from.jmin) : Math.abs(position.i() - from.imin);
+            }
+            if (to.isHorizontal()) {
+                finalI = to.imin;
+                finalJ = to.jmin + diff;
+            } else {
+                finalI = to.imin + diff;
+                finalJ = to.jmin;
+            }
+            return Grid.Pos.of(finalI, finalJ);
+        }
+    }
+
     public static class Edge {
         private final String name;
         private final int imin;
         private final int imax;
         private final int jmin;
         private final int jmax;
-        private int hash = -1;
 
         public Edge(String name, int imin, int imax, int jmin, int jmax) {
             this.name = name;
@@ -375,27 +358,8 @@ public class Solve22 {
             return imax == imin;
         }
 
-        @Override
-        public int hashCode() {
-            if (hash == -1) {
-                hash = 5381;
-                hash += (hash << 5) + Objects.hashCode(imax);
-                hash += (hash << 5) + Objects.hashCode(imin);
-                hash += (hash << 5) + Objects.hashCode(jmin);
-                hash += (hash << 5) + Objects.hashCode(jmax);
-            }
-            return hash;
-        }
-
-        @Override
-        public boolean equals(Object another) {
-            if (this == another) return true;
-            return another instanceof Edge && equalTo((Edge) another);
-        }
-
-        private boolean equalTo(Edge another) {
-            return Objects.equals(imax, another.imax) && Objects.equals(imin, another.imin)
-                    && Objects.equals(jmax, another.jmax) && Objects.equals(jmin, another.jmin);
+        public boolean contains(Grid.Pos pos) {
+            return pos.i() >= imin && pos.i() <= imax && pos.j() >= jmin && pos.j() <= jmax;
         }
     }
 }
