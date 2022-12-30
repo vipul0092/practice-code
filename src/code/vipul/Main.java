@@ -1,8 +1,9 @@
 package code.vipul;
 
 
-import code.vipul.aoc2022.Solve24;
-import code.vipul.aoc2022.Solve25;
+import code.vipul.aoc2021.Solve6;
+import code.vipul.aoc2021.Solve7;
+import code.vipul.aoc2021.Solve8;
 
 public class Main {
 
@@ -22,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve25.solve();
+        Solve8.solvePart2();
 
         // CombinationSum.solve();
 
