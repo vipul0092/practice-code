@@ -7,6 +7,8 @@ import code.vipul.aoc2021.Solve16;
 import code.vipul.aoc2021.Solve17;
 import code.vipul.aoc2021.Solve18;
 import code.vipul.aoc2021.Solve19;
+import code.vipul.aoc2021.Solve20;
+import code.vipul.aoc2021.Solve21;
 
 public class Main {
 
@@ -26,7 +28,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve19.solve();
+        Solve21.solvePart2();
 
         // CombinationSum.solve();
 
