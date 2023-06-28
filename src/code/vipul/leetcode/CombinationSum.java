@@ -12,65 +12,80 @@ import java.util.Set;
  */
 public class CombinationSum {
 
-    private static Map<Integer, Set<Map<Integer, Integer>>> cache;
-
+    static Map<List<Integer>, List<List<Integer>>> cache;
     public static void solve() {
-        var l = List.of(2,3,6,7);
+        var l = List.of(2,5,8,4);
         int[] arr = new int[l.size()];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = l.get(i);
         }
 
-        new CombinationSum().combinationSum(arr, 7);
+        System.out.println(new CombinationSum().combinationSum(arr, 10));
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         cache = new HashMap<>();
-
-        Set<Integer> numbers = new HashSet<>();
-        for (int can : candidates) {
-            numbers.add(can);
-        }
-        Set<Map<Integer, Integer>> results = find(target, numbers);
-
-        List<List<Integer>> ret = new ArrayList<>();
-        for (Map<Integer, Integer> result : results) {
-            List<Integer> v = new ArrayList<>();
-            for (Map.Entry<Integer, Integer> entry : result.entrySet()) {
-                int count = entry.getValue();
-                while (count-- > 0) {
-                    v.add(entry.getKey());
-                }
-            }
-            ret.add(v);
-        }
-        return ret;
+        return find(0, candidates, target);
     }
 
-    private static Set<Map<Integer, Integer>> find(int sum, Set<Integer> numbers) {
-        if (cache.containsKey(sum)) {
-            return cache.get(sum);
-        }
-        Set<Map<Integer, Integer>> values = new HashSet<>();
-        for (int number : numbers) {
-            if (sum - number > 0) {
-                Set<Map<Integer, Integer>> sub = find(sum - number, numbers);
-                if (sub.size() > 0) {
-                    for (Map<Integer, Integer> sublist : sub) {
-                        Map<Integer, Integer> exact = new HashMap<>(sublist);
-                        exact.putIfAbsent(number, 0);
-                        exact.put(number, exact.get(number) + 1);
-                        values.add(exact);
-                    }
-                }
-            } else if (sum - number == 0) {
-                Map<Integer, Integer> exact = new HashMap<>();
-                exact.put(number, 1);
-                values.add(exact);
-            }
+    private static List<List<Integer>> find(int idx, int[] candidates, int target) {
+        if (idx == candidates.length) {
+            return new ArrayList<>();
         }
 
-        cache.put(sum, values);
+        List<Integer> key = List.of(idx, target);
+        if (cache.containsKey(key)) {
+            return cache.get(key);
+        }
+
+        // either take the value at idx or dont
+        int val = candidates[idx];
+
+        List<List<Integer>> values;
+        if (val > target) { // we cant take val
+            values = find(idx + 1, candidates, target);
+        } else if (val == target) {
+            Set<List<Integer>> distinct = new HashSet<>();
+            List<List<Integer>> takenAndSameIndex = List.of(List.of(val));
+            List<List<Integer>> notTaken = find(idx + 1, candidates, target);
+
+            for (List<Integer> list : takenAndSameIndex) {
+                List<Integer> nl = new ArrayList<>(list);
+                distinct.add(nl);
+            }
+            for (List<Integer> list : notTaken) {
+                List<Integer> nl = new ArrayList<>(list);
+                distinct.add(nl);
+            }
+
+            values = new ArrayList<>(distinct);
+        } else {
+            Set<List<Integer>> distinct = new HashSet<>();
+
+            List<List<Integer>> takenAndSameIndex = find(idx, candidates, target - val);
+            List<List<Integer>> takenAndMoveAhead = find(idx + 1, candidates, target - val);
+            List<List<Integer>> notTaken = find(idx + 1, candidates, target);
+
+            for (List<Integer> list : takenAndMoveAhead) {
+                List<Integer> nl = new ArrayList<>(list);
+                nl.add(val);
+                distinct.add(nl);
+            }
+
+            for (List<Integer> list : takenAndSameIndex) {
+                List<Integer> nl = new ArrayList<>(list);
+                nl.add(val);
+                distinct.add(nl);
+            }
+
+            for (List<Integer> list : notTaken) {
+                List<Integer> nl = new ArrayList<>(list);
+                distinct.add(nl);
+            }
+
+            values = new ArrayList<>(distinct);
+        }
+        cache.put(key, values);
         return values;
     }
 }

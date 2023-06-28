@@ -1,4 +1,4 @@
-package code.vipul;
+package code.vipul.codegladitor;
 
 import java.util.Arrays;
 import java.util.HashMap;

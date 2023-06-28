@@ -1,7 +1,7 @@
 package code.vipul;
 
 
-import code.vipul.aoc2021.Solve25;
+import code.vipul.codegladitor.CG2023_SemiFinal;
 
 public class Main {
 
@@ -21,7 +21,8 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Solve25.solve();
+        //CombinationSum.solve();
+        CG2023_SemiFinal.solvelocal1();
 
         // CombinationSum.solve();
 
