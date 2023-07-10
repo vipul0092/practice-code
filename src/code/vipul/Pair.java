@@ -19,7 +19,7 @@ public class Pair<T1, T2> {
     private final T2 right;
     private int hash = -1;
 
-    private Pair(T1 left, T2 right) {
+    public Pair(T1 left, T2 right) {
         this.left = left;
         this.right = right;
     }

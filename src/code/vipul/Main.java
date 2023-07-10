@@ -2,6 +2,17 @@ package code.vipul;
 
 
 import code.vipul.codegladitor.CG2023_SemiFinal;
+import code.vipul.leetcode.AccountsMerge;
+import code.vipul.leetcode.CourseSchedule;
+import code.vipul.leetcode.FindAnagrams;
+import code.vipul.leetcode.LongestPalindromicSubstring;
+import code.vipul.leetcode.MaximumProfitJobScheduling;
+import code.vipul.leetcode.MinimumSizeSubarraySum;
+import code.vipul.leetcode.MinimumWindowSubstring;
+import code.vipul.leetcode.SearchRotatedArray;
+import code.vipul.leetcode.ShortestCommonSupersequence;
+import code.vipul.leetcode.StringToInteger;
+import code.vipul.leetcode.SubstringProblems;
 
 public class Main {
 
@@ -22,7 +33,7 @@ public class Main {
         // CGFinale.solve();
 
         //CombinationSum.solve();
-        CG2023_SemiFinal.solvelocal1();
+        AccountsMerge.solve();
 
         // CombinationSum.solve();
 
