@@ -32,79 +32,81 @@ public class AccountsMerge {
         return merged;
     }
 
+    public static class EmailNode {
+        private final String email;
+        private final List<EmailNode> links;
+
+        public EmailNode(String email) {
+            this.email = email;
+            this.links = new ArrayList<>();
+        }
+
+        public void link(EmailNode node) {
+            this.links.add(node);
+        }
+    }
+
     public static class Account {
+
         private final String name;
-
-        private int code = 0;
-
-        private final Map<Integer, Set<String>> emailGroups;
+        private final Map<String, EmailNode> emailNodes;
 
         public Account(String name) {
             this.name  = name;
-            emailGroups = new HashMap<>();
+            emailNodes = new HashMap<>();
         }
 
         public void addEmailGroup(List<String> emails) {
-            int groupAlreadyFound = -1;
-
+            EmailNode last = null;
             for (String email : emails) {
-                int currentEmailGroup = findGroup(email);
-
-                // If the current email has a group and a different group has already been found, then merge them
-                if (currentEmailGroup != -1 && groupAlreadyFound != -1 && currentEmailGroup != groupAlreadyFound) {
-                    int mergedGroup = merge(currentEmailGroup, groupAlreadyFound);
-                    addToGroup(email, mergedGroup);
-                    groupAlreadyFound = mergedGroup;
-                // If a group has already been found, simply add to that
-                } else if (groupAlreadyFound != -1) {
-                    addToGroup(email, groupAlreadyFound);
-                // If a group has not been found yet, but we find an already existing group
-                } else if (currentEmailGroup != -1) {
-                    addToGroup(email, currentEmailGroup);
-                    groupAlreadyFound = currentEmailGroup;
-                // The email goes to a completely new group
-                } else  {
-                    groupAlreadyFound = addInNewGroup(email);
+                EmailNode node;
+                if (emailNodes.containsKey(email)) {
+                    node = emailNodes.get(email);
+                } else {
+                    node = new EmailNode(email);
+                    emailNodes.put(email, node);
                 }
+
+                if (last != null) {
+                    node.link(last);
+                    last.link(node);
+                }
+                last = node;
             }
         }
 
         public List<List<String>> getMergedGroups() {
             List<List<String>> merged = new ArrayList<>();
-            for (Map.Entry<Integer, Set<String>> emailEntry : emailGroups.entrySet()){
-                List<String> account = new ArrayList<>();
-                account.add(name);
-                account.addAll(emailEntry.getValue());
+            Set<String> remainingEmails = new HashSet<>(emailNodes.keySet());
 
-                merged.add(account);
+            for (String email : emailNodes.keySet()) {
+                if (!remainingEmails.contains(email)) {
+                    continue;
+                }
+                Queue<String> queue = new ArrayDeque<>();
+                queue.add(email);
+                remainingEmails.remove(email);
+                Set<String> mergedEmails = new TreeSet<>();
+                mergedEmails.add(email);
+
+                while(!queue.isEmpty()) {
+                    EmailNode currEmail = emailNodes.get(queue.remove());
+                    currEmail.links.stream()
+                            .filter(e -> remainingEmails.contains(e.email))
+                            .forEach(e -> {
+                                remainingEmails.remove(e.email);
+                                mergedEmails.add(e.email);
+                                queue.add(e.email);
+                            });
+                }
+
+                List<String> mergedAccount = new ArrayList<>();
+                mergedAccount.add(name);
+                mergedAccount.addAll(mergedEmails);
+
+                merged.add(mergedAccount);
             }
             return merged;
-        }
-
-        private int findGroup(String email) {
-            for (Map.Entry<Integer, Set<String>> entry: emailGroups.entrySet()) {
-                if (entry.getValue().contains(email)) {
-                    return entry.getKey();
-                }
-            }
-            return -1;
-        }
-
-        private int addInNewGroup(String email) {
-            int curcode = code; code++;
-            emailGroups.put(curcode, new TreeSet<>());
-            emailGroups.get(curcode).add(email);
-            return curcode;
-        }
-
-        private void addToGroup(String email, int group) {
-            emailGroups.get(group).add(email);
-        }
-
-        private int merge(int g1, int g2) {
-            emailGroups.get(g1).addAll(emailGroups.get(g2));
-            emailGroups.remove(g2);
-            return g1;
         }
     }
 }
