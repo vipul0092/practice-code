@@ -82,7 +82,7 @@ public class Solve13 {
         System.out.println(part2);
     }
 
-    private static Item parse(String in1) {
+    public static Item parse(String in1) {
         Stack<List<Item>> items = new Stack<>();
         List<Item> currentList = new ArrayList<>();
         for (int j = 0; j < in1.length(); j++) {
@@ -112,6 +112,15 @@ public class Solve13 {
     public static class Item implements Comparable<Item> {
         private Integer value;
         private List<Item> values;
+
+        public Integer getValue() {
+            return value;
+        }
+
+        public List<Item> getValues() {
+            return values;
+        }
+
         private String str;
 
         public Item(int v) {

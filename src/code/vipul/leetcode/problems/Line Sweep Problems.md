@@ -2,6 +2,8 @@
 
 In these kinds of problems we work on different ranges of numbers, operating on them, and then we have to sweep the line to find a maximum/minimum value or something similar.
 
+https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+
 For example in this problem:
 
 https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/
