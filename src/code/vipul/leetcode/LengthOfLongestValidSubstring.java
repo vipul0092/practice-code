@@ -52,8 +52,8 @@ public class LengthOfLongestValidSubstring {
         return root != null && root.terminal;
     }
 
-    private void addWord(String work, Trie root) {
-        for (char ch : work.toCharArray()) {
+    private void addWord(String word, Trie root) {
+        for (char ch : word.toCharArray()) {
             root = root.addLink(ch);
         }
         root.setTerminal();
