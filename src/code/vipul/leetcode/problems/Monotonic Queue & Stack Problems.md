@@ -9,9 +9,13 @@ https://www.youtube.com/playlist?list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd
 Problems related to monotonic stack:
 
 https://leetcode.com/problems/online-stock-span/
+
 https://leetcode.com/problems/largest-rectangle-in-histogram
+
 https://leetcode.com/problems/maximal-rectangle/
+
 https://leetcode.com/problems/min-stack
+
 https://leetcode.com/problems/trapping-rain-water
 
 # Monotonic Queue
@@ -30,5 +34,13 @@ If its not empty, then remove elements from the **_end_** of the queue, until th
 
 Problems related to monotonic queue:
 https://leetcode.com/problems/sliding-window-maximum/description
+
 https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description
+
 https://leetcode.com/problems/constrained-subsequence-sum/description
+
+https://leetcode.com/problems/maximum-number-of-robots-within-budget/description/
+
+
+## Other good problems are listed in this comment
+https://leetcode.com/problems/maximum-number-of-robots-within-budget/solutions/2524838/java-c-python-sliding-window-o-n-solution/

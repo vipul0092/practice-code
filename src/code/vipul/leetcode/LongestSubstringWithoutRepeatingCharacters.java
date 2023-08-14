@@ -20,7 +20,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         while(j < s.length()) {
             char ch = s.charAt(j);
             counts[ch]++;
-            if (counts[ch] == 2) { // earlier it was unqiue, now its not
+            if (counts[ch] == 2) { // earlier it was unique, now its not
                 duplicates++;
             }
 
@@ -33,7 +33,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
                     }
                     i++;
                 }
-
             }
             max = Math.max(j - i + 1, max);
             j++;

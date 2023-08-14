@@ -104,11 +104,23 @@ And on each element, we can see if there is `current prefix sum - k` item in the
 
 ## Questions
 https://leetcode.com/problems/longest-nice-subarray/
+
 https://leetcode.com/problems/binary-subarrays-with-sum/description/
+
 https://leetcode.com/problems/max-consecutive-ones-iii/
+
 https://leetcode.com/problems/jump-game-vi/description/
+
 https://leetcode.com/problems/subarray-sum-equals-k/
+
 https://leetcode.com/problems/count-subarrays-with-score-less-than-k/
+
 https://leetcode.com/problems/continuous-subarray-sum/description/
+
 https://leetcode.com/problems/subarray-product-less-than-k/description/
-    
+
+https://leetcode.com/problems/maximum-number-of-robots-within-budget/description/
+
+https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+
+https://leetcode.com/problems/substring-with-concatenation-of-all-words/

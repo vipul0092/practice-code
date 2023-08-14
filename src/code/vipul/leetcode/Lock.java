@@ -1,11 +1,7 @@
 package code.vipul.leetcode;
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by vgaur created on 04/06/21
@@ -13,14 +9,79 @@ import java.util.Set;
  * AC
  */
 public class Lock {
-    public static void test() {
+    public static void solve() {
         String[] boohoo = new String[]{"5557","5553","5575","5535","5755","5355","7555","3555","6655","6455","4655","4455","5665","5445","5645","5465","5566","5544","5564","5546","6565","4545","6545","4565","5656","5454","5654","5456","6556","4554","4556","6554"};
-        int answer = openLock(boohoo, "5555");
-        System.out.println(answer);
+        System.out.println(new Lock().openLock2(boohoo, "5555"));
+
+        boohoo = new String[]{"8888"};
+        System.out.println(new Lock().openLock2(boohoo, "0009"));
+    }
+
+    private static int[] powers = new int[]{1000, 100, 10, 1};
+
+    // Written in 2023
+    public int openLock2(String[] _deadends, String _target) {
+        Set<Integer> deadends =
+                Arrays.stream(_deadends).map(d -> getNum(d)).collect(Collectors.toSet());
+        int target = getNum(_target);
+
+        if (deadends.contains(0)) {
+            return -1;
+        }
+
+        Queue<Integer> nums = new ArrayDeque<>();
+        Queue<Integer> length = new ArrayDeque<>();
+        Set<Integer> visited = new HashSet<>();
+        nums.add(0); length.add(0); visited.add(0);
+
+        int answer = -1;
+
+        while(!nums.isEmpty()) {
+            int num = nums.remove();
+            int len = length.remove();
+
+            if (num == target) {
+                answer = len;
+                break;
+            }
+
+            for (int i = 0; i < 4; i++) {
+                int next = getNext(num, i, true);
+                if (!deadends.contains(next) && !visited.contains(next)) {
+                    nums.add(next); length.add(len + 1);
+                    visited.add(next);
+                }
+
+                next = getNext(num, i, false);
+                if (!deadends.contains(next) && !visited.contains(next)) {
+                    nums.add(next); length.add(len + 1);
+                    visited.add(next);
+                }
+            }
+        }
+        return answer;
+    }
+
+    private int getNum(String str) {
+        return ((str.charAt(0) - '0') * 1000) + ((str.charAt(1) - '0') * 100)
+                + ((str.charAt(2) - '0') * 10) + ((str.charAt(3) - '0'));
+    }
+
+    private int getNext(int num, int pos, boolean up) {
+        int numFromDigit = num % (powers[pos] * 10);
+
+        int digit = numFromDigit / powers[pos];
+        int past = numFromDigit % powers[pos];
+
+        int withoutPast = num - numFromDigit;
+        int nextDigit = (up ? digit + 11 : digit + 9) % 10;
+
+        return withoutPast + (nextDigit * powers[pos]) + past;
     }
 
     private static Map<Integer, Integer> powersOfTen;
 
+    // Written in 2021
     public static int openLock(String[] dead, String tgt) {
         powersOfTen = new HashMap<>();
         powersOfTen.put(0, 1);
