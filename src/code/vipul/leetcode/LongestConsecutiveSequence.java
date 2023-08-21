@@ -1,8 +1,6 @@
 package code.vipul.leetcode;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 /**
  * Created by vgaur created on 06/06/21
@@ -11,14 +9,76 @@ import java.util.TreeSet;
  */
 public class LongestConsecutiveSequence {
 
-    public static void test() {
-        int[] nums = new int[]{0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
-        int answer = longestConsecutiveTry2(nums);
-        System.out.println(answer);
+    public static void solve() {
+        int[] nums = new int[]{9,1,4,7,3,-1,0,5,8,-1,6};
+        System.out.println(new LongestConsecutiveSequence().longestConsecutive3(nums));
+    }
+
+    int[] parent = null;
+    int[] size = null;
+    // Uses disjoint set union-find
+    public int longestConsecutive3(int[] nums) {
+        int n = nums.length;
+        if (n == 0 || n == 1) return n;
+        int tid = 0;
+        Map<Integer, Integer> numToId = new HashMap<>();
+        List<Integer> numbers = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            int num = nums[i];
+            if (!numToId.containsKey(num)) {
+                numToId.put(num, tid++);
+                numbers.add(num);
+            }
+        }
+        parent = new int[numbers.size()];
+        size = new int[numbers.size()];
+
+        for (int i = 0; i < parent.length; i++) {
+            parent[i] = i;
+            size[i] = 1;
+        }
+
+        for (int i = 0; i < numbers.size(); i++) {
+            int number = numbers.get(i);
+            if (numToId.containsKey(number-1)) {
+                union(i, numToId.get(number-1));
+            }
+            if (numToId.containsKey(number+1)) {
+                union(i, numToId.get(number+1));
+            }
+        }
+
+        Map<Integer, Integer> groupSizes = new HashMap<>();
+        for (int i = 0; i < numbers.size(); i++) {
+            groupSizes.merge(find(i), 1, (v1,v2) -> v1+v2);
+        }
+        return groupSizes.values().stream().mapToInt(i -> i).max().getAsInt();
+    }
+
+    private int find(int i) {
+        if (i == parent[i]) return i;
+        parent[i] = find(parent[i]);
+        return parent[i];
+    }
+
+    private void union(int v1, int v2) {
+        int p1 = find(v1);
+        int p2 = find(v2);
+
+        if (p1 == p2) return;
+
+        if (size[p1] >= size[p2]) {
+            parent[p2] = p1;
+            size[p1] += size[p2];
+        } else {
+            parent[p1] = p2;
+            size[p2] += size[p1];
+        }
     }
 
     //O n
-    public static int longestConsecutiveTry2(int[] nums) {
+    public int longestConsecutiveTry2(int[] nums) {
         int largestLength = 0;
         Set<Integer> numbers = new HashSet<>(nums.length);
         for (int num : nums) {
@@ -40,7 +100,7 @@ public class LongestConsecutiveSequence {
     }
 
     //O n logn
-    public static int longestConsecutive(int[] nums) {
+    public int longestConsecutive(int[] nums) {
         Set<Integer> numbers = new TreeSet<>();
         for (int num : nums) {
             numbers.add(num);

@@ -11,7 +11,46 @@ public class CourseSchedule {
         System.out.println(new CourseSchedule().canFinish(4, p));
     }
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
+    // Uses topological sort
+    public boolean canFinish(int n, int[][] prerequisites) {
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        int[] indegree = new int[n];
+        for (int i = 0; i < n; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+
+        for (int[] pre : prerequisites) {
+            graph.get(pre[1]).add(pre[0]);
+            indegree[pre[0]]++;
+        }
+        return !topologicalSort(graph, indegree).isEmpty();
+    }
+
+    private List<Integer> topologicalSort(Map<Integer, List<Integer>> graph, int[] indegree) {
+        List<Integer> visited = new ArrayList<>();
+        Stack<Integer> stack = new Stack<>();
+        for (Integer key : graph.keySet()) {
+            if (indegree[key] == 0) {
+                stack.add(key);
+            }
+        }
+
+        while (!stack.isEmpty()) {
+            Integer curr = stack.pop();
+            visited.add(curr);
+
+            for (Integer prev : graph.get(curr)) {
+                indegree[prev]--;
+                if (indegree[prev] == 0) {
+                    stack.add(prev);
+                }
+            }
+        }
+
+        return visited.size() == graph.size() ? visited : new ArrayList<>();
+    }
+
+    public boolean canFinish2(int numCourses, int[][] prerequisites) {
         Map<Integer, Set<Integer>> dep = new HashMap<>();
         for (int[] p : prerequisites) {
             dep.putIfAbsent(p[0], new HashSet<>());
