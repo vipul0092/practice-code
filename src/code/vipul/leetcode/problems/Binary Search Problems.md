@@ -13,3 +13,5 @@ Similar questions with the. same concept:
         Maximum Candies Allocated to K Children
         Maximum Tastiness of Candy Basket
         Minimum Time to Repair Cars
+
+https://leetcode.com/problems/maximum-running-time-of-n-computers/description/comments/1988006

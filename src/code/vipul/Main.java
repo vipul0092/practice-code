@@ -1,25 +1,16 @@
 package code.vipul;
 
 
-import code.vipul.leetcode.AccountsMergeUnionFind;
-import code.vipul.leetcode.CoinChangeII;
-import code.vipul.leetcode.DistinctSubstring;
-import code.vipul.leetcode.DungeonGame;
-import code.vipul.leetcode.FindCriticalAndNonCriticalEdgesInMST;
-import code.vipul.leetcode.LongestConsecutiveSequence;
-import code.vipul.leetcode.MaxRobotsWithinBudget;
-import code.vipul.leetcode.MaximumProductSubarray;
-import code.vipul.leetcode.MinimumCostToSplitArray;
-import code.vipul.leetcode.MinimumFlipsToMakeBinaryStringAlternating;
-import code.vipul.leetcode.MinimumWhiteTilesAfterCoveringWithCarpet;
-import code.vipul.leetcode.RegexMatcher;
-import code.vipul.leetcode.ReversePairs;
-import code.vipul.leetcode.SmallestRangeCoveringElementsFromKLists;
-import code.vipul.leetcode.SortItemsByGroupRespectingDependencies;
-import code.vipul.leetcode.SplitArrayLargestSum;
-import code.vipul.leetcode.SubstringWithConcatenationOfAllWords;
-import code.vipul.leetcode.TaskScheduler;
-import code.vipul.leetcode.WildcardMatching;
+import code.vipul.leetcode.BurstBalloons;
+import code.vipul.leetcode.CherryPickup;
+import code.vipul.leetcode.ChocolatePickup;
+import code.vipul.leetcode.CountOfInterestingSubarrays;
+import code.vipul.leetcode.FrogJumpII;
+import code.vipul.leetcode.MaximizeXorWithAnElementFromArray;
+import code.vipul.leetcode.MinimumCostToMergeStones;
+import code.vipul.leetcode.MinimumPossibleSum;
+import code.vipul.leetcode.MinimumReplacementsToSortArray;
+import code.vipul.leetcode.QueueReconstructionByHeight;
 
 public class Main {
 
@@ -39,7 +30,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        LongestConsecutiveSequence.solve();
+        MaximizeXorWithAnElementFromArray.solve();
 
         // CombinationSum.solve();
 

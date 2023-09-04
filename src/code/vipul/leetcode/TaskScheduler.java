@@ -69,30 +69,10 @@ public class TaskScheduler {
         return less == null ? more : less;
     }
 
-    private Task getImmediateSchedule(Map<Character, Task> tasks, int time) {
-        return tasks.values().stream()
-                .filter(t -> t.nextExecution <= time)
-                .min(Task.EXECUTIONS_LEFT_FIRST).orElse(null);
-    }
-
-    private Task getNextSchedule(Map<Character, Task> tasks, int time) {
-        return tasks.values().stream()
-                .filter(t -> t.nextExecution > time)
-                .min(Task.NEXT_EXECUTION_FIRST).orElse(null);
-    }
-
     private class Task {
         private char ch;
         private int nextExecution;
         private int executionsLeft;
-
-        private static final Comparator<Task> EXECUTIONS_LEFT_FIRST = (t1, t2) -> t2.executionsLeft - t1.executionsLeft;
-        private static final Comparator<Task> NEXT_EXECUTION_FIRST = (t1, t2) -> {
-            if (t1.nextExecution == t2.nextExecution) {
-                return t2.executionsLeft - t1.executionsLeft;
-            }
-            return t1.nextExecution - t2.nextExecution;
-        };
 
         public Task(char c, int ne, int el) {
             this.ch = c;
