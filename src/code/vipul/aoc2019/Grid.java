@@ -8,8 +8,8 @@ import java.util.Objects;
 
 public class Grid {
 
-    private static int ROWS = 5;
-    private static int COLS = 5;
+    public static int ROWS = 5;
+    public static int COLS = 5;
 
     public static void setMaxRowsCols(int maxRows, int maxCols) {
         ROWS = maxRows;

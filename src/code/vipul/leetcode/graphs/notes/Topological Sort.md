@@ -31,3 +31,7 @@ The algorithm goes as follows:
 If the process returns empty list, that means that the topological sort is not possible.
 
 Implementation can be found in the [TopologicalSort](../TopologicalSort.java) class.
+
+Good problems on Topological sort:
+
+https://www.codingninjas.com/studio/problems/alien-dictionary_630423

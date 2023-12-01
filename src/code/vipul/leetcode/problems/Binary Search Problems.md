@@ -15,3 +15,5 @@ Similar questions with the. same concept:
         Minimum Time to Repair Cars
 
 https://leetcode.com/problems/maximum-running-time-of-n-computers/description/comments/1988006
+
+https://leetcode.com/problems/path-with-minimum-effort/

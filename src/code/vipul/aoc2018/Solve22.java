@@ -1,16 +1,9 @@
 package code.vipul.aoc2018;
 
+import code.vipul.Pair;
 import code.vipul.aoc2018.grid.Posxy;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -68,7 +61,7 @@ public class Solve22 {
 
     private static Map<PointWithTool, Map<PointWithTool, Integer>> adjacencyListWithWeights;
     private static Map<PointWithTool, Integer> distanceMap;
-    private static TreeMap<Integer, Set<PointWithTool>> unvisited;
+    private static long limitx, limity;
 
 
     // Approach inspired by https://www.reddit.com/r/adventofcode/comments/a8jhy0/2018_day_22_part2_did_you_have_to_cap_x_or_y/ecb5zjz/
@@ -76,7 +69,6 @@ public class Solve22 {
         erosionMap = new HashMap<>();
         adjacencyListWithWeights = new LinkedHashMap<>();
         distanceMap = new LinkedHashMap<>();
-        unvisited = new TreeMap<>();
         // INPUT = "depth: 510\ntarget: 10,10";
         String[] lines = INPUT.split("\n");
         depth = Long.parseLong(lines[0].split(": ")[1]);
@@ -85,8 +77,8 @@ public class Solve22 {
         long targetY = Long.parseLong(targetcoor[1]);
         target = Posxy.of((int) targetX, (int) targetY);
 
-        long limitx = targetX + 100;
-        long limity = targetY + 100;
+        limitx = targetX + 100;
+        limity = targetY + 100;
 
         Posxy start = Posxy.of(0, 0);
 
@@ -111,19 +103,13 @@ public class Solve22 {
                 if (x > 0 || y > 0) {
                     distanceMap.put(pt1, INF);
                     distanceMap.put(pt2, INF);
-                    storeInUnvisited(pt1, INF);
-                    storeInUnvisited(pt2, INF);
                 } else {
                     if (pt1.tool == TORCH) {
                         distanceMap.put(pt1, 0);
                         distanceMap.put(pt2, INF);
-                        storeInUnvisited(pt1, 0);
-                        storeInUnvisited(pt2, INF);
                     } else if (pt2.tool == TORCH) {
                         distanceMap.put(pt1, INF);
                         distanceMap.put(pt2, 0);
-                        storeInUnvisited(pt1, INF);
-                        storeInUnvisited(pt2, 0);
                     }
                 }
 
@@ -140,7 +126,6 @@ public class Solve22 {
                         link(npt, pt1, 1);
                         if (!neighbour.isOrigin()) {
                             distanceMap.put(npt, INF);
-                            storeInUnvisited(npt, INF);
                         }
                     }
                     if ((pt2.tool & ntools) != 0) {
@@ -148,27 +133,36 @@ public class Solve22 {
                         link(npt, pt2, 1);
                         if (!neighbour.isOrigin()) {
                             distanceMap.put(npt, INF);
-                            storeInUnvisited(npt, INF);
                         }
                     }
                 }
             }
         }
 
+        final long startTime = System.nanoTime();
         // Find min distance between the start and target using the weighted graph using Dijkstra's algorithm
         int length = dijkstra(PointWithTool.of(start, TORCH), PointWithTool.of(target, TORCH));
-
+        final long duration = (System.nanoTime() - startTime) / 1000000;
+        System.out.println("Runtime(in ms): " + duration);
         System.out.println("Answer: " + length); //1029
     }
 
     private static int dijkstra(PointWithTool start, PointWithTool end) {
         int length = -1;
 
-        PointWithTool current = start;
-        while (true) {
+        PointWithTool current;
+        PriorityQueue<Pair<Integer, PointWithTool>> minheap = new PriorityQueue<>(Comparator.comparingInt(Pair::left));
+        minheap.add(Pair.of(distanceMap.get(start), start));
+
+        boolean[][][] visited = new boolean[(int)limitx+1][(int)limity+1][10];
+
+        while (!minheap.isEmpty()) {
+            Pair<Integer, PointWithTool> top = minheap.remove();
+            current = top.right();
             int currentTool = current.tool;
             Posxy currentLocation = current.location;
             int currentDistance = distanceMap.get(current);
+            visited[current.location.x()][current.location.y()][current.tool] = true;
 
             if (currentLocation.equals(end.location) && currentTool == end.tool) {
                 System.out.println("REACHED THE TARGET!");
@@ -179,23 +173,21 @@ public class Solve22 {
             Map<PointWithTool, Integer> neighboursWithLengths = adjacencyListWithWeights.get(current);
 
             for (Map.Entry<PointWithTool, Integer> e : neighboursWithLengths.entrySet()) {
-                if (isVisited(e.getKey(), distanceMap.get(e.getKey()))) {
+                PointWithTool t = e.getKey();
+                if (visited[t.location.x()][t.location.y()][t.tool]) {
                     continue;
                 }
                 int neighbourNewDistance = currentDistance + e.getValue();
-                int neighbourCurrentDistance = distanceMap.get(e.getKey());
+                int neighbourCurrentDistance = distanceMap.get(t);
 
                 // assign the distance to the neighbour
                 // and update the distance in unvisited map
                 if (neighbourNewDistance < neighbourCurrentDistance) {
-                    distanceMap.put(e.getKey(), neighbourNewDistance);
-                    removeFromUnvisited(e.getKey(), neighbourCurrentDistance);
-                    storeInUnvisited(e.getKey(), neighbourNewDistance);
+                    distanceMap.put(t, neighbourNewDistance);
+                    minheap.add(Pair.of(neighbourNewDistance, t));
                 }
 
             }
-            removeFromUnvisited(current, currentDistance);
-            current = unvisited.firstEntry().getValue().iterator().next();
         }
         return length;
     }
@@ -211,24 +203,6 @@ public class Solve22 {
 
         adjacencyListWithWeights.get(p1).put(p2, edgeLength);
         adjacencyListWithWeights.get(p2).put(p1, edgeLength);
-    }
-
-    private static void storeInUnvisited(PointWithTool pt, int distance) {
-        if (!unvisited.containsKey(distance)) {
-            unvisited.put(distance, new LinkedHashSet<>());
-        }
-        unvisited.get(distance).add(pt);
-    }
-
-    private static void removeFromUnvisited(PointWithTool pt, int distance) {
-        unvisited.get(distance).remove(pt);
-        if (unvisited.get(distance).size() == 0) {
-            unvisited.remove(distance);
-        }
-    }
-
-    private static boolean isVisited(PointWithTool pt, int distance) {
-        return !(unvisited.containsKey(distance) && unvisited.get(distance).contains(pt));
     }
 
     private static int getRegionType(Posxy pos) {

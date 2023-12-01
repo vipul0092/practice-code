@@ -1,16 +1,13 @@
 package code.vipul.aoc2021;
 
+import code.vipul.Pair;
 import code.vipul.aoc2019.Grid;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.stream.Collectors;
 
+import static code.vipul.aoc2019.Grid.COLS;
+import static code.vipul.aoc2019.Grid.ROWS;
 import static java.util.stream.Collectors.toMap;
 
 /**
@@ -38,7 +35,6 @@ public class Solve15 {
     private static final int INF = Integer.MAX_VALUE;
     private static Map<Grid.Pos, Map<Grid.Pos, Integer>> adjacencyListWithWeights;
     private static Map<Grid.Pos, Integer> distanceMap;
-    private static TreeMap<Integer, Set<Grid.Pos>> unvisited;
     private static int lastCellValue;
 
     public static void solve() {
@@ -61,8 +57,16 @@ public class Solve15 {
         int length = -1;
 
         Grid.Pos current = start;
-        while (true) {
-            int currentDistance = distanceMap.get(current);
+
+        PriorityQueue<Pair<Integer, Grid.Pos>> minheap = new PriorityQueue<>(Comparator.comparingInt(Pair::left));
+        minheap.add(Pair.of(distanceMap.get(current), start));
+        boolean[][] visited = new boolean[ROWS+1][COLS+1];
+
+        while (!minheap.isEmpty()) {
+            Pair<Integer, Grid.Pos> top = minheap.remove();
+            current = top.right();
+            visited[current.i()][current.j()] = true;
+            int currentDistance = top.left();
 
             if (current.equals(end)) {
                 length = currentDistance + lastCellValue - grid[start.i()][start.j()];
@@ -72,7 +76,7 @@ public class Solve15 {
             Map<Grid.Pos, Integer> neighboursWithLengths = adjacencyListWithWeights.get(current);
 
             for (Map.Entry<Grid.Pos, Integer> e : neighboursWithLengths.entrySet()) {
-                if (isVisited(e.getKey(), distanceMap.get(e.getKey()))) {
+                if (visited[e.getKey().i()][e.getKey().j()]) {
                     continue;
                 }
                 int neighbourNewDistance = currentDistance + e.getValue();
@@ -82,33 +86,11 @@ public class Solve15 {
                 // and update the distance in unvisited map
                 if (neighbourNewDistance < neighbourCurrentDistance) {
                     distanceMap.put(e.getKey(), neighbourNewDistance);
-                    removeFromUnvisited(e.getKey(), neighbourCurrentDistance);
-                    storeInUnvisited(e.getKey(), neighbourNewDistance);
+                    minheap.add(Pair.of(neighbourNewDistance, e.getKey()));
                 }
-
             }
-            removeFromUnvisited(current, currentDistance);
-            current = unvisited.firstEntry().getValue().iterator().next();
         }
         return length;
-    }
-
-    private static void storeInUnvisited(Grid.Pos pt, int distance) {
-        if (!unvisited.containsKey(distance)) {
-            unvisited.put(distance, new LinkedHashSet<>());
-        }
-        unvisited.get(distance).add(pt);
-    }
-
-    private static void removeFromUnvisited(Grid.Pos pt, int distance) {
-        unvisited.get(distance).remove(pt);
-        if (unvisited.get(distance).size() == 0) {
-            unvisited.remove(distance);
-        }
-    }
-
-    private static boolean isVisited(Grid.Pos pt, int distance) {
-        return !(unvisited.containsKey(distance) && unvisited.get(distance).contains(pt));
     }
 
     private static void parse(String input, int repeatTileSize) {
@@ -116,7 +98,6 @@ public class Solve15 {
 
         adjacencyListWithWeights = new HashMap<>();
         distanceMap = new HashMap<>();
-        unvisited = new TreeMap<>();
         grid = new int[inputs.size()][inputs.get(0).length()];
         int tileSize = inputs.size();
         for (int i = 0; i < inputs.size(); i++) {
@@ -144,7 +125,6 @@ public class Solve15 {
                                         .collect(toMap(p -> p, p -> finalStartLen));
                         adjacencyListWithWeights.put(pos, neighbours);
                         distanceMap.put(pos, INF);
-                        storeInUnvisited(pos, INF);
                         if (pos.equals(end)) {
                             lastCellValue = finalStartLen;
                         }
@@ -157,6 +137,5 @@ public class Solve15 {
             }
         }
         distanceMap.put(start, 0);
-        storeInUnvisited(start, 0);
     }
 }
