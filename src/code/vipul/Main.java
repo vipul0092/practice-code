@@ -6,6 +6,7 @@ import code.vipul.aoc2021.Solve15;
 import code.vipul.aoc2022.Solve16;
 import code.vipul.aoc2023.Day1;
 import code.vipul.aoc2023.Day3;
+import code.vipul.aoc2023.Day4;
 import code.vipul.leetcode.BurstBalloons;
 import code.vipul.leetcode.CherryPickup;
 import code.vipul.leetcode.ChocolatePickup;
@@ -41,7 +42,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day3.solve();
+        Day4.solve();
 
         // CombinationSum.solve();
 
