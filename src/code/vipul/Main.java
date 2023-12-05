@@ -1,28 +1,7 @@
 package code.vipul;
 
 
-import code.vipul.aoc2018.Solve22;
-import code.vipul.aoc2021.Solve15;
-import code.vipul.aoc2022.Solve16;
-import code.vipul.aoc2023.Day1;
-import code.vipul.aoc2023.Day3;
-import code.vipul.aoc2023.Day4;
-import code.vipul.leetcode.BurstBalloons;
-import code.vipul.leetcode.CherryPickup;
-import code.vipul.leetcode.ChocolatePickup;
-import code.vipul.leetcode.CombinationSum4;
-import code.vipul.leetcode.CountOfInterestingSubarrays;
-import code.vipul.leetcode.FrogJumpII;
-import code.vipul.leetcode.LongestIncreasingPathInMatrix;
-import code.vipul.leetcode.LongestRepeatingSubstring;
-import code.vipul.leetcode.MaximizeXorWithAnElementFromArray;
-import code.vipul.leetcode.MaximumSubarraySumQueriesII;
-import code.vipul.leetcode.MinimumCostToConnect2GroupsOfPoints;
-import code.vipul.leetcode.MinimumCostToMergeStones;
-import code.vipul.leetcode.MinimumPossibleSum;
-import code.vipul.leetcode.MinimumReplacementsToSortArray;
-import code.vipul.leetcode.QueueReconstructionByHeight;
-import code.vipul.leetcode.ReconstructItenrary;
+import code.vipul.aoc2023.Day5;
 
 public class Main {
 
@@ -42,7 +21,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day4.solve();
+        Day5.solve();
 
         // CombinationSum.solve();
 

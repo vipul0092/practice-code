@@ -71,13 +71,13 @@ public class Day4 {
             sum += curr;
         }
 
-        System.out.println(sum); // 27059
+        System.out.println("Part 1: " + sum); // 27059
 
         int total = 0;
         for (int v : counts.values()) {
             total += v;
         }
 
-        System.out.println(total); // 5744979
+        System.out.println("Part 2: " + total); // 5744979
     }
 }
