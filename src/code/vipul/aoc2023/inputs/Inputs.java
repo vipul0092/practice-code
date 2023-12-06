@@ -1707,4 +1707,9 @@ public class Inputs {
             428501331 65877217 276285378
             2482898505 3841187209 36728035
             """;
+
+    public static final String DAY_6 = """
+            Time:        53     89     76     98
+            Distance:   313   1090   1214   1201
+            """;
 }
