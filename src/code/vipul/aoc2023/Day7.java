@@ -2,6 +2,7 @@ package code.vipul.aoc2023;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -20,13 +21,9 @@ public class Day7 {
             KTJJT 220
             QQQJA 483
             """;
-    public static final int FIVE_OF_KIND = 7;
-    public static final int FOUR_OF_KIND = 6;
-    public static final int FULL_HOUSE = 5;
-    public static final int THREE_OF_KIND = 4;
-    public static final int TWO_PAIR = 3;
-    public static final int ONE_PAIR = 2;
-    public static final int HIGH_CARD = 1;
+    private static final Map<List<Integer>, Integer> HAND_PRIORITIES =
+            Map.of(List.of(5), 7, List.of(4, 1), 6, List.of(3, 2), 5, List.of(3,1,1), 4,
+                    List.of(2,2,1), 3, List.of(2,1,1,1), 2, List.of(1,1,1,1,1), 1);
 
     public static void solve() {
         INPUT = DAY_7;
@@ -62,62 +59,37 @@ public class Day7 {
         for (char c : s1.toCharArray()) chars1.merge(c, 1, Integer::sum);
         for (char c : s2.toCharArray()) chars2.merge(c, 1, Integer::sum);
 
-        int hand1 = getHand(chars1, considerJ);
-        int hand2 = getHand(chars2, considerJ);
-        if (hand1 < hand2) {
-            return -1;
-        } else if (hand1 > hand2) {
-            return 1;
+        int compare = Integer.compare(getHandPriority(chars1, considerJ), getHandPriority(chars2, considerJ));
+        if (compare != 0) {
+            return compare;
         }
         // if same hand
         for (int i = 0; i < 5; i++) {
             if (s1.charAt(i) != s2.charAt(i)) {
-                int c1 = getCard(s1.charAt(i), considerJ);
-                int c2 = getCard(s2.charAt(i), considerJ);
-                return c1 < c2 ? -1 : 1;
+                return Integer.compare(getCardPriority(s1.charAt(i), considerJ),
+                        getCardPriority(s2.charAt(i), considerJ));
             }
         }
         throw new RuntimeException("Not expected to come here");
     }
 
-    private static int getHand(Map<Character, Integer> chars,  boolean considerJ) {
+    private static int getHandPriority(Map<Character, Integer> chars, boolean considerJ) {
         int jcount = considerJ ? chars.getOrDefault('J', 0) : 0;
-        List<Integer> vals = chars.values().stream().toList();
-        switch (chars.size()) {
-            case 1 -> {  // 5 of a kind
-                return FIVE_OF_KIND;
-            }
-            case 2 -> {
-                if (vals.get(0) == 4 || vals.get(1) == 4) { // 4 of a kind
-                    if (jcount > 0) return FIVE_OF_KIND; // 5 of a kind XXXXJ
-                    return FOUR_OF_KIND;
-                } else { // full house
-                    if (jcount == 2 || jcount == 3) return FIVE_OF_KIND; // 5 of a kind JJXXX or XXJJJ
-                    return FULL_HOUSE;
-                }
-            }
-            case 3 -> {
-                if (vals.get(0) == 3 || vals.get(1) == 3 || vals.get(2) == 3) { // three of a kind
-                    if (jcount == 3 || jcount == 1) return FOUR_OF_KIND; // 4 of a kind XXXJB or JJJAB
-                    return THREE_OF_KIND;
-                } else { // 2 pair
-                    if (jcount == 2) return FOUR_OF_KIND; // four of a kind XXJJZ
-                    if (jcount == 1) return FULL_HOUSE; // full house XXYYJ
-                    return TWO_PAIR;
-                }
-            }
-            case 4 -> {  // one pair
-                if (jcount == 2 || jcount == 1) return THREE_OF_KIND; // 3 of a kind XXJBC or JJABC
-                return ONE_PAIR;
-            }
+        if (considerJ) {
+            chars.remove('J');
         }
+        List<Integer> vals = new ArrayList<>(chars.values().stream().sorted(Comparator.reverseOrder()).toList());
         if (jcount > 0) {
-            return ONE_PAIR; // 1 pair ABCDJ
+            if (vals.isEmpty()) {
+                vals = List.of(5);
+            } else {
+                vals.set(0, vals.get(0) + jcount);
+            }
         }
-        return HIGH_CARD; // high card
+        return HAND_PRIORITIES.get(vals);
     }
 
-    private static int getCard(char card, boolean considerJ) {
+    private static int getCardPriority(char card, boolean considerJ) {
         int priority;
         switch (card) {
             case 'A' -> priority = 13;
