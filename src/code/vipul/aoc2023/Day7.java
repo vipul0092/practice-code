@@ -37,7 +37,7 @@ public class Day7 {
             handMap.put(str[0], Integer.parseInt(str[1]));
         }
 
-        System.out.println("Part 1: " + getSum(hands, handMap, false)); // 246394540
+        System.out.println("Part 1: " + getSum(hands, handMap, false)); // 246409899
         System.out.println("Part 2: " + getSum(hands, handMap, true)); // 244848487
     }
 
@@ -95,9 +95,9 @@ public class Day7 {
             case 'A' -> priority = 13;
             case 'K' -> priority = 12;
             case 'Q' -> priority = 11;
-            case 'T' -> priority = 10;
-            case 'J' -> priority = considerJ ? 1 : 9;
-            default -> priority = card - '0' - (considerJ ? 0 : 1);
+            case 'J' -> priority = considerJ ? 0 : 10;
+            case 'T' -> priority = 9;
+            default -> priority = card - '0' - 1;
         }
         return priority;
     }
