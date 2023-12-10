@@ -1,6 +1,7 @@
 package code.vipul;
 
 
+import code.vipul.aoc2023.Day10;
 import code.vipul.aoc2023.Day8;
 import code.vipul.aoc2023.Day9;
 
@@ -22,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day9.solve();
+        Day10.solve();
 
         // CombinationSum.solve();
 
