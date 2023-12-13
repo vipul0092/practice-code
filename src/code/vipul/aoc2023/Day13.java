@@ -42,74 +42,45 @@ public class Day13 {
                 pattern.add(line);
             }
             if (line.isEmpty() || i == lines.size() - 1) {
-                var sums = getSums(pattern);
-                sum += sums.part1;
-                sum2 += sums.part2;
+                sum += getScore(pattern, false);
+                sum2 += getScore(pattern, true);
                 pattern = new ArrayList<>();
             }
-
         }
         System.out.println("Part 1: " + sum); // 30802
         System.out.println("Part 2: " + sum2); // 37876
     }
 
-    private static Sums getSums(List<String> patterns) {
-        var result = getResult(patterns, null, false);
-        var result2 = getResult(patterns, result, true);
-        return new Sums(result.getScore(), result2.getScore());
+    private static int getScore(List<String> patterns, boolean smudge) {
+        boolean vertical = false;
+        int mid = getMid(getIntegers(patterns, false), smudge); // Horizontal
+        if (mid == -1) {
+            vertical = true;
+            mid = getMid(getIntegers(patterns, true), smudge); // Vertical
+        }
+        assert mid != -1;
+        return vertical ? mid + 1 : 100 * (mid + 1);
     }
 
-    private static Result getResult(List<String> patterns, Result previousResult, boolean smudge) {
-        int mid = getMid(patterns, false, previousResult, smudge);
-        if (mid != -1) {
-            return new Result(mid + 1, false);
-        }
-
-        List<String> vertical = new ArrayList<>();
-        for (int j = 0; j < patterns.get(0).length(); j++) {
-            StringBuilder sb = new StringBuilder();
-            for (String p : patterns) {
-                sb.append(p.charAt(j));
-            }
-            vertical.add(sb.toString());
-        }
-        mid = getMid(vertical, true, previousResult, smudge);
-        if (mid != -1) {
-            return new Result(mid + 1, true);
-        }
-
-        throw new RuntimeException("NOT POSSIBLE!");
-    }
-
-    private static int getMid(List<String> pattern, boolean vertical, Result previousResult, boolean smudge) {
+    private static int getMid(List<Integer> numbers, boolean smudge) {
         int mid = -1;
-        for (int i = 0; i < pattern.size() - 1; i++) {
+        for (int i = 0; i < numbers.size() - 1; i++) {
             int start = i;
-            boolean smudgetaken = false;
-            for (int end = i + 1; start >= 0 && end < pattern.size(); end++, start--) {
-                String p1 = pattern.get(start);
-                String p2 = pattern.get(end);
-                if (p1.equals(p2)) {
+            boolean smudgefound = false;
+            for (int end = i + 1; start >= 0 && end < numbers.size(); end++, start--) {
+                int xor = numbers.get(start) ^ numbers.get(end);
+                // During exact match -> xor should be zero i.e. all bits match
+                // During smudge match -> xor can be zero or a power of 2 i.e. one bit doesn't match
+                boolean valid = (xor == 0 && !smudge) || (smudge && (xor & (xor - 1)) == 0);
+                smudgefound |= smudge && valid && xor > 0;
+                if (valid) {
                     mid = i;
                 } else {
-                    int diff = 0;
-                    for (int k = 0; diff <= 1 && smudge && k < p1.length(); k++) {
-                        if (p1.charAt(k) != p2.charAt(k)) {
-                            diff++;
-                        }
-                    }
-
-                    if (diff == 1 && !smudgetaken) {
-                        mid = i;
-                        smudgetaken = true;
-                    } else {
-                        mid = -1;
-                        break;
-                    }
+                    mid = -1;
+                    break;
                 }
             }
-            if (mid != -1 &&
-                (previousResult == null || previousResult.vertical != vertical || previousResult.val != mid + 1)) {
+            if (mid != -1 && (!smudge || smudgefound)) {
                 break;
             }
             mid = -1;
@@ -117,12 +88,29 @@ public class Day13 {
         return mid;
     }
 
-    record Sums(int part1, int part2) {
-    }
-
-    record Result(int val, boolean vertical) {
-        public int getScore() {
-            return vertical ? val : 100 * val;
+    private static List<Integer> getIntegers(List<String> patterns, boolean vertical) {
+        List<Integer> ints = new ArrayList<>(patterns.size());
+        if (vertical) {
+            for (int j = 0; j < patterns.get(0).length(); j++) {
+                int num = 0;
+                for (int i = 0; i < patterns.size(); i++) {
+                    if (patterns.get(i).charAt(j) == '#') { // consider # as 1
+                        num += (1 << i);
+                    }
+                }
+                ints.add(num);
+            }
+        } else {
+            for (String p : patterns) {
+                int num = 0;
+                for (int i = 0; i < p.length(); i++) {
+                    if (p.charAt(i) == '#') { // consider # as 1
+                        num += (1 << i);
+                    }
+                }
+                ints.add(num);
+            }
         }
+        return ints;
     }
 }
