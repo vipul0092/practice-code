@@ -5,6 +5,7 @@ import code.vipul.aoc2023.Day14;
 import code.vipul.aoc2023.Day15;
 import code.vipul.aoc2023.Day16;
 import code.vipul.aoc2023.Day17;
+import code.vipul.aoc2023.Day18;
 
 public class Main {
 
@@ -24,7 +25,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day17.solvePart2();
+        Day18.solve();
 
         // CombinationSum.solve();
 
