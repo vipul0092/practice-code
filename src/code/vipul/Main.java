@@ -8,6 +8,8 @@ import code.vipul.aoc2023.Day17;
 import code.vipul.aoc2023.Day18;
 import code.vipul.aoc2023.Day19;
 import code.vipul.aoc2023.Day20;
+import code.vipul.aoc2023.Day21;
+import code.vipul.aoc2023.Day22;
 
 public class Main {
 
@@ -27,7 +29,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day20.solve();
+        Day21.solveQuadratic();
 
         // CombinationSum.solve();
 
