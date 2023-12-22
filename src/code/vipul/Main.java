@@ -29,7 +29,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day21.solveQuadratic();
+        Day22.solve();
 
         // CombinationSum.solve();
 

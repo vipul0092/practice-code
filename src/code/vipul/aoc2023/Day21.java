@@ -68,12 +68,11 @@ public class Day21 {
 
         // Explanation for Quadratic solution
         // The no. of steps to calculate in part 2 is 26501365 = (202300*131) + 65
-        // If the no. of points after x steps is f(x), then f(x) is quadratic
+        // If the no. of points after 131*X + 65 steps is f(X), then f(X) is quadratic
         // This is hinted via the example as well
         // see https://old.reddit.com/r/adventofcode/comments/18nevo3/2023_day_21_solutions/keaiiq7/ as to why
         //
-        // Now, we can decide the `x` in the function as x = 131*X + 65
-        // so that to calc final answer, we can put X = 202300
+        // To calc final answer, we can put X = 202300
         // now f(X) = aX^2 + bX + c, f(X) gives number of pts after 65, 65 + 131, 65 + 131*2 steps and so on
         // To find the quadratic, we have evaluate the f(X) at X=0,1,2
         // f(0) = pts after 65 steps, f(1) = ptr after 65 + 131 steps, f(2) = 65 + 131*2 steps
