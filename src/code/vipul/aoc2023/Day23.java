@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
@@ -47,7 +45,8 @@ public class Day23 {
 
     record Point(int x, int y){}
 
-    static int[][] diff2 = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    private static final int[][] DIFF = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    private static int[][][][] dp;
 
     public static void solve() {
         INPUT = DAY_23;
@@ -80,17 +79,15 @@ public class Day23 {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (value(i, j, lines) != '#') {
-                    Point p = new Point(i, j);
-                    List<Point> options = new ArrayList<>();
-                    for (int[] df : diff2) {
-                        int ni = p.x + df[0], nj = p.y + df[1];
-                        Point n = new Point(ni, nj);
+                    int options = 0;
+                    for (int[] df : DIFF) {
+                        int ni = i + df[0], nj = j + df[1];
                         if (valid(ni, nj, lines)) {
-                            options.add(n);
+                            options++;
                         }
                     }
-                    if (options.size() > 2) {
-                        pointsToEvaluate.put(p, id++);
+                    if (options > 2) {
+                        pointsToEvaluate.put(new Point(i, j), id++);
                     }
                 }
             }
@@ -111,7 +108,7 @@ public class Day23 {
                 Point p = queue.remove();
                 int distance = len.remove();
                 List<Point> options = new ArrayList<>();
-                for (int[] df : diff2) {
+                for (int[] df : DIFF) {
                     int ni = p.x + df[0], nj = p.y + df[1];
                     Point n = new Point(ni, nj);
                     if (valid(ni, nj, lines) && !visited.contains(n)) {
@@ -132,30 +129,30 @@ public class Day23 {
             }
         }
 
-        dfs2(pointsToEvaluate.get(start), -1, pointsToEvaluate.get(end), graph, 0, new boolean[id+1]);
+        int answer = dfs2(pointsToEvaluate.get(start), -1, pointsToEvaluate.get(end), graph, 0L);
         long e = System.currentTimeMillis();
-        System.out.println(maximum);
+        System.out.println(answer);
         System.out.println("time taken: " + (e - s) + " ms");
     }
-    private static int maximum = 0;
-    private static void dfs2(int current, int prev, int end, int[][] graph, int distance, boolean[] visited) {
+
+    private static int dfs2(int current, int prev, int end, int[][] graph, long visited) {
         if (current == end) {
-            maximum = Math.max(maximum, distance);
-            return;
+            return 0;
         }
 
+        int max = -1;
         for (int j = 1; j < graph[current].length; j++) {
             if (graph[current][j] == 0) continue;
             int dis = graph[current][j];
-            if (j != prev && !visited[j]) {
-                visited[j] = true;
-                dfs2(j, current, end, graph, dis + distance, visited);
-                visited[j] = false;
+            if (j != prev && !isBitSet(visited, j)) {
+                int d = dfs2(j, current, end, graph, setBit(visited, j));
+                if (d != -1) {
+                    max = Math.max(max, d + dis);
+                }
             }
         }
+        return max;
     }
-
-    static int[][][][] dp;
 
     private static int dfs(int ci, int cj, int pi, int pj, int ei, int ej, List<String> lines) {
         if (ci == ei && cj == ej) {
@@ -165,7 +162,7 @@ public class Day23 {
             return dp[ci][cj][pi][pj] - 2;
         }
         int max = -1;
-        for (int[] df : diff2) {
+        for (int[] df : DIFF) {
             int ni = ci + df[0], nj = cj + df[1];
             if (!(ni == pi && nj == pj) && valid(ni, nj, lines)) {
                 char next = value(ni, nj, lines);
@@ -200,5 +197,13 @@ public class Day23 {
     private static boolean valid(int x, int y, List<String> lines) {
         return x >= 0 && y >= 0 && x < lines.size() && y < lines.get(0).length()
                 && value(x, y, lines) != '#';
+    }
+
+    private static boolean isBitSet(long bitSet, int bitPos) {
+        return (bitSet & (1L << bitPos)) != 0;
+    }
+
+    private static long setBit(long bitSet, int bitPos) {
+        return (bitSet | (1L << bitPos));
     }
 }
