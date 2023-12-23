@@ -101,7 +101,6 @@ public class Day21 {
                                       Map<Point, List<Point>> neighbors, Map<Point, List<Pwd>> loopedNeighbors) {
         Map<Point, Set<Point>> pointsPerGrid = new HashMap<>();
         Point grid = new Point(0, 0);
-        ;
         Point gridPos = grid;
         // Always start from the base
         pointsPerGrid.put(gridPos, new HashSet<>());
