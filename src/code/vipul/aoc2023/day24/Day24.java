@@ -1,4 +1,4 @@
-package code.vipul.aoc2023;
+package code.vipul.aoc2023.day24;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -101,6 +101,6 @@ public class Day24 {
         System.out.println();
 
         // Run the above script in SageMath and sum the values of x, y & z
-        System.out.println("Part 2: " + (422521403380479L + 268293246383898L + 153073450808511L));
+        System.out.println("Part 2: " + (422521403380479L + 268293246383898L + 153073450808511L)); //843888100572888
     }
 }

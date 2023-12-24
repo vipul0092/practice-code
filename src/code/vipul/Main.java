@@ -1,17 +1,7 @@
 package code.vipul;
 
 
-import code.vipul.aoc2023.Day14;
-import code.vipul.aoc2023.Day15;
-import code.vipul.aoc2023.Day16;
-import code.vipul.aoc2023.Day17;
-import code.vipul.aoc2023.Day18;
-import code.vipul.aoc2023.Day19;
-import code.vipul.aoc2023.Day20;
-import code.vipul.aoc2023.Day21;
-import code.vipul.aoc2023.Day22;
-import code.vipul.aoc2023.Day23;
-import code.vipul.aoc2023.Day24;
+import code.vipul.aoc2023.day24.Day24;
 
 public class Main {
 
