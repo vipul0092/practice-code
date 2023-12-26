@@ -85,6 +85,10 @@ public class Day24 {
 
         System.out.println("Part 1: " + count);
 
+        // There is an algebraic approach as well that I implemented in Go, Im just too lazy to implement it in Java
+        // If you want to, please implement and open a pull-request for the same :)
+        // https://github.com/vipul0092/advent-of-code-2023/blob/main/day24/day24.go#L93
+
         // Generate SageMath script
         System.out.println();
         System.out.println("var('x y z vx vy vz t1 t2 t3')");

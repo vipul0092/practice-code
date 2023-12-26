@@ -1,7 +1,6 @@
 package code.vipul.aoc2023;
 
 import code.vipul.graph.Edge;
-import code.vipul.leetcode.graphs.DisjointSet;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
