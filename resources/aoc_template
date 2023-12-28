@@ -1,0 +1,23 @@
+package code.vipul.aoc2017;
+
+import java.util.*;
+
+import static code.vipul.aoc2017.inputs.Inputs.DAY_X;
+
+/**
+ * Created by vgaur created on 28/12/23
+ */
+public class DayX {
+
+    private static String INPUT = """
+
+            """;
+
+    public static void solve() {
+        //INPUT = DAY_X;
+        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+
+        System.out.println();
+        System.out.println();
+    }
+}
