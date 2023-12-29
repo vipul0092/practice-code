@@ -9,7 +9,13 @@ import code.vipul.aoc2017.Day13;
 import code.vipul.aoc2017.Day14;
 import code.vipul.aoc2017.Day15;
 import code.vipul.aoc2017.Day16;
+import code.vipul.aoc2017.Day17;
+import code.vipul.aoc2017.Day18;
+import code.vipul.aoc2017.Day19;
 import code.vipul.aoc2017.Day2;
+import code.vipul.aoc2017.Day20;
+import code.vipul.aoc2017.Day21;
+import code.vipul.aoc2017.Day22;
 import code.vipul.aoc2017.Day3;
 import code.vipul.aoc2017.Day4;
 import code.vipul.aoc2017.Day5;
@@ -38,7 +44,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day16.solve();
+        Day22.solve();
 
         // CombinationSum.solve();
 
