@@ -7547,4 +7547,198 @@ public class Inputs {
             .##.#.##...##..##...#.#.#
             ###...##..#..##.##..#..#.
             """;
+
+    public static final String DAY_23 = """
+            set b 65
+            set c b
+            jnz a 2
+            jnz 1 5
+            mul b 100
+            sub b -100000
+            set c b
+            sub c -17000
+            set f 1
+            set d 2
+            set e 2
+            set g d
+            mul g e
+            sub g b
+            jnz g 2
+            set f 0
+            sub e -1
+            set g e
+            sub g b
+            jnz g -8
+            sub d -1
+            set g d
+            sub g b
+            jnz g -13
+            jnz f 2
+            sub h -1
+            set g b
+            sub g c
+            jnz g 2
+            jnz 1 3
+            sub b -17
+            jnz 1 -23
+            """;
+
+    public static final String DAY_23_2 = """
+            set b 67
+            set c b
+            jnz a 2
+            jnz 1 5
+            mul b 100
+            sub b -100000
+            set c b
+            sub c -17000
+            set f 1
+            set d 2
+            set e 2
+            set g d
+            mul g e
+            sub g b
+            jnz g 2
+            set f 0
+            sub e -1
+            set g e
+            sub g b
+            jnz g -8
+            sub d -1
+            set g d
+            sub g b
+            jnz g -13
+            jnz f 2
+            sub h -1
+            set g b
+            sub g c
+            jnz g 2
+            jnz 1 3
+            sub b -17
+            jnz 1 -23
+            """;
+
+    public static final String DAY_24 = """
+            32/31
+            2/2
+            0/43
+            45/15
+            33/24
+            20/20
+            14/42
+            2/35
+            50/27
+            2/17
+            5/45
+            3/14
+            26/1
+            33/38
+            29/6
+            50/32
+            9/48
+            36/34
+            33/50
+            37/35
+            12/12
+            26/13
+            19/4
+            5/5
+            14/46
+            17/29
+            45/43
+            5/0
+            18/18
+            41/22
+            50/3
+            4/4
+            17/1
+            40/7
+            19/0
+            33/7
+            22/48
+            9/14
+            50/43
+            26/29
+            19/33
+            46/31
+            3/16
+            29/46
+            16/0
+            34/17
+            31/7
+            5/27
+            7/4
+            49/49
+            14/21
+            50/9
+            14/44
+            29/29
+            13/38
+            31/11
+            """;
+
+    public static final String DAY_25 = """
+            Begin in state A.
+            Perform a diagnostic checksum after 12523873 steps.
+                        
+            In state A:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state B.
+              If the current value is 1:
+                - Write the value 1.
+                - Move one slot to the left.
+                - Continue with state E.
+                        
+            In state B:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state C.
+              If the current value is 1:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state F.
+                        
+            In state C:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the left.
+                - Continue with state D.
+              If the current value is 1:
+                - Write the value 0.
+                - Move one slot to the right.
+                - Continue with state B.
+                        
+            In state D:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state E.
+              If the current value is 1:
+                - Write the value 0.
+                - Move one slot to the left.
+                - Continue with state C.
+                        
+            In state E:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the left.
+                - Continue with state A.
+              If the current value is 1:
+                - Write the value 0.
+                - Move one slot to the right.
+                - Continue with state D.
+                        
+            In state F:
+              If the current value is 0:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state A.
+              If the current value is 1:
+                - Write the value 1.
+                - Move one slot to the right.
+                - Continue with state C.
+            """;
 }

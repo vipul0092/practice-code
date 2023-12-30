@@ -27,7 +27,7 @@ public class Day22 {
 
     private static int runSimulation(List<String> lines, boolean part1, int times) {
         Point current = new Point(lines.size() / 2, lines.get(0).length() / 2);
-        State[][] states = new State[1000][1000];
+        State[][] states = new State[500][500];
         for (int i = 0; i < lines.size(); i++) {
             for (int j = 0; j < lines.get(i).length(); j++) {
                 if (lines.get(i).charAt(j) == '#') {
@@ -40,31 +40,23 @@ public class Day22 {
         int newinfected = 0;
         while (times-- > 0) {
             currentState = getState(current, states);
-            if (currentState == null) {
-                currentState = State.CLEAN;
-            }
-            if (currentState == State.CLEAN) {
-                direction = turn(direction, true);
-            } else if (currentState == State.INFECTED) {
-                direction = turn(direction, false);
-            } else if (currentState == State.FLAGGED) {
-                direction = reverse(direction);
-            }
 
-            if (currentState == State.CLEAN) {
-                currentState = part1 ? State.INFECTED : State.WEAKENED;
-                if (part1 && getState(current, states) != State.INFECTED) {
-                    newinfected++;
-                }
-            } else if (currentState == State.WEAKENED) {
-                currentState = State.INFECTED;
-                if (!part1 && getState(current, states) != State.INFECTED) {
-                    newinfected++;
-                }
-            } else if (currentState == State.INFECTED) {
-                currentState = part1 ? State.CLEAN : State.FLAGGED;
-            } else if (currentState == State.FLAGGED) {
-                currentState = State.CLEAN;
+            direction = switch (currentState) {
+                case CLEAN -> turn(direction, true);
+                case INFECTED -> turn(direction, false);
+                case FLAGGED -> reverse(direction);
+                default -> direction;
+            };
+
+            currentState = switch (currentState) {
+                case CLEAN -> part1 ? State.INFECTED : State.WEAKENED;
+                case WEAKENED -> State.INFECTED;
+                case INFECTED -> part1 ? State.CLEAN : State.FLAGGED;
+                case FLAGGED -> State.CLEAN;
+            };
+
+            if (currentState == State.INFECTED) {
+                newinfected++;
             }
             setState(current.x, current.y, states, currentState);
             current = current.move(direction);
@@ -72,12 +64,12 @@ public class Day22 {
         return newinfected;
     }
 
-    static State getState(Point p, State[][] states) {
+    private static State getState(Point p, State[][] states) {
         var state = states[p.x + 200][p.y + 200];
         return state == null ? State.CLEAN : state;
     }
 
-    static void setState(int x, int y, State[][] states, State state) {
+    private static void setState(int x, int y, State[][] states, State state) {
         states[x + 200][y + 200] = state;
     }
 
