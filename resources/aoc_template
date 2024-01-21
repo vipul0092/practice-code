@@ -1,11 +1,11 @@
-package code.vipul.aoc2017;
+package code.vipul.aoc2015;
 
 import java.util.*;
 
-import static code.vipul.aoc2017.inputs.Inputs.DAY_X;
+import static code.vipul.aoc2015.inputs.Inputs.DAY_X;
 
 /**
- * Created by vgaur created on 29/12/23
+ * Created by vgaur created on 19/01/24
  */
 public class DayX {
 

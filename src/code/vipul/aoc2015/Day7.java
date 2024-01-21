@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import static code.vipul.aoc2015.Inputs.INPUT_7;
+import static code.vipul.aoc2015.inputs.Inputs.DAY_7;
 
 /**
  * Created by vgaur created on 10/09/22
@@ -14,7 +14,7 @@ import static code.vipul.aoc2015.Inputs.INPUT_7;
  * for which there is no other easy way in Java to properly work with except using the 'char' type
  * Ugly but works!
  */
-public class Solve7 {
+public class Day7 {
 
     private static final String NOT = "NOT";
     private static final String AND = "AND";
@@ -41,7 +41,9 @@ public class Solve7 {
         parseInput();
 
         char result = evaluate("a");
-        System.out.println((int) result); //3176
+        System.out.println("Part 1: " + (int) result); //3176
+
+        solvePart2();
     }
 
     public static void solvePart2() {
@@ -57,7 +59,7 @@ public class Solve7 {
         wiresInput.put("b", new Gate(Integer.toString((int) result), null, null, "b"));
 
         result = evaluate("a");
-        System.out.println((int) result); //14710
+        System.out.println("Part 2: " + (int) result); //14710
     }
 
     private static char evaluate(String wire) {
@@ -98,7 +100,7 @@ public class Solve7 {
     }
 
     private static void parseInput() {
-        Arrays.stream(INPUT_7.split("\n")).forEach(operation -> {
+        Arrays.stream(DAY_7.split("\n")).forEach(operation -> {
             String[] parts = operation.split(" -> ");
             String result = parts[1];
             String[] lhsParts = parts[0].split(" ");
@@ -113,22 +115,10 @@ public class Solve7 {
     }
 
 
-    public static class Gate {
-        public final String op1;
-        public final String op2;
-        public final String operator;
-        public final String resultOp;
-
-        public Gate(String op1, String op2, String operator, String resultOp) {
-            this.op1 = op1;
-            this.op2 = op2;
-            this.operator = operator;
-            this.resultOp = resultOp;
-        }
-
+    public record Gate(String op1, String op2, String operator, String resultOp) {
         @Override
-        public String toString() {
-            return op1 + (operator == null ? "" : operator) + (op2 == null ? "" : op2) + " -> " + resultOp;
+            public String toString() {
+                return op1 + (operator == null ? "" : operator) + (op2 == null ? "" : op2) + " -> " + resultOp;
+            }
         }
-    }
 }
