@@ -1,6 +1,5 @@
 package code.vipul.aoc2020.emulator;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 

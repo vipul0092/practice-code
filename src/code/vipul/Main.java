@@ -1,26 +1,9 @@
 package code.vipul;
 
 
-import code.vipul.aoc2015.Day1;
-import code.vipul.aoc2015.Day10;
-import code.vipul.aoc2015.Day11;
-import code.vipul.aoc2015.Day12;
-import code.vipul.aoc2015.Day13;
-import code.vipul.aoc2015.Day14;
-import code.vipul.aoc2015.Day15;
-import code.vipul.aoc2015.Day2;
-import code.vipul.aoc2015.Day3;
-import code.vipul.aoc2015.Day4;
-import code.vipul.aoc2015.Day5;
-import code.vipul.aoc2015.Day6;
-import code.vipul.aoc2015.Day7;
-import code.vipul.aoc2015.Day8;
-import code.vipul.aoc2015.Day9;
-import code.vipul.aoc2017.Day23;
-import code.vipul.aoc2017.Day24;
-import code.vipul.aoc2017.Day25;
-import code.vipul.aoc2018.Solve23;
-import code.vipul.aoc2019.day18.Solve18;
+import code.vipul.aoc2015.Day23;
+import code.vipul.aoc2015.Day24;
+import code.vipul.aoc2015.Day25;
 
 public class Main {
 
@@ -40,7 +23,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day15.solve();
+        Day25.solve();
 
         // CombinationSum.solve();
 
