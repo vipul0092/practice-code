@@ -1,6 +1,7 @@
 package code.vipul;
 
 
+import code.vipul.aoc2015.Day19;
 import code.vipul.aoc2015.Day23;
 import code.vipul.aoc2015.Day24;
 import code.vipul.aoc2015.Day25;
@@ -23,7 +24,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day25.solve();
+        Day19.solve();
 
         // CombinationSum.solve();
 
