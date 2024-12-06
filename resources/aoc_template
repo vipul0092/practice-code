@@ -1,13 +1,13 @@
-package code.vipul.aoc2015;
+package code.vipul.aoc2024;
 
 import java.util.*;
 
-import static code.vipul.aoc2015.inputs.Inputs.DAY_X;
+import static code.vipul.aoc2024.inputs.Inputs.DAY_1;
 
 /**
- * Created by vgaur created on 19/01/24
+ * https://adventofcode.com/2024/day/1
  */
-public class DayX {
+public class Day1 {
 
     private static String INPUT = """
 
