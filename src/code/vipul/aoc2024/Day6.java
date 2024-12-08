@@ -22,12 +22,28 @@ public class Day6 {
             ......#...
             """;
 
-    record Point(int i, int j) {}
+    record Point(int i, int j) {
+        Point move(Direction direction) {
+            return switch (direction) {
+                case UP -> new Point(i - 1, j);
+                case DOWN -> new Point(i + 1, j);
+                case LEFT -> new Point(i, j - 1);
+                default -> new Point(i, j + 1);
+            };
+        }
+    }
     record Pwd(Point p, Direction d) {}
-    record Result(int pointsVisited, StopType stopType) {}
-
+    record Result(Set<Point> visited, StopType stopType) {}
     enum Direction {
-        UP, DOWN, LEFT, RIGHT
+        UP, DOWN, LEFT, RIGHT;
+        public Direction rotate() {
+            return switch (this) {
+                case UP -> Direction.RIGHT;
+                case DOWN -> Direction.LEFT;
+                case LEFT -> Direction.UP;
+                default -> Direction.DOWN;
+            };
+        }
     }
     enum StopType {
         CYCLE, EXIT
@@ -40,66 +56,64 @@ public class Day6 {
         List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
 
         Point start = null;
-        List<Point> dots = new ArrayList<>();
+        outer:
         for (int i = 0; i < lines.size(); i++) {
             for (int j = 0; j < lines.get(i).length(); j++) {
-                Point pt = new Point(i, j);
-                char ch = get(lines, pt);
-                if (ch == '^') {
-                    start = pt;
-                } else if (ch == '.') {
-                    dots.add(pt);
+                if ('^' == get(lines, new Point(i, j))) {
+                    start = new Point(i, j);
+                    break outer;
                 }
             }
         }
-        int count1 = moveUntilExit(lines, start).pointsVisited;
+        Result result1 =  moveUntilExit(lines, start);
+        int count1 = result1.visited.size();
 
         int count2 = 0;
-        for (Point dot : dots) {
+        for (Point dot : result1.visited) {
+            if (get(lines, dot) != '.') continue;
             extraRock = dot;
             var result = moveUntilExit(lines, start);
             if (result.stopType == StopType.CYCLE) count2++;
         }
-
 
         System.out.println("Part 1: " + count1); // 4883
         System.out.println("Part 2: " + count2); // 1655
     }
 
     private static Result moveUntilExit(List<String> lines, Point start) {
-        Point curr = start;
+        Point location = start;
         Direction direction = Direction.UP;
-        char c = '^';
-        Set<Point> points = new LinkedHashSet<>();
-        Set<Pwd> pwds = new LinkedHashSet<>();
-        pwds.add(new Pwd(curr, direction));
-        points.add(curr);
+        char currentValue = '^';
+        Set<Point> visited = new HashSet<>();
+        Set<Pwd> pointsWithDirection = new HashSet<>();
+        pointsWithDirection.add(new Pwd(location, direction));
+        visited.add(location);
 
         StopType stopType;
         while (true) {
-            Point prev = curr;
-            curr = move(curr, direction);
+            Point prev = location;
+            location = location.move(direction);
 
-            c = get(lines, curr);
-            if (c == '#') {
-                direction = rotate(direction);
-                curr = prev;
+            currentValue = get(lines, location);
+            if (currentValue == '#') {
+                direction = direction.rotate();
+                location = prev;
             }
 
-            if (c == '\0') {
+            if (currentValue == '\0') {
                 stopType = StopType.EXIT;
                 break;
             }
 
-            Pwd pwd = new Pwd(curr, direction);
-            if (pwds.contains(pwd)) {
+            Pwd pwd = new Pwd(location, direction);
+            if (pointsWithDirection.contains(pwd)) {
                 stopType = StopType.CYCLE;
                 break;
             }
-            pwds.add(pwd);
-            points.add(curr);
+            pointsWithDirection.add(pwd);
+            visited.add(location);
         }
-        return new Result(points.size(), stopType);
+        return new Result(visited, stopType);
     }
 
     private static char get(List<String> lines, Point p) {
@@ -111,31 +125,5 @@ public class Day6 {
         } catch (Exception e) {
             return '\0';
         }
-    }
-
-    private static Direction rotate(Direction direction) {
-        if (direction == Direction.UP) {
-            direction = Direction.RIGHT;
-        } else if (direction == Direction.DOWN) {
-            direction = Direction.LEFT;
-        } else if (direction == Direction.LEFT) {
-            direction = Direction.UP;
-        } else {
-            direction = Direction.DOWN;
-        }
-        return direction;
-    }
-
-    private static Point move(Point curr, Direction direction) {
-        if (direction == Direction.UP) {
-            curr = new Point(curr.i - 1, curr.j);
-        } else if (direction == Direction.DOWN) {
-            curr = new Point(curr.i + 1, curr.j);
-        } else if (direction == Direction.LEFT) {
-            curr = new Point(curr.i, curr.j - 1);
-        } else {
-            curr = new Point(curr.i, curr.j + 1);
-        }
-        return curr;
     }
 }
