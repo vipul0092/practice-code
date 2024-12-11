@@ -2,12 +2,12 @@ package code.vipul.aoc2024;
 
 import java.util.*;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_1;
+import static code.vipul.aoc2024.inputs.Inputs.DAY_X;
 
 /**
- * https://adventofcode.com/2024/day/1
+ * https://adventofcode.com/2024/day/X
  */
-public class Day1 {
+public class DayX {
 
     private static String INPUT = """
 
