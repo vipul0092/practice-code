@@ -15,13 +15,15 @@ public class Day11 {
             125 17
             """;
 
-    record Key(long n, int b) {}
-    private static Map<Key, Long> cache;
+    private static int index = 1;
+    private static Map<Long, Integer> ids;
+    private static long[][] dp;
 
     public static void solve() {
         INPUT = DAY_11;
         String line = Arrays.stream(INPUT.split("\n")).toList().get(0);
-        cache = new HashMap<>();
+        ids = new HashMap<>();
+        dp = new long[5000][76];
 
         long total1 = 0, total2 = 0;
         long s = System.currentTimeMillis();
@@ -41,8 +43,10 @@ public class Day11 {
             return 1;
         }
 
-        Key key = new Key(num, blinksLeft);
-        if (cache.containsKey(key)) return cache.get(key);
+        int id = getId(num);
+        if (dp[id][blinksLeft] != 0) {
+            return dp[id][blinksLeft] - 1;
+        }
 
         long cnt = 0;
         if (num == 0) {
@@ -56,11 +60,18 @@ public class Day11 {
         } else {
             cnt = count(num * 2024, blinksLeft - 1);
         }
-        cache.put(key, cnt);
+        dp[id][blinksLeft] = cnt + 1;
         return cnt;
     }
 
+    private static int getId(long num) {
+        if (!ids.containsKey(num)) {
+            ids.put(num, index++);
+        }
+        return ids.get(num);
+    }
+
     private static int digits(long num) {
-        return ((int)Math.log10(num) + 1);
+        return ((int) Math.log10(num) + 1);
     }
 }
