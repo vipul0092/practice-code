@@ -1,29 +1,17 @@
 package code.vipul.aoc2024;
 
+import code.vipul.utils.AoCInputReader;
+
 import java.util.Arrays;
 import java.util.List;
-
-import static code.vipul.aoc2024.inputs.Inputs.DAY_2;
 
 /**
  * https://adventofcode.com/2024/day/2
  */
 public class Day2 {
 
-    private static String INPUT = """
-            48 46 47 49 51 54 56
-            1 1 2 3 4 5
-            1 2 3 4 5 5
-            5 1 2 3 4 5
-            1 4 3 2 1
-            1 6 7 8 9
-            1 2 3 4 3
-            9 8 7 6 7
-            """;
-
     public static void solve() {
-        INPUT = DAY_2;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day2.class, false);
 
         int count = 0;
         int count2 = 0;

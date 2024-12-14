@@ -1,28 +1,14 @@
 package code.vipul.aoc2024;
 
-import java.util.Arrays;
+import code.vipul.utils.AoCInputReader;
+
 import java.util.List;
 import java.util.Set;
-
-import static code.vipul.aoc2024.inputs.Inputs.DAY_4;
 
 /**
  * https://adventofcode.com/2024/day/4
  */
 public class Day4 {
-
-    private static String INPUT = """
-            MMMSXXMASM
-            MSAMXMSMSA
-            AMXSXMAAMM
-            MSAMASMSMX
-            XMASAMXAMM
-            XXAMMXXAMA
-            SMSMSASXSS
-            SAXAMASAAA
-            MAMMMXMMMM
-            MXMXAXMASX
-            """;
 
     private static final int[][] DIFFS =
             new int[][]{{-1, 1}, {-1, -1}, {1, 1}, {1, -1}, {0, -1}, {0, 1}, {1, 0}, {-1, 0}};
@@ -30,8 +16,7 @@ public class Day4 {
     private static final Set<String> VALID_MAS = Set.of("SAM", "MAS");
 
     public static void solve() {
-        INPUT = DAY_4;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day4.class, false);
 
         int count1 = 0;
         for (int i = 0; i < lines.size(); i++) {

@@ -1,29 +1,17 @@
 package code.vipul.aoc2024;
 
-import java.util.*;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_7;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * https://adventofcode.com/2024/day/7
  */
 public class Day7 {
 
-    private static String INPUT = """
-            190: 10 19
-            3267: 81 40 27
-            83: 17 5
-            156: 15 6
-            7290: 6 8 6 15
-            161011: 16 10 13
-            192: 17 8 14
-            21037: 9 7 18 13
-            292: 11 6 16 20
-            """;
-
     public static void solve() {
-        INPUT = DAY_7;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day7.class, false);
 
         long sum1 = 0;
         long sum2 = 0;
@@ -58,13 +46,13 @@ public class Day7 {
         return possible(numbers, index + 1, totalUntilNow + num, requiredTotal, considerOr)
                 || possible(numbers, index + 1, totalUntilNow * num, requiredTotal, considerOr)
                 || (considerOr
-                    && possible(numbers, index + 1, append(totalUntilNow, num), requiredTotal, considerOr));
+                && possible(numbers, index + 1, append(totalUntilNow, num), requiredTotal, considerOr));
 
     }
 
     private static long append(long n1, long n2) {
         long second = n2;
-        while(second > 0) {
+        while (second > 0) {
             second /= 10;
             n1 *= 10;
         }

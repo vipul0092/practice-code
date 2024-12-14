@@ -1,21 +1,15 @@
 package code.vipul.aoc2024;
 
 import java.util.*;
-
-import static code.vipul.aoc2024.inputs.Inputs.DAY_X;
+import code.vipul.utils.AoCInputReader;
 
 /**
  * https://adventofcode.com/2024/day/X
  */
 public class DayX {
 
-    private static String INPUT = """
-
-            """;
-
     public static void solve() {
-        //INPUT = DAY_X;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(DayX.class, true);
 
         System.out.println();
         System.out.println();

@@ -1,48 +1,16 @@
 package code.vipul.aoc2024;
 
-import java.util.*;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_5;
+import java.util.*;
 
 /**
  * https://adventofcode.com/2024/day/5
  */
 public class Day5 {
 
-    private static String INPUT = """
-            47|53
-            97|13
-            97|61
-            97|47
-            75|29
-            61|13
-            75|53
-            29|13
-            97|29
-            53|29
-            61|53
-            97|53
-            61|29
-            47|13
-            75|47
-            97|75
-            47|61
-            75|61
-            47|29
-            75|13
-            53|13
-            
-            75,47,61,53,29
-            97,61,53,29,13
-            75,29,13
-            75,97,47,61,53
-            61,13,29
-            97,13,75,29,47
-            """;
-
     public static void solve() {
-        INPUT = DAY_5;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day5.class, false);
 
         Map<Integer, Set<Integer>> before = new HashMap<>();
         Map<Integer, Set<Integer>> after = new HashMap<>();
@@ -69,7 +37,7 @@ public class Day5 {
             int[] indegree = new int[100];
             for (int k = 0; k < numbers.size(); k++) {
                 int n1 = numbers.get(k);
-                for (int l = k+1; l < numbers.size(); l++) {
+                for (int l = k + 1; l < numbers.size(); l++) {
                     int n2 = numbers.get(l);
                     // n2 -> n1
                     if (before.containsKey(n1) && before.get(n1).contains(n2)) {
@@ -87,7 +55,7 @@ public class Day5 {
             }
 
             var sorted = topologicalSort(graph, indegree);
-            int middle = sorted.get(sorted.size()/2);
+            int middle = sorted.get(sorted.size() / 2);
 
             if (sorted.equals(numbers)) {
                 sum1 += middle;

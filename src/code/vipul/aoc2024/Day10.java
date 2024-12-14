@@ -1,35 +1,24 @@
 package code.vipul.aoc2024;
 
-import java.util.Arrays;
+import code.vipul.utils.AoCInputReader;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-import static code.vipul.aoc2024.inputs.Inputs.DAY_10;
 
 /**
  * https://adventofcode.com/2024/day/10
  */
 public class Day10 {
 
-    private static String INPUT = """
-            89010123
-            78121874
-            87430965
-            96549874
-            45678903
-            32019012
-            01329801
-            10456732
-            """;
+    record Point(int i, int j) {
+    }
 
-    record Point(int i, int j) {}
     private static final int[][] DIFFS = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     private static Set<Point> topsReached;
 
     public static void solve() {
-        INPUT = DAY_10;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day10.class, false);
 
         int sum = 0, sum2 = 0;
         for (int i = 0; i < lines.size(); i++) {

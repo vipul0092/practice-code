@@ -1,21 +1,16 @@
 package code.vipul.aoc2024;
 
-import java.util.*;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_9;
+import java.util.*;
 
 /**
  * https://adventofcode.com/2024/day/9
  */
 public class Day9 {
 
-    private static String INPUT = """
-            2333133121414131402
-            """;
-
     public static void solve() {
-        INPUT = DAY_9;
-        String line = Arrays.stream(INPUT.split("\n")).toList().get(0);
+        String line = AoCInputReader.read(Day9.class, false).get(0);
 
         long s = System.currentTimeMillis();
         FileSystem fileSystem = defragment(line, false); // 6337921897505
@@ -137,6 +132,6 @@ public class Day9 {
                 }
             }
             return sz != -1 ? blankItemHeapPerSize.get(sz).poll() : null;
-        };
+        }
     }
 }

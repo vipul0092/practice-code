@@ -1,27 +1,22 @@
 package code.vipul.aoc2024;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_11;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * https://adventofcode.com/2024/day/11
  */
 public class Day11 {
 
-    private static String INPUT = """
-            125 17
-            """;
-
     private static int index = 1;
     private static Map<Long, Integer> ids;
     private static long[][] dp;
 
     public static void solve() {
-        INPUT = DAY_11;
-        String line = Arrays.stream(INPUT.split("\n")).toList().get(0);
+        String line = AoCInputReader.read(Day11.class, false).get(0);
         ids = new HashMap<>();
         dp = new long[5000][76];
 

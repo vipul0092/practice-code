@@ -1,35 +1,18 @@
 package code.vipul.aoc2024;
 
-import java.util.*;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_8;
+import java.util.*;
 
 /**
  * https://adventofcode.com/2024/day/8
  */
 public class Day8 {
 
-    private static String INPUT = """
-            ............
-            ........0...
-            .....0......
-            .......0....
-            ....0.......
-            ......A.....
-            ............
-            ............
-            ........A...
-            .........A..
-            ............
-            ............
-            """;
-
-    record Point(int i, int j) {
-    }
+    record Point(int i, int j) {}
 
     public static void solve() {
-        INPUT = DAY_8;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day8.class, false);
 
         Map<Character, List<Point>> points = new HashMap<>();
         for (int i = 0; i < lines.size(); i++) {
@@ -66,7 +49,7 @@ public class Day8 {
                                 int dis1 = Math.abs(pt1.i - k) + Math.abs(pt1.j - l);
                                 int dis2 = Math.abs(pt2.i - k) + Math.abs(pt2.j - l);
 
-                                if (dis1 == dis2*2 || dis2 == dis1*2) {
+                                if (dis1 == dis2 * 2 || dis2 == dis1 * 2) {
                                     answer.add(new Point(k, l));
                                 }
                             }

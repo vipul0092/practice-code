@@ -1,26 +1,13 @@
 package code.vipul.aoc2024;
 
-import java.util.*;
+import code.vipul.utils.AoCInputReader;
 
-import static code.vipul.aoc2024.inputs.Inputs.DAY_6;
+import java.util.*;
 
 /**
  * https://adventofcode.com/2024/day/6
  */
 public class Day6 {
-
-    private static String INPUT = """
-            ....#.....
-            .........#
-            ..........
-            ..#.......
-            .......#..
-            ..........
-            .#..^.....
-            ........#.
-            #.........
-            ......#...
-            """;
 
     record Point(int i, int j) {
         Point move(Direction direction) {
@@ -52,8 +39,7 @@ public class Day6 {
     private static Point extraRock = null;
 
     public static void solve() {
-        INPUT = DAY_6;
-        List<String> lines = Arrays.stream(INPUT.split("\n")).toList();
+        List<String> lines = AoCInputReader.read(Day6.class, false);
 
         Point start = null;
         outer:
