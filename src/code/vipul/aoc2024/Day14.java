@@ -39,7 +39,7 @@ public class Day14 {
                 q4++;
             }
         }
-        System.out.println("Part 1: " + (q1 * q2 * q3 * q4));
+        System.out.println("Part 1: " + (q1 * q2 * q3 * q4)); // 231782040
 
 
         int rounds = 0;
@@ -76,7 +76,7 @@ public class Day14 {
             rounds++;
         }
 
-        System.out.println("Part 2: " + rounds);
+        System.out.println("Part 2: " + rounds); // 6475
         display(ch);
     }
 
