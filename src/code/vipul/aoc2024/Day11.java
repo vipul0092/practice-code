@@ -3,7 +3,6 @@ package code.vipul.aoc2024;
 import code.vipul.utils.AoCInputReader;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
