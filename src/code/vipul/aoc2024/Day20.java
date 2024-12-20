@@ -24,7 +24,6 @@ public class Day20 {
 
         Point start = null, end = null;
         Set<Point> walls = new HashSet<>();
-        Set<Point> movablePoints = new HashSet<>();
         for (int i = 0; i < lines.size(); i++) {
             for (int j = 0; j < lines.get(i).length(); j++) {
                 Point t = new Point(i, j);
@@ -32,51 +31,48 @@ public class Day20 {
                 if (ch == '#') {
                     walls.add(t);
                 } else if (ch == 'S') {
-                    movablePoints.add(t);
                     start = t;
                 } else if (ch == 'E') {
-                    movablePoints.add(t);
                     end = t;
-                } else {
-                    movablePoints.add(t);
                 }
             }
         }
 
-        Map<Point, Integer> timesFromEnd = bfs(end, start, walls);
-        int fullTime = timesFromEnd.get(start);
+        Map<Point, Integer> fromEnd = bfs(end, start, walls);
+        Map<Point, Integer> fromStart = bfs(start, end, walls);
+        int fullTime = fromStart.get(end);
         int leastTimeSaved = 100;
         if (SAMPLE) {
             leastTimeSaved = 76;
         }
 
         int maxCheatLength = 2;
-        int part1 = getValidCheats(movablePoints, timesFromEnd, fullTime, maxCheatLength, leastTimeSaved);
+        int part1 = getValidCheats(fromStart, fromEnd, fullTime, maxCheatLength, leastTimeSaved);
         System.out.println("Part 1: " + part1); // 1452
 
         maxCheatLength = 20;
-        int part2 = getValidCheats(movablePoints, timesFromEnd, fullTime, maxCheatLength, leastTimeSaved);
+        int part2 = getValidCheats(fromStart, fromEnd, fullTime, maxCheatLength, leastTimeSaved);
         System.out.println("Part 2: " + part2); // 999556
     }
 
-    private static int getValidCheats(Set<Point> movablePoints, Map<Point, Integer> timesFromEnd,
+    private static int getValidCheats(Map<Point, Integer> fromStart, Map<Point, Integer> fromEnd,
                                       int fullTime, int maxCheatLength, int leastTimeSaved) {
-        Set<Set<Point>> cheats = new HashSet<>();
-        for (Point movable : movablePoints) {
-            if (!timesFromEnd.containsKey(movable)) continue;
-            for (var pathPoint : timesFromEnd.keySet()) {
-                if (movable.equals(pathPoint)) continue;
-                int length = movable.distance(pathPoint);
-                if (length <= maxCheatLength) {
-                    // start -> pathPoint + pathPoint -> movable + movable -> end
-                    int totalTime = (fullTime - timesFromEnd.get(pathPoint)) + length + timesFromEnd.get(movable);
+        int count = 0;
+        for (Point p1 : fromStart.keySet()) {
+            // Go around p1 with distance upto `maxCheatLength`
+            for (int i = -maxCheatLength; i <= maxCheatLength; i++) {
+                for (int j = -maxCheatLength; j <= maxCheatLength; j++) {
+                    Point p2 = new Point(p1.i + i, p1.j + j);
+                    if (!fromEnd.containsKey(p2) || p2.equals(p1) || p2.distance(p1) > maxCheatLength) continue;
+                    // [start -> p1] + [p1 -> p2] + [p2 -> end]
+                    int totalTime = fromStart.get(p1) + p2.distance(p1) + fromEnd.get(p2);
                     if (fullTime - totalTime >= leastTimeSaved) {
-                        cheats.add(Set.of(movable, pathPoint));
+                        count++;
                     }
                 }
             }
         }
-        return cheats.size();
+        return count;
     }
 
     private static Map<Point, Integer> bfs(Point start, Point end, Set<Point> walls) {
