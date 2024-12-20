@@ -21,7 +21,7 @@ public class Main {
         //  TargetSum.solve();
         // CGFinale.solve();
 
-        Day19.solve();
+        Day20.solve();
 
         // CombinationSum.solve();
 
