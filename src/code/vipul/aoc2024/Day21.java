@@ -6,7 +6,6 @@ import java.util.*;
 
 /**
  * https://adventofcode.com/2024/day/21
- * HARDEST
  */
 public class Day21 {
 
@@ -16,7 +15,9 @@ public class Day21 {
     private static final Map<Character, Map<Character, List<String>>> DIRPAD_PATHS_CACHE = new HashMap<>();
     private static final Map<Character, Point> DIRPAD_POINTS;
     private static final Map<Character, Point> NUMPAD_POINTS;
+    private static final Map<Character, Integer> DIRPAD_IDS;
     private static long[][] dp;
+    private static long[][][] dp2;
 
     static {
         MOVES = new HashMap<>();
@@ -30,6 +31,11 @@ public class Day21 {
         DIRPAD_POINTS.put('<', new Point(1, 0));
         DIRPAD_POINTS.put('v', new Point(1, 1));
         DIRPAD_POINTS.put('>', new Point(1, 2));
+        DIRPAD_IDS = new HashMap<>();
+        int idx = 0;
+        for (var key : DIRPAD_POINTS.keySet()) {
+            DIRPAD_IDS.put(key, idx++);
+        }
         NUMPAD_POINTS = new HashMap<>();
         NUMPAD_POINTS.put('7', new Point(0, 0));
         NUMPAD_POINTS.put('8', new Point(0, 1));
@@ -48,71 +54,13 @@ public class Day21 {
         List<String> lines = AoCInputReader.read(Day21.class, false);
 
         dp = new long[150][30];
-        long part1 = getPossible(lines, 2);
-        System.out.println("Part 1: " + part1); // 154208
-
-        long part2 = getPossible(lines, 25);
-        System.out.println("Part 1: " + part2); // 188000493837892
+        System.out.println("Part 1: " + getPossible(lines, 2)); // 154208
+        System.out.println("Part 2: " + getPossible(lines, 25)); // 188000493837892
 
         // Alternate solution
+        dp2 = new long[5][5][30];
         System.out.println("Part 1: " + getPossible2(lines, 2));
         System.out.println("Part 2: " + getPossible2(lines, 25));
-    }
-
-    private static long getPossible2(List<String> lines, int rounds) {
-        long total = 0;
-        for (String line : lines) {
-            // Get the possibilities for generating the line on the numpad
-            Set<String> possibleForCurrent = getAllPossibleInputs(line, NUMPAD_POINTS, NUMPAD_PATHS_CACHE);
-
-            long minlen = Long.MAX_VALUE;
-            for (String poss : possibleForCurrent) {
-                // For each possible movement, recursively calculate the minimum length possible
-                // by going down the middle robots, defined as `rounds` here
-                char current = 'A';
-                long curlen = 0;
-                for (char ch : poss.toCharArray()) {
-                    curlen += getMin(current, ch, rounds);
-                    current = ch;
-                }
-                minlen = Math.min(minlen, curlen);
-            }
-
-            int val = Integer.parseInt(line.substring(0, line.length() - 1));
-            total += (minlen * val);
-        }
-        return total;
-    }
-
-    record Key(char from, char to, int roundsLeft){}
-    static Map<Key, Long> cache = new HashMap<>();
-
-    // Recursively calculate the minimum length of base inputs to go from `from` to `to`
-    private static long getMin(char from, char to, int roundsLeft) {
-        Key key = new Key(from, to, roundsLeft);
-        if (cache.containsKey(key)) {
-            return cache.get(key);
-        }
-        if (roundsLeft == 1) { // in the last round, just return the min length of from -> to
-            List<String> possibles = bfs(DIRPAD_POINTS, from, to, DIRPAD_PATHS_CACHE);
-            long v = possibles.stream().map(p -> p.length()).min(Comparator.naturalOrder()).orElseThrow();
-            cache.put(key, v);
-            return v;
-        }
-
-        List<String> possibles = bfs(DIRPAD_POINTS, from, to, DIRPAD_PATHS_CACHE);
-        long minlen = Long.MAX_VALUE;
-        for (String poss : possibles) {
-            char current = 'A';
-            long curlen = 0;
-            for (char ch : poss.toCharArray()) {
-                curlen += getMin(current, ch, roundsLeft - 1);
-                current = ch;
-            }
-            minlen = Math.min(minlen, curlen);
-        }
-        cache.put(key, minlen);
-        return minlen;
     }
 
     private static long getPossible(List<String> lines, int middleRobots) {
@@ -199,32 +147,6 @@ public class Day21 {
         return total;
     }
 
-    // Get all possible inputs if we want to generate the given `path` string from a given pad, starting from 'A'
-    // The pad is defined by the passed `pad` parameter
-    private static Set<String> getAllPossibleInputs(String path,
-                                                    Map<Character, Point> pad,
-                                                    Map<Character, Map<Character, List<String>>> cache) {
-        char curr = 'A';
-        Set<String> possibleForCurrent = new HashSet<>();
-        for (char ch : path.toCharArray()) {
-            List<String> paths = bfs(pad, curr, ch, cache);
-
-            Set<String> tmp = new HashSet<>();
-            if (possibleForCurrent.isEmpty()) {
-                tmp.addAll(paths);
-            } else {
-                for (String pfc : possibleForCurrent) {
-                    for (String p : paths) {
-                        tmp.add(pfc + p);
-                    }
-                }
-            }
-            possibleForCurrent = tmp;
-            curr = ch;
-        }
-        return possibleForCurrent;
-    }
-
     // Get the length of the given indexed possibility for the given number of rounds
     // Since the only thing changing here is curr and rounds, and it recursively calls itself with changing those values
     // We do a memoization optimization
@@ -266,6 +188,87 @@ public class Day21 {
         return v;
     }
 
+
+    private static long getPossible2(List<String> lines, int rounds) {
+        long total = 0;
+        for (String line : lines) {
+            // Get the possibilities for generating the line on the numpad
+            Set<String> possibleForCurrent = getAllPossibleInputs(line, NUMPAD_POINTS, NUMPAD_PATHS_CACHE);
+
+            long minlen = Long.MAX_VALUE;
+            for (String poss : possibleForCurrent) {
+                // For each possible movement, recursively calculate the minimum length possible
+                // by going down the middle robots, defined as `rounds` here
+                char current = 'A';
+                long curlen = 0;
+                for (char ch : poss.toCharArray()) {
+                    curlen += getMin(current, ch, rounds);
+                    current = ch;
+                }
+                minlen = Math.min(minlen, curlen);
+            }
+
+            int val = Integer.parseInt(line.substring(0, line.length() - 1));
+            total += (minlen * val);
+        }
+        return total;
+    }
+
+    // Recursively calculate the minimum length of base inputs to go from `from` to `to`
+    private static long getMin(char from, char to, int roundsLeft) {
+        int fromId = DIRPAD_IDS.get(from), toId = DIRPAD_IDS.get(to);
+        if (dp2[fromId][toId][roundsLeft] != 0) {
+            return dp2[fromId][toId][roundsLeft];
+        }
+        if (roundsLeft == 1) { // in the last round, just return the min length of from -> to
+            List<String> possibles = bfs(DIRPAD_POINTS, from, to, DIRPAD_PATHS_CACHE);
+            long v = possibles.stream().map(p -> p.length()).min(Comparator.naturalOrder()).orElseThrow();
+            dp2[fromId][toId][roundsLeft]= v;
+            return v;
+        }
+
+        List<String> possibles = bfs(DIRPAD_POINTS, from, to, DIRPAD_PATHS_CACHE);
+        long minlen = Long.MAX_VALUE;
+        for (String poss : possibles) {
+            char current = 'A';
+            long curlen = 0;
+            for (char ch : poss.toCharArray()) {
+                curlen += getMin(current, ch, roundsLeft - 1);
+                current = ch;
+            }
+            minlen = Math.min(minlen, curlen);
+        }
+        dp2[fromId][toId][roundsLeft]= minlen;
+        return minlen;
+    }
+
+    // Get all possible inputs if we want to generate the given `path` string from a given pad, starting from 'A'
+    // The pad is defined by the passed `pad` parameter
+    private static Set<String> getAllPossibleInputs(String path,
+                                                    Map<Character, Point> pad,
+                                                    Map<Character, Map<Character, List<String>>> cache) {
+        char curr = 'A';
+        Set<String> possibleForCurrent = new HashSet<>();
+        for (char ch : path.toCharArray()) {
+            List<String> paths = bfs(pad, curr, ch, cache);
+
+            Set<String> tmp = new HashSet<>();
+            if (possibleForCurrent.isEmpty()) {
+                tmp.addAll(paths);
+            } else {
+                for (String pfc : possibleForCurrent) {
+                    for (String p : paths) {
+                        tmp.add(pfc + p);
+                    }
+                }
+            }
+            possibleForCurrent = tmp;
+            curr = ch;
+        }
+        return possibleForCurrent;
+    }
+
+    record QueueEntry(Point p, String path){}
     // BFS between 2 points giving the best paths
     private static List<String> bfs(Map<Character, Point> pts, char start, char end,
                                     Map<Character, Map<Character, List<String>>> pathCache) {
@@ -274,27 +277,26 @@ public class Day21 {
         }
         Map<Point, Character> revPts = getRevMap(pts);
 
-        Queue<Point> q = new ArrayDeque<>();
-        Queue<String> path = new ArrayDeque<>();
+        Queue<QueueEntry> queue = new ArrayDeque<>();
         Map<Point, Integer> visited = new HashMap<>();
-        q.add(pts.get(start));
-        path.add("");
+        queue.add(new QueueEntry(pts.get(start), ""));
         visited.put(pts.get(start), 0);
 
-        List<String> ret = new ArrayList<>();
+        List<String> paths = new ArrayList<>();
         int minlen = Integer.MAX_VALUE;
-        while (!q.isEmpty()) {
-            Point p = q.remove();
-            String pth = path.remove();
+        while (!queue.isEmpty()) {
+            var queueEntry = queue.remove();
+            Point p = queueEntry.p;
+            String path = queueEntry.path;
             if (revPts.get(p) == end) {
-                pth += "A";
-                int curlen = pth.length();
+                path += "A";
+                int curlen = path.length();
                 if (curlen < minlen) {
-                    ret = new ArrayList<>();
-                    ret.add(pth);
+                    paths = new ArrayList<>();
+                    paths.add(path);
                     minlen = curlen;
                 } else if (curlen == minlen) {
-                    ret.add(pth);
+                    paths.add(path);
                 }
                 continue;
             }
@@ -304,16 +306,15 @@ public class Day21 {
                 char mv = entry.getKey();
 
                 Point t = new Point(p.i + d[0], p.j + d[1]);
-                if (revPts.containsKey(t) && (!visited.containsKey(t) || visited.get(t) >= pth.length())) {
-                    q.add(t);
-                    visited.put(t, pth.length());
-                    path.add(pth + mv);
+                if (revPts.containsKey(t) && (!visited.containsKey(t) || visited.get(t) >= path.length())) {
+                    queue.add(new QueueEntry(t, path + mv));
+                    visited.put(t, path.length());
                 }
             }
         }
         pathCache.putIfAbsent(start, new HashMap<>());
-        pathCache.get(start).put(end, ret);
-        return ret;
+        pathCache.get(start).put(end, paths);
+        return paths;
     }
 
     private static Map<Point, Character> getRevMap(Map<Character, Point> pts) {
