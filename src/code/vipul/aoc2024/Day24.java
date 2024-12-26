@@ -28,8 +28,8 @@ public class Day24 {
     private static Map<String, String> outputToOperationMap;
     private static Map<String, String> operationToOutputMap;
     private static TreeSet<String> zouts;
-    private static TreeSet<String> xins;
-    private static TreeSet<String> yins;
+    private static List<String> xins;
+    private static List<String> yins;
     private static Map<String, Integer> gateValues;
 
     public static void solve() {
@@ -52,9 +52,9 @@ public class Day24 {
         // and restart the process from that point
         String prevCarry = "";
         swaps = new TreeSet<>();
-        for (int i = 0; i < zouts.size() - 1; i++) {
-            String xin = "x" + (i < 10 ? "0" + i : i);
-            String yin = "y" + (i < 10 ? "0" + i : i);
+        for (int i = 0; i < xins.size(); i++) {
+            String xin = xins.get(i);
+            String yin = yins.get(i);
 
             String cursum = findOutputGate(List.of(xin + " XOR " + yin, yin + " XOR " + xin));
             String curcarry = findOutputGate(List.of(xin + " AND " + yin, yin + " AND " + xin));
@@ -99,12 +99,14 @@ public class Day24 {
             // System.out.println("Bit# " + i + ", Sum: " + cursum + ", carry: " + curcarry + ", nextCarry: " + nextCarry);
             prevCarry = nextCarry;
         }
-        System.out.println("Part 2: " + String.join(",", swaps));
+
         // Verify that the result is correct
         gateValues = new HashMap<>(initialValues);
         long expected = getNumber(xins) + getNumber(yins);
         long result = getNumber(zouts);
-        assert result == expected;
+        if (expected != result) throw new RuntimeException("Incorrect solution!");
+
+        System.out.println("Part 2: " + String.join(",", swaps)); // css,cwt,gdd,jmv,pqt,z05,z09,z37
     }
 
     private static Pair<String, String> searchAndSwap(List<String> searches,
@@ -158,7 +160,7 @@ public class Day24 {
                 .findFirst().orElse(null);
     }
 
-    private static long getNumber(Set<String> gates) {
+    private static long getNumber(Collection<String> gates) {
         long res = 0, pow2 = 1;
         for (String gate : gates) {
             res += (pow2 * operate(gate));
@@ -170,7 +172,7 @@ public class Day24 {
     private static void parse(List<String> lines) {
         int i;
         gateValues = new LinkedHashMap<>();
-        yins = new TreeSet<>(); xins = new TreeSet<>();
+        yins = new ArrayList<>(); xins = new ArrayList<>();
         for (i = 0; i < lines.size(); i++) {
             String line = lines.get(i);
             if (line.isEmpty()) {
