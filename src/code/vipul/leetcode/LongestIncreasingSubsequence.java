@@ -21,6 +21,8 @@ public class LongestIncreasingSubsequence {
     // the logic is that if a higher value comes it can always be attached to the end of the subsequence anyway
     // because the new value is lower than the previous value, so it'll accept whatever the previous value accepted
     // only now it'll also accept lower values that the previous value might not have accepted
+    // This can be understood using this array -> [2, 6, 8, 3, 4, 5, 1]
+    // We go: 2 -> 2-6 -> 2-6-8 -> 2-3-8 -> 2-3-4 -> 2-3-4-5
     public int lengthOfLIS(int[] nums) {
         // we can use a treeset because of strictly increasing condition
         // Otherwise we'll need to implement our own binary search logic

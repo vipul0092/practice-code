@@ -156,36 +156,21 @@ public class Day21 {
         if (dp[curr][rounds] != 0) {
             return dp[curr][rounds];
         }
-        // if only one round is left, then simply get all the possible mappings
-        // calculate their lengths, and return the minimum
-        if (rounds == 1) {
-            List<List<Integer>> mappings = mapping.get(curr);
-            List<Long> lengths = new ArrayList<>();
-            for (List<Integer> mapp : mappings) {
-                long len = 0;
-                for (Integer idx : mapp) {
-                    len += reverseIndex.get(idx).length();
-                }
-                lengths.add(len);
-            }
-            long v = lengths.stream().min(Comparator.naturalOrder()).orElseThrow();
-            dp[curr][rounds] = v;
-            return v;
-        }
-
-        // Get all the mappings, and recursively calculate the length from each constituent index
+        // if only one round is left, then simply get all the possible mappings, calculate their lengths, and return the minimum
+        // otherwise get all the mappings, and recursively calculate the length from each constituent index
         List<List<Integer>> mappings = mapping.get(curr);
-        List<Long> lengths = new ArrayList<>();
+        long minLength = Long.MAX_VALUE;
         for (List<Integer> mapp : mappings) {
             long len = 0;
             for (Integer idx : mapp) {
-                len += getLength(idx, rounds - 1, mapping, reverseIndex);
+                len += rounds == 1
+                        ? reverseIndex.get(idx).length()
+                        : getLength(idx, rounds - 1, mapping, reverseIndex);
             }
-            lengths.add(len);
+            minLength = Math.min(len, minLength);
         }
-        long v = lengths.stream().min(Comparator.naturalOrder()).orElseThrow();
-        dp[curr][rounds] = v;
-        return v;
+        dp[curr][rounds] = minLength;
+        return minLength;
     }
 
 

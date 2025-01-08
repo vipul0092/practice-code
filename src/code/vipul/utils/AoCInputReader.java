@@ -20,9 +20,13 @@ public class AoCInputReader {
      * @return List of strings from the input
      */
     public static List<String> read(Class<?> clazz, boolean sample) {
+        return read(clazz, sample, "");
+    }
+
+    public static List<String> read(Class<?> clazz, boolean sample, String suffix) {
         List<String> inputs = new ArrayList<>();
         var parts = clazz.getName().toLowerCase().split("\\.");
-        String fileName = "inputs/" + parts[parts.length - 1] + (sample ? "sample" : "");
+        String fileName = "inputs/" + parts[parts.length - 1] + (sample ? "sample" : "") + suffix;
         URL path = clazz.getResource(fileName);
         if (path == null) {
             throw new RuntimeException("Input file not found at path: " + fileName);

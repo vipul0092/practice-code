@@ -53,7 +53,7 @@ public class Solve15 {
 //                "#..E#.#\n" +
 //                "#######";
 
-        input = Inputs.DAY15_3;
+        input = Inputs.DAY15;
 
         parseInput();
         while (moveCreatures()) ;
