@@ -2,9 +2,10 @@ package code.vipul;
 
 
 import code.vipul.aoc2018.Solve14;
-import code.vipul.aoc2018Part2.*;
 import code.vipul.aoc2019.Solve16;
-import code.vipul.aoc2024.*;
+// import code.vipul.aoc2024.*;
+import code.vipul.aoc2025.*;
+import code.vipul.leetcode.MaximumEmployeesInvitedToMeeting;
 import code.vipul.leetcode.StringMatchingInAnArray;
 
 public class Main {
@@ -26,7 +27,9 @@ public class Main {
         // CGFinale.solve();
 
         //Day21.solve();
-        StringMatchingInAnArray.solve();
+        // StringMatchingInAnArray.solve();
+        // MaximumEmployeesInvitedToMeeting.solve();
+        Day2.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();

@@ -1,10 +1,10 @@
-package code.vipul.aoc2018Part2;
+package code.vipul.aoc2025;
 
 import java.util.*;
 import code.vipul.utils.AoCInputReader;
 
 /**
- * https://adventofcode.com/2018/day/X
+ * https://adventofcode.com/2025/day/X
  */
 public class DayX {
 

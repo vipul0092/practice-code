@@ -292,3 +292,5 @@ paket-files/
 
 /.clover/
 */.clover/**
+
+**/inputs/**
