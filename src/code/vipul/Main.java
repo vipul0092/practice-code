@@ -29,7 +29,7 @@ public class Main {
         //Day21.solve();
         // StringMatchingInAnArray.solve();
         // MaximumEmployeesInvitedToMeeting.solve();
-        Day2.solve();
+        Day3.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
