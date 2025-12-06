@@ -1,7 +1,9 @@
 package code.vipul.aoc2025;
 
-import java.util.*;
 import code.vipul.utils.AoCInputReader;
+
+import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * https://adventofcode.com/2025/day/6
@@ -9,88 +11,61 @@ import code.vipul.utils.AoCInputReader;
 public class Day6 {
 
     public static void solve() {
-        boolean sample = false;
-        int numbers = sample ? 3 : 4;
-        List<String> lines = AoCInputReader.read(Day6.class, sample);
+        String[] lines = AoCInputReader.read(Day6.class, false).toArray(new String[]{});
+        int maxlen = Arrays.stream(lines).map(String::length).max(Comparator.naturalOrder()).orElseThrow();
 
-        List<List<Long>> allNums = new ArrayList<>();
-
-        for (int i = 0; i < numbers; i++) {
-            List<Long> nums = Arrays.stream(lines.get(i).split(" "))
-                    .filter(l -> !l.isEmpty())
-                    .map(s -> Long.parseLong(s))
-                    .toList();
-            allNums.add(nums);
-        }
-        List<Character> ops = Arrays.stream(lines.get(numbers).split(" "))
-                .filter(l -> !l.isEmpty())
-                .map(l -> l.charAt(0)).toList();
-
-        long total = 0, total2 = 0;
-        for (int i = 0; i < ops.size(); i++) {
-            int finalI = i;
-            char op = ops.get(i);
-            List<Long> operands = allNums.stream().map(l -> l.get(finalI)).toList();
-
-            long tot = op == '*' ? 1 : 0;
-            for (long operand : operands) {
-                if (op == '*') {
-                    tot *= operand;
-                } else {
-                    tot += operand;
-                }
-            }
-            total += tot;
-        }
-        System.out.println(total);
-
-        List<String[]> splits = new ArrayList<>();
-        for (String line : lines) {
-            splits.add(line.split(" "));
+        // Make all lines of equal length for processing ease
+        for (int i = 0; i < lines.length; i++) {
+            lines[i] += " ".repeat(maxlen - lines[i].length());
         }
 
-        int current = 0;
-        String oplist = lines.get(lines.size()-1);
+        long total1 = 0, total2 = 0;
+        int current = 0, numberlines = lines.length - 1;
+        String operators = lines[lines.length - 1];
 
-        for (int i = 0; i < oplist.length() && current < oplist.length(); i++) {
-            int len = 1;
-            char op = oplist.charAt(current);;
-            for (int j = current + 1; j < oplist.length(); j++) {
-                if (oplist.charAt(j) == ' ') {
-                    len++;
-                } else {
-                    break;
-                }
+        for (int i = 0; i < operators.length() && current < operators.length(); i++) {
+            maxlen = 1;
+            char operator = operators.charAt(current);
+
+            // Figure out the max length of numbers in the current group
+            int j = current + 1;
+            while (j < operators.length() && operators.charAt(j) == ' ') {
+                maxlen++;
+                j++;
             }
 
-            if (current == oplist.length()-1) {
-                int max = 0;
-                for (int k = 0; k < numbers; k++) {
-                    max = Math.max(max, lines.get(k).length() - current);
-                }
-                len = max;
-            }
-
-            long tot = op == '*' ? 1 : 0;
-            for (int j = 0; j < len; j++) {
-                StringBuilder sb = new StringBuilder();
-                for (int k = 0; k < numbers; k++) {
-                    if (current + j > lines.get(k).length()-1) continue;
-                    char pd = lines.get(k).charAt(current+j);
-                    if (pd != ' ') {
-                        sb.append(pd);
-                    }
-                }
-                if (!sb.isEmpty()) {
-                    long num = Long.parseLong(sb.toString());
-                    tot = op == '*' ? tot * num : tot + num;
+            // part 1
+            long currentTotal1 = operator == '*' ? 1 : 0;
+            for (int line = 0; line < numberlines; line++) {
+                String rownum = lines[line].substring(current, current + maxlen);
+                rownum = rownum.strip();
+                if (!rownum.isEmpty()) {
+                    long number = Long.parseLong(rownum);
+                    currentTotal1 = operator == '*' ? currentTotal1 * number : currentTotal1 + number;
                 }
             }
-            total2 += tot;
+            total1 += currentTotal1;
 
-            current += len;
+            // part 2
+            long currentTotal2 = operator == '*' ? 1 : 0;
+            for (int idx = 0; idx < maxlen; idx++) {
+                String colnum = "";
+                // Form the number columnwise
+                for (int line = 0; line < numberlines; line++) {
+                    colnum += lines[line].charAt(current + idx);
+                }
+                colnum = colnum.strip();
+                if (!colnum.isEmpty()) {
+                    long number = Long.parseLong(colnum);
+                    currentTotal2 = operator == '*' ? currentTotal2 * number : currentTotal2 + number;
+                }
+            }
+            total2 += currentTotal2;
+
+            current += maxlen;
         }
 
-        System.out.println(total2);
+        System.out.println("Part 1: " + total1); // 6100348226985
+        System.out.println("Part 2: " + total2); // 12377473011151
     }
 }
