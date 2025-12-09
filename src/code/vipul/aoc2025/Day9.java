@@ -85,25 +85,20 @@ public class Day9 {
         System.out.println("Part 2: " + largest2); // 1578115935
     }
 
+    // Check if line segments AB and CD intersect
     private static boolean doSegmentsIntersect(Point A, Point B, Point C, Point D) {
-        long o1 = orientation(A, B, C);
-        long o2 = orientation(A, B, D);
-        long o3 = orientation(C, D, A);
-        long o4 = orientation(C, D, B);
+        long mincxdx = Math.min(C.x, D.x), maxcxdx = Math.max(C.x, D.x),
+                mincydy = Math.min(C.y, D.y), maxcydy = Math.max(C.y, D.y);
+       long minaxbx = Math.min(A.x, B.x), maxaxbx = Math.max(A.x, B.x),
+                minayby = Math.min(A.y, B.y), maxayby = Math.max(A.y, B.y);
 
-        return (o1 != o2) && (o3 != o4)
+       boolean abxInRange = minaxbx <= maxcxdx && maxaxbx >= mincxdx;
+       boolean abyInRange = minayby <= maxcydy && maxayby >= mincydy;
+
+        return abxInRange && abyInRange
                 // This check makes sure that the edges actually intersect
                 // and do not just touch, touching edges are valid according to the problem
                 && C.x != A.x && C.y != A.y && D.x != B.x && D.y != B.y;
-    }
-
-    // Returns orientation of triplet (p, q, r)
-    // 0 (collinear), 1 (clockwise), 2 (counterclockwise)
-    private static int orientation(Point p, Point q, Point r) {
-        long val = (q.y - p.y) * (r.x - q.x) - (q.x - p.x) * (r.y - q.y);
-        if (val == 0) return 0;
-        if (val > 0) return 1;
-        return 2;
     }
 
     // Pulled from Advent of Code 2023 Day 10 solution, with a small modification as per the current problem
