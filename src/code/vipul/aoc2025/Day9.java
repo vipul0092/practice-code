@@ -2,10 +2,8 @@ package code.vipul.aoc2025;
 
 import code.vipul.utils.AoCInputReader;
 
-import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 /**
