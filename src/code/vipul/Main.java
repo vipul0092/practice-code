@@ -1,8 +1,7 @@
 package code.vipul;
 
 
-// import code.vipul.aoc2024.*;
-import code.vipul.aoc2025.day10.Day10;
+import code.vipul.aoc2025.*;
 
 public class Main {
 
@@ -25,7 +24,7 @@ public class Main {
         //Day21.solve();
         // StringMatchingInAnArray.solve();
         // MaximumEmployeesInvitedToMeeting.solve();
-        Day10.solve();
+        Day11.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
