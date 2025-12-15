@@ -24,7 +24,7 @@ public class Main {
         //Day21.solve();
         // StringMatchingInAnArray.solve();
         // MaximumEmployeesInvitedToMeeting.solve();
-        Day11.solve();
+        Day12.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
