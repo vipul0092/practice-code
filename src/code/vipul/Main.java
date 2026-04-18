@@ -2,6 +2,7 @@ package code.vipul;
 
 
 import code.vipul.aoc2025.*;
+import code.vipul.leetcode.Game24;
 
 public class Main {
 
@@ -24,7 +25,8 @@ public class Main {
         //Day21.solve();
         // StringMatchingInAnArray.solve();
         // MaximumEmployeesInvitedToMeeting.solve();
-        Day12.solve();
+        Game24.solve();
+        // Day12.solve();
         // CombinationSum.solve();
 
         // ClimbingStairs.test();
